@@ -253,7 +253,7 @@ ARCHIVE_CHECKS=([f'아카이브에 {d}/' for d in ('corpus','graph','probe','fro
     'requirements.txt','REPRODUCIBILITY.md')]
  +['매니페스트가 전 파일을 덮는다','아카이브에 조판본 PDF 없음']
  +[f'CITATION.cff 에 {n}' for n in ('Janghyeon','Myeongsik','Boyeon','Inae','Ku')]
- +['README 가 결속 41 을 적는다']
+ +['CITATION.cff 커밋 핀이 본문 약속과 일치','README 가 결속 41 을 적는다']
  +[f'REPRODUCIBILITY 어휘 포화 소수{d}자리' for d in (1,2,3)])
 if os.path.isdir(REL):
     need=[('corpus','16개 법령'),('graph','조항 그래프'),('probe','어휘집'),
@@ -275,6 +275,12 @@ if os.path.isdir(REL):
     cff=open(os.path.join(REL,'CITATION.cff'),encoding='utf-8').read()
     for n in ('Janghyeon','Myeongsik','Boyeon','Inae','Ku'):
         chk(11,f'CITATION.cff 에 {n}',n in cff)
+    cff=open(os.path.join(REL,'CITATION.cff'),encoding='utf-8').read()
+    # 원고가 "커밋이 CITATION.cff 에 기록돼 있다"고 적는다. 적었으면 있어야 한다.
+    promises='commit this manuscript was built from is recorded in its CITATION.cff' in FLAT
+    has=bool(re.search(r'^commit:\s*[0-9a-f]{40}\s*$',cff,re.M))
+    chk(11,'CITATION.cff 커밋 핀이 본문 약속과 일치',promises==has,
+        f'약속 {promises} · 실제 {has}')
     chk(11,'README 가 결속 41 을 적는다','41' in open(os.path.join(REL,'README.md'),encoding='utf-8').read())
     rp=open('REPRODUCIBILITY.md',encoding='utf-8').read()
     for d,tot in ((1,10),(2,100),(3,1000)):

@@ -8,6 +8,9 @@ abstract: >-
 type: dataset
 license: CC-BY-4.0
 repository-code: "https://github.com/bisu9082/determinate-binding"
+commit: 1f5387fcc94cd3e6bd9e50b1c0b278c8d411a95f
+# 위 commit 은 이 원고가 빌드된 트리의 커밋이다. 이 핀을 적어 넣는 커밋은 그 다음
+# 커밋이므로, 핀이 가리키는 것은 자기 자신이 아니라 바로 앞 트리다.
 authors:
   - family-names: Cha
     given-names: Janghyeon

@@ -26,7 +26,7 @@ python3 -I verify/gate.py
 
 Exit code 0 only if every check passes. There is no partial-pass report.
 
-140 checks in eleven gates. Run from inside this archive, the 29 archive checks are skipped
+141 checks in eleven gates. Run from inside this archive, the 30 archive checks are skipped
 and reported as skipped; the other 111 run.
 
 ## Four design rules
@@ -124,10 +124,11 @@ absence of a deposit promise this archive does not keep.
 **Measured gap:** the data availability statement promised 523 checks in twelve gates while
 Appendix B, in the same manuscript, said eleven. Neither matched anything that existed.
 
-### GATE 11 — The archive (29 checks)
+### GATE 11 — The archive (30 checks)
 Every directory and metadata file the data availability statement promises must be present, the
 manifest must cover every file, the compiled PDF must *not* be present, `CITATION.cff` must name
-all five authors, and `REPRODUCIBILITY.md` must carry the vocabulary-saturation figures that
+all five authors, `CITATION.cff` must carry the commit pin the data availability statement
+promises, and `REPRODUCIBILITY.md` must carry the vocabulary-saturation figures that
 `verify/vocab_saturation.json` produces.
 **Skipped, not failed, when the suite is run from inside the archive**, where there is no
 `release/` directory. The checks are still counted, so the total the manuscript states is the
