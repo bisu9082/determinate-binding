@@ -1,0 +1,922 @@
+[
+ {
+  "key": "LevesonThomas2018STPA",
+  "type": "manual",
+  "author": "Leveson, Nancy G. and Thomas, John P.",
+  "title": "{STPA} Handbook",
+  "organization": "MIT Partnership for Systems Approaches to Safety and Security",
+  "address": "Cambridge, MA, USA",
+  "year": "2018",
+  "note": "Methodological foundation for STPA",
+  "class": "report_or_web"
+ },
+ {
+  "key": "Pennington2026STPACoordination",
+  "type": "article",
+  "author": "Pennington, Elizabeth S. and Johnson, Kip E. and Hobbs, Kerianne L. and Colombi, John M.",
+  "title": "Engineering safe human-autonomy teaming using STPA-coordination",
+  "journal": "Safety Science",
+  "year": "2026",
+  "volume": "193",
+  "pages": "107011",
+  "doi": "10.1016/j.ssci.2025.107011",
+  "class": "doi"
+ },
+ {
+  "key": "Yang2024HumanRobotTeaming",
+  "type": "article",
+  "author": "Yang, Shuo and Demichela, Micaela and Geng, Jie and Wang, Ling and Ling, Zhangwei",
+  "title": "Risk-based performance assessment from fully manual to human-robot teaming in pressurized tank inspection operations",
+  "journal": "Safety Science",
+  "year": "2024",
+  "volume": "176",
+  "pages": "106543",
+  "doi": "10.1016/j.ssci.2024.106543",
+  "class": "doi"
+ },
+ {
+  "key": "CasperMurphy2003WTC",
+  "type": "article",
+  "author": "Casper, Jennifer and Murphy, Robin R.",
+  "title": "Human-robot interactions during the robot-assisted urban search and rescue response at the World Trade Center",
+  "journal": "IEEE Transactions on Systems, Man, and Cybernetics, Part B: Cybernetics",
+  "year": "2003",
+  "volume": "33",
+  "number": "3",
+  "pages": "367--385",
+  "doi": "10.1109/TSMCB.2003.811794",
+  "class": "doi"
+ },
+ {
+  "key": "Murphy2004RescueHRI",
+  "type": "article",
+  "author": "Murphy, Robin R.",
+  "title": "Human-robot interaction in rescue robotics",
+  "journal": "IEEE Transactions on Systems, Man, and Cybernetics, Part C: Applications and Reviews",
+  "year": "2004",
+  "volume": "34",
+  "number": "2",
+  "pages": "138--153",
+  "doi": "10.1109/TSMCC.2004.826267",
+  "class": "doi"
+ },
+ {
+  "key": "Burke2004MoonlightMiami",
+  "type": "article",
+  "author": "Burke, Jennifer L. and Murphy, Robin R. and Coovert, Michael D. and Riddle, Dawn L.",
+  "title": "Moonlight in Miami: Field Study of Human-Robot Interaction in the Context of an Urban Search and Rescue Disaster Response Training Exercise",
+  "journal": "Human--Computer Interaction",
+  "year": "2004",
+  "volume": "19",
+  "number": "1-2",
+  "pages": "85--116",
+  "doi": "10.1207/s15327051hci1901\\&2_5",
+  "class": "doi"
+ },
+ {
+  "key": "Delmerico2019RescueRobotics",
+  "type": "article",
+  "author": "Delmerico, Jeffrey and Mintchev, Stefano and Giusti, Alessandro and Gromov, Boris and Melo, Kamilo and Horvat, Tomislav and Cadena, Cesar and Hutter, Marco and Ijspeert, Auke and Floreano, Dario and Gambardella, Luca M. and Siegwart, Roland and Scaramuzza, Davide",
+  "title": "The current state and future outlook of rescue robotics",
+  "journal": "Journal of Field Robotics",
+  "year": "2019",
+  "volume": "36",
+  "number": "7",
+  "pages": "1171--1191",
+  "doi": "10.1002/rob.21887",
+  "class": "doi"
+ },
+ {
+  "key": "Murphy2014DisasterRobotics",
+  "type": "book",
+  "author": "Murphy, Robin R.",
+  "title": "Disaster Robotics",
+  "publisher": "MIT Press",
+  "address": "Cambridge, MA, USA",
+  "year": "2014",
+  "doi": "10.7551/mitpress/9407.001.0001",
+  "class": "doi"
+ },
+ {
+  "key": "NISTResponseRobots2026",
+  "type": "misc",
+  "author": "{National Institute of Standards and Technology}",
+  "title": "Performance of Emergency Response Robots",
+  "year": "2026",
+  "howpublished": "NIST Engineering Laboratory",
+  "url": "https://www.nist.gov/programs-projects/performance-emergency-response-robots",
+  "note": "Updated 24 April 2026; official source for mission decomposition, standard test methods, and operator proficiency",
+  "class": "report_or_web"
+ },
+ {
+  "key": "FEMANIMS2026",
+  "type": "misc",
+  "author": "{Federal Emergency Management Agency / U.S. Fire Administration}",
+  "title": "National Incident Management System: Command and Coordination",
+  "year": "2026",
+  "url": "https://www.usfa.fema.gov/a-z/nims/command-and-coordination.html",
+  "note": "Official source for multiagency command, coordination, and unified incident management",
+  "class": "report_or_web"
+ },
+ {
+  "key": "Marcu2023SecurityRobots",
+  "type": "article",
+  "author": "Marcu, Gabriela and Lin, Iris and Williams, Brandon and Robert, Lionel P. and Schaub, Florian",
+  "title": "{``Would I Feel More Secure With a Robot?''}: Understanding Perceptions of Security Robots in Public Spaces",
+  "journal": "Proceedings of the ACM on Human-Computer Interaction",
+  "year": "2023",
+  "volume": "7",
+  "number": "CSCW2",
+  "pages": "1--34",
+  "doi": "10.1145/3610171",
+  "class": "doi"
+ },
+ {
+  "key": "Choi2025PoliceRoboticsPrivacy",
+  "type": "article",
+  "author": "Choi, Kyung-Shick and Henry, Peyton and Park, Insun and Chitkushev, Lou",
+  "title": "Balancing Public Safety and Privacy: A Media Analysis of Robotic Technology in Law Enforcement",
+  "journal": "Journal of Applied Security Research",
+  "year": "2025",
+  "volume": "20",
+  "number": "4",
+  "pages": "558--585",
+  "doi": "10.1080/19361610.2025.2530599",
+  "class": "doi"
+ },
+ {
+  "key": "Chen2026PoliceRobotAttitudes",
+  "type": "article",
+  "author": "Chen, Yunan and Wu, Yuning and Lin, Kai and Hoggenmueller, Marius and Zhang, Qiuming and Jian, Yi-Syuan and Sun, Ivan Y.",
+  "title": "Attitudes Toward AI-powered Robots in Policing: AI Literacy, Organizational Justice, and Occupational Wellbeing Among Chinese Police Officers",
+  "journal": "Asian Journal of Criminology",
+  "year": "2026",
+  "volume": "21",
+  "pages": "3",
+  "doi": "10.1007/s11417-025-09478-w",
+  "class": "doi"
+ },
+ {
+  "key": "SzocikSmith2026PoliceRobots",
+  "type": "article",
+  "author": "Szocik, Konrad and Smith, Barry",
+  "title": "Why police robots will not become human-like: social interaction, machine ethics, and limits of AI",
+  "journal": "AI \\& Society",
+  "year": "2026",
+  "doi": "10.1007/s00146-026-03117-3",
+  "class": "doi"
+ },
+ {
+  "key": "Perrem2026PatrolPublicSpace",
+  "type": "article",
+  "author": "Perrem, John-Guy",
+  "title": "Narrowing urban public space by patrol: how a security robot reorders underground mobilities",
+  "journal": "Mobilities",
+  "year": "2026",
+  "doi": "10.1080/17450101.2026.2672983",
+  "class": "doi"
+ },
+ {
+  "key": "KimJung2023SecureRobotAcceptance",
+  "type": "article",
+  "author": "Kim, Na-Eun and Jung, Hye-Jin",
+  "title": "Factors Influencing the Social Acceptance of Secure Robots",
+  "journal": "The Journal of Police Policies",
+  "year": "2023",
+  "volume": "37",
+  "number": "4",
+  "pages": "35--72",
+  "doi": "10.35147/knpsi.2023.37.4.35",
+  "note": "Korean-language article",
+  "class": "doi"
+ },
+ {
+  "key": "Lee2025PoliceFRTTrust",
+  "type": "article",
+  "author": "Lee, Myung Woo",
+  "title": "Structural Relationships among Trust, Legitimacy, and Privacy Concerns in Public Acceptance of Police Live Facial Recognition (LFR) Technology",
+  "journal": "한국민간경비학회보",
+  "year": "2025",
+  "volume": "24",
+  "number": "4",
+  "pages": "275--296",
+  "doi": "10.56603/jksps.2025.24.4.275",
+  "note": "Korean-language article",
+  "class": "doi"
+ },
+ {
+  "key": "Europol2025UnmannedFutures",
+  "type": "misc",
+  "author": "{Europol}",
+  "title": "The Unmanned Future(s): The Impact of Robotics and Unmanned Systems on Law Enforcement",
+  "year": "2025",
+  "publisher": "Publications Office of the European Union",
+  "address": "Luxembourg",
+  "doi": "10.2813/0022284",
+  "note": "Europol Innovation Lab observatory report",
+  "class": "doi"
+ },
+ {
+  "key": "ISO4448_1_2024",
+  "type": "misc",
+  "author": "{International Organization for Standardization}",
+  "title": "{ISO/TR 4448-1:2024} Intelligent transport systems --- Public-area mobile robots (PMR) --- Part 1: Overview of paradigm",
+  "year": "2024",
+  "organization": "ISO",
+  "class": "standard"
+ },
+ {
+  "key": "ISO31101_2023",
+  "type": "misc",
+  "author": "{International Organization for Standardization}",
+  "title": "{ISO 31101:2023} Robotics --- Application services provided by service robots --- Safety management systems requirements",
+  "year": "2023",
+  "organization": "ISO",
+  "class": "standard"
+ },
+ {
+  "key": "ISO13482_2014",
+  "type": "misc",
+  "author": "{International Organization for Standardization}",
+  "title": "{ISO 13482:2014} Robots and robotic devices --- Safety requirements for personal care robots",
+  "year": "2014",
+  "organization": "ISO",
+  "note": "Current 2014 edition; replacement edition was at FDIS stage in 2026",
+  "class": "standard"
+ },
+ {
+  "key": "NYPDPOSTAct2026",
+  "type": "misc",
+  "author": "{New York City Police Department}",
+  "title": "Public Oversight of Surveillance Technology (POST) Act: Impact and Use Policies",
+  "year": "2026",
+  "howpublished": "NYPD public policy portal",
+  "url": "https://www.nyc.gov/site/nypd/about/about-nypd/policy/post-act.page",
+  "class": "legal"
+ },
+ {
+  "key": "NYCOIGPOST2024",
+  "type": "misc",
+  "author": "{New York City Department of Investigation, Office of the Inspector General for the NYPD}",
+  "title": "An Assessment of NYPD's Compliance with the Public Oversight of Surveillance Technology (POST) Act",
+  "year": "2024",
+  "note": "Includes review of Digidog and Knightscope K5 deployment policies",
+  "class": "legal"
+ },
+ {
+  "key": "Cai2023ExoskeletonSafety",
+  "type": "article",
+  "author": "Cai, Min and Ji, Ziling and Li, Qin and Luo, Xinggang",
+  "title": "Safety evaluation of human--robot collaboration for industrial exoskeleton",
+  "journal": "Safety Science",
+  "year": "2023",
+  "volume": "164",
+  "pages": "106142",
+  "doi": "10.1016/j.ssci.2023.106142",
+  "class": "doi"
+ },
+ {
+  "key": "Wang2023WLLERSafety",
+  "type": "article",
+  "author": "Wang, Duojin and Gu, Xiaoping and Li, Wenzhuo and Jin, Yaoxiang and Yang, Maisi and Yu, Hongliu",
+  "title": "Evaluation of safety-related performance of wearable lower limb exoskeleton robot (WLLER): A systematic review",
+  "journal": "Robotics and Autonomous Systems",
+  "year": "2023",
+  "volume": "160",
+  "pages": "104308",
+  "doi": "10.1016/j.robot.2022.104308",
+  "class": "doi"
+ },
+ {
+  "key": "Kranenborg2023ExoskeletonAdverseEffects",
+  "type": "article",
+  "author": "Kranenborg, S. E. and Greve, C. and Reneman, M. F. and Roossien, C. C.",
+  "title": "Side-effects and adverse events of a shoulder- and back-support exoskeleton in workers: A systematic review",
+  "journal": "Applied Ergonomics",
+  "year": "2023",
+  "volume": "111",
+  "pages": "104042",
+  "doi": "10.1016/j.apergo.2023.104042",
+  "class": "doi"
+ },
+ {
+  "key": "Hamza2020ExoskeletonBalance",
+  "type": "article",
+  "author": "Hamza, Mukhtar Fatihu and Ghazilla, Raja Ariffin Raja and Muhammad, Bashir Bala and Yap, Hwa Jen",
+  "title": "Balance and stability issues in lower extremity exoskeletons: A systematic review",
+  "journal": "Biocybernetics and Biomedical Engineering",
+  "year": "2020",
+  "volume": "40",
+  "number": "4",
+  "pages": "1666--1679",
+  "doi": "10.1016/j.bbe.2020.09.004",
+  "class": "doi"
+ },
+ {
+  "key": "BostelmanHong2018ExoskeletonTests",
+  "type": "incollection",
+  "author": "Bostelman, Roger V. and Hong, Tsai H.",
+  "title": "Test Methods for Exoskeletons -- Lessons Learned from Industrial and Response Robotics",
+  "booktitle": "Wearable Exoskeleton Systems: Design, Control and Applications",
+  "year": "2018",
+  "publisher": "Institution of Engineering and Technology",
+  "doi": "10.1049/PBCE108E_ch13",
+  "class": "doi"
+ },
+ {
+  "key": "ASTMF3474_25",
+  "type": "misc",
+  "author": "{ASTM International}",
+  "title": "{ASTM F3474-25}: Standard Practice for Establishing Exoskeleton Functional Ergonomic Parameters and Test Metrics",
+  "year": "2025",
+  "doi": "10.1520/F3474-25",
+  "class": "doi"
+ },
+ {
+  "key": "ASTMF3528_21",
+  "type": "misc",
+  "author": "{ASTM International}",
+  "title": "{ASTM F3528-21}: Standard Test Method for Exoskeleton Use: Gait",
+  "year": "2021",
+  "organization": "ASTM International",
+  "class": "standard"
+ },
+ {
+  "key": "ASTMF3523_21",
+  "type": "misc",
+  "author": "{ASTM International}",
+  "title": "{ASTM F3523-21}: Standard Test Method for Exoskeleton Use: Confined Space: Horizontal Movement",
+  "year": "2021",
+  "organization": "ASTM International",
+  "class": "standard"
+ },
+ {
+  "key": "ASTMF3580_24",
+  "type": "misc",
+  "author": "{ASTM International}",
+  "title": "{ASTM F3580-24}: Standard Test Method for Exoskeleton Use: Stairs",
+  "year": "2024",
+  "organization": "ASTM International",
+  "class": "standard"
+ },
+ {
+  "key": "ASTMF3581_22",
+  "type": "misc",
+  "author": "{ASTM International}",
+  "title": "{ASTM F3581-22}: Standard Test Method for Exoskeleton Use: Hurdles",
+  "year": "2022",
+  "doi": "10.1520/F3581-22",
+  "class": "doi"
+ },
+ {
+  "key": "ASTMF3582_22",
+  "type": "misc",
+  "author": "{ASTM International}",
+  "title": "{ASTM F3582-22}: Standard Test Method for Exoskeleton Use: Gaps",
+  "year": "2022",
+  "organization": "ASTM International",
+  "class": "standard"
+ },
+ {
+  "key": "ASTMF3584_22",
+  "type": "misc",
+  "author": "{ASTM International}",
+  "title": "{ASTM F3584-22}: Standard Test Method for Exoskeleton Use: Obstacle Avoidance: Walking",
+  "year": "2022",
+  "organization": "ASTM International",
+  "class": "standard"
+ },
+ {
+  "key": "ASTMF3772_25",
+  "type": "misc",
+  "author": "{ASTM International}",
+  "title": "{ASTM F3772-25}: Standard Test Method for Exoskeleton Use: Ladders",
+  "year": "2025",
+  "organization": "ASTM International",
+  "class": "standard"
+ },
+ {
+  "key": "ASTMF3392_20",
+  "type": "misc",
+  "author": "{ASTM International}",
+  "title": "{ASTM F3392-20}: Standard Practice for Exoskeleton Wearing, Care, and Maintenance Instructions",
+  "year": "2020",
+  "doi": "10.1520/F3392-20",
+  "class": "doi"
+ },
+ {
+  "key": "ASTMWK93944",
+  "type": "misc",
+  "author": "{ASTM International}",
+  "title": "{WK93944}: New Test Method for Exoskeleton Use: Public Safety or Response: Tool Handling for Breaching",
+  "year": "2025",
+  "note": "ASTM work item; title and scope remain under development",
+  "class": "standard"
+ },
+ {
+  "key": "ASTMWK89778",
+  "type": "misc",
+  "author": "{ASTM International}",
+  "title": "{WK89778}: New Guide for Maintenance of Exoskeletons",
+  "year": "2024",
+  "note": "ASTM work item",
+  "class": "standard"
+ },
+ {
+  "key": "ASTMWK96094",
+  "type": "misc",
+  "author": "{ASTM International}",
+  "title": "{WK96094}: New Practice for Securing Data Residing in Exoskeletons",
+  "year": "2025",
+  "note": "ASTM work item",
+  "class": "standard"
+ },
+ {
+  "key": "KimbleCandellSaidi2019NISTIR8243",
+  "type": "techreport",
+  "author": "Kimble, Kenneth E. and Candell, Richard and Saidi, Kamel S.",
+  "title": "A Test Method for Measuring Response Robot Performance Under Attenuated Radio Conditions",
+  "institution": "National Institute of Standards and Technology",
+  "number": "NISTIR 8243",
+  "year": "2019",
+  "doi": "10.6028/NIST.IR.8243",
+  "url": "https://doi.org/10.6028/NIST.IR.8243",
+  "class": "doi"
+ },
+ {
+  "key": "ASTME2853_22",
+  "type": "misc",
+  "author": "{ASTM International}",
+  "title": "{ASTM E2853/E2853M-22}: Standard Test Method for Evaluating Ground Response Robot Capabilities: Search Tasks",
+  "year": "2022",
+  "doi": "10.1520/E2853_E2853M-22",
+  "url": "https://store.astm.org/e2853_e2853m-22.html",
+  "class": "doi"
+ },
+ {
+  "key": "ASTME2854_21",
+  "type": "misc",
+  "author": "{ASTM International}",
+  "title": "{ASTM E2854/E2854M-21}: Standard Test Method for Evaluating Response Robot Radio Communications Line-of-Sight Range",
+  "year": "2021",
+  "doi": "10.1520/E2854_E2854M-21",
+  "url": "https://store.astm.org/e2854_e2854m-21.html",
+  "class": "doi"
+ },
+ {
+  "key": "ASTME2855_2021",
+  "type": "misc",
+  "author": "{ASTM International}",
+  "title": "{ASTM E2855-12(2021)}: Standard Test Method for Evaluating Emergency Response Robot Capabilities: Radio Communication: Non-Line-of-Sight Range",
+  "year": "2021",
+  "url": "https://store.astm.org/e2855-12.html",
+  "class": "standard"
+ },
+ {
+  "key": "ASTME2566_24",
+  "type": "misc",
+  "author": "{ASTM International}",
+  "title": "{ASTM E2566/E2566M-24}: Standard Test Method for Evaluating Response Robot Sensing: Visual Acuity",
+  "year": "2024",
+  "url": "https://store.astm.org/e2566_e2566m-24.html",
+  "class": "standard"
+ },
+ {
+  "key": "ASTME3132_2025",
+  "type": "misc",
+  "author": "{ASTM International}",
+  "title": "{ASTM E3132/E3132M-17(2025)}: Standard Practice for Evaluating Response Robot Logistics: System Configuration",
+  "year": "2025",
+  "url": "https://store.astm.org/e3132_e3132m-17r25.html",
+  "class": "standard"
+ },
+ {
+  "key": "ASTME2458_26",
+  "type": "misc",
+  "author": "{ASTM International}",
+  "title": "{ASTM E2458-26}: Standard Practices for Bulk Sample Collection and Swab Sample Collection of Visible Powders Suspected of Being Biological Agents and Toxins from Nonporous Surfaces",
+  "year": "2026",
+  "doi": "10.1520/E2458-26",
+  "url": "https://store.astm.org/e2458-26.html",
+  "class": "doi"
+ },
+ {
+  "key": "ASTME2770_25",
+  "type": "misc",
+  "author": "{ASTM International}",
+  "title": "{ASTM E2770-25}: Standard Guide for Operational Guidelines for Initial Response to Suspected Biological Agents and Toxins",
+  "year": "2025",
+  "url": "https://store.astm.org/e2770-25.html",
+  "class": "standard"
+ },
+ {
+  "key": "ISOTR23482_1_2020",
+  "type": "misc",
+  "author": "{International Organization for Standardization}",
+  "title": "{ISO/TR 23482-1:2020}: Robotics --- Application of ISO 13482 --- Part 1: Safety-related test methods",
+  "year": "2020",
+  "organization": "ISO",
+  "url": "https://www.iso.org/standard/71564.html",
+  "class": "standard"
+ },
+ {
+  "key": "NIJChainCustody",
+  "type": "misc",
+  "author": "{National Institute of Justice}",
+  "title": "Chain of Custody",
+  "year": "2023",
+  "howpublished": "NIJ-hosted training resource",
+  "url": "https://nij.ojp.gov/nij-hosted-online-training-courses/collecting-dna-evidence-at-property-crime-scenes/evidence-collection/chain-custody",
+  "class": "report_or_web"
+ },
+ {
+  "key": "NYPDTacticalRobots2026",
+  "type": "misc",
+  "author": "{New York City Police Department}",
+  "title": "Remote-Controlled Robots: ``Tactical'' --- Impact and Use Policy",
+  "year": "2026",
+  "url": "https://www.nyc.gov/assets/nypd/downloads/pdf/public_information/post-final/Remote-Controlled-Robots-Tactical-NYPD-Impact-and-Use-Policy-2.4.26-FINAL.pdf",
+  "class": "legal"
+ },
+ {
+  "key": "NYPDFacialRecognition",
+  "type": "misc",
+  "author": "{New York City Police Department}",
+  "title": "Facial Recognition: Questions and Answers",
+  "year": "2026",
+  "url": "https://www.nyc.gov/site/nypd/about/about-nypd/equipment-tech/facial-recognition.page",
+  "note": "Accessed 11 September 2026",
+  "class": "report_or_web"
+ },
+ {
+  "key": "FEMAUSFANIMSResource2026",
+  "type": "misc",
+  "author": "{Federal Emergency Management Agency / U.S. Fire Administration}",
+  "title": "National Incident Management System: Resource Management",
+  "year": "2026",
+  "url": "https://www.usfa.fema.gov/a-z/nims/resource-management.html",
+  "class": "report_or_web"
+ },
+ {
+  "key": "Halford2025TLP",
+  "type": "article",
+  "author": "Halford, Eric",
+  "title": "The Transformer Led Policing model: a framework for applying generative artificial intelligence in policing",
+  "journal": "Policing: A Journal of Policy and Practice",
+  "year": "2025",
+  "volume": "19",
+  "pages": "paaf027",
+  "doi": "10.1093/police/paaf027",
+  "class": "doi"
+ },
+ {
+  "key": "RohChoi2024RobotPolice",
+  "type": "article",
+  "author": "Roh, Seungkook and Choi, Woochul",
+  "title": "A Study on the Technical Feasibility and Legal Issues for the Introduction of Robot Police",
+  "journal": "Asia-pacific Journal of Convergent Research Interchange",
+  "year": "2024",
+  "volume": "10",
+  "number": "3",
+  "pages": "411--426",
+  "doi": "10.47116/apjcri.2024.03.29",
+  "class": "doi"
+ },
+ {
+  "key": "Roh2026DigitalTwinPoliceRobots",
+  "type": "article",
+  "author": "Roh, Seungkook",
+  "title": "Digital Twin Training and Legal Governance for Humanoid Police Robots in Patrol and Arrest-Support",
+  "journal": "Journal of Theoretical and Applied Information Technology",
+  "year": "2026",
+  "volume": "104",
+  "number": "11",
+  "pages": "372--384",
+  "url": "https://zenodo.org/records/21572757",
+  "class": "academic_nodoi"
+ },
+ {
+  "key": "ISO4448_2_WD2026",
+  "type": "misc",
+  "author": "{International Organization for Standardization}",
+  "title": "{ISO/WD TR 4448-2}: Intelligent transport systems --- Public-area mobile robots (PMR) --- Part 2: Operational concepts (ConOps)",
+  "year": "2026",
+  "organization": "ISO",
+  "note": "Working Draft, stage 20.60 as of September 2026",
+  "url": "https://www.iso.org/standard/89482.html",
+  "class": "standard"
+ },
+ {
+  "key": "EUAIAct2024",
+  "type": "misc",
+  "author": "{European Parliament and Council of the European Union}",
+  "title": "Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence (Artificial Intelligence Act)",
+  "year": "2024",
+  "note": "Official Journal of the European Union, 13 June 2024. Art.~5 prohibitions applicable from 2 February 2025",
+  "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+  "class": "legal"
+ },
+ {
+  "key": "EUDigitalOmnibus2026",
+  "type": "misc",
+  "author": "{European Parliament and Council of the European Union}",
+  "title": "Regulation (EU) 2026/1744 amending Regulation (EU) 2024/1689 as regards the timing of application of certain obligations",
+  "year": "2026",
+  "note": "Entered into force 27 July 2026; defers Annex III high-risk obligations to 2 December 2027",
+  "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng",
+  "class": "legal"
+ },
+ {
+  "key": "EUMachinery2023",
+  "type": "misc",
+  "author": "{European Parliament and Council of the European Union}",
+  "title": "Regulation (EU) 2023/1230 on machinery and repealing Directive 2006/42/EC",
+  "year": "2023",
+  "note": "Applies from 20 January 2027",
+  "url": "https://eur-lex.europa.eu/eli/reg/2023/1230/oj/eng",
+  "class": "legal"
+ },
+ {
+  "key": "CoEFramework2024",
+  "type": "misc",
+  "author": "{Council of Europe}",
+  "title": "Framework Convention on Artificial Intelligence and Human Rights, Democracy and the Rule of Law (CETS No.~225)",
+  "year": "2024",
+  "note": "Opened for signature 5 September 2024",
+  "url": "https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence",
+  "class": "legal"
+ },
+ {
+  "key": "CoEFacialRecognition2021",
+  "type": "misc",
+  "author": "{Council of Europe, Consultative Committee of Convention 108}",
+  "title": "Guidelines on Facial Recognition",
+  "year": "2021",
+  "note": "Adopted 28 January 2021",
+  "url": "https://rm.coe.int/guidelines-facial-recognition-web-a5-2750-3427-6868-1/1680a31751",
+  "class": "report_or_web"
+ },
+ {
+  "key": "OECD2024AIRec",
+  "type": "misc",
+  "author": "{Organisation for Economic Co-operation and Development}",
+  "title": "Recommendation of the Council on Artificial Intelligence, OECD/LEGAL/0449",
+  "year": "2024",
+  "note": "Adopted 2019, amended 2024",
+  "url": "https://legalinstruments.oecd.org/en/instruments/oecd-legal-0449",
+  "class": "legal"
+ },
+ {
+  "key": "UNICRIInterpolToolkit",
+  "type": "misc",
+  "author": "{UNICRI and INTERPOL}",
+  "title": "Toolkit for Responsible AI Innovation in Law Enforcement",
+  "year": "2024",
+  "note": "Launched 8 June 2023; revised 6 March 2024",
+  "url": "https://unicri.org/Publication/Toolkit-for-Responsible-AI-Innovation-in-Law-Enforcement-UNICRI-INTERPOL",
+  "class": "report_or_web"
+ },
+ {
+  "key": "ISO10218_1_2025",
+  "type": "misc",
+  "author": "{International Organization for Standardization}",
+  "title": "{ISO} 10218-1:2025 Robotics --- Safety requirements --- Part 1: Industrial robots",
+  "year": "2025",
+  "url": "https://www.iso.org/standard/73933.html",
+  "class": "standard"
+ },
+ {
+  "key": "ISO10218_2_2025",
+  "type": "misc",
+  "author": "{International Organization for Standardization}",
+  "title": "{ISO} 10218-2:2025 Robotics --- Safety requirements --- Part 2: Industrial robot applications and robot cells",
+  "year": "2025",
+  "url": "https://www.iso.org/standard/73934.html",
+  "class": "standard"
+ },
+ {
+  "key": "ISOTS15066_2016",
+  "type": "misc",
+  "author": "{International Organization for Standardization}",
+  "title": "{ISO/TS} 15066:2016 Robots and robotic devices --- Collaborative robots",
+  "year": "2016",
+  "url": "https://www.iso.org/standard/62996.html",
+  "class": "standard"
+ },
+ {
+  "key": "ISO18646_2_2024",
+  "type": "misc",
+  "author": "{International Organization for Standardization}",
+  "title": "{ISO} 18646-2:2024 Robotics --- Performance criteria and related test methods for service robots --- Part 2: Navigation",
+  "year": "2024",
+  "url": "https://www.iso.org/standard/82643.html",
+  "class": "standard"
+ },
+ {
+  "key": "ISO18646_3_2021",
+  "type": "misc",
+  "author": "{International Organization for Standardization}",
+  "title": "{ISO} 18646-3:2021 Robotics --- Performance criteria and related test methods for service robots --- Part 3: Manipulation",
+  "year": "2021",
+  "url": "https://www.iso.org/standard/73591.html",
+  "class": "standard"
+ },
+ {
+  "key": "ISO18646_6_2026",
+  "type": "misc",
+  "author": "{International Organization for Standardization}",
+  "title": "{ISO} 18646-6:2026 Robotics --- Performance criteria and related test methods for service robots --- Part 6: Lower-limb wearable robots",
+  "year": "2026",
+  "url": "https://www.iso.org/standard/88497.html",
+  "class": "standard"
+ },
+ {
+  "key": "ISO3691_4_2023",
+  "type": "misc",
+  "author": "{International Organization for Standardization}",
+  "title": "{ISO} 3691-4:2023 Industrial trucks --- Safety requirements and verification --- Part 4: Driverless industrial trucks and their systems",
+  "year": "2023",
+  "url": "https://www.iso.org/standard/83545.html",
+  "class": "standard"
+ },
+ {
+  "key": "ISO22166_1_2021",
+  "type": "misc",
+  "author": "{International Organization for Standardization}",
+  "title": "{ISO} 22166-1:2021 Robotics --- Modularity for service robots --- Part 1: General requirements",
+  "year": "2021",
+  "url": "https://www.iso.org/standard/72715.html",
+  "class": "standard"
+ },
+ {
+  "key": "ISOTR23482_2_2019",
+  "type": "misc",
+  "author": "{International Organization for Standardization}",
+  "title": "{ISO/TR} 23482-2:2019 Robotics --- Application of {ISO} 13482 --- Part 2: Application guidelines",
+  "year": "2019",
+  "url": "https://www.iso.org/standard/71627.html",
+  "class": "standard"
+ },
+ {
+  "key": "ISOIEC42001_2023",
+  "type": "misc",
+  "author": "{International Organization for Standardization and International Electrotechnical Commission}",
+  "title": "{ISO/IEC} 42001:2023 Information technology --- Artificial intelligence --- Management system",
+  "year": "2023",
+  "url": "https://www.iso.org/standard/42001",
+  "class": "standard"
+ },
+ {
+  "key": "ISOIEC23894_2023",
+  "type": "misc",
+  "author": "{International Organization for Standardization and International Electrotechnical Commission}",
+  "title": "{ISO/IEC} 23894:2023 Information technology --- Artificial intelligence --- Guidance on risk management",
+  "year": "2023",
+  "url": "https://www.iso.org/standard/77304.html",
+  "class": "standard"
+ },
+ {
+  "key": "ISOIECTR5469_2024",
+  "type": "misc",
+  "author": "{International Organization for Standardization and International Electrotechnical Commission}",
+  "title": "{ISO/IEC TR} 5469:2024 Artificial intelligence --- Functional safety and AI systems",
+  "year": "2024",
+  "url": "https://www.iso.org/standard/81283.html",
+  "class": "standard"
+ },
+ {
+  "key": "IEEE7000_2021",
+  "type": "misc",
+  "author": "{Institute of Electrical and Electronics Engineers}",
+  "title": "{IEEE} 7000-2021 Standard Model Process for Addressing Ethical Concerns during System Design",
+  "year": "2021",
+  "url": "https://standards.ieee.org/standard/7000-2021.html",
+  "class": "standard"
+ },
+ {
+  "key": "IEEE7001_2021",
+  "type": "misc",
+  "author": "{Institute of Electrical and Electronics Engineers}",
+  "title": "{IEEE} 7001-2021 Standard for Transparency of Autonomous Systems",
+  "year": "2021",
+  "url": "https://standards.ieee.org/standard/7001-2021.html",
+  "class": "standard"
+ },
+ {
+  "key": "IEEE7007_2021",
+  "type": "misc",
+  "author": "{Institute of Electrical and Electronics Engineers}",
+  "title": "{IEEE} 7007-2021 Ontological Standard for Ethically Driven Robotics and Automation Systems",
+  "year": "2021",
+  "url": "https://standards.ieee.org/standard/7007-2021.html",
+  "class": "standard"
+ },
+ {
+  "key": "UL3300_2024",
+  "type": "misc",
+  "author": "{UL Standards and Engagement}",
+  "title": "{ANSI/CAN/UL} 3300:2024 Standard for Safety for Service, Communication, Information, Education and Entertainment Robots",
+  "year": "2024",
+  "url": "https://webstore.ansi.org/standards/ul/ansiul33002024",
+  "class": "standard"
+ },
+ {
+  "key": "NISTAIRMF2023",
+  "type": "misc",
+  "author": "{National Institute of Standards and Technology}",
+  "title": "Artificial Intelligence Risk Management Framework ({AI RMF} 1.0), {NIST AI} 100-1",
+  "year": "2023",
+  "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+  "class": "standard"
+ },
+ {
+  "key": "ROKIntelligentRobotsAct",
+  "type": "misc",
+  "author": "{National Assembly of the Republic of Korea}",
+  "title": "Intelligent Robots Development and Distribution Promotion Act, Article 40-2 (operational safety certification for outdoor mobile robots)",
+  "year": "2023",
+  "note": "Act No.~19412, effective 17 November 2023",
+  "url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=251027",
+  "lsiseq": "251027}",
+  "class": "legal"
+ },
+ {
+  "key": "MOTIENotice2023211",
+  "type": "misc",
+  "author": "{Ministry of Trade, Industry and Energy (MOTIE), Republic of Korea}",
+  "title": "{MOTIE} Notice No.~2023-211, Procedures and Standards for Outdoor Mobile Robot Operational Safety Certification [Korean title: MOTIE Notice 2023-211 on outdoor mobile robot operational safety certification]",
+  "year": "2023",
+  "note": "Effective 17 November 2023; includes Appendix Tables 2--3 setting the certification standards. Korean ministerial notice numbers are issued per ministry and are not unique across ministries",
+  "url": "https://www.motir.go.kr/kor/article/ATCL0c554f816/64488/view",
+  "class": "legal"
+ },
+ {
+  "key": "ROKRoadTrafficAct",
+  "type": "misc",
+  "author": "{National Assembly of the Republic of Korea}",
+  "title": "Road Traffic Act, amendment conferring pedestrian status on certified outdoor mobile robots",
+  "year": "2023",
+  "note": "Effective 19 October 2023",
+  "url": "https://www.law.go.kr",
+  "class": "legal"
+ },
+ {
+  "key": "ROKPIPA2023",
+  "type": "misc",
+  "author": "{National Assembly of the Republic of Korea}",
+  "title": "Personal Information Protection Act, Article 25-2 (operation restrictions on mobile video-processing devices)",
+  "year": "2023",
+  "note": "Act No.~19234, effective 15 March 2024",
+  "url": "https://www.law.go.kr",
+  "class": "legal"
+ },
+ {
+  "key": "CoPLFR2025",
+  "type": "misc",
+  "author": "{College of Policing}",
+  "title": "Authorised Professional Practice: Live Facial Recognition",
+  "year": "2025",
+  "note": "Published 22 March 2022, updated 20 August 2025",
+  "url": "https://www.college.police.uk/app/live-facial-recognition/live-facial-recognition",
+  "class": "legal"
+ },
+ {
+  "key": "CoPArmedPolicing2024",
+  "type": "misc",
+  "author": "{College of Policing}",
+  "title": "Authorised Professional Practice: Armed Policing",
+  "year": "2024",
+  "note": "Updated 14 March 2024",
+  "url": "https://www.college.police.uk/app/armed-policing",
+  "class": "legal"
+ },
+ {
+  "key": "UKSurveillanceCode",
+  "type": "misc",
+  "author": "{UK Home Office and Biometrics and Surveillance Camera Commissioner}",
+  "title": "Surveillance Camera Code of Practice",
+  "year": "2026",
+  "note": "Guidance for local authorities updated 25 August 2026",
+  "url": "https://www.gov.uk/government/publications/surveillance-camera-code-of-practice-guidance-for-local-authorities",
+  "class": "legal"
+ },
+ {
+  "key": "IACPsUAS2019",
+  "type": "misc",
+  "author": "{International Association of Chiefs of Police}",
+  "title": "Small Unmanned Aircraft Systems: Model Policy and Concepts and Issues Paper",
+  "year": "2019",
+  "url": "https://www.theiacp.org/sites/default/files/2020-06/Unmanned\\%20Aircraft\\%20FULL\\%20-\\%2006222020.pdf",
+  "class": "report_or_web"
+ },
+ {
+  "key": "DHSSAVERUGV2026",
+  "type": "misc",
+  "author": "{U.S. Department of Homeland Security, Science and Technology Directorate}",
+  "title": "Multifunctional Unmanned Ground Vehicles for Emergency Response: {SAVER} Assessment {QuickLook}",
+  "year": "2026",
+  "note": "National Urban Security Technology Laboratory, 15 April 2026",
+  "url": "https://www.dhs.gov/sites/default/files/2026-04/26_0415_st_mugvquicklook_0.pdf",
+  "class": "report_or_web"
+ }
+]

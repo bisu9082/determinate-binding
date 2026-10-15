@@ -1,0 +1,389 @@
+{
+ "ruleset_version": "v17",
+ "frozen_at": "2026-10-11",
+ "supersedes": "beeef2149341a6d51aad6c1e1f0d3cabcab214ff795bac4df35a4abfa086e34b",
+ "supersedes_version": "v16",
+ "refreeze_reason": "GATE8 11차(합계 0, MAJOR REVISION, Step 5 롤백) 교정. 측정값 드리프트 0. 11차가 적발한 결함의 공통 구조는 '교정이 자기 우회로를 만든다' 였고, 이번 라운드의 규칙은 '모든 교정은 고치기 전 실패하고 고친 뒤 통과하는 시험을 동반한다' 이다. ① 어휘 격리: evidence_vocab 의 current() 에서 동결 기록을 뺐고, 어느 파일에서든 산문 필드(PROSE_KEYS)와 철회·연혁 레지스터(RETIRED_KEYS)에서 숫자를 긁지 않는다. v16 기록에 '조작치를 막았다' 고 적은 문장이 그 조작치를 근거 어휘에 올렸던 경로를 끊었다. ② LaTeX 주석 제거가 이스케이프된 퍼센트를 주석 시작으로 보아 여섯 검사기 전부가 그 줄의 나머지를 못 봤다. 원고에 진짜 주석 줄은 0개이고 해당 줄은 49개, 약 2,200자가 사정 밖이었다. 역참조로 고치자 감사 전 반환율이 구세대 값(8.9%, hop<=3 의 90/1014)으로 남아 있던 것이 드러나 9.0% 로 교정했다. ③ 철회값 검사가 tok==decl 로 수렴해 실패 불능이던 것을 복구했다. tok 은 값, decl 은 철회 선언 문구로 분리하고 거리 면제를 없앴으며, 퇴화 자체를 검사 항목으로 넣었다. ④ 선언 검사의 명사·동사 폐쇄 목록을 구조 판정으로 바꾸고, 16,000자 고정창을 '선언이 지배하는 구간'(다음 선언 또는 절 경계까지)으로 교체했다. 소문자 수사와 수식절 삽입형도 받는다. ⑤ seal_audit 의 writer 탐지를 리터럴 정규식에서 AST 로 바꿨다. 쌍따옴표와 변수 경로가 보인다. ⑥ 부트스트랩이 서술과 다른 집합(16기관)을 재표집하던 것을 비율비 기여 11기관으로 고쳤다. 결과는 1 을 포함하는 비율이 54% 에서 64% 로 올라 원고에 더 불리하다. 분모도 요청 추출수가 아닌 유효 추출수로 보고한다. ⑦ 조립본·조판·도판 신선도를 mtime 에서 내용 해시로 옮겼다. regen_all.sh 마지막 줄의 파이프가 set -e 아래 종료코드를 덮던 것을 걷어내고 고정점 미수렴을 exit 1 로 낸다. ⑧ 자기봉인이 우회를 닫는다는 함의를 본문에서 제거했다. 해시를 계산하는 파일이 공격 대상 안에 있으므로 순환이고, 실제 앵커는 봉인 밖 동결 기록 하나이며 외부 고정 없이는 3줄로 깨진다. ⑨ 어휘 구간의 유효 자유도를 공시했다. 분산의 69% 가 AI Act 한 기관에서 나오고 Satterthwaite 자유도는 층 단위 6.3, PSU 단위 2.0 이다. 군집 보정 구간을 Discussion 과 도판 캡션에 전파했다. ⑩ verify/attack_regression.py 를 신설해 각 게이트를 깨는 입력 17종을 상설 보관하고 게이트 묶음에 편입했다. 적발되어야 할 것이 통과해도, 통과해야 할 것이 적발되어도 실패한다.",
+ "changed_files": [
+  "verify/cluster_inference.py",
+  "verify/evidence_vocab.py",
+  "verify/lex_cluster.py",
+  "verify/manuscript_derived.py",
+  "verify/number_coverage.py",
+  "verify/number_origin.py",
+  "verify/regen_all.sh",
+  "verify/ruleset_hash.py",
+  "verify/same_quantity.py",
+  "verify/seal_audit.py",
+  "verify/selfcount_check.py",
+  "verify/staleness_gate.py"
+ ],
+ "new_files": [
+  "verify/attack_regression.py"
+ ],
+ "measured_effect": {
+  "_note": "측정값 드리프트 0. 아래는 v16 과 동일함을 확인한 값이다.",
+  "nodes": 5758,
+  "edges": 8834,
+  "auth": 1014,
+  "t2": 91,
+  "t1": 491,
+  "t0": 432,
+  "tp": 34,
+  "precision": 0.37362637362637363,
+  "ratio": 5.240286684270087,
+  "h": 0.357399451189618,
+  "fn_rate_weighted": 0.12606924643584522,
+  "survivor": 1,
+  "_corrections": {
+   "pre_audit_return_rate_pct": {
+    "was": 8.9,
+    "now": 9.0,
+    "_why": "8.9 는 hop<=3 의 90/1014. 채택 hop 은 4 이고 91/1014 = 8.97 → 9.0"
+   },
+   "bootstrap_clusters": {
+    "was": 16,
+    "now": 11
+   },
+   "bootstrap_share_including_one": {
+    "was": 0.542,
+    "now": 0.6370700372979693
+   },
+   "bootstrap_draws_denominator": {
+    "was": 10000,
+    "now": 9652
+   },
+   "gates_reading_hash_stated": {
+    "was": 6,
+    "now": 4,
+    "_why": "문자열 주사가 attack_regression 안에 문자열로 든 공격 스크립트의 import 에 걸려 5 로 세었다. AST 로 바꿔 4."
+   },
+   "gates_total": {
+    "was": 10,
+    "now": 11
+   },
+   "lex_effective_df": {
+    "design": 8,
+    "satterthwaite_stratum": 6.255852959389199,
+    "satterthwaite_psu": 2.019003634913766,
+    "dominant_psu": {
+     "instrument": "EUAI",
+     "share": 0.6869433353204752
+    }
+   },
+   "freeze_prose_sealed_count": {
+    "v16_prose_said": 57,
+    "measured_at_detection": 47,
+    "now": 60,
+    "_why": "v16 refreeze_reason 이 봉인 파일 수 자리에 verify/*.json 의 파일 수를 적었다. 적발 시점 봉인은 47 이고 47 + 신규 12 = 59 로 산술이 닫혔다. 이후 장치 편입으로 현재 60."
+   }
+  }
+ },
+ "sealed_files": [
+  "corpus/MANIFEST.json",
+  "graph/nodes3.json",
+  "graph/edges3.json",
+  "graph/chapters.py",
+  "graph/extract2.py",
+  "graph/paths3.py",
+  "probe/lex2.py",
+  "stpa/carveout.py",
+  "verify/tpset.py",
+  "labels/denom2_labels.json",
+  "verify/make_numbers.py",
+  "verify/denom_rates.py",
+  "verify/sensing_vocab.py",
+  "verify/lex_validation.py",
+  "verify/regen_outputs.py",
+  "verify/cluster_inference.py",
+  "verify/recall_scoped.py",
+  "verify/robust.py",
+  "verify/audit_tier2.py",
+  "verify/police_route.py",
+  "verify/subject_partition.py",
+  "verify/negation_guard.py",
+  "verify/holdout_check.py",
+  "verify/domain_remeasure.py",
+  "verify/adj_sensitivity.py",
+  "verify/corpus_level.py",
+  "verify/survivor_chain.py",
+  "verify/aiact_art43.py",
+  "verify/remeasure.py",
+  "verify/hedge_asymmetry.py",
+  "verify/seal_audit.py",
+  "stpa/scope.py",
+  "frozen/adjudicate.py",
+  "audit78/adjudicated.json",
+  "labels/tier0_labels.json",
+  "labels/binding_object_labels.json",
+  "graph/edges2.py",
+  "graph/edges3.py",
+  "stpa/accountability.py",
+  "stpa/compare.py",
+  "stpa/coverage.py",
+  "stpa/scenarios.py",
+  "stpa/structure.py",
+  "stpa/termproc.py",
+  "stpa/uca_ma.py",
+  "stpa/uca_mg.py",
+  "stpa/match_mg.py",
+  "verify/manuscript_derived.py",
+  "verify/annex_remeasure.py",
+  "verify/lex_cluster.py",
+  "verify/ruleset_hash.py",
+  "verify/staleness_gate.py",
+  "verify/selfcount_check.py",
+  "verify/number_coverage.py",
+  "verify/same_quantity.py",
+  "verify/fig_hardcode.py",
+  "verify/evidence_vocab.py",
+  "verify/number_origin.py",
+  "verify/regen_all.sh",
+  "verify/attack_regression.py"
+ ],
+ "ruleset_sha256": "743dee342b64fa9278cd5d0b0039217946aa7c1af04c2dbeb703ea840fa27f74",
+ "prev_ruleset_sha256": "beeef2149341a6d51aad6c1e1f0d3cabcab214ff795bac4df35a4abfa086e34b",
+ "files": {
+  "corpus/MANIFEST.json": {
+   "sha256": "17d6f7313fddeae25eb4a7d9774f090c724f732548705eb78c39c2b14eddcee3",
+   "bytes": 10254
+  },
+  "graph/nodes3.json": {
+   "sha256": "0d89efd156d6bc8d7c6b4d2e75d51b97b2c0bfe9c81c309824079e015cb34f8f",
+   "bytes": 2134622
+  },
+  "graph/edges3.json": {
+   "sha256": "19522d3fac8f431b9660b2a71e5cf8a6b6c67bb8670d667e14d81659a85a2f90",
+   "bytes": 505591
+  },
+  "graph/chapters.py": {
+   "sha256": "0cd52efbc29dba50254909d69f60694ae5e9c878ca70bcf00e88ac5d6f44bf43",
+   "bytes": 1399
+  },
+  "graph/extract2.py": {
+   "sha256": "4bb78a1111e2d88ce22160ef867c202c134026648b5a366b58b8752bf36f954c",
+   "bytes": 12434
+  },
+  "graph/paths3.py": {
+   "sha256": "882e12e44b3329363fc721495dda324f4b41165685abecd60572112d084a3bfe",
+   "bytes": 4591
+  },
+  "probe/lex2.py": {
+   "sha256": "46103632ca7f7eea6e27227fdac45c87628c98a5e55fc88d7c82b37f56f4710d",
+   "bytes": 7170
+  },
+  "stpa/carveout.py": {
+   "sha256": "94361cf7cc0042da29ccbb71f8f71ad0378e5b3bcb95a7ae3cbd4bc5bb5a54df",
+   "bytes": 4730
+  },
+  "verify/tpset.py": {
+   "sha256": "97448ff69ac52c1aa793fe6f965cf2e9bf007b46717d98888a49a991b1bfb6cd",
+   "bytes": 4066
+  },
+  "labels/denom2_labels.json": {
+   "sha256": "07af62090c18f872369e0370eedd6caa471b6404c70bbdd123d474e940037f8c",
+   "bytes": 4118
+  },
+  "verify/make_numbers.py": {
+   "sha256": "fff1e208d48b718d34ab24f691c439778f3126d7fb863423606166603d451a0e",
+   "bytes": 6240
+  },
+  "verify/denom_rates.py": {
+   "sha256": "5b52946068db394c76d43e1969727cecfb78d91ced18695ca47233e04fa3e2df",
+   "bytes": 2553
+  },
+  "verify/sensing_vocab.py": {
+   "sha256": "4b5796a0bdeb61ca32be882c35ef95c919d369c9833c160d3e650f16938cbdda",
+   "bytes": 6340
+  },
+  "verify/lex_validation.py": {
+   "sha256": "e6ecefce684d84bb77559a4fadd8c5191902debd6cb6551c5d93db42b0935204",
+   "bytes": 11819
+  },
+  "verify/regen_outputs.py": {
+   "sha256": "f71ad7a0b3a61c851d802906da78f183863058687c9a5350ec9027b3acd6d0c0",
+   "bytes": 9483
+  },
+  "verify/cluster_inference.py": {
+   "sha256": "664195434aaa873bfbb933b5f578ae9e83f608d1d7f79936914b10642b61fe05",
+   "bytes": 18268
+  },
+  "verify/recall_scoped.py": {
+   "sha256": "4ab62d848463c2685067fc04170f66ac8fb217321db3373f2651d56046ab2994",
+   "bytes": 3161
+  },
+  "verify/robust.py": {
+   "sha256": "6e8b591aafb120c9a3a6aa1fe78bbae9d0f934196551ffac3dce536c5199520a",
+   "bytes": 3205
+  },
+  "verify/audit_tier2.py": {
+   "sha256": "fa63456819b9a4bee98b0e4e82f89501de00efaf172334017db2933c3dbcb820",
+   "bytes": 5047
+  },
+  "verify/police_route.py": {
+   "sha256": "00bb22cdd71ced3d8e4862c1129be2ec5d0d29bae1b89074ce6a7a67e31be411",
+   "bytes": 3946
+  },
+  "verify/subject_partition.py": {
+   "sha256": "7c4a088c5fc93c2f9942133494e438fd407ea6a5b48c2bff45041b9b9730b107",
+   "bytes": 3057
+  },
+  "verify/negation_guard.py": {
+   "sha256": "ef02d0f10cb7c4a10e6cae3f5754a3a9b95e5b7fb01366ba1df8928e3e236637",
+   "bytes": 4345
+  },
+  "verify/holdout_check.py": {
+   "sha256": "2cf9e7924a5cba39021859db71c08883484897133bd095a81170acf11f75794f",
+   "bytes": 4218
+  },
+  "verify/domain_remeasure.py": {
+   "sha256": "5b59539b94aaab7c6f3a4b53865ac2c6f7a30efa99a44efa0fc9882b260bb355",
+   "bytes": 3702
+  },
+  "verify/adj_sensitivity.py": {
+   "sha256": "0d6f7483e11e469b0eb3ed4a81a358a0c5ff5fb8669483e9606ad43afdd639e8",
+   "bytes": 4925
+  },
+  "verify/corpus_level.py": {
+   "sha256": "37bc55919ba653ebb53fb8973a9b9aef89d76e5825efe9b8572bcc821cd7c6a7",
+   "bytes": 3131
+  },
+  "verify/survivor_chain.py": {
+   "sha256": "07a7736a6edd1b5428e8df956bb6d186b7c9bf24a6f0aa5be35811016d0dcf1e",
+   "bytes": 3491
+  },
+  "verify/aiact_art43.py": {
+   "sha256": "aa2b29b8d01f85a0c415d026689e6ffde1bbd43a9d0507413d196075acd885ba",
+   "bytes": 5429
+  },
+  "verify/remeasure.py": {
+   "sha256": "e2063dcd22dea147ee88786936d7191e373c5fd8e3f34b4aadc1cbd242394d83",
+   "bytes": 3474
+  },
+  "verify/hedge_asymmetry.py": {
+   "sha256": "9c088815cb9166117a9096f6bc18cd49fada25c032b9be7771616d2ca21a82d9",
+   "bytes": 3909
+  },
+  "verify/seal_audit.py": {
+   "sha256": "5a6233f95b92e86305307d0bc675899bb0b1f0eabf7616d99ad7f7f03b9506a3",
+   "bytes": 10275
+  },
+  "stpa/scope.py": {
+   "sha256": "9aaf94caa9ce2b3d42c66001e37eaa4a4d48c2954cf8ccb36e58cb25b65f5803",
+   "bytes": 1581
+  },
+  "frozen/adjudicate.py": {
+   "sha256": "f8b04af5493d217511caee17e8b87fb5628322dbc99f93a7be26afced3ff0277",
+   "bytes": 3241
+  },
+  "audit78/adjudicated.json": {
+   "sha256": "6e5260d11736046dcdb0b322b73f6a18b5bbf5e04a61eb6866416c85714aac93",
+   "bytes": 8443
+  },
+  "labels/tier0_labels.json": {
+   "sha256": "c29e611a380ce3cf63565adc4431bf37e142993c0a33ffd8735b24c59435f5eb",
+   "bytes": 2902
+  },
+  "labels/binding_object_labels.json": {
+   "sha256": "d28f660848ab9dc8dc112c4bb1399617132eae1c0b63b0340e676b925c1a7c2c",
+   "bytes": 1989
+  },
+  "graph/edges2.py": {
+   "sha256": "e1f21c6489880fada2db8fd276707588459e0c1de2e9189450a526905f2290ce",
+   "bytes": 5487
+  },
+  "graph/edges3.py": {
+   "sha256": "e14f5fae1fa3309c4f53dd7254dc50c62810861c436c2f23c0e9be1fceafcfb4",
+   "bytes": 1718
+  },
+  "stpa/accountability.py": {
+   "sha256": "caf9a56f156566b16f54f073dcf72d3f5bc774f032bed019a8a2a1b4375df90c",
+   "bytes": 3590
+  },
+  "stpa/compare.py": {
+   "sha256": "806d467c73c91ddc59482592ddd19571bd4bd70f4ddbd74185c734519635dd42",
+   "bytes": 3042
+  },
+  "stpa/coverage.py": {
+   "sha256": "a4b257043607edb9c28635141d6392dd8421881a9d3764126c30642a2f3524e1",
+   "bytes": 2223
+  },
+  "stpa/scenarios.py": {
+   "sha256": "c673ca7130b1cad5f8c3a91e70e5bffc6ea32667d7aa0e18fc34978997755ff5",
+   "bytes": 5996
+  },
+  "stpa/structure.py": {
+   "sha256": "3c62f964f0d8ff305dc802354bbd1ff38df2b4f21b737404197b4c835e27fa90",
+   "bytes": 7064
+  },
+  "stpa/termproc.py": {
+   "sha256": "25b2d04f9479afa5ec42329e7cfd6fa3622d53111388d4039886e112a62076b7",
+   "bytes": 2776
+  },
+  "stpa/uca_ma.py": {
+   "sha256": "375aaaa6eabf49fc2e1c1b3b8d4e438ddf228f8b67d4c1eb52a9eff788ae75f8",
+   "bytes": 4663
+  },
+  "stpa/uca_mg.py": {
+   "sha256": "8786f8117371c79c25513154f654d0ff57fac857bcba989f6238c0ffcde46fe8",
+   "bytes": 10157
+  },
+  "stpa/match_mg.py": {
+   "sha256": "8982796783cdc57c1257caf51468aa236f07d8e2eddb9dd5ac865d6501861bcb",
+   "bytes": 3935
+  },
+  "verify/manuscript_derived.py": {
+   "sha256": "4c0d88d3d8db2cb1729770a0c6e7ffc7d6a4aa0bc4519f6e468f8bccdbb0786f",
+   "bytes": 14909
+  },
+  "verify/annex_remeasure.py": {
+   "sha256": "7c339ab2fa493ec29503e0ab7f9162b9bc13afbce1063fb50a82c416f1d680bd",
+   "bytes": 2865
+  },
+  "verify/lex_cluster.py": {
+   "sha256": "a64ca5f3a3bea0a2a989038c551d79309c0a3c456d03705dd76cea81d2ff20cb",
+   "bytes": 11837
+  },
+  "verify/ruleset_hash.py": {
+   "sha256": "67a7b6faf27ec534a877f9adf2f26c8a65d562ff9267162a94c96587359984cf",
+   "bytes": 7169
+  },
+  "verify/staleness_gate.py": {
+   "sha256": "1bfb9279a03ef3ffa632b7669bc7d51b2a01680db46103b8cffd4a57b79b531a",
+   "bytes": 9074
+  },
+  "verify/selfcount_check.py": {
+   "sha256": "41b2c17ef730fa5257919dd8c9fca717955ab6058a0e707453e2237582e1fe67",
+   "bytes": 16260
+  },
+  "verify/number_coverage.py": {
+   "sha256": "9bc3918b623fa2b0bdb4157296de10d856a9918138c0236ed418cfbeeb0036fe",
+   "bytes": 15186
+  },
+  "verify/same_quantity.py": {
+   "sha256": "31e2dd3b3592fe14a74ea56da4629a753d3968e30c1f270b9247634bf356db31",
+   "bytes": 5862
+  },
+  "verify/fig_hardcode.py": {
+   "sha256": "ccd6cf124c9f2697943458e9781f15454380a7c55ed87a0e99308dc27b2bdf56",
+   "bytes": 3676
+  },
+  "verify/evidence_vocab.py": {
+   "sha256": "7db09fb6e651e86ec888bccad68640ec68763277e0cd0b6e37735c09cdbe6658",
+   "bytes": 6636
+  },
+  "verify/number_origin.py": {
+   "sha256": "0db837b729524af7f3d844706a1315fa4488733002e876c24fe5965cfade4d38",
+   "bytes": 5946
+  },
+  "verify/regen_all.sh": {
+   "sha256": "633d66641df8529d3c62ba4e0bd5fc4f07d53907ae449d746c56645437ada518",
+   "bytes": 3762
+  },
+  "verify/attack_regression.py": {
+   "sha256": "83cf4821dd5cd3fcc926931ac2fc9b3f2579c93da8e2b3aa067fa376ffdbaf00",
+   "bytes": 6947
+  }
+ },
+ "_note_on_scope": "봉인 범위를 넓혔으므로 changed_files 에는 v14 매니페스트에 없던 파일도 들어온다. 측정에 영향을 주는 변경은 graph/paths3.py 와 stpa/carveout.py(is_para), verify/sensing_vocab.py(어휘 대칭화), verify/lex_validation.py(캐시 대신 현행 룰셋), verify/robust.py(위음성률 하드코딩 제거·감사좌표 신설), verify/denom_rates.py(감사 셀 하드코딩 제거)이고, 나머지는 신설된 재생성·봉인 기반이다. 2026-10-11: 검증 장치 자신을 봉인에 포함했다. 장치를 고치면 세대가 움직인다. 봉인을 전수라고 부르지 않으며, verify/seal_audit.py 가 덮지 않는 것을 매 실행 센다. 2026-10-11 (v17): 봉인은 우연과 표류를 잡고 저자의 고의를 잡지 못한다. 세대 해시를 계산하는 파일이 봉인 안에 있어도 그 파일을 고치면 해시가 따라 움직이므로 순환이고, 실제 앵커는 봉인 밖 동결 기록 하나다. 외부 식별자로 고정되기 전까지 사슬은 내부적이며 원고는 그 이상을 주장하지 않는다."
+}

@@ -1,0 +1,371 @@
+[
+ {
+  "rid": "C41",
+  "provision": "US89::89.110.b",
+  "text": "(b) Standard remote identification unmanned aircraft requirements. A person may operate a standard remote identification unmanned aircraft only if the unmanned aircraft meets all of the following requirements: (1) Its serial number is listed on an FAA-accepted declaration of compliance, or the standard remote identification unmanned aircraft is covered by a design approval or production approval issued under part 21 of this chapter and meets the requirements of subpart F of this part. (2) Its remote identification equipment is functional and complies with the requirements of this part from takeoff to shutdown. (3) Its remote identification equipment and functionality have not been disabled. (4) The Certificate of Aircraft Registration of the unmanned aircraft used in the operation must include the serial number of the unmanned aircraft, as per applicable requirements of parts 47 and 48 of this chapter, or the serial number of the unmanned aircraft must be provided to the FAA in a notice of identification pursuant to § 89.130 prior to the operation.",
+  "context": [
+   "89.110 Operation of standard remote identification unmanned aircraft."
+  ],
+  "instrument": "US89"
+ },
+ {
+  "rid": "C40",
+  "provision": "US107::107.145.c",
+  "text": "(c) For a Category 4 operation, the small unmanned aircraft must— (1) Have an airworthiness certificate issued under part 21 of this chapter. (2) Be operated in accordance with the operating limitations specified in the approved Flight Manual or as otherwise specified by the Administrator. The operating limitations must not prohibit operations over human beings located inside moving vehicles.",
+  "context": [
+   "§ 107.145 Operations over moving vehicles."
+  ],
+  "instrument": "US107"
+ },
+ {
+  "rid": "C39",
+  "provision": "US107::107.140.b",
+  "text": "(b) Small unmanned aircraft requirements for Category 4. To be eligible to operate over human beings under this section, the small unmanned aircraft must— (1) Have an airworthiness certificate issued under part 21 of this chapter. (2) Be operated in accordance with the operating limitations specified in the approved Flight Manual or as otherwise specified by the Administrator. The operating limitations must not prohibit operations over human beings. (3) Have maintenance, preventive maintenance, alterations, or inspections performed in accordance with paragraph (c)(1) of this section.",
+  "context": [
+   "§ 107.140 Category 4 operations."
+  ],
+  "instrument": "US107"
+ },
+ {
+  "rid": "C38",
+  "provision": "US107::107.140.a",
+  "text": "(a) Remote pilot in command requirements. To conduct Category 4 operations— (1) A remote pilot in command— (i) Must use a small unmanned aircraft that is eligible for Category 4 operations pursuant to paragraph (b) of this section; and (ii) Must operate the small unmanned aircraft in accordance with all operating limitations that apply to the small unmanned aircraft, as specified by the Administrator. (2) No remote pilot in command may operate a small unmanned aircraft in sustained flight over open-air assemblies of human beings unless the operation meets the requirements of either § 89.110 or § 89.115(a) of this chapter.",
+  "context": [
+   "§ 107.140 Category 4 operations."
+  ],
+  "instrument": "US107"
+ },
+ {
+  "rid": "C37",
+  "provision": "US107::107.125.a",
+  "text": "(a) Must use a small unmanned aircraft that— (1) Is eligible for Category 3 operations pursuant to § 107.130(a); (2) Is listed on an FAA-accepted declaration of compliance as eligible for Category 3 operations in accordance with § 107.160; and (3) Is labeled as eligible for Category 3 operations in accordance with § 107.130(b)(1);",
+  "context": [
+   "§ 107.125 Category 3 operations: Operating requirements."
+  ],
+  "instrument": "US107"
+ },
+ {
+  "rid": "C36",
+  "provision": "US107::107.115.b",
+  "text": "(b) No remote pilot in command may operate a small unmanned aircraft in sustained flight over open-air assemblies of human beings unless the operation meets the requirements of either § 89.110 or § 89.115(a) of this chapter.",
+  "context": [
+   "§ 107.115 Category 2 operations: Operating requirements."
+  ],
+  "instrument": "US107"
+ },
+ {
+  "rid": "C35",
+  "provision": "US107::107.115.a",
+  "text": "(a) A remote pilot in command must use a small unmanned aircraft that— (1) Is eligible for Category 2 operations pursuant to § 107.120(a); (2) Is listed on an FAA-accepted declaration of compliance as eligible for Category 2 operations in accordance with § 107.160; and (3) Is labeled as eligible to conduct Category 2 operations in accordance with § 107.120(b)(1).",
+  "context": [
+   "§ 107.115 Category 2 operations: Operating requirements."
+  ],
+  "instrument": "US107"
+ },
+ {
+  "rid": "C34",
+  "provision": "US107::107.110.b",
+  "text": "(b) No remote pilot in command may operate a small unmanned aircraft in sustained flight over open-air assemblies of human beings unless the operation meets the requirements of either § 89.110 or § 89.115(a) of this chapter.",
+  "context": [
+   "§ 107.110 Category 1 operations."
+  ],
+  "instrument": "US107"
+ },
+ {
+  "rid": "C33",
+  "provision": "KR지능형로봇법::40의2.3",
+  "text": "③ 안전인증을 받은 자는 안전인증받은 사항을 변경하려는 경우 산업통상부령으로 정하는 바에 따라 변경인증을 받아야 한다. 다만, 실외이동로봇의 운행안전과 관련이 없는 것으로서 산업통상부령으로 정하는 사항을 변경하는 경우에는 그러하지 아니하다. <개정 2025.10.1>",
+  "context": [
+   "제40조의2(실외이동로봇의 운행안전인증 등)"
+  ],
+  "instrument": "KR지능형로봇법"
+ },
+ {
+  "rid": "C32",
+  "provision": "KR도로교통법시행규칙::77.1",
+  "text": "①법 제85조 및 제85조의3제2항에 따라 운전면허시험에 합격한 사람은 그 합격일부터 30일 이내에 운전면허시험을 실시한 경찰서장 또는 한국도로교통공단으로부터 운전면허증을 발급받아야 하며, 운전면허증을 발급받지 않고 운전해서는 안 된다. <개정 2010.12.31, 2024.7.31, 2024.12.12>",
+  "context": [
+   "제77조(운전면허증의 발급 등)"
+  ],
+  "instrument": "KR도로교통법시행규칙"
+ },
+ {
+  "rid": "C31",
+  "provision": "KR도로교통법::88.1",
+  "text": "① 제1종 운전면허 또는 제2종 운전면허를 받은 사람(제96조제1항에 따른 국제운전면허증 또는 상호인정외국면허증을 받은 사람을 포함한다)이 안전운전에 장애가 되는 후천적 신체장애 등 대통령령으로 정하는 사유에 해당되는 경우에는 한국도로교통공단이 실시하는 수시(隨時) 적성검사를 받아야 한다. <개정 2021.10.19, 2024.1.30>",
+  "context": [
+   "제88조(수시 적성검사)"
+  ],
+  "instrument": "KR도로교통법"
+ },
+ {
+  "rid": "C30",
+  "provision": "KR도로교통법::85의3.2",
+  "text": "② 시ㆍ도경찰청장은 제1항에 따라 운전면허시험에 합격한 사람에 대하여 행정안전부령으로 정하는 조건부 운전면허증을 발급하여야 한다.",
+  "context": [
+   "제85조의3(조건부 운전면허증의 발급 등)"
+  ],
+  "instrument": "KR도로교통법"
+ },
+ {
+  "rid": "C29",
+  "provision": "KR도로교통법::85의3.1",
+  "text": "① 조건부 운전면허를 받으려는 사람은 제83조에 따른 운전면허시험에 합격하여야 한다.",
+  "context": [
+   "제85조의3(조건부 운전면허증의 발급 등)"
+  ],
+  "instrument": "KR도로교통법"
+ },
+ {
+  "rid": "C28",
+  "provision": "KR도로교통법::85.2",
+  "text": "② 시ㆍ도경찰청장은 운전면허시험에 합격한 사람에 대하여 행정안전부령으로 정하는 운전면허증을 발급하여야 한다. <개정 2013.3.23, 2014.11.19, 2017.7.26, 2020.12.22>",
+  "context": [
+   "제85조(운전면허증의 발급 등)"
+  ],
+  "instrument": "KR도로교통법"
+ },
+ {
+  "rid": "C27",
+  "provision": "KR도로교통법::85.1",
+  "text": "① 운전면허를 받으려는 사람은 운전면허시험에 합격하여야 한다.",
+  "context": [
+   "제85조(운전면허증의 발급 등)"
+  ],
+  "instrument": "KR도로교통법"
+ },
+ {
+  "rid": "C26",
+  "provision": "JP道交法::96.5",
+  "text": "５ 第二種免許の運転免許試験は、次の各号のいずれかに該当する者でなければ、受けることができない。 一 牽けん引第二種免許以外の第二種免許の運転免許試験については、二十一歳（政令で定める教習を修了した者（第百四条の二の四第一項又は第二項の規定により特例取得免許の取消しを受けた者その他の政令で定める者を除く。）にあつては、十九歳）以上の者で、大型免許、中型免許、準中型免許、普通免許又は大型特殊免許を現に受けている者に該当し、かつ、これらの免許のいずれかを受けていた期間（当該免許の効力が停止されていた期間を除く。）が通算して三年（政令で定める経験を有するものにあつては二年、政令で定める教習を修了したものにあつては一年）以上のもの 二 牽けん引第二種免許の運転免許試験については、二十一歳（政令で定める教習を修了した者（第百四条の二の四第一項又は第二項の規定により特例取得免許の取消しを受けた者その他の政令で定める者を除く。）にあつては、十九歳）以上の者で、大型免許、中型免許、準中型免許、普通免許又は大型特殊免許及び牽けん引免許を現に受けている者に該当し、かつ、これらの免許のいずれかを受けていた期間（当該免許の効力が停止されていた期間を除く。）が通算して三年（政令で定める経験を有するものにあつては二年、政令で定める教習を修了したものにあつては一年）以上のもの 三 その者が受けようとする第二種免許の種類と異なる種類の第二種免許を現に受けている者",
+  "context": [
+   "（受験資格）"
+  ],
+  "instrument": "JP道交法"
+ },
+ {
+  "rid": "C25",
+  "provision": "JP道交法::96.4",
+  "text": "４ 大型免許、中型免許、準中型免許、普通免許、大型特殊免許、大型第二種免許、中型第二種免許、普通第二種免許又は大型特殊第二種免許を現に受けている者でなければ、牽けん引免許の運転免許試験を受けることができない。",
+  "context": [
+   "（受験資格）"
+  ],
+  "instrument": "JP道交法"
+ },
+ {
+  "rid": "C24",
+  "provision": "JP道交法::90_2.2",
+  "text": "２ 公安委員会は、前項各号に掲げる種類の免許に係る運転免許試験に合格した者（同項ただし書の政令で定める者を除く。）がそれぞれ同項各号に定める講習を受けていないときは、その者に対し、免許を与えないことができる。",
+  "context": [
+   "（大型免許等を受けようとする者の義務）"
+  ],
+  "instrument": "JP道交法"
+ },
+ {
+  "rid": "C23",
+  "provision": "JP道交法::90.13",
+  "text": "１３ 公安委員会は、仮免許の運転免許試験に合格した者が第一項第一号から第二号までのいずれかに該当するときは、同項本文の規定にかかわらず、政令で定める基準に従い、仮免許を与えないことができる。",
+  "context": [
+   "（免許の拒否等）"
+  ],
+  "instrument": "JP道交法"
+ },
+ {
+  "rid": "C22",
+  "provision": "JP道交法::89.1",
+  "text": "免許を受けようとする者は、その者の住所地（仮免許を受けようとする者で現に第九十八条第二項の規定による届出をした自動車教習所において自動車の運転に関する教習を受けているものにあつては、その者の住所地又は当該自動車教習所の所在地）を管轄する公安委員会に、内閣府令で定める様式の免許申請書（次項の規定による質問票の交付を受けた者にあつては、当該免許申請書及び必要な事項を記載した当該質問票）を提出し、かつ、当該公安委員会の行う運転免許試験を受けなければならない。",
+  "context": [
+   "（免許の申請等）"
+  ],
+  "instrument": "JP道交法"
+ },
+ {
+  "rid": "C21",
+  "provision": "JP道交法::104_2_2.4",
+  "text": "４ 前項の処分移送通知書の送付を受けた公安委員会は、その者が第百条の二第五項の規定に違反して当該再試験を受けないと認めるときは、その者の当該免許を取り消さなければならない。 この場合において、処分移送通知書を送付した公安委員会は、第二項の規定にかかわらず、その者の当該免許を取り消すことができない。",
+  "context": [
+   "（再試験に係る取消し）"
+  ],
+  "instrument": "JP道交法"
+ },
+ {
+  "rid": "C20",
+  "provision": "JP道交法::104_2_2.2",
+  "text": "２ 再試験の通知を受けた者が第百条の二第五項の規定に違反して再試験を受けないと認めるときは、その者の住所地を管轄する公安委員会は、その者の当該免許を取り消さなければならない。",
+  "context": [
+   "（再試験に係る取消し）"
+  ],
+  "instrument": "JP道交法"
+ },
+ {
+  "rid": "C19",
+  "provision": "JP道交法::104_2_2.1",
+  "text": "再試験を行つた公安委員会は、再試験の結果、再試験を受けた者が当該免許に係る免許自動車等を安全に運転するために必要な能力を現に有しないと認めるときは、その者の当該免許を取り消さなければならない。",
+  "context": [
+   "（再試験に係る取消し）"
+  ],
+  "instrument": "JP道交法"
+ },
+ {
+  "rid": "C18",
+  "provision": "EU947::art_5.1",
+  "text": "1. Where one of the requirements laid down in Article 4 or in Part A of the Annex is not met, a UAS operator shall be required to obtain an operational authorisation pursuant to Article 12 from the competent authority in the Member State where it is registered.",
+  "context": [
+   "Article 5 ‘Specific’ category of UAS operations"
+  ],
+  "instrument": "EU947"
+ },
+ {
+  "rid": "C17",
+  "provision": "EU1139::art_60.1",
+  "text": "1. The operation of the aircraft referred to in point (c) of Article 2(1) for commercial air transport shall be subject to certification and shall be issued with an authorisation. That authorisation shall be issued upon application, when the applicant has demonstrated its capability, and the availability to it of the means, to discharge the responsibilities associated with the operation of that aircraft in compliance with the requirements specified in Article 59. The authorisation shall specify the privileges granted to the operator and the scope of the operations.",
+  "context": [
+   "Article 60 Compliance"
+  ],
+  "instrument": "EU1139"
+ },
+ {
+  "rid": "C16",
+  "provision": "EU1139::art_52.2",
+  "text": "2. The certificate referred to in paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that he or she complies with the implementing acts referred to in Article 53 adopted to ensure compliance with the essential requirements referred to in Article 48.",
+  "context": [
+   "Article 52 Instructors, assessors and aero-medical examiners"
+  ],
+  "instrument": "EU1139"
+ },
+ {
+  "rid": "C15",
+  "provision": "EU1139::art_51.2",
+  "text": "2. The approval referred to in paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that it complies with the implementing acts referred to in Article 53 adopted to ensure compliance with the essential requirements referred to in Article 48.",
+  "context": [
+   "Article 51 Air traffic controller training organisations and aero-medical centres"
+  ],
+  "instrument": "EU1139"
+ },
+ {
+  "rid": "C14",
+  "provision": "EU1139::art_49.3",
+  "text": "3. The air traffic controller medical certificate referred to in paragraph 1 of this Article shall be issued upon application, when the air traffic controller has demonstrated that he or she complies with the implementing acts referred to in Article 50 adopted to ensure compliance with the essential requirements referred to in Article 48.",
+  "context": [
+   "Article 49 Air traffic controllers"
+  ],
+  "instrument": "EU1139"
+ },
+ {
+  "rid": "C13",
+  "provision": "EU1139::art_49.2",
+  "text": "2. The air traffic controller licence referred to in paragraph 1 of this Article shall be issued upon application, when the applicant for the licence has demonstrated that he or she complies with the implementing acts referred to in Article 50 adopted to ensure compliance with the essential requirements referred to in Article 48.",
+  "context": [
+   "Article 49 Air traffic controllers"
+  ],
+  "instrument": "EU1139"
+ },
+ {
+  "rid": "C12",
+  "provision": "EU1139::art_37.1",
+  "text": "1. Organisations responsible for the operation of aerodromes shall be subject to certification and shall be issued with a certificate. That certificate shall be issued upon application, when the applicant has demonstrated that it complies with the delegated acts referred to in Article 39 adopted to ensure compliance with the essential requirements referred to in Article 33. The certificate shall specify the privileges granted to the certified organisation and the scope of the certificate.",
+  "context": [
+   "Article 37 Organisations"
+  ],
+  "instrument": "EU1139"
+ },
+ {
+  "rid": "C11",
+  "provision": "EU1139::art_26.3",
+  "text": "3. The certificates referred to in paragraphs 1 and 2 of this Article shall be issued upon application, when the applicant has demonstrated that he or she complies with the implementing acts referred to in Article 27 adopted to ensure compliance with the essential requirements referred to in Article 20.",
+  "context": [
+   "Article 26 Instructors and examiners"
+  ],
+  "instrument": "EU1139"
+ },
+ {
+  "rid": "C10",
+  "provision": "EU1139::art_25.2",
+  "text": "2. The certificate referred to in paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that the applicant and the device comply with the implementing acts referred to in Article 27 adopted to ensure compliance with the essential requirements referred to in Article 20.",
+  "context": [
+   "Article 25 Flight simulation training devices"
+  ],
+  "instrument": "EU1139"
+ },
+ {
+  "rid": "C09",
+  "provision": "EU1139::art_24.3",
+  "text": "3. The approvals referred to in paragraphs 1 and 2 of this Article shall be issued upon application, when the applicant has demonstrated that it complies with the implementing acts referred to in Article 27 adopted to ensure compliance with the essential requirements referred to in Article 20.",
+  "context": [
+   "Article 24 Training organisations and aero-medical centres"
+  ],
+  "instrument": "EU1139"
+ },
+ {
+  "rid": "C08",
+  "provision": "EU1139::art_22.3",
+  "text": "3. The attestations referred to in paragraphs 1 and 2 of this Article shall be issued upon application, when the applicant has demonstrated that he or she complies with the implementing acts referred to in Article 23 adopted to ensure compliance with the essential requirements referred to in Article 20.",
+  "context": [
+   "Article 22 Cabin crew"
+  ],
+  "instrument": "EU1139"
+ },
+ {
+  "rid": "C07",
+  "provision": "EU1139::art_21.3",
+  "text": "3. The pilot medical certificate referred to in paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that he or she complies with the implementing acts referred to in Article 23 adopted to ensure compliance with the essential requirements referred to in Article 20.",
+  "context": [
+   "Article 21 Pilots"
+  ],
+  "instrument": "EU1139"
+ },
+ {
+  "rid": "C06",
+  "provision": "EU1139::art_21.2",
+  "text": "2. The pilot licence referred to in paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that he or she complies with the implementing acts referred to in Article 23 adopted to ensure compliance with the essential requirements referred to in Article 20.",
+  "context": [
+   "Article 21 Pilots"
+  ],
+  "instrument": "EU1139"
+ },
+ {
+  "rid": "C05",
+  "provision": "EU1139::art_15.1",
+  "text": "1. Unless otherwise established by the delegated acts referred to in Article 19, organisations responsible for the design and production of products, parts and non-installed equipment shall be subject to certification and shall be issued with an approval. That approval shall be issued upon application, when the applicant has demonstrated that it complies with the rules established by the delegated acts referred to in Article 19 for ensuring compliance with the essential requirements referred to in Article 9. That approval shall specify the privileges granted to the organisation and the scope of the approval.",
+  "context": [
+   "Article 15 Organisations"
+  ],
+  "instrument": "EU1139"
+ },
+ {
+  "rid": "C04",
+  "provision": "EU1139::art_14.1",
+  "text": "1. Individual aircraft shall be subject to certification and shall be issued with a certificate of airworthiness and, where the delegated acts referred to Article 19 so provide, a noise certificate. Those certificates shall be issued upon application, when the applicant has demonstrated that the aircraft is in conformity with the design certified in accordance with Article 11, and that the aircraft is in condition for safe and environmentally compatible operation.",
+  "context": [
+   "Article 14 Individual aircraft"
+  ],
+  "instrument": "EU1139"
+ },
+ {
+  "rid": "C03",
+  "provision": "EU1139::art_13.1",
+  "text": "Article 13 Design of non-installed equipment Where the delegated acts referred to in Article 19 so provide, the design of non-installed equipment shall be subject to certification and shall be issued with a certificate. That certificate shall be issued upon application, when the applicant has demonstrated that the design of non-installed equipment complies with the certification basis established in accordance with the delegated acts referred to in point (b)(iii) of Article 19(1). That certificate may also be issued without such application, by an organisation approved in accordance with Article 15 which has been granted a privilege to issue those certificates in accordance with the delegated act referred to in point (k) of Article 19(1), when that organisation has determined that the design of the non-installed equipment complies with the certification basis established in accordance with the delegated acts referred to in point (b)(iii) of Article 19(1).",
+  "context": [
+   "Article 13 Design of non-installed equipment"
+  ],
+  "instrument": "EU1139"
+ },
+ {
+  "rid": "C02",
+  "provision": "EU1139::art_12.1",
+  "text": "Article 12 Design of parts Unless otherwise established by delegated acts referred to in Article 19, the design of parts shall be subject to certification and shall be issued with a certificate. That certificate shall be issued upon application, when the applicant has demonstrated that the design of the part complies with the certification basis established in accordance with the delegated acts referred to in point (b)(iii) of Article 19(1). That certificate may also be issued without such application, by an organisation approved in accordance with Article 15 which has been granted a privilege to issue those certificates in accordance with the delegated act referred to in point (k) of Article 19(1), when that organisation has determined that the design of the part complies with the certification basis established in accordance with the delegated acts referred to in point (b)(iii) of Article 19(1). No separate certificate shall be required for the design of parts that have been certified as part of the design of a product in accordance with Article 11.",
+  "context": [
+   "Article 12 Design of parts"
+  ],
+  "instrument": "EU1139"
+ },
+ {
+  "rid": "C01",
+  "provision": "EU1139::art_11.1",
+  "text": "Article 11 Design of products The design of a product shall be subject to certification and shall be issued with a type certificate. Changes to that design shall also be subject to certification and shall result in the issuance of a certificate of changes, including of supplemental type certificates. Repair designs shall be subject to certification and shall be issued with an approval. An approval shall be issued in respect of the operational suitability data associated with a type design. That approval shall be included in the type certificate or the restricted type certificate referred to in point (b) of Article 18(1), as applicable. That type certificate, that certificate of changes, that approval of repair designs and that approval of the operational suitability data shall be issued upon application when the applicant has demonstrated that the design of the product complies with the certification basis established in accordance with the delegated acts referred to in point (b)(i) and (ii) of Article 19(1), as applicable, and that the design of the product has no feature or characteristic making it environmentally incompatible or unsafe for operation. That type certificate, that certificate of changes, that approval of repair design and that approval of the operational suitability data may also be issued without such application, by an organisation approved in accordance with Article 15 which has been granted the privilege to issue those certificates or approvals in accordance with the delegated act referred to in point (k) of Article 19(1), when that organisation has determined that the design of the product complies with the conditions established in the third subparagraph of this paragraph. No separate type certificate shall be required for the design of engines and propellers that have been certified as part of the design of an aircraft in accordance with this Article.",
+  "context": [
+   "Article 11 Design of products"
+  ],
+  "instrument": "EU1139"
+ }
+]

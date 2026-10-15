@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this archive, cite the paper."
+title: "determinate-binding: measurement archive for an audited measurement of 1,014 authorising provisions"
+abstract: >-
+  Corpus, provision graph, frozen ruleset, three label sets, permission-type
+  classification, measurement scripts and the consistency suite for the paper
+  "A police robot proves where it is, not what it senses".
+type: dataset
+license: CC-BY-4.0
+repository-code: "https://github.com/bisu9082/determinate-binding"
+authors:
+  - family-names: Cha
+    given-names: Janghyeon
+    orcid: "https://orcid.org/0009-0002-1419-1832"
+    affiliation: "Korean National Police Agency, Seoul, Republic of Korea"
+  - family-names: Shin
+    given-names: Myeongsik
+    orcid: "https://orcid.org/0009-0005-1189-4366"
+    affiliation: "CBRN Defense Research Institute, Seoul, Republic of Korea"
+  - family-names: Park
+    given-names: Boyeon
+    orcid: "https://orcid.org/0009-0001-1663-8207"
+    affiliation: "CBRN Defense Research Institute, Seoul, Republic of Korea"
+  - family-names: Han
+    given-names: Inae
+    orcid: "https://orcid.org/0009-0002-6336-4242"
+    affiliation: "CBRN Defense Research Institute, Seoul, Republic of Korea"
+  - family-names: Kang
+    given-names: Ku
+    orcid: "https://orcid.org/0000-0001-8739-218X"
+    affiliation: "CBRN Defense Research Institute, Seoul, Republic of Korea"
+    email: bisu9082@mnd.go.kr
+preferred-citation:
+  type: article
+  title: "A police robot proves where it is, not what it senses: an audited measurement of 1,014 authorising provisions"
+  journal: "Safety Science"
+  year: 2026
+  authors:
+    - {family-names: Cha, given-names: Janghyeon}
+    - {family-names: Shin, given-names: Myeongsik}
+    - {family-names: Park, given-names: Boyeon}
+    - {family-names: Han, given-names: Inae}
+    - {family-names: Kang, given-names: Ku}

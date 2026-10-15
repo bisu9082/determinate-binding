@@ -1,0 +1,152 @@
+[
+  {
+    "id": "EU1139::art_15.2",
+    "label": "not_binding",
+    "decided_by": "iii_fail_self_issued_authorisation",
+    "reason": "8-A 대상인 제17조는 \"the Commission shall ... adopt implementing acts laying down detailed provisions concerning ... the rules and procedures for issuing, maintaining, amending, limiting, suspending or revoking the approvals referred to in Article 15(2)\" 로서 인가에 '관한' 수권 조항일 뿐이고(표제 \"Implementing acts as regards airworthiness\" 는 절 표제), 제9조도 \"the essential requirements for airworthiness set out in Annex II\" 라는 요건 범주만 지명하므로 평가 절차 지명이 아니다 → 8-A 불적용. 따라서 (iii) 는 자기 본문으로 판정하는데, 평가어 \"An approval shall also be required\" 는 이 조항 자신이 발급하는 인가이고 \"continuing airworthiness management\" 는 피규율 사업 활동 서술이어서 (iii) 불충족."
+  },
+  {
+    "id": "EU1139::art_16.1",
+    "label": "not_binding",
+    "decided_by": "iii_fail_self_issued_authorisation",
+    "reason": "지명 조항 제17조는 \"the rules and procedures for issuing ... the licences referred to in Article 16\" 를 Commission 에 위임하는 수권 조항이고 제9조는 \"essential requirements for airworthiness\" 라는 요건 범주뿐이므로 평가 절차를 지명하지 않는다 → 8-A 불적용. 자기 본문의 평가어는 \"shall be required to hold a licence\" 즉 이 조항 자신이 발급하는 인가이고 \"demonstrated that he or she complies\" 는 지명된 평가 절차가 아니므로 (iii) 불충족."
+  },
+  {
+    "id": "EU1139::art_21.1",
+    "label": "not_binding",
+    "decided_by": "iii_fail_self_issued_authorisation",
+    "reason": "지명된 조항은 제23조제1항 (c)(i) 뿐인데 그 내용은 \"the rules and procedures for situations in which such licences, ratings and medical certificates are not to be required\" 즉 면제 규칙 수권이어서 평가 절차 지명이 아니다 → 8-A 불적용. 자기 본문의 \"a pilot licence and a pilot medical certificate\" 는 제21조제2항·제3항이 스스로 발급하는 인가이므로 (iii) 의 \"그 조항 자신이 발급하는 인가인 것\" 배제에 걸린다."
+  },
+  {
+    "id": "EU1139::art_21.2",
+    "label": "binding",
+    "decided_by": "rule_8A_reaches_via_named_provision",
+    "reason": "(i)·(ii) 는 \"The pilot licence ... shall be issued upon application, when the applicant has demonstrated that he or she complies\" 로 충족되고, 조건은 \"the implementing acts referred to in Article 23 adopted to ensure compliance with the essential requirements referred to in Article 20\" 로 제20조의 요건 충족에 걸려 있다. 제20조는 \"persons and organisations involved in the training, testing, checking or medical assessment of those pilots and cabin crew\" 로 신청자인 조종사가 거쳐야 하는 testing·checking·medical assessment 를 실제 평가 절차로 지명하므로(수권 조항의 'certificates' 와 달리 인가 수단이 아님) 8-A 로 (iii) 도달; 조건이 단일 연언이어서 8-B 분기 없음."
+  },
+  {
+    "id": "EU1139::art_21.3",
+    "label": "binding",
+    "decided_by": "rule_8A_reaches_via_named_provision",
+    "reason": "\"The pilot medical certificate ... shall be issued upon application, when the applicant has demonstrated that he or she complies with the implementing acts referred to in Article 23 adopted to ensure compliance with the essential requirements referred to in Article 20\" — 지명 조항 제20조가 \"medical assessment of those pilots\" 를 명시하므로 그 medical assessment 를 평가 절차로 보아 8-A 적용. 제23조 쪽 'certificates' 는 \"the rules and procedures for issuing ... pilot licences, ratings and pilot medical certificates\" 라는 수권 문구여서 평가로 세지 않았고, 조건에 분기가 없어 8-B 는 발동하지 않는다."
+  },
+  {
+    "id": "EU1139::art_22.3",
+    "label": "binding",
+    "decided_by": "rule_8A_reaches_via_named_provision",
+    "reason": "\"The attestations ... shall be issued upon application, when the applicant has demonstrated that he or she complies with the implementing acts referred to in Article 23 adopted to ensure compliance with the essential requirements referred to in Article 20\" 이고, 제20조가 \"training, testing, checking or medical assessment of those pilots and cabin crew\" 로 객실승무원에 대한 평가 절차를 지명하므로 8-A 로 (iii) 도달. 제23조제2항의 \"medical fitness assessment\" 는 implementing acts 수권 문구 안에 있어 근거로 쓰지 않았고, 조건은 단일 연언이라 8-B 분기 없음."
+  },
+  {
+    "id": "EU1139::art_24.3",
+    "label": "binding",
+    "decided_by": "rule_8A_reaches_via_named_provision",
+    "reason": "\"The approvals ... shall be issued upon application, when the applicant has demonstrated that it complies with the implementing acts referred to in Article 27 adopted to ensure compliance with the essential requirements referred to in Article 20\" — 지명 조항 제20조가 \"persons and organisations involved in the training, testing, checking or medical assessment\" 를 직접 지명하므로 8-A 로 (iii) 도달. 제27조는 표제 \"Implementing acts as regards training, testing, checking and medical assessment\" 가 절 표제이고 본문도 Commission 수권이어서 평가 근거로 쓰지 않았다(평가를 신청자가 '수행'하는 쪽이라는 점은 8-A 문언이 요구하지 않는 구분으로 보아 같은 형태의 제21조제2항과 갈라 세지 않았다)."
+  },
+  {
+    "id": "EU1139::art_25.1",
+    "label": "not_binding",
+    "decided_by": "iii_fail_self_issued_authorisation",
+    "reason": "지명된 조항은 제27조제1항 (a) \"the rules and procedures for issuing, maintaining, amending, limiting, suspending or revoking approvals and certificates referred to in Articles 24, 25, 26\" 뿐으로, 인가에 관한 Commission 수권이고 제27조 표제의 'testing' 은 절 표제이므로 평가 절차 지명이 아니다 → 8-A 불적용. 자기 본문의 \"A certificate shall be required in respect of each flight simulation training device\" 는 제25조제2항이 스스로 발급하는 인가이므로 (iii) 불충족."
+  },
+  {
+    "id": "EU1139::art_25.2",
+    "label": "binding",
+    "decided_by": "rule_8A_reaches_via_named_provision",
+    "reason": "\"The certificate ... shall be issued upon application, when the applicant has demonstrated that the applicant and the device comply with the implementing acts referred to in Article 27 adopted to ensure compliance with the essential requirements referred to in Article 20\" 이고, 제20조가 \"flight simulation training devices, persons and organisations involved in the training, testing, checking or medical assessment\" 로 평가 절차를 지명하므로 8-A 로 (iii) 도달. 제27조는 수권 조항이어서 근거로 삼지 않았고, 조건에 분기가 없어 8-B 는 통과."
+  },
+  {
+    "id": "EU1139::art_26.3",
+    "label": "binding",
+    "decided_by": "rule_8A_reaches_via_named_provision",
+    "reason": "\"The certificates ... shall be issued upon application, when the applicant has demonstrated that he or she complies with the implementing acts referred to in Article 27 adopted to ensure compliance with the essential requirements referred to in Article 20\" — 제20조의 \"training, testing, checking or medical assessment\" 를 평가 절차로 보아 8-A 적용. 자기 본문의 \"certificates\" 는 이 조항이 발급하는 인가라 (iii) 자체로는 불충족이지만 8-A 가 이를 보충하며, 단일 연언 조건이라 8-B 분기 없음."
+  },
+  {
+    "id": "EU1139::art_30.2",
+    "label": "not_binding",
+    "decided_by": "iii_fail_self_issued_authorisation",
+    "reason": "지명 조항 제29조는 \"shall comply with the essential requirements set out in Annex V\" 로 평가어가 전혀 없고, 제31조는 \"the rules and procedures for issuing ... the certificates referred to in point (b) of Article 30(1)\" 라는 인가 수권이므로 평가 절차를 지명하지 않는다 → 8-A 불적용. 자기 본문의 \"The certificate referred to in paragraph 1\" 은 이 조항 자신이 발급하는 인가여서 (iii) 불충족."
+  },
+  {
+    "id": "EU1139::art_34.1",
+    "label": "not_binding",
+    "decided_by": "iii_fail_self_issued_authorisation",
+    "reason": "\"A certificate shall be required in respect of aerodromes\" 의 그 certificate 는 제34조제2항이 스스로 발급하는 인가이므로 (iii) 의 \"그 조항 자신이 발급하는 인가인 것\" 배제에 걸린다. 지명 조항 제35조제1항은 \"(a) declare that such equipment complies ... or (b) hold a certificate\" 로 평가 없는 자기선언 분기를 포함해 8-A 로도 평가에 안전하게 도달하지 못한다."
+  },
+  {
+    "id": "EU1139::art_34.2",
+    "label": "not_binding",
+    "decided_by": "iii_fail_self_issued_authorisation",
+    "reason": "지명 조항 제36조제1항은 \"the rules and procedures for establishing and notifying to an applicant ... the certification basis applicable to an aerodrome for the purposes of certification in accordance with Article 34(1)\" 인데, 이는 Commission 수권이고 거기서 지명된 certification 은 바로 이 기록 자신(제34조)의 인가이므로 8-A 불적용. 자기 본문의 \"the aerodrome certification basis set out in paragraph 5 of this Article\" 와 \"has no feature or characteristic making it unsafe\" 도 자신이 발급하는 인가의 기준이어서 (iii) 불충족."
+  },
+  {
+    "id": "EU1139::art_35.2",
+    "label": "not_binding",
+    "decided_by": "iii_fail_self_issued_authorisation",
+    "reason": "지명 조항 제33조는 평가어가 없고, 제36조제1항 (b) 의 \"for the purposes of certification in accordance with Article 35(1)\" 는 수권 문구이면서 이 기록 자신이 발급하는 제35조제1항(b) 인가를 가리키므로 8-A 불적용. 자기 본문의 \"The certificate referred to in point (b) of paragraph 1 of this Article shall be issued\" 도 자기 발급 인가라 (iii) 불충족."
+  },
+  {
+    "id": "EU1139::art_41.2",
+    "label": "not_binding",
+    "decided_by": "iii_fail_self_issued_authorisation",
+    "reason": "지명 조항 제40조는 \"shall comply with the essential requirements set out in Annex VIII\" 로 평가어가 없고, 제43조는 \"the rules and procedures for issuing, maintaining, amending, limiting, suspending or revoking the certificates referred to in Article 41(1)\" 라는 인가 수권이므로 평가 절차 지명이 아니다 → 8-A 불적용. 자기 본문의 certificate 는 이 조항이 발급하는 인가여서 (iii) 불충족."
+  },
+  {
+    "id": "EU1139::art_42.2",
+    "label": "not_binding",
+    "decided_by": "iii_fail_self_issued_authorisation",
+    "reason": "제40조에는 평가어가 없고 제43조의 'certificates' 는 \"the rules and procedures for issuing ... the certificates\" 라는 Commission 수권 문구이므로 8-A 가 도달할 평가가 없다. 자기 본문은 \"The certificate referred to in point (b) of paragraph 1 ... shall be issued upon application, when the applicant has demonstrated that it complies\" 로, 평가어가 자기 발급 인가뿐이어서 (iii) 불충족."
+  },
+  {
+    "id": "EU1139::art_49.1",
+    "label": "not_binding",
+    "decided_by": "iii_fail_self_issued_authorisation",
+    "reason": "이 기록은 다른 조항을 번호로 지명하지 않아(cited_provisions 없음) 8-A 를 적용할 전건 자체가 없다. 자기 본문의 \"shall be required to hold an air traffic controller licence and an air traffic controller medical certificate\" 는 제49조제2항·제3항이 스스로 발급하는 인가이므로 (iii) 불충족."
+  },
+  {
+    "id": "EU1139::art_49.2",
+    "label": "binding",
+    "decided_by": "rule_8A_reaches_via_named_provision",
+    "reason": "\"The air traffic controller licence ... shall be issued upon application, when the applicant for the licence has demonstrated that he or she complies with the implementing acts referred to in Article 50 adopted to ensure compliance with the essential requirements referred to in Article 48\" 이고, 제48조는 \"persons, organisations and synthetic training devices involved in the training, testing, checking or medical assessment of those air traffic controllers\" 로 신청자가 거치는 평가 절차를 지명하므로 8-A 로 (iii) 도달. 제50조의 'certificates' 는 수권 문구라 근거로 쓰지 않았고, 조건에 분기가 없어 8-B 통과."
+  },
+  {
+    "id": "EU1139::art_49.3",
+    "label": "binding",
+    "decided_by": "rule_8A_reaches_via_named_provision",
+    "reason": "지명 조항 제48조의 \"medical assessment of those air traffic controllers\" 를 평가 절차로 보아 8-A 적용 — \"shall be issued upon application, when the air traffic controller has demonstrated that he or she complies with the implementing acts referred to in Article 50 adopted to ensure compliance with the essential requirements referred to in Article 48\". 제50조는 \"the rules and procedures for issuing ... licences, ratings and endorsements\" 수권이어서 평가로 세지 않았고 분기도 없다."
+  },
+  {
+    "id": "EU1139::art_51.2",
+    "label": "binding",
+    "decided_by": "rule_8A_reaches_via_named_provision",
+    "reason": "\"The approval ... shall be issued upon application, when the applicant has demonstrated that it complies with the implementing acts referred to in Article 53 adopted to ensure compliance with the essential requirements referred to in Article 48\" 이고, 제48조가 \"training, testing, checking or medical assessment of those air traffic controllers\" 를 지명하므로 8-A 로 (iii) 도달. 제53조는 표제 \"Implementing acts as regards training, testing, checking and medical assessment\" 가 절 표제이고 본문이 Commission 수권이어서 근거로 쓰지 않았다."
+  },
+  {
+    "id": "EU1139::art_52.2",
+    "label": "binding",
+    "decided_by": "rule_8A_reaches_via_named_provision",
+    "reason": "\"The certificate ... shall be issued upon application, when the applicant has demonstrated that he or she complies with the implementing acts referred to in Article 53 adopted to ensure compliance with the essential requirements referred to in Article 48\" — 제48조의 \"testing, checking or medical assessment\" 지명으로 8-A 적용. 자기 본문의 certificate 는 자기 발급 인가라 (iii) 단독으로는 불충족이고, 제53조는 수권 조항이라 쓰지 않았으며 조건에 분기가 없다."
+  },
+  {
+    "id": "EU1139::art_56.2",
+    "label": "not_binding",
+    "decided_by": "iii_fail_self_issued_authorisation",
+    "reason": "지명 조항은 제58조(\"the Commission is empowered to adopt delegated acts ... laying down detailed rules\")와 제57조(\"the rules and procedures for issuing, maintaining, amending, limiting, suspending, or revoking the certificates, or for making declarations\")로 둘 다 인가에 관한 수권 조항이어서 평가 절차 지명이 아니다 → 8-A 불적용. 자기 본문의 \"The certificate referred to in paragraph 1 of this Article shall be issued\" 는 이 조항 자신이 발급하는 인가이므로 (iii) 불충족."
+  },
+  {
+    "id": "US107::107.110.b",
+    "label": "binding",
+    "decided_by": "rule_8A_reaches_via_named_provision",
+    "reason": "(i)·(ii) 는 \"No remote pilot in command may operate a small unmanned aircraft in sustained flight over open-air assemblies of human beings unless the operation meets the requirements of either § 89.110 or § 89.115(a)\" 로 충족되고, 8-A 대상 § 89.110(b)(1) 은 \"Its serial number is listed on an FAA-accepted declaration of compliance, or ... covered by a design approval or production approval issued under part 21 ... and meets the requirements of subpart F of this part\" 로 신청자가 거쳐야 하는 FAA 수리(declaration of compliance) 또는 part 21 설계·생산 승인을 평가 절차로 지명한다. 8-B 도 통과: 도달 가능한 두 분기가 § 89.110 과 § 89.115(a) 뿐이고 후자도 \"must be listed on an FAA-accepted declaration of compliance\" 를 요구하므로, 평가 없는 § 89.115(b)(FAA-recognized identification area) 는 지명되지 않아 도달 불가."
+  },
+  {
+    "id": "US107::107.115.b",
+    "label": "binding",
+    "decided_by": "rule_8A_reaches_via_named_provision",
+    "reason": "본문이 § 107.110(b) 와 동일하고 지명 분기도 \"either § 89.110 or § 89.115(a)\" 로 같다. § 89.110(b)(1) 의 \"an FAA-accepted declaration of compliance, or ... a design approval or production approval issued under part 21\" 를 지명된 평가 절차로 보아 8-A 적용. § 89.115(a) 분기도 \"the serial number of the remote identification broadcast module must be listed on an FAA-accepted declaration of compliance\" 를 요구하고 평가 없는 § 89.115(b) 는 지명되지 않았으므로 8-B 통과."
+  },
+  {
+    "id": "US89::89.105.a",
+    "label": "not_binding",
+    "decided_by": "rule_8B_fail_branch_without_evaluation",
+    "reason": "조건이 \"unless the operation meets the requirements of § 89.110 or § 89.115\" 로 § 89.115 전체를 지명하는데, 그 중 § 89.115(b) 는 \"a person may operate an unmanned aircraft without remote identification equipment only if ... remain within the boundaries of an FAA-recognized identification area ... and must be able to see the unmanned aircraft at all times\" 로 아무 평가 없이 허가를 세워 두는 도달 가능 분기다. 게다가 자기 본문의 \"Except as otherwise authorized by the Administrator or as provided in § 89.120\" 와 § 89.120(\"The Administrator may authorize operations without remote identification\")도 평가 없는 분기이므로 8-B 실패(\"after September 16, 2023\" 는 날짜 참조로 평가가 아님)."
+  }
+]

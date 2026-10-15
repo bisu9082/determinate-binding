@@ -1,0 +1,88 @@
+{
+ "ruleset_version": "v4",
+ "refreeze_reason": "\u2460 \ubc95\uc815\uacc4\ub7c9(MID 2014/32/EU)\u00b714 CFR Part 89 \ucf54\ud37c\uc2a4 \ud3b8\uc785 \u2461 \uc5b4\ud718\uc9d1 v3(\ud55c\uae00 \\b \uacb0\ud568 \uc218\uc815, KR/JP \ud655\uc815\uc5f0\uc0b0\uc790 D-10\u00b7D-11 \ubcf4\uac15) \u2462 \uad6c\uc870\ucc38\uc870\uc5d0 MID\u00b7LED \ubc0f 'this Directive' \ucd94\uac00 \u2463 \uc778\uc811\uc9d1\ud569 \uc815\ub82c\ub85c \uc9c4\uc9dc \uacb0\uc815\uc131 \ud655\ubcf4 \u2464 \uc778\uac00\uc870\ud56d \uc815\uc758 \ub2e8\uc77c\ud654(\ud5c8\ube0c \uc81c\uc678). \uce21\uc815 \ub2e8\uc704\ub97c \uc81c\uc57d\uc5d0\uc11c \uc778\uac00\uc870\ud56d\uc73c\ub85c \uc804\ud658.",
+ "frozen_at": "2026-09-20T06:50:54",
+ "files": {
+  "probe/lex2.py": {
+   "sha256": "bc0f15f7078b5fc1948a862f60630045961ce9cbe1e0671518cefc1426aef8b0",
+   "bytes": 5549
+  },
+  "graph/extract2.py": {
+   "sha256": "558ea61b086c45b09fc7c9b2e3fe93ad03b129325dca348c182d57d6e2d9744c",
+   "bytes": 10300
+  },
+  "graph/chapters.py": {
+   "sha256": "0cd52efbc29dba50254909d69f60694ae5e9c878ca70bcf00e88ac5d6f44bf43",
+   "bytes": 1399
+  },
+  "graph/edges2.py": {
+   "sha256": "e1f21c6489880fada2db8fd276707588459e0c1de2e9189450a526905f2290ce",
+   "bytes": 5487
+  },
+  "graph/edges3.py": {
+   "sha256": "e14f5fae1fa3309c4f53dd7254dc50c62810861c436c2f23c0e9be1fceafcfb4",
+   "bytes": 1718
+  },
+  "graph/paths3.py": {
+   "sha256": "bc3af10a851af562b10349ac96d25eeb33b2cb257bb376561cb86add08378dc7",
+   "bytes": 2971
+  },
+  "stpa/structure.py": {
+   "sha256": "3c62f964f0d8ff305dc802354bbd1ff38df2b4f21b737404197b4c835e27fa90",
+   "bytes": 7064
+  },
+  "stpa/uca_mg.py": {
+   "sha256": "8786f8117371c79c25513154f654d0ff57fac857bcba989f6238c0ffcde46fe8",
+   "bytes": 10157
+  },
+  "stpa/uca_ma.py": {
+   "sha256": "375aaaa6eabf49fc2e1c1b3b8d4e438ddf228f8b67d4c1eb52a9eff788ae75f8",
+   "bytes": 4663
+  },
+  "stpa/scenarios.py": {
+   "sha256": "c673ca7130b1cad5f8c3a91e70e5bffc6ea32667d7aa0e18fc34978997755ff5",
+   "bytes": 5996
+  },
+  "stpa/accountability.py": {
+   "sha256": "caf9a56f156566b16f54f073dcf72d3f5bc774f032bed019a8a2a1b4375df90c",
+   "bytes": 3590
+  },
+  "stpa/scope.py": {
+   "sha256": "9aaf94caa9ce2b3d42c66001e37eaa4a4d48c2954cf8ccb36e58cb25b65f5803",
+   "bytes": 1581
+  },
+  "stpa/carveout.py": {
+   "sha256": "7f74a574acf1660f3b9507d3d218ea0ab78f445ad5f8c808c6b77817af620f3e",
+   "bytes": 3785
+  },
+  "stpa/match_mg.py": {
+   "sha256": "8982796783cdc57c1257caf51468aa236f07d8e2eddb9dd5ac865d6501861bcb",
+   "bytes": 3935
+  },
+  "stpa/compare.py": {
+   "sha256": "806d467c73c91ddc59482592ddd19571bd4bd70f4ddbd74185c734519635dd42",
+   "bytes": 3042
+  },
+  "corpus/MANIFEST.json": {
+   "sha256": "17d6f7313fddeae25eb4a7d9774f090c724f732548705eb78c39c2b14eddcee3",
+   "bytes": 10254
+  },
+  "frozen/adjudicate.py": {
+   "sha256": "f8b04af5493d217511caee17e8b87fb5628322dbc99f93a7be26afced3ff0277",
+   "bytes": 3241
+  },
+  "stpa/coverage.py": {
+   "sha256": "a4b257043607edb9c28635141d6392dd8421881a9d3764126c30642a2f3524e1",
+   "bytes": 2223
+  },
+  "stpa/termproc.py": {
+   "sha256": "25b2d04f9479afa5ec42329e7cfd6fa3622d53111388d4039886e112a62076b7",
+   "bytes": 2776
+  },
+  "verify/lex_validation.py": {
+   "sha256": "1e3ec93fac84b0a0f8e92648528d8cd04dd255c7933cf76eab60b8c6c3997c69",
+   "bytes": 5799
+  }
+ },
+ "ruleset_sha256": "2f9b738f259370d52da7d8be9f75adf799c8044ace1bae221a6f828dc8f5be9c"
+}

@@ -1,0 +1,152 @@
+[
+  {
+    "id": "EU945::art_5.1",
+    "label": "not_binding",
+    "decided_by": "iii_fail_section_heading",
+    "reason": "\"shall only be made available on the market if they satisfy the requirements of this Chapter\"로 허가를 조건 짓기는 하지만, 도달한 평가어는 \"Article 12 Presumption of conformity\"라는 절 표제의 \"conformity\"뿐이다. (iii)의 \"절 표제로 나온 것\" 배제에 걸린다."
+  },
+  {
+    "id": "EU947::art_5.1",
+    "label": "binding",
+    "decided_by": "rule_8A_reaches_via_named_provision",
+    "reason": "\"shall be required to obtain an operational authorisation pursuant to Article 12\"로 허가가 지명된 조항(제12조)의 요건 충족에 조건 지어지고, 그 제12조제1항이 \"The competent authority shall evaluate the risk assessment\"로 평가를 지명함이 기록으로 확인된다. 조건은 단일 분기여서 8-B는 걸리지 않는다."
+  },
+  {
+    "id": "EU947::art_5.5",
+    "label": "not_binding",
+    "decided_by": "rule_8B_fail_branch_without_evaluation",
+    "reason": "\"submits a declaration ... the UAS operator shall not be required to obtain an operational authorisation\"는 평가 없이 허가를 세워 두는 선언 분기다. 본문이 지명한 것은 \"paragraph 5 of Article 12\"이고, 기록의 평가 점화는 그와 다른 제12조제1항에서 일어났다."
+  },
+  {
+    "id": "EU947::art_7.2",
+    "label": "not_binding",
+    "decided_by": "ii_fail_operator_elsewhere",
+    "reason": "유일한 확정연산자 \"shall obtain the following certificates\"와 평가어(airworthiness)는 별개 조항인 \"2a.\"의 의무를 규율하며, 제2항 자신의 조건은 \"the operational authorisation as referred to in Article 12 or the authorisation as referred to in Article 16, or in a standard scenario ... as declared by the UAS operator\"로 선언 분기가 평가 없이 허가를 세워 둔다."
+  },
+  {
+    "id": "EUAI::art_111.2",
+    "label": "not_binding",
+    "decided_by": "i_fail_mentions_other_regime",
+    "reason": "\"this Regulation shall apply to operators ... that have been placed on the market ... only if, as from that date, those systems are subject to significant changes\"는 규정의 시간적 적용범위(경과규정)일 뿐이고, \"placed on the market\"은 이미 행해진 시장 출시를 언급만 한다. 허가를 부여하거나 조건 짓지 않는다."
+  },
+  {
+    "id": "EUAI::art_6.1",
+    "label": "not_binding",
+    "decided_by": "i_fail_definition",
+    "reason": "\"that AI system shall be considered to be high-risk where both of the following conditions are fulfilled\"는 고위험 해당 여부를 정의·분류하는 규정이고, \"third-party conformity assessment\"는 그 분류 기준의 한 항목으로 나온다. 허가를 부여·조건 짓지 않는다."
+  },
+  {
+    "id": "MID::art_7.2",
+    "label": "not_binding",
+    "decided_by": "iii_fail_definition_list_item",
+    "reason": "\"made available on the market and/or put into use only if they satisfy the requirements of this Directive\"로 조건은 있으나, 도달한 평가어는 제4조제15호 \"'accreditation' means accreditation as defined in point 10 of Article 2\"로 정의 목록의 한 항목이다."
+  },
+  {
+    "id": "US107::107.110.b",
+    "label": "binding",
+    "decided_by": "rule_8A_reaches_via_named_provision",
+    "reason": "\"No remote pilot in command may operate ... unless the operation meets the requirements of either § 89.110 or § 89.115(a)\"로 지명된 조항 §89.110이 \"FAA-accepted declaration of compliance\" 및 \"design approval or production approval issued under part 21\"을 지명함이 기록(US89::89.110.b)으로 확인된다. §89.115(a)는 기록에 없어 평가 지명 여부를 확정할 수 없으나 평가 없는 분기임도 확정되지 않아 8-B의 실패 요건이 성립하지 않는다."
+  },
+  {
+    "id": "US107::107.115.a",
+    "label": "binding",
+    "decided_by": "iii_named_evaluation",
+    "reason": "\"must use a small unmanned aircraft that— (1) Is eligible ... pursuant to § 107.120(a); (2) Is listed on an FAA-accepted declaration of compliance ... in accordance with § 107.160\"로 자기 본문이 지명된 평가 절차를 조건의 대상으로 삼고, 요건이 \"and\"로 연결된 연언이어서 평가 없는 분기가 없다."
+  },
+  {
+    "id": "US107::107.115.b",
+    "label": "binding",
+    "decided_by": "rule_8A_reaches_via_named_provision",
+    "reason": "§107.110(b)와 동일한 본문 \"unless the operation meets the requirements of either § 89.110 or § 89.115(a)\"이며, §89.110이 \"FAA-accepted declaration of compliance\"를 지명함이 기록으로 확인된다. §89.115(a)의 평가 지명은 기록으로 확인 불가이나 평가 없는 분기로도 확정되지 않아 8-B는 발동하지 않는다."
+  },
+  {
+    "id": "US107::107.120.b",
+    "label": "not_binding",
+    "decided_by": "i_fail_document_list",
+    "reason": "조항의 작용 내용은 선언 신청인이 갖춰 내놓아야 하는 것들의 열거다 — \"Display a label\", \"must make available these instructions upon sale or transfer\", \"must maintain product support and notification procedures\". \"declaration of compliance\"는 의무 주체를 가리키는 수식어로만 나온다."
+  },
+  {
+    "id": "US107::107.125.a",
+    "label": "binding",
+    "decided_by": "iii_named_evaluation",
+    "reason": "\"Must use a small unmanned aircraft that— ... (2) Is listed on an FAA-accepted declaration of compliance as eligible for Category 3 operations in accordance with § 107.160\"로 자기 본문이 지명된 평가 절차를 조건으로 세우고, 세 요건이 \"and\"로 묶인 연언이다."
+  },
+  {
+    "id": "US107::107.130.b",
+    "label": "not_binding",
+    "decided_by": "i_fail_document_list",
+    "reason": "Category 3 판의 동일 구조로, \"Display a label\", \"must make available these instructions upon sale or transfer\", \"must maintain product support and notification procedures\"처럼 선언 신청인이 갖춰 내놓아야 할 표시·서류·절차를 열거한다."
+  },
+  {
+    "id": "US107::107.140.a",
+    "label": "binding",
+    "decided_by": "rule_8A_reaches_via_named_provision",
+    "reason": "\"Must use a small unmanned aircraft that is eligible for Category 4 operations pursuant to paragraph (b) of this section\"로 허가가 지명된 조항 (b)의 요건 충족에 조건 지어지고, (b)가 \"Have an airworthiness certificate issued under part 21\"로 평가를 지명함이 기록(US107::107.140.b)으로 확인된다. (2)의 \"either § 89.110 or § 89.115(a)\" 분기와 무관하게 이 연언 요건이 항상 남으므로 8-B는 걸리지 않는다."
+  },
+  {
+    "id": "US107::107.140.b",
+    "label": "binding",
+    "decided_by": "iii_named_evaluation",
+    "reason": "\"To be eligible to operate over human beings under this section, the small unmanned aircraft must— (1) Have an airworthiness certificate issued under part 21 of this chapter\"로 자기 본문이 지명된 평가(part 21 감항증명)를 허가의 조건으로 세우며, 세 요건은 연언이다."
+  },
+  {
+    "id": "US107::107.145.c",
+    "label": "binding",
+    "decided_by": "iii_named_evaluation",
+    "reason": "\"For a Category 4 operation, the small unmanned aircraft must— (1) Have an airworthiness certificate issued under part 21 of this chapter\"로 지명된 평가가 조건의 대상이고, 날짜 참조·정의 목록·절 표제·자기발급 인가 중 어느 배제에도 해당하지 않는다."
+  },
+  {
+    "id": "US107::107.63.b",
+    "label": "not_binding",
+    "decided_by": "i_fail_document_list",
+    "reason": "작용 내용이 \"The application must be submitted to the responsible Flight Standards office ...\"로 신청서를 어디에 내야 하는지의 열거이고, 평가어 \"certification\"은 수령자 직명 \"an airman certification representative for a pilot school\" 안에서만 나온다."
+  },
+  {
+    "id": "US107::107.7.a",
+    "label": "not_binding",
+    "decided_by": "i_fail_document_list",
+    "reason": "\"Have in that person's physical possession ... the remote pilot certificate\", \"Present his or her remote pilot certificate ... for inspection upon a request\", \"Make available, upon request ... any document, record, or report\"로 서류의 소지·제시 의무를 열거할 뿐, 증명서는 다른 조항이 발급한 것을 언급만 한다."
+  },
+  {
+    "id": "US107::107.77.a",
+    "label": "not_binding",
+    "decided_by": "i_fail_document_list",
+    "reason": "\"An application to change the name on a certificate ... must be accompanied by the applicant's: (1) Remote pilot certificate ...; (2) A copy of the marriage license, court order, or other document\"로 신청서가 갖춰야 할 서류를 열거하는 전형이다."
+  },
+  {
+    "id": "US89::89.105.a",
+    "label": "not_binding",
+    "decided_by": "rule_8B_fail_branch_without_evaluation",
+    "reason": "\"Except as otherwise authorized by the Administrator or as provided in § 89.120 ... unless the operation meets the requirements of § 89.110 or § 89.115\"에서 행정청의 별도 인가 및 §89.120 분기가 평가 없이 비행 허가를 세워 두므로, 도달 가능한 분기 중 평가 없는 것이 있어 실패다."
+  },
+  {
+    "id": "US89::89.110.b",
+    "label": "binding",
+    "decided_by": "iii_named_evaluation",
+    "reason": "\"may operate ... only if the unmanned aircraft meets all of the following requirements: (1) Its serial number is listed on an FAA-accepted declaration of compliance, or ... covered by a design approval or production approval issued under part 21\"로 (1)의 두 분기가 모두 평가를 지명하고, 요건이 \"all\"의 연언이므로 평가 없이 허가가 서는 분기가 없다."
+  },
+  {
+    "id": "US89::89.310.g",
+    "label": "not_binding",
+    "decided_by": "iii_fail_date_reference",
+    "reason": "유일한 평가어가 \"any other applicable laws in effect as of the date the declaration of compliance is submitted to the FAA for acceptance\"라는 날짜 참조 안에서만 나온다. 조항 본문은 방송 성능 기준을 정할 뿐이다."
+  },
+  {
+    "id": "US89::89.320.g",
+    "label": "not_binding",
+    "decided_by": "iii_fail_date_reference",
+    "reason": "방송 모듈 판의 동일 구조로, \"declaration of compliance\"는 \"in effect as of the date the declaration of compliance is submitted to the FAA for acceptance\"의 날짜 참조로만 등장한다."
+  },
+  {
+    "id": "US89::89.530.b",
+    "label": "not_binding",
+    "decided_by": "i_fail_document_list",
+    "reason": "\"must declare ... by submitting a declaration of compliance to the FAA ... The declaration must include at a minimum the following information: (1) The name, physical address ...\"로 신청(선언)서가 갖춰야 할 기재사항의 열거다."
+  },
+  {
+    "id": "US89::89.530.c",
+    "label": "not_binding",
+    "decided_by": "i_fail_document_list",
+    "reason": "방송 모듈 판의 동일 구조로 \"The declaration must include at a minimum the following information\" 이하 기재사항을 열거하며, 선언서를 어디에 어떤 형식으로 제출하는지만 정한다."
+  }
+]

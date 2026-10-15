@@ -1,0 +1,67 @@
+\documentclass[1p,times,authoryear]{elsarticle}
+
+%% 2026-10-14 복원본 (v23).
+%% v22 작업 트리가 세션 컨테이너 회수로 소실되어, v22 조판본 PDF 를 유일한 증거로
+%% 본문을 복원했다. 글자는 바꾸지 않았고 복원한 것은 마크업과 플로트뿐이다.
+%% 2026-10-15: 측정 장치·도판 4종·게이트(verify/gate.py, 99검사)를 모두 재건했다.
+%% 결속 정본은 labels/tpset.json (맹검 재정 41건).
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{url}
+\usepackage{hyperref}
+
+\journal{Safety Science}
+\biboptions{authoryear,round}
+
+\begin{document}
+\begin{frontmatter}
+
+\title{A police robot proves where it is, not what it senses: an audited measurement of 1{,}014 authorising provisions}
+
+%% 저자 확정 2026-10-15. ORCID 는 투고 시스템에 입력한다(elsarticle 본문에 넣지 않음).
+%%   Janghyeon Cha  0009-0002-1419-1832  chajh6596@police.go.kr
+%%   Myeongsik Shin 0009-0005-1189-4366  fhwm0448@snu.ac.kr
+%%   Boyeon Park    0009-0001-1663-8207  kobir0601@gmail.com
+%%   Inae Han       0009-0002-6336-4242  iahan0657@gmail.com
+%%   Ku Kang        0000-0001-8739-218X  bisu9082@mnd.go.kr (교신)
+\author[knpa]{Janghyeon Cha}
+\author[cbrn]{Myeongsik Shin}
+\author[cbrn]{Boyeon Park}
+\author[cbrn]{Inae Han}
+\author[cbrn]{Ku Kang\corref{cor}}
+\cortext[cor]{Corresponding author.}
+\ead{bisu9082@mnd.go.kr}
+\address[knpa]{Korean National Police Agency, Seoul, Republic of Korea}
+\address[cbrn]{Chemical, Biological, Radiological and Nuclear (CBRN) Defense Research Institute, Seoul, Republic of Korea}
+
+\begin{abstract}
+A police robot measures something and a person with authority decides something with consequences for other people. We asked where law makes authorisation depend on a demonstrated property of the machine. Our predicate calls an authorising provision determinately bound when a determinate operator conditions it, unhedged, on a named evaluation reached through the law's own cross-references within four hops. Sixteen official machine-readable instruments gave 5,758 nodes and 8,834 edges; rules were frozen before adjudication and every return was read and labelled. Of 1,014 authorising provisions the predicate returns 91 and 41 survive the audit, a precision of 0.451, so a returned count is an upper bound. A second audit puts the denominator's precision at 0.494, raising the aviation binding rate from 10.8\% to 21.7\%. Following cross-references adds four bindings and fifteen false positives, reversing the graph's own motivating expectation. Implementing the police and public-aircraft carve-outs as node deletions varies only the applicable law, statutory in Europe and resting on FAA guidance in the United States: 25 of the 26 audited bindings a civil unmanned aircraft carries cease to apply to a police one, 18 analytically and 7 by measurement inside United States law. The survivor conditions operation on a declaration that the aircraft reports its own position to within 100 feet with 95 percent probability. Within the text the corpus holds, nothing left in force states a condition on the accuracy of what the robot senses. Corpus, graph, ruleset, labels and executor are released.
+\end{abstract}
+
+\begin{keyword}
+police robotics \sep system safety \sep regulatory analysis \sep unmanned aircraft \sep legal metrology \sep authorisation \sep exemption
+\end{keyword}
+
+\end{frontmatter}
+
+\input{front_v23}
+\input{methods_v23}
+\input{results_v23}
+\input{discussion_v23}
+\input{back_v23}
+
+\appendix
+\input{appendix_v23}
+
+\bibliographystyle{elsarticle-harv}
+\bibliography{myref_v3}
+
+\end{document}

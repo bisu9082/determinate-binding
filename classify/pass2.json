@@ -1,0 +1,248 @@
+[
+ {
+  "rid": "C41",
+  "provision": "US89::89.110.b",
+  "verdict": "OPERATE",
+  "reason": "\"A person may operate a standard remote identification unmanned aircraft only if\" 라는 문언이 금지하는 것은 판매가 아니라 비행이므로, 기기의 declaration of compliance 성질에 걸린 허가는 운용 허가다."
+ },
+ {
+  "rid": "C40",
+  "provision": "US107::107.145.c",
+  "verdict": "OPERATE",
+  "reason": "\"For a Category 4 operation, the small unmanned aircraft must— (1) Have an airworthiness certificate issued under part 21\" 는 감항증명을 Category 4 운항의 자격요건으로 걸고 \"Be operated in accordance with the operating limitations\" 를 요구하므로, 조건 지어지는 허가는 이동차량 상공 운항이다."
+ },
+ {
+  "rid": "C39",
+  "provision": "US107::107.140.b",
+  "verdict": "OPERATE",
+  "reason": "\"To be eligible to operate over human beings under this section, the small unmanned aircraft must— (1) Have an airworthiness certificate\" 라는 문언은 증명을 사람 상공 '운항 자격'의 조건으로 쓰고 있어 금지 대상이 운용이다."
+ },
+ {
+  "rid": "C38",
+  "provision": "US107::107.140.a",
+  "verdict": "OPERATE",
+  "reason": "\"Must operate the small unmanned aircraft in accordance with all operating limitations that apply\" 및 \"No remote pilot in command may operate\" 는 조종자의 비행 수행을 직접 조건 짓는다."
+ },
+ {
+  "rid": "C37",
+  "provision": "US107::107.125.a",
+  "verdict": "OPERATE",
+  "reason": "\"Must use a small unmanned aircraft that— ... Is listed on an FAA-accepted declaration of compliance as eligible for Category 3 operations\" 는 기기의 입증된 성질을 '사용'의 조건으로 걸고 있고 표제도 \"Category 3 operations: Operating requirements\" 다."
+ },
+ {
+  "rid": "C36",
+  "provision": "US107::107.115.b",
+  "verdict": "OPERATE",
+  "reason": "\"No remote pilot in command may operate a small unmanned aircraft in sustained flight over open-air assemblies of human beings unless\" 는 특정 비행 자체를 금지하는 운용 규율이다."
+ },
+ {
+  "rid": "C35",
+  "provision": "US107::107.115.a",
+  "verdict": "OPERATE",
+  "reason": "\"A remote pilot in command must use a small unmanned aircraft that— ... Is listed on an FAA-accepted declaration of compliance\" 는 시장 진입이 아니라 조종자의 기기 사용을 조건 짓는다."
+ },
+ {
+  "rid": "C34",
+  "provision": "US107::107.110.b",
+  "verdict": "OPERATE",
+  "reason": "\"No remote pilot in command may operate a small unmanned aircraft in sustained flight over open-air assemblies of human beings unless\" 는 금지 대상이 비행이므로 운용 허가에 해당한다."
+ },
+ {
+  "rid": "C33",
+  "provision": "KR지능형로봇법::40의2.3",
+  "verdict": "BORDERLINE",
+  "reason": "\"안전인증받은 사항을 변경하려는 경우 ... 변경인증을 받아야 한다\" 는 제품 인증의 변경(형식증명 변경형 SUPPLY)으로도, \"실외이동로봇의 운행안전과 관련이 없는 것\" 을 제외 기준으로 삼는 '운행안전인증'의 유지(OPERATE)로도 읽혀 둘 다로 해석된다."
+ },
+ {
+  "rid": "C32",
+  "provision": "KR도로교통법시행규칙::77.1",
+  "verdict": "OPERATE",
+  "reason": "\"운전면허증을 발급받지 않고 운전해서는 안 된다\" 는 문언이 금지하는 것은 운전이므로 운전면허의 발급은 운용 허가다."
+ },
+ {
+  "rid": "C31",
+  "provision": "KR도로교통법::88.1",
+  "verdict": "OPERATE",
+  "reason": "\"안전운전에 장애가 되는 후천적 신체장애 등 ... 수시(隨時) 적성검사를 받아야 한다\" 는 이미 받은 운전면허로 운전할 자격의 유지를 조건 짓는다."
+ },
+ {
+  "rid": "C30",
+  "provision": "KR도로교통법::85의3.2",
+  "verdict": "OPERATE",
+  "reason": "\"운전면허시험에 합격한 사람에 대하여 ... 조건부 운전면허증을 발급하여야 한다\" 는 운전을 하게 해주는 면허증의 발급 조항이다."
+ },
+ {
+  "rid": "C29",
+  "provision": "KR도로교통법::85의3.1",
+  "verdict": "OPERATE",
+  "reason": "\"조건부 운전면허를 받으려는 사람은 제83조에 따른 운전면허시험에 합격하여야 한다\" 는 운전 자격 취득의 조건이므로 운용 허가다."
+ },
+ {
+  "rid": "C28",
+  "provision": "KR도로교통법::85.2",
+  "verdict": "OPERATE",
+  "reason": "\"운전면허시험에 합격한 사람에 대하여 ... 운전면허증을 발급하여야 한다\" 는 운전을 허용하는 면허증 발급 조항이다."
+ },
+ {
+  "rid": "C27",
+  "provision": "KR도로교통법::85.1",
+  "verdict": "OPERATE",
+  "reason": "\"운전면허를 받으려는 사람은 운전면허시험에 합격하여야 한다\" 는 운전면허 취득 요건이고, 운전면허는 물건을 쓰게 하는 허가다."
+ },
+ {
+  "rid": "C26",
+  "provision": "JP道交法::96.5",
+  "verdict": "OPERATE",
+  "reason": "\"第二種免許の運転免許試験は、次の各号のいずれかに該当する者でなければ、受けることができない\" 는 영업용 차량을 운전할 면허의 수험자격을 제한하는 운용 측 조항이다."
+ },
+ {
+  "rid": "C25",
+  "provision": "JP道交法::96.4",
+  "verdict": "OPERATE",
+  "reason": "\"牽けん引免許の運転免許試験を受けることができない\" 는 견인 운전 자격 취득을 조건 짓는 문언이다."
+ },
+ {
+  "rid": "C24",
+  "provision": "JP道交法::90_2.2",
+  "verdict": "OPERATE",
+  "reason": "\"それぞれ同項各号に定める講習を受けていないときは、その者に対し、免許を与えないことができる\" 는 운전면허 자체의 부여를 조건 짓는다."
+ },
+ {
+  "rid": "C23",
+  "provision": "JP道交法::90.13",
+  "verdict": "OPERATE",
+  "reason": "\"仮免許の運転免許試験に合格した者が ... 仮免許を与えないことができる\" 는 가면허라는 운전 허가의 부여를 규율한다."
+ },
+ {
+  "rid": "C22",
+  "provision": "JP道交法::89.1",
+  "verdict": "OPERATE",
+  "reason": "\"免許を受けようとする者は ... 免許申請書 ... を提出し、かつ、当該公安委員会の行う運転免許試験を受けなければならない\" 는 운전면허 취득 절차를 조건 짓는다."
+ },
+ {
+  "rid": "C21",
+  "provision": "JP道交法::104_2_2.4",
+  "verdict": "OPERATE",
+  "reason": "\"当該再試験を受けないと認めるときは、その者の当該免許を取り消さなければならない\" 는 운전면허의 취소이고, 그 면허는 운전을 하게 해주는 허가다."
+ },
+ {
+  "rid": "C20",
+  "provision": "JP道交法::104_2_2.2",
+  "verdict": "OPERATE",
+  "reason": "\"再試験を受けないと認めるときは ... その者の当該免許を取り消さなければならない\" 는 운전 자격의 박탈이므로 운용 허가에 관한 조항이다."
+ },
+ {
+  "rid": "C19",
+  "provision": "JP道交法::104_2_2.1",
+  "verdict": "OPERATE",
+  "reason": "\"免許自動車等を安全に運転するために必要な能力を現に有しないと認めるときは、その者の当該免許を取り消さなければならない\" 는 운전 능력을 근거로 운전면허를 취소한다."
+ },
+ {
+  "rid": "C18",
+  "provision": "EU947::art_5.1",
+  "verdict": "OPERATE",
+  "reason": "\"a UAS operator shall be required to obtain an operational authorisation pursuant to Article 12\" 는 명시적으로 운항 승인을 조건 짓는다."
+ },
+ {
+  "rid": "C17",
+  "provision": "EU1139::art_60.1",
+  "verdict": "OPERATE",
+  "reason": "\"The operation of the aircraft ... for commercial air transport shall be subject to certification\" 이고 그 승인은 \"the privileges granted to the operator and the scope of the operations\" 를 특정하므로 운용 허가다."
+ },
+ {
+  "rid": "C16",
+  "provision": "EU1139::art_52.2",
+  "verdict": "OPERATE",
+  "reason": "표제 \"Instructors, assessors and aero-medical examiners\" 아래 \"issued upon application, when the applicant has demonstrated that he or she complies\" 는 인공물의 시장 진입이 아니라 사람이 교육·평가 업무를 수행할 자격을 부여한다."
+ },
+ {
+  "rid": "C15",
+  "provision": "EU1139::art_51.2",
+  "verdict": "OPERATE",
+  "reason": "표제 \"Air traffic controller training organisations and aero-medical centres\" 의 \"approval ... shall be issued upon application\" 은 조직이 훈련·검진 업무를 수행하게 하는 허가이지 인공물 공급 허가가 아니다."
+ },
+ {
+  "rid": "C14",
+  "provision": "EU1139::art_49.3",
+  "verdict": "OPERATE",
+  "reason": "\"The air traffic controller medical certificate ... shall be issued upon application\" 은 관제 업무 수행 자격을 조건 짓는다."
+ },
+ {
+  "rid": "C13",
+  "provision": "EU1139::art_49.2",
+  "verdict": "OPERATE",
+  "reason": "\"The air traffic controller licence referred to in paragraph 1 ... shall be issued upon application\" 은 관제사 면허이므로 운용 허가다."
+ },
+ {
+  "rid": "C12",
+  "provision": "EU1139::art_37.1",
+  "verdict": "OPERATE",
+  "reason": "\"Organisations responsible for the operation of aerodromes shall be subject to certification\" 은 비행장을 사용·운영할 허가를 조건 짓는다."
+ },
+ {
+  "rid": "C11",
+  "provision": "EU1139::art_26.3",
+  "verdict": "OPERATE",
+  "reason": "표제 \"Instructors and examiners\" 아래 \"The certificates ... shall be issued upon application, when the applicant has demonstrated that he or she complies\" 는 사람이 교육·심사 업무를 하게 하는 자격 부여다."
+ },
+ {
+  "rid": "C10",
+  "provision": "EU1139::art_25.2",
+  "verdict": "SUPPLY",
+  "reason": "표제 \"Flight simulation training devices\" 아래 \"when the applicant has demonstrated that the applicant and the device comply with the implementing acts\" 로 장치 자체의 증명을 조건 짓는 비행 시뮬레이션 훈련장치 증명이다."
+ },
+ {
+  "rid": "C09",
+  "provision": "EU1139::art_24.3",
+  "verdict": "OPERATE",
+  "reason": "표제 \"Training organisations and aero-medical centres\" 의 \"The approvals ... shall be issued upon application\" 은 훈련·검진 활동 수행 허가이며 인공물을 시장에 내놓는 허가가 아니다."
+ },
+ {
+  "rid": "C08",
+  "provision": "EU1139::art_22.3",
+  "verdict": "OPERATE",
+  "reason": "표제 \"Cabin crew\" 아래 \"The attestations ... shall be issued upon application, when the applicant has demonstrated that he or she complies\" 는 사람이 운항에 승무하게 하는 자격이다."
+ },
+ {
+  "rid": "C07",
+  "provision": "EU1139::art_21.3",
+  "verdict": "OPERATE",
+  "reason": "\"The pilot medical certificate referred to in paragraph 1 ... shall be issued upon application\" 은 조종 업무 수행 자격을 조건 짓는다."
+ },
+ {
+  "rid": "C06",
+  "provision": "EU1139::art_21.2",
+  "verdict": "OPERATE",
+  "reason": "\"The pilot licence referred to in paragraph 1 ... shall be issued upon application\" 은 조종사 면허, 즉 항공기를 쓰게 하는 허가다."
+ },
+ {
+  "rid": "C05",
+  "provision": "EU1139::art_15.1",
+  "verdict": "SUPPLY",
+  "reason": "\"organisations responsible for the design and production of products, parts and non-installed equipment shall be subject to certification and shall be issued with an approval\" 은 설계·생산 조직의 증명이다."
+ },
+ {
+  "rid": "C04",
+  "provision": "EU1139::art_14.1",
+  "verdict": "SUPPLY",
+  "reason": "\"Individual aircraft shall be subject to certification and shall be issued with a certificate of airworthiness\" 는 개별 항공기의 감항증명으로, 기체를 세상에 내놓는 단계를 규율한다."
+ },
+ {
+  "rid": "C03",
+  "provision": "EU1139::art_13.1",
+  "verdict": "SUPPLY",
+  "reason": "\"the design of non-installed equipment shall be subject to certification and shall be issued with a certificate\" 는 설계에 대한 증명이므로 공급 허가다."
+ },
+ {
+  "rid": "C02",
+  "provision": "EU1139::art_12.1",
+  "verdict": "SUPPLY",
+  "reason": "\"the design of parts shall be subject to certification and shall be issued with a certificate\" 는 부품 설계의 증명으로 시장 진입 단계를 조건 짓는다."
+ },
+ {
+  "rid": "C01",
+  "provision": "EU1139::art_11.1",
+  "verdict": "SUPPLY",
+  "reason": "\"The design of a product shall be subject to certification and shall be issued with a type certificate\" 및 \"Changes to that design shall also be subject to certification\" 은 설계의 형식증명이다."
+ }
+]

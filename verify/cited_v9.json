@@ -1,0 +1,287 @@
+[
+ {
+  "key": "ASTME2566_24",
+  "kind": "url",
+  "id": "https://store.astm.org/e2566_e2566m-24.html"
+ },
+ {
+  "key": "ASTME2853_22",
+  "kind": "doi",
+  "id": "10.1520/E2853_E2853M-22"
+ },
+ {
+  "key": "ASTME2854_21",
+  "kind": "doi",
+  "id": "10.1520/E2854_E2854M-21"
+ },
+ {
+  "key": "ASTME2855_2021",
+  "kind": "url",
+  "id": "https://store.astm.org/e2855-12.html"
+ },
+ {
+  "key": "ASTME3132_2025",
+  "kind": "url",
+  "id": "https://store.astm.org/e3132_e3132m-17r25.html"
+ },
+ {
+  "key": "ASTMF3392_20",
+  "kind": "doi",
+  "id": "10.1520/F3392-20"
+ },
+ {
+  "key": "ASTMF3474_25",
+  "kind": "doi",
+  "id": "10.1520/F3474-25"
+ },
+ {
+  "key": "ASTMF3523_21",
+  "kind": "none",
+  "id": null
+ },
+ {
+  "key": "ASTMF3528_21",
+  "kind": "none",
+  "id": null
+ },
+ {
+  "key": "ASTMF3580_24",
+  "kind": "none",
+  "id": null
+ },
+ {
+  "key": "Abbott2000Legalization",
+  "kind": "doi",
+  "id": "10.1162/002081800551271"
+ },
+ {
+  "key": "Bovens2007Accountability",
+  "kind": "doi",
+  "id": "10.1111/j.1468-0386.2007.00378.x"
+ },
+ {
+  "key": "Burke2004MoonlightMiami",
+  "kind": "doi",
+  "id": "10.1207/s15327051hci1901\\&2_5"
+ },
+ {
+  "key": "CalGovAB481",
+  "kind": "none",
+  "id": null
+ },
+ {
+  "key": "CasperMurphy2003WTC",
+  "kind": "doi",
+  "id": "10.1109/TSMCB.2003.811794"
+ },
+ {
+  "key": "Choi2025PoliceRoboticsPrivacy",
+  "kind": "doi",
+  "id": "10.1080/19361610.2025.2530599"
+ },
+ {
+  "key": "CoglianeseLazer2003",
+  "kind": "doi",
+  "id": "10.1046/j.0023-9216.2003.03703001.x"
+ },
+ {
+  "key": "Delmerico2019RescueRobotics",
+  "kind": "doi",
+  "id": "10.1002/rob.21887"
+ },
+ {
+  "key": "Diver1983Precision",
+  "kind": "doi",
+  "id": "10.2307/796245"
+ },
+ {
+  "key": "EUAIAct2024",
+  "kind": "url",
+  "id": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng"
+ },
+ {
+  "key": "EUDigitalOmnibus2026",
+  "kind": "url",
+  "id": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng"
+ },
+ {
+  "key": "EULED2016",
+  "kind": "none",
+  "id": null
+ },
+ {
+  "key": "EUMachinery2023",
+  "kind": "url",
+  "id": "https://eur-lex.europa.eu/eli/reg/2023/1230/oj/eng"
+ },
+ {
+  "key": "EUReg2018_1139",
+  "kind": "none",
+  "id": null
+ },
+ {
+  "key": "EUReg2019_945",
+  "kind": "none",
+  "id": null
+ },
+ {
+  "key": "EUReg2019_947",
+  "kind": "none",
+  "id": null
+ },
+ {
+  "key": "FAAAC0011B",
+  "kind": "none",
+  "id": null
+ },
+ {
+  "key": "FEMANIMS2026",
+  "kind": "url",
+  "id": "https://www.usfa.fema.gov/a-z/nims/command-and-coordination.html"
+ },
+ {
+  "key": "FEMAUSFANIMSResource2026",
+  "kind": "url",
+  "id": "https://www.usfa.fema.gov/a-z/nims/resource-management.html"
+ },
+ {
+  "key": "FrantzSiddiki2022IG",
+  "kind": "doi",
+  "id": "10.1007/978-3-030-86372-2"
+ },
+ {
+  "key": "Halford2025TLP",
+  "kind": "doi",
+  "id": "10.1093/police/paaf027"
+ },
+ {
+  "key": "JPRoadTrafficAct",
+  "kind": "none",
+  "id": null
+ },
+ {
+  "key": "Joh2016PolicingPoliceRobots",
+  "kind": "none",
+  "id": null
+ },
+ {
+  "key": "Kaplow1992Rules",
+  "kind": "doi",
+  "id": "10.2307/1372840"
+ },
+ {
+  "key": "KimJung2023SecureRobotAcceptance",
+  "kind": "doi",
+  "id": "10.35147/KNPSI.2023.37.4.35"
+ },
+ {
+  "key": "LevesonThomas2018STPA",
+  "kind": "none",
+  "id": null
+ },
+ {
+  "key": "MOTIENotice2023211",
+  "kind": "url",
+  "id": "https://www.motir.go.kr/kor/article/ATCL0c554f816/64488/view"
+ },
+ {
+  "key": "Marcu2023SecurityRobots",
+  "kind": "doi",
+  "id": "10.1145/3610171"
+ },
+ {
+  "key": "Metcalf2021AIA",
+  "kind": "doi",
+  "id": "10.1145/3442188.3445935"
+ },
+ {
+  "key": "Murphy2004RescueHRI",
+  "kind": "doi",
+  "id": "10.1109/TSMCC.2004.826267"
+ },
+ {
+  "key": "NIJChainCustody",
+  "kind": "url",
+  "id": "https://nij.ojp.gov/nij-hosted-online-training-courses/collecting-dna-evidence-at-property-crime-scenes/evidence-collection/chain-custody"
+ },
+ {
+  "key": "NISTResponseRobots2026",
+  "kind": "url",
+  "id": "https://www.nist.gov/programs-projects/performance-emergency-response-robots"
+ },
+ {
+  "key": "NYCOIGPOST2024",
+  "kind": "url",
+  "id": "https://www.nyc.gov/assets/doi/reports/pdf/2024/25PostActRelease_Rpt_05_30_2024.pdf"
+ },
+ {
+  "key": "NYPDPOSTAct2026",
+  "kind": "url",
+  "id": "https://www.nyc.gov/site/nypd/about/about-nypd/policy/post-act.page"
+ },
+ {
+  "key": "NYPDTacticalRobots2026",
+  "kind": "url",
+  "id": "https://www.nyc.gov/assets/nypd/downloads/pdf/public_information/post-final/Remote-Controlled-Robots-Tactical-NYPD-Impact-and-Use-Policy-2.4.26-FINAL.pdf"
+ },
+ {
+  "key": "Nasirov2026SoftToHard",
+  "kind": "doi",
+  "id": "10.1515/ijdlg-2026-0004"
+ },
+ {
+  "key": "Pennington2026STPACoordination",
+  "kind": "doi",
+  "id": "10.1016/j.ssci.2025.107011"
+ },
+ {
+  "key": "Perrem2026PatrolPublicSpace",
+  "kind": "doi",
+  "id": "10.1080/17450101.2026.2672983"
+ },
+ {
+  "key": "ROKIntelligentRobotsAct",
+  "kind": "url",
+  "id": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=251027"
+ },
+ {
+  "key": "ROKIntelligentRobotsDecree",
+  "kind": "none",
+  "id": null
+ },
+ {
+  "key": "ROKRoadTrafficAct",
+  "kind": "url",
+  "id": "https://www.law.go.kr"
+ },
+ {
+  "key": "ROKRoadTrafficEnforcementRule",
+  "kind": "none",
+  "id": null
+ },
+ {
+  "key": "RohChoi2024RobotPolice",
+  "kind": "doi",
+  "id": "10.47116/apjcri.2024.03.29"
+ },
+ {
+  "key": "SeattleMC1418",
+  "kind": "none",
+  "id": null
+ },
+ {
+  "key": "Selbst2019Abstraction",
+  "kind": "doi",
+  "id": "10.1145/3287560.3287598"
+ },
+ {
+  "key": "USCFR107",
+  "kind": "none",
+  "id": null
+ },
+ {
+  "key": "Yang2024HumanRobotTeaming",
+  "kind": "doi",
+  "id": "10.1016/j.ssci.2024.106543"
+ }
+]

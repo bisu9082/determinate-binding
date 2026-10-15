@@ -1,0 +1,27 @@
+\section{Introduction}\label{sec:1}
+
+A police robot is deployed, something is measured, a result is produced, and a person with authority decides something that has consequences for other people. A sample is or is not contaminated; a person beneath a flight path is or is not at acceptable risk; an item recovered by a manipulator is or is not admissible. The decision is made by a human and it is determinate, but it rests on a machine, and the safety question is whether anything in law makes that authorisation depend on a demonstrated property of the machine.
+
+For some machines it plainly does. An aircraft is certified before it flies. A weighing instrument used in trade is type-examined against a stated maximum permissible error before it may be
+
+$*$ Corresponding author.
+
+Email address: bisu9082@gmail.com (Ku Kang)
+
+sold. In both cases a named technical evaluation stands between the artefact and the permission, and failing it removes the permission. The question this paper answers is where that structure reaches, and what happens to it when the operator is a police agency.
+
+The question has been hard to answer for two reasons, one substantive and one instrumental.
+
+The substantive reason is that police robotics sits at the junction of bodies of rule that were written separately. Performance-test infrastructures for response robotics are mature: NIST and ASTM have developed repeatable methods for mobility, search, visual acuity, radio communications, configuration and operator proficiency, and they deliberately leave required thresholds to the user community so that the methods stay objective and transferable \citep{NISTResponseRobots2026,ASTME2853_22,ASTME2854_21,ASTME2855_2021,ASTME2566_24,ASTME3132_2025}. Incidentmanagement doctrine defines multiagency command \citep{FEMANIMS2026,FEMAUSFANIMSResource2026}, forensic guidance specifies custody \citep{NIJChainCustody}, and police policy and municipal ordinance define permitted uses, supervisory authority, retention and audit \citep{NYPDPOSTAct2026,NYPDTacticalRobots2026,NYCOIGPOST2024}. Joh argued a decade ago that the governance of police robots would be decided less by robot design than by the rules attaching to their use \citep{Joh2016PolicingPoliceRobots}, and the intervening decade has produced many such rules. What none of this settles is whether the permission and the test are joined.
+
+The instrumental reason is that the tools for coding legal text index on the norm. The legalization framework scores a provision on obligation, precision and delegation \citep{Abbott2000Legalization}; Institutional Grammar 2.0 parses it into attribute, deontic, aim and conditions \citep{FrantzSiddiki2022IG}; computational work measures normative hardening through deontic keyness \citep{Nasirov2026SoftToHard}. Applied to a provision that mentions a conformity assessment in hedged terms, all three return the same true and unhelpful answer: a norm is present with moderate force. The property a deployment decision turns on is relational rather than scalar. It is whether this permission falls if that evaluation is not passed.
+
+We therefore measure the relation directly. A provision that authorises is determinately bound when it carries a determinate operator and reaches a named technical evaluation through the cross-references the law actually writes. The predicate is decided from the text, so the analyst's role ends once the vocabulary is fixed, and the vocabulary is validated rather than asserted. The unit of analysis is the authorising provision, of which the corpus contains 1,014, so the measurement does not depend on any list of propositions an author chose to test.
+
+One feature of the domain makes a controlled comparison possible. A police unmanned aircraft may be flown under the civil aviation rules or as a public aircraft operation, and the two routes differ only in which provisions apply. Implementing the police and public-aircraft carveouts as deletions of nodes from the provision graph holds the corpus, the vocabulary and the rule constant and varies the applicable law alone. That turns a claim about what police exemptions do into a measurement.
+
+We ask three questions. Where in an audited multi-jurisdiction corpus does law determinately condition an authorisation on a named technical evaluation? Does following the cross-references written in the law recover binding structure that a provision-by-provision reading misses, as the audit designs used in this field are criticised for failing to do? And what does a police exemption remove, when the same corpus is adjudicated with and without it?
+
+The contributions are three. We treat binding as a path through explicit cross-references rather than a property of a provision, quantify what that changes, and audit the result in full rather than asserting it: the second question above receives a negative answer, and we report it as such. We implement a police and public-aircraft carve-out as a graph operation, which makes
+
+the effect of a police exemption measurable rather than arguable. And we report the result under a frozen, published ruleset with a validated lexicon, together with the single observation that would overturn it.

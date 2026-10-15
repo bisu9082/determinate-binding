@@ -1,0 +1,568 @@
+{
+ "1": {
+  "caption": "Table 1: The audited corpus. Every file is pinned by SHA-256 in the supplementary manifest. “Nodes” is the number of provision nodes produced; “Auth.” the number of authorising provisions; “T2” the number the frozen predicate returns, before the audit of Section 2.7. Returned provisions are not bindings: 41 of the 91 survive the audit, and the perinstrument audited counts are given in Table 9 by domain.",
+  "rows": [
+   [
+    "Code",
+    "Domain",
+    "Instrument",
+    "Nodes",
+    "Auth.",
+    "Returned"
+   ],
+   [
+    "EU1139",
+    "aviation",
+    "Regulation (EU) 2018/1139, consol. 2 Aug 2026 (European Parliament and Council, 2018)",
+    "682",
+    "109",
+    "32"
+   ],
+   [
+    "EU947",
+    "aviation",
+    "Impl. Regulation (EU) 2019/947, consol. 1 May 2025 (European Commission, 2019b)",
+    "133",
+    "40",
+    "3"
+   ],
+   [
+    "EU945",
+    "aviation",
+    "Del. Regulation (EU) 2019/945, consol. 24 Jun 2025 (European Commission, 2019a)",
+    "232",
+    "37",
+    "1"
+   ],
+   [
+    "US107",
+    "aviation",
+    "14 CFR Part 107, small unmanned aircraft (U.S. Government Publishing Office, 2026)",
+    "220",
+    "33",
+    "12"
+   ],
+   [
+    "US89",
+    "aviation",
+    "14 CFR Part 89, remote identification (U.S. Government Publishing Office, 2025)",
+    "136",
+    "17",
+    "6"
+   ],
+   [
+    "USAC",
+    "aviation",
+    "FAA AC 00-1.1B, public aircraft operations (Federal Aviation Administration, 2018)",
+    "67",
+    "5",
+    "0"
+   ],
+   [
+    "JP-RTA",
+    "ground",
+    "Road Traffic Act, Act No. 105 of 1960 (Government of Japan, 1960)",
+    "1,366",
+    "338",
+    "20"
+   ],
+   [
+    "KR-RTA",
+    "ground",
+    "Road Traffic Act (National Assembly of the Republic of Korea, 2023b)",
+    "705",
+    "110",
+    "8"
+   ],
+   [
+    "KR-RTA-R",
+    "ground",
+    "Road Traffic Act Enforcement Rule (Ministry of Government Legislation, Republic of Korea, 2026b)",
+    "687",
+    "126",
+    "3"
+   ],
+   [
+    "KR-IRA",
+    "ground",
+    "Intelligent Robots Act (National Assembly of the Republic of Korea, 2023a)",
+    "155",
+    "22",
+    "3"
+   ],
+   [
+    "KR-IRA-D",
+    "ground",
+    "Intelligent Robots Act Decree (Ministry of Government Legislation, Republic of Korea, 2026a)",
+    "120",
+    "8",
+    "0"
+   ],
+   [
+    "EUAI",
+    "crosscut",
+    "Regulation (EU) 2024/1689, AI Act (European Parliament and Council of the European Union, 2024)",
+    "700",
+    "105",
+    "2"
+   ],
+   [
+    "MID",
+    "crosscut",
+    "Directive 2014/32/EU, measuring instruments (European Parliament and Council, 2014)",
+    "247",
+    "34",
+    "1"
+   ],
+   [
+    "LED",
+    "crosscut",
+    "Directive (EU) 2016/680, law enforcement data (European Parliament and Council, 2016)",
+    "250",
+    "14",
+    "0"
+   ],
+   [
+    "SMC1418",
+    "crosscut",
+    "Seattle Municipal Code ch. 14.18 (City of Seattle, 2026)",
+    "34",
+    "9",
+    "0"
+   ],
+   [
+    "CAGOV",
+    "crosscut",
+    "California Government Code §§ 7070–7075 (State of California, 2021)",
+    "24",
+    "7",
+    "0"
+   ],
+   [
+    "Total: 16 instruments, 21 files, 14,276,114 bytes",
+    "5,758",
+    "1,014",
+    "91"
+   ]
+  ]
+ },
+ "2": {
+  "caption": "Table 2: Saturation of the path bound. All conditions use the same 1,014 authorising provisions.",
+  "rows": [
+   [
+    "Condition",
+    "Tier 2",
+    "Tier 1",
+    "Tier 0"
+   ],
+   [
+    "No edges (provision read in isolation)",
+    "72",
+    "283",
+    "659"
+   ],
+   [
+    "hop ≤ 1",
+    "76",
+    "346",
+    "592"
+   ],
+   [
+    "hop ≤ 2",
+    "88",
+    "442",
+    "484"
+   ],
+   [
+    "hop ≤ 3",
+    "90",
+    "455",
+    "469"
+   ],
+   [
+    "hop ≤ 4 (adopted)",
+    "91",
+    "491",
+    "432"
+   ],
+   [
+    "hop ≤ 5",
+    "92",
+    "495",
+    "427"
+   ],
+   [
+    "hop ≤ 4, structural edges removed",
+    "89",
+    "489",
+    "436"
+   ]
+  ]
+ },
+ "3": {
+  "caption": "Table 3: Both resolutions of the ambiguity in condition (iii). The adopted direction is the one that yields the smaller count.",
+  "rows": [
+   [
+    "Resolution",
+    "Bindings",
+    "Precision",
+    "Aviation",
+    "Ground",
+    "Cross-cut",
+    "Carve-out"
+   ],
+   [
+    "Excludes (adopted)",
+    "41",
+    "0.451",
+    "26/241",
+    "15/604",
+    "0/169",
+    "26 → 1"
+   ],
+   [
+    "Includes (alternative)",
+    "53",
+    "0.582",
+    "38/241",
+    "15/604",
+    "0/169",
+    "38 → 1"
+   ]
+  ]
+ },
+ "4": {
+  "caption": "Table 4: Binding rates before and after correcting the denominator for the contamination measured in Section 2.8. “Auth.” is the nominal authorising count; “Corr.” is that count multiplied by the audited precision of the denominator in that domain, and the interval on the corrected rate carries the Wilson interval of that precision. The audited binding count is the same in both columns, because the binding audit’s condition (i) applies the same test as the denominator definition, so a provision counted as a binding is by construction inside the true authorising set. The corrected figures rest on domain cells of 24, 40 and 15 sampled provisions and should be read with that in mind; the plug-in estimator B/(N p̂) is also upward-biased at these cell sizes. The Wilson intervals in this table are computed on provisions and carry no correction for the instrument clustering that Section 3.3 measures; the corrected intervals of Table 9 are the ones that carry it. The corrected authorising counts do not add: the three domain cells sum to 508 against the 501 in the Total row, because the plug-in estimator is applied to each cell’s own audited precision and is not additive across cells.",
+  "rows": [
+   [
+    "Domain",
+    "Bindings",
+    "Auth.",
+    "Nominal",
+    "Denom. prec.",
+    "Corr. auth.",
+    "Corrected rate"
+   ],
+   [
+    "Aviation",
+    "26",
+    "241",
+    "10.8%",
+    "12/24 = 0.500",
+    "120",
+    "21.7% [15.7, 34.3]"
+   ],
+   [
+    "Ground",
+    "15",
+    "604",
+    "2.5%",
+    "22/40 = 0.550",
+    "332",
+    "4.5% [3.6, 6.2]"
+   ],
+   [
+    "Cross-cut",
+    "0",
+    "169",
+    "0.0%",
+    "5/15 = 0.333",
+    "56",
+    "0.0%"
+   ],
+   [
+    "Total",
+    "41",
+    "1,014",
+    "4.0%",
+    "39/79 = 0.494",
+    "501",
+    "8.2% [6.7, 10.5]"
+   ]
+  ]
+ },
+ "5": {
+  "caption": "Table 5: The police route under three deletion sets. The adopted set is the first row. The second grants the objection that the product regime is not operator-indexed; the third is a lower bound on a Member State decision under Article 2(6).",
+  "rows": [
+   [
+    "Deletion set",
+    "Nodes retained",
+    "Returned",
+    "Audited"
+   ],
+   [
+    "Adopted",
+    "4,594",
+    "7",
+    "1"
+   ],
+   [
+    "Regulation 2019/945 retained",
+    "4,826",
+    "8",
+    "1"
+   ],
+   [
+    "and 2018/1139 also restored (Art. 2(6), partial)",
+    "5,508",
+    "40",
+    "18"
+   ]
+  ]
+ },
+ "6": {
+  "caption": "Table 6: Net measured effect of the ten changes to the frozen files and rules. “Before” is the state at the first freeze that reported each quantity, and for the rows that depend on labels it is that state as labelled then, because the pre-change returned sets were not re-labelled under the adjudication this paper adopts; “after” is the current frozen run. Appendix A attributes each move to the change that produced it. Direction is relative to the claim this paper makes: a change that raises the predicate’s precision, or lowers the rate at which bindings appear, makes the paper’s negative claim easier to sustain and is marked favourable.",
+  "rows": [
+   [
+    "Quantity",
+    "Before",
+    "After",
+    "Direction"
+   ],
+   [
+    "Corpus nodes",
+    "5,568",
+    "5,758",
+    "neutral"
+   ],
+   [
+    "Graph edges",
+    "8,596",
+    "8,834",
+    "neutral"
+   ],
+   [
+    "Authorising provisions",
+    "1,003",
+    "1,014",
+    "neutral"
+   ],
+   [
+    "Returned provisions",
+    "77",
+    "91",
+    "against"
+   ],
+   [
+    "Audited bindings",
+    "27",
+    "41",
+    "against"
+   ],
+   [
+    "Precision of the predicate",
+    "0.351",
+    "0.451",
+    "favourable"
+   ],
+   [
+    "Aviation-to-ground ratio",
+    "8.07",
+    "4.34",
+    "against"
+   ],
+   [
+    "Lexicon false-negative rate",
+    "11.1%",
+    "12.6%",
+    "against"
+   ],
+   [
+    "Surviving binding on police route",
+    "1",
+    "1",
+    "unchanged"
+   ]
+  ]
+ },
+ "7": {
+  "caption": "Table 7: What the cross-reference graph adds. Each row applies the frozen predicate at a different path bound to the same 1,014 authorising provisions; the audit of Section 2.7 then separates the provisions it returns. Precision falls monotonically as the bound is relaxed.",
+  "rows": [
+   [
+    "Condition",
+    "Audited bindings",
+    "False positives",
+    "Returned",
+    "Precision"
+   ],
+   [
+    "No edges (provision read alone)",
+    "37",
+    "35",
+    "72",
+    "0.514"
+   ],
+   [
+    "hop ≤ 1",
+    "37",
+    "39",
+    "76",
+    "0.487"
+   ],
+   [
+    "hop ≤ 2",
+    "41",
+    "47",
+    "88",
+    "0.466"
+   ],
+   [
+    "hop ≤ 3",
+    "41",
+    "49",
+    "90",
+    "0.456"
+   ],
+   [
+    "hop ≤ 4 (adopted)",
+    "41",
+    "50",
+    "91",
+    "0.451"
+   ]
+  ]
+ },
+ "8": {
+  "caption": "Table 8: The same 41 audited bindings repartitioned by subject matter. This partition is post-hoc: it was made after the composition of the ground corpus was seen, and it is reported because the pre-registered partition pools instruments that do not behave alike. Rates are audited bindings over authorising provisions, with Wilson 95% intervals. The instrument counts in parentheses are: aviation certification is Regulations 2018/1139, 2019/947 and 2019/945, 14 CFR Parts 107 and 89 and AC 00-1.1B; robot certification is the Korean intelligent robots act and its decree; road traffic is the Japanese and Korean road traffic instruments; police conduct is the Law Enforcement Directive, the Seattle ordinance and the California code; horizontal product law is the AI Act and the Measuring Instruments Directive.",
+  "rows": [
+   [
+    "Subject",
+    "Auth.",
+    "Audited",
+    "Rate",
+    "Wilson 95% CI",
+    "Design-effect 95% CI"
+   ],
+   [
+    "Aviation certification (6)",
+    "241",
+    "26",
+    "10.8%",
+    "[7.5, 15.3]",
+    "[4.9, 22.1]"
+   ],
+   [
+    "Robot certification (2)",
+    "30",
+    "1",
+    "3.3%",
+    "[0.6, 16.7]",
+    "[0.2, 41.5]"
+   ],
+   [
+    "Road traffic, drivers (3)",
+    "574",
+    "14",
+    "2.4%",
+    "[1.5, 4.1]",
+    "[0.8, 6.9]"
+   ],
+   [
+    "Police conduct (3)",
+    "30",
+    "0",
+    "0.0%",
+    "[0.0, 11.4]",
+    "[0.0, 37.5]"
+   ],
+   [
+    "Horizontal product law (2)",
+    "139",
+    "0",
+    "0.0%",
+    "[0.0, 2.7]",
+    "[0.0, 11.5]"
+   ]
+  ]
+ },
+ "9": {
+  "caption": "Table 9: Bindings by regulatory domain, before and after audit. No analyst-written search terms enter the returned column; it is computed from the lexicons and the graph over all authorising provisions. The audited column applies the labels of Section 2.7. Precision differs by a factor of nearly two between aviation and the ground corpus and is zero across the cross-cutting instruments, so the returned counts are not comparable between domains and the audited counts are. Aviation is Regulations 2018/1139, 2019/947 and 2019/945, 14 CFR Parts 107 and 89, and AC 00-1.1B; ground is the Japanese and Korean road traffic instruments and the Korean intelligent robots instruments; cross-cutting is the AI Act, the Measuring Instruments Directive, the Law Enforcement Directive, the Seattle ordinance and the California code.",
+  "rows": [
+   [
+    "Domain",
+    "Auth.",
+    "Ret.",
+    "Aud.",
+    "Rate",
+    "Design-effect 95% CI",
+    "Precision"
+   ],
+   [
+    "Aviation (6 instruments)",
+    "241",
+    "54",
+    "26",
+    "10.8%",
+    "[4.9, 22.1]",
+    "0.481"
+   ],
+   [
+    "Ground (5 instruments)",
+    "604",
+    "34",
+    "15",
+    "2.5%",
+    "[0.9, 6.8]",
+    "0.441"
+   ],
+   [
+    "Cross-cutting (5 instruments)",
+    "169",
+    "3",
+    "0",
+    "0.0%",
+    "[0.0, 9.6]",
+    "0.000"
+   ],
+   [
+    "Total",
+    "1,014",
+    "91",
+    "41",
+    "4.0%",
+    "",
+    "0.451"
+   ]
+  ]
+ },
+ "10": {
+  "caption": "Table 10: Outcome classes for the twelve held-out constraints, our register against the blind re-written register. Agreement is the diagonal, 5 of 12. Blind re-written register",
+  "rows": [
+   [
+    "Our register",
+    "No concept",
+    "No binding",
+    "Not authorising",
+    "Binding"
+   ],
+   [
+    "No concept reached",
+    "3",
+    "2",
+    "2",
+    "1"
+   ],
+   [
+    "No determinate binding",
+    "0",
+    "2",
+    "0",
+    "1"
+   ],
+   [
+    "Not an authorising provision",
+    "0",
+    "1",
+    "0",
+    "0"
+   ],
+   [
+    "Determinate binding",
+    "0",
+    "0",
+    "0",
+    "0"
+   ]
+  ]
+ }
+}

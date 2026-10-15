@@ -1,0 +1,795 @@
+{
+ "M-G": [
+  {
+   "sc": "SC-06-1",
+   "text": "A measurement may be relied upon only while the instrument's calibration is valid and its stated operating envelope is met, and the instrument must make both observable to the operator.",
+   "hits": 28,
+   "auth": 8,
+   "t2": 0,
+   "t1": 8,
+   "cls": "영점",
+   "ex": []
+  },
+  {
+   "sc": "SC-06-2",
+   "text": "A reading within the declared uncertainty band of a decision threshold must trigger a defined repeat or confirmatory procedure before it is reported.",
+   "hits": 0,
+   "auth": 0,
+   "t2": 0,
+   "t1": 0,
+   "cls": "개념 부재",
+   "ex": []
+  },
+  {
+   "sc": "SC-06-3",
+   "text": "The admissible time window between disturbance and measurement must be stated for each analyte class and enforced by the procedure.",
+   "hits": 0,
+   "auth": 0,
+   "t2": 0,
+   "t1": 0,
+   "cls": "개념 부재",
+   "ex": []
+  },
+  {
+   "sc": "SC-04-1",
+   "text": "Sampling media and tooling must be qualified for the analyte class, and the qualification must be identifiable from the sample record.",
+   "hits": 0,
+   "auth": 0,
+   "t2": 0,
+   "t1": 0,
+   "cls": "개념 부재",
+   "ex": []
+  },
+  {
+   "sc": "SC-04-2",
+   "text": "A platform contamination limit must be defined beyond which further sampling is not valid.",
+   "hits": 0,
+   "auth": 0,
+   "t2": 0,
+   "t1": 0,
+   "cls": "개념 부재",
+   "ex": []
+  },
+  {
+   "sc": "SC-08-1",
+   "text": "An analytical result must be transmitted together with the criterion applied and the uncertainty of the measurement; a bare value is not a reportable result.",
+   "hits": 0,
+   "auth": 0,
+   "t2": 0,
+   "t1": 0,
+   "cls": "개념 부재",
+   "ex": []
+  },
+  {
+   "sc": "SC-08-2",
+   "text": "The provenance and validated scope of any advised criterion must accompany the advice.",
+   "hits": 0,
+   "auth": 0,
+   "t2": 0,
+   "t1": 0,
+   "cls": "개념 부재",
+   "ex": []
+  },
+  {
+   "sc": "SC-08-3",
+   "text": "The latency budget from measurement to result must be stated and must be shorter than the decision cycle it serves.",
+   "hits": 0,
+   "auth": 0,
+   "t2": 0,
+   "t1": 0,
+   "cls": "개념 부재",
+   "ex": []
+  },
+  {
+   "sc": "SC-09-1",
+   "text": "A determination that carries consequences for persons must rest on an instrument whose performance for that analyte and setting has been demonstrated against a stated standard.",
+   "hits": 28,
+   "auth": 9,
+   "t2": 0,
+   "t1": 9,
+   "cls": "영점",
+   "ex": []
+  },
+  {
+   "sc": "SC-09-2",
+   "text": "A maximum time to determination must be defined, after which a default protective posture applies.",
+   "hits": 6,
+   "auth": 4,
+   "t2": 0,
+   "t1": 2,
+   "cls": "영점",
+   "ex": []
+  },
+  {
+   "sc": "SC-09-3",
+   "text": "The determination must not precede completion of the confirmatory procedure that the reading triggered.",
+   "hits": 0,
+   "auth": 0,
+   "t2": 0,
+   "t1": 0,
+   "cls": "개념 부재",
+   "ex": []
+  },
+  {
+   "sc": "SC-09-4",
+   "text": "Defined changes of condition must re-open the determination.",
+   "hits": 2,
+   "auth": 1,
+   "t2": 1,
+   "t1": 0,
+   "cls": "확정 결속",
+   "ex": [
+    "KR지능형로봇법::40의2.3"
+   ]
+  },
+  {
+   "sc": "SC-10-1",
+   "text": "Custody transfer must occur at recovery, before any decontamination, movement or re-tasking of the platform, and the interval must be recorded.",
+   "hits": 0,
+   "auth": 0,
+   "t2": 0,
+   "t1": 0,
+   "cls": "개념 부재",
+   "ex": []
+  },
+  {
+   "sc": "SC-10-2",
+   "text": "The period during which a machine holds a sample must itself be a recorded custody link, with the holder identified as the platform and its state logged.",
+   "hits": 0,
+   "auth": 0,
+   "t2": 0,
+   "t1": 0,
+   "cls": "개념 부재",
+   "ex": []
+  },
+  {
+   "sc": "SC-11-1",
+   "text": "Decontamination must not precede custody transfer.",
+   "hits": 0,
+   "auth": 0,
+   "t2": 0,
+   "t1": 0,
+   "cls": "개념 부재",
+   "ex": []
+  },
+  {
+   "sc": "SC-11-2",
+   "text": "A release criterion must be defined and met before the platform re-enters a clean area, and the release must be verifiable.",
+   "hits": 0,
+   "auth": 0,
+   "t2": 0,
+   "t1": 0,
+   "cls": "개념 부재",
+   "ex": []
+  },
+  {
+   "sc": "SC-01-1",
+   "text": "The sampling plan must map each ordered sample to a pre-established procedure and criterion; an unmapped sample must be flagged as such in the record.",
+   "hits": 0,
+   "auth": 0,
+   "t2": 0,
+   "t1": 0,
+   "cls": "개념 부재",
+   "ex": []
+  },
+  {
+   "sc": "SC-01-2",
+   "text": "Omission of an SOP-required sample must be recorded with its reason.",
+   "hits": 0,
+   "auth": 0,
+   "t2": 0,
+   "t1": 0,
+   "cls": "개념 부재",
+   "ex": []
+  },
+  {
+   "sc": "SC-02-1",
+   "text": "The conditions that trigger withdrawal must be defined in advance and must be observable from the feedback the operator actually receives.",
+   "hits": 0,
+   "auth": 0,
+   "t2": 0,
+   "t1": 0,
+   "cls": "개념 부재",
+   "ex": []
+  },
+  {
+   "sc": "SC-02-2",
+   "text": "A withdrawal order must carry a disposition for any sample and record already held.",
+   "hits": 0,
+   "auth": 0,
+   "t2": 0,
+   "t1": 0,
+   "cls": "개념 부재",
+   "ex": []
+  },
+  {
+   "sc": "SC-02-3",
+   "text": "Withdrawal thresholds must act on the projected time to reach a limit, not on the limit having been reached.",
+   "hits": 0,
+   "auth": 0,
+   "t2": 0,
+   "t1": 0,
+   "cls": "개념 부재",
+   "ex": []
+  },
+  {
+   "sc": "SC-03-1",
+   "text": "Entry may be commanded only with a platform established as decontaminable for the agent class in question, and the establishing evidence must be identifiable.",
+   "hits": 0,
+   "auth": 0,
+   "t2": 0,
+   "t1": 0,
+   "cls": "개념 부재",
+   "ex": []
+  },
+  {
+   "sc": "SC-03-2",
+   "text": "A dwell limit referenced to the platform's established tolerance must be defined and enforced.",
+   "hits": 0,
+   "auth": 0,
+   "t2": 0,
+   "t1": 0,
+   "cls": "개념 부재",
+   "ex": []
+  },
+  {
+   "sc": "SC-03-3",
+   "text": "The egress route and the decontamination point must be fixed before entry is commanded.",
+   "hits": 0,
+   "auth": 0,
+   "t2": 0,
+   "t1": 0,
+   "cls": "개념 부재",
+   "ex": []
+  },
+  {
+   "sc": "SC-05-1",
+   "text": "Stop authority must hold independently of the command link, and that independence must be demonstrated rather than asserted.",
+   "hits": 0,
+   "auth": 0,
+   "t2": 0,
+   "t1": 0,
+   "cls": "개념 부재",
+   "ex": []
+  },
+  {
+   "sc": "SC-05-2",
+   "text": "Stop behaviour must define the state of any sample held at the moment it executes.",
+   "hits": 0,
+   "auth": 0,
+   "t2": 0,
+   "t1": 0,
+   "cls": "개념 부재",
+   "ex": []
+  },
+  {
+   "sc": "SC-05-3",
+   "text": "Release from a stop must require an explicit human instruction.",
+   "hits": 0,
+   "auth": 0,
+   "t2": 0,
+   "t1": 0,
+   "cls": "개념 부재",
+   "ex": []
+  },
+  {
+   "sc": "SC-07-1",
+   "text": "A degraded-mode safe state must be defined so that recovery remains possible without exposing personnel.",
+   "hits": 0,
+   "auth": 0,
+   "t2": 0,
+   "t1": 0,
+   "cls": "개념 부재",
+   "ex": []
+  },
+  {
+   "sc": "SC-07-2",
+   "text": "Any sensor whose reading triggers a protective behaviour must be validated for the quantity and range in which that trigger sits.",
+   "hits": 1,
+   "auth": 1,
+   "t2": 0,
+   "t1": 1,
+   "cls": "영점",
+   "ex": []
+  },
+  {
+   "sc": "SC-07-3",
+   "text": "The dropout duration that triggers the safe state must be stated and matched to the mission.",
+   "hits": 0,
+   "auth": 0,
+   "t2": 0,
+   "t1": 0,
+   "cls": "개념 부재",
+   "ex": []
+  }
+ ],
+ "M-A": [
+  {
+   "sc": "SCA-03-1",
+   "text": "Flight over people may be conducted only with an aircraft demonstrated against a stated kinetic-energy limit and a stated rotor-exposure condition.",
+   "AC": {
+    "hits": 7,
+    "auth": 2,
+    "t2": 0,
+    "t1": 0,
+    "cls": "영점",
+    "ex": []
+   },
+   "AP": {
+    "hits": 0,
+    "auth": 0,
+    "t2": 0,
+    "t1": 0,
+    "cls": "개념 부재",
+    "ex": []
+   },
+   "delta": "규범 소멸"
+  },
+  {
+   "sc": "SCA-03-2",
+   "text": "Sustained exposure of an assembly must be bounded by the condition that justified it.",
+   "AC": {
+    "hits": 5,
+    "auth": 2,
+    "t2": 0,
+    "t1": 2,
+    "cls": "영점",
+    "ex": []
+   },
+   "AP": {
+    "hits": 0,
+    "auth": 0,
+    "t2": 0,
+    "t1": 0,
+    "cls": "개념 부재",
+    "ex": []
+   },
+   "delta": "규범 소멸"
+  },
+  {
+   "sc": "SCA-01-1",
+   "text": "The authorized purpose must be matched to a stated sensing capability; a purpose the payload cannot serve must not be authorized.",
+   "AC": {
+    "hits": 0,
+    "auth": 0,
+    "t2": 0,
+    "t1": 0,
+    "cls": "개념 부재",
+    "ex": []
+   },
+   "AP": {
+    "hits": 0,
+    "auth": 0,
+    "t2": 0,
+    "t1": 0,
+    "cls": "개념 부재",
+    "ex": []
+   },
+   "delta": "양쪽 개념 부재"
+  },
+  {
+   "sc": "SCA-01-2",
+   "text": "A change of purpose in flight must require re-authorization before the new sensing begins.",
+   "AC": {
+    "hits": 0,
+    "auth": 0,
+    "t2": 0,
+    "t1": 0,
+    "cls": "개념 부재",
+    "ex": []
+   },
+   "AP": {
+    "hits": 0,
+    "auth": 0,
+    "t2": 0,
+    "t1": 0,
+    "cls": "개념 부재",
+    "ex": []
+   },
+   "delta": "양쪽 개념 부재"
+  },
+  {
+   "sc": "SCA-02-1",
+   "text": "Any airspace condition imposed must be observable by the equipment carried, and the equipment's ability to meet it must be demonstrated before access is granted.",
+   "AC": {
+    "hits": 54,
+    "auth": 20,
+    "t2": 4,
+    "t1": 16,
+    "cls": "확정 결속",
+    "ex": [
+     "EU947::art_5.1",
+     "EU947::art_5.5",
+     "EU947::art_7.2"
+    ]
+   },
+   "AP": {
+    "hits": 20,
+    "auth": 5,
+    "t2": 1,
+    "t1": 4,
+    "cls": "확정 결속",
+    "ex": [
+     "US89::89.310.g"
+    ]
+   },
+   "delta": "결속 강등"
+  },
+  {
+   "sc": "SCA-02-2",
+   "text": "Withdrawal criteria for airspace access must be stated and monitored.",
+   "AC": {
+    "hits": 3,
+    "auth": 3,
+    "t2": 0,
+    "t1": 3,
+    "cls": "영점",
+    "ex": []
+   },
+   "AP": {
+    "hits": 0,
+    "auth": 0,
+    "t2": 0,
+    "t1": 0,
+    "cls": "개념 부재",
+    "ex": []
+   },
+   "delta": "규범 소멸"
+  },
+  {
+   "sc": "SCA-04-1",
+   "text": "Imaging that can identify a person or the interior of a dwelling must be bound to a stated purpose, retention period and access rule at the moment it is commanded.",
+   "AC": {
+    "hits": 3,
+    "auth": 3,
+    "t2": 0,
+    "t1": 2,
+    "cls": "영점",
+    "ex": []
+   },
+   "AP": {
+    "hits": 2,
+    "auth": 2,
+    "t2": 0,
+    "t1": 1,
+    "cls": "영점",
+    "ex": []
+   },
+   "delta": "불변"
+  },
+  {
+   "sc": "SCA-04-2",
+   "text": "Recording must stop when the authorized subject is no longer the object of observation.",
+   "AC": {
+    "hits": 0,
+    "auth": 0,
+    "t2": 0,
+    "t1": 0,
+    "cls": "개념 부재",
+    "ex": []
+   },
+   "AP": {
+    "hits": 0,
+    "auth": 0,
+    "t2": 0,
+    "t1": 0,
+    "cls": "개념 부재",
+    "ex": []
+   },
+   "delta": "양쪽 개념 부재"
+  },
+  {
+   "sc": "SCA-05-1",
+   "text": "A recovery margin referenced to the population beneath must be defined and enforced.",
+   "AC": {
+    "hits": 0,
+    "auth": 0,
+    "t2": 0,
+    "t1": 0,
+    "cls": "개념 부재",
+    "ex": []
+   },
+   "AP": {
+    "hits": 0,
+    "auth": 0,
+    "t2": 0,
+    "t1": 0,
+    "cls": "개념 부재",
+    "ex": []
+   },
+   "delta": "양쪽 개념 부재"
+  },
+  {
+   "sc": "SCA-05-2",
+   "text": "Termination behaviour must account for the ground risk distribution, not only the aircraft.",
+   "AC": {
+    "hits": 1,
+    "auth": 0,
+    "t2": 0,
+    "t1": 0,
+    "cls": "인가조항 아님",
+    "ex": []
+   },
+   "AP": {
+    "hits": 0,
+    "auth": 0,
+    "t2": 0,
+    "t1": 0,
+    "cls": "개념 부재",
+    "ex": []
+   },
+   "delta": "규범 소멸"
+  },
+  {
+   "sc": "SCA-06-1",
+   "text": "Automatic behaviours must be constrained by the same spatial limits as commanded flight, and that constraint must be verifiable before flight.",
+   "AC": {
+    "hits": 2,
+    "auth": 2,
+    "t2": 0,
+    "t1": 2,
+    "cls": "영점",
+    "ex": []
+   },
+   "AP": {
+    "hits": 0,
+    "auth": 0,
+    "t2": 0,
+    "t1": 0,
+    "cls": "개념 부재",
+    "ex": []
+   },
+   "delta": "규범 소멸"
+  },
+  {
+   "sc": "SCA-06-2",
+   "text": "Geofence data must be validated against the authorization before flight.",
+   "AC": {
+    "hits": 3,
+    "auth": 2,
+    "t2": 0,
+    "t1": 2,
+    "cls": "영점",
+    "ex": []
+   },
+   "AP": {
+    "hits": 0,
+    "auth": 0,
+    "t2": 0,
+    "t1": 0,
+    "cls": "개념 부재",
+    "ex": []
+   },
+   "delta": "규범 소멸"
+  },
+  {
+   "sc": "SCA-07-1",
+   "text": "Custody of imagery must attach before any derived copy leaves the capture system.",
+   "AC": {
+    "hits": 15,
+    "auth": 2,
+    "t2": 0,
+    "t1": 1,
+    "cls": "영점",
+    "ex": []
+   },
+   "AP": {
+    "hits": 15,
+    "auth": 2,
+    "t2": 0,
+    "t1": 1,
+    "cls": "영점",
+    "ex": []
+   },
+   "delta": "불변"
+  },
+  {
+   "sc": "SCA-07-2",
+   "text": "Derived products must inherit the custody and retention rule of their source.",
+   "AC": {
+    "hits": 0,
+    "auth": 0,
+    "t2": 0,
+    "t1": 0,
+    "cls": "개념 부재",
+    "ex": []
+   },
+   "AP": {
+    "hits": 0,
+    "auth": 0,
+    "t2": 0,
+    "t1": 0,
+    "cls": "개념 부재",
+    "ex": []
+   },
+   "delta": "양쪽 개념 부재"
+  }
+ ],
+ "CC": [
+  {
+   "sc": "CC-05-1",
+   "text": "Operator qualification must be demonstrated against the degraded conditions the mission actually presents, not only against nominal conditions.",
+   "maps": [
+    "N14"
+   ],
+   "judged": false
+  },
+  {
+   "sc": "CC-05-2",
+   "text": "Every control that must remain available in the contaminated zone must be actuatable in the protective equipment prescribed for that zone, and this must be verified with the equipment on.",
+   "maps": [
+    "N15"
+   ],
+   "judged": false
+  },
+  {
+   "sc": "CC-09-1",
+   "text": "What an instrument reports and what a decision needs must be distinguished on the display itself; where they differ the difference must be stated, not left to the reader's model.",
+   "maps": [
+    "N06",
+    "N15"
+   ],
+   "judged": false
+  },
+  {
+   "sc": "CC-09-2",
+   "text": "Qualification to make the determination must include the instrument classes the criterion was validated on, and must be refreshed when the fielded instrument changes.",
+   "maps": [
+    "N14"
+   ],
+   "judged": false
+  },
+  {
+   "sc": "CC-06-1",
+   "text": "Calibration validity must be carried in the same feedback path as the reading it qualifies.",
+   "maps": [
+    "N06",
+    "N15"
+   ],
+   "judged": false
+  },
+  {
+   "sc": "CC-04-1",
+   "text": "Any distinction the operator must make remotely has to be verifiable through the actual sensing and link path, not through direct inspection.",
+   "maps": [
+    "N15",
+    "N06"
+   ],
+   "judged": false
+  },
+  {
+   "sc": "CC-10-1",
+   "text": "The custody entry required at recovery must be completable in the protective posture that recovery is conducted in.",
+   "maps": [
+    "N15",
+    "N17"
+   ],
+   "judged": false
+  },
+  {
+   "sc": "CC-A03-1",
+   "text": "Pilot qualification must include the distinction between airworthiness and operating-category eligibility, and must state which of the two the fielded route actually establishes.",
+   "maps": [
+    "N14"
+   ],
+   "judged": false
+  },
+  {
+   "sc": "CC-A03-2",
+   "text": "Where an operator may self-certify, the content of that certification must be stated well enough that a refusal is possible.",
+   "maps": [
+    "N14",
+    "N13"
+   ],
+   "judged": false
+  },
+  {
+   "sc": "CC-A04-1",
+   "text": "The recorded field must not exceed the field the operator is shown.",
+   "maps": [
+    "N15",
+    "N20"
+   ],
+   "judged": false
+  },
+  {
+   "sc": "CC-02-1",
+   "text": "Each stated withdrawal trigger must be bound to a feedback path that reaches the deciding authority within the mission.",
+   "maps": [
+    "N08"
+   ],
+   "judged": false
+  },
+  {
+   "sc": "CC-07-1",
+   "text": "A protective behaviour must be able to detect loss of trust in its own trigger input.",
+   "maps": [
+    "N06",
+    "N10"
+   ],
+   "judged": false
+  }
+ ],
+ "AC": [
+  {
+   "sc": "AC-1",
+   "name": "Actor",
+   "hits": 10,
+   "auth": 0,
+   "t2": 0,
+   "t1": 0,
+   "cls": "인가조항 아님",
+   "ex": []
+  },
+  {
+   "sc": "AC-2",
+   "name": "Forum",
+   "hits": 154,
+   "auth": 34,
+   "t2": 2,
+   "t1": 26,
+   "cls": "확정 결속",
+   "ex": [
+    "EU947::art_5.1",
+    "EU947::art_5.5"
+   ]
+  },
+  {
+   "sc": "AC-3",
+   "name": "Standard",
+   "hits": 295,
+   "auth": 65,
+   "t2": 4,
+   "t1": 39,
+   "cls": "확정 결속",
+   "ex": [
+    "EU947::art_5.5",
+    "EU947::art_7.2",
+    "KR도로교통법시행규칙::2의4.1"
+   ]
+  },
+  {
+   "sc": "AC-4",
+   "name": "Consequence",
+   "hits": 156,
+   "auth": 43,
+   "t2": 2,
+   "t1": 21,
+   "cls": "확정 결속",
+   "ex": [
+    "KR도로교통법::43.1",
+    "KR도로교통법::82.3"
+   ]
+  },
+  {
+   "sc": "AC-5",
+   "name": "Timing",
+   "hits": 3,
+   "auth": 2,
+   "t2": 0,
+   "t1": 2,
+   "cls": "영점",
+   "ex": []
+  },
+  {
+   "sc": "AC-6",
+   "name": "Expertise",
+   "hits": 19,
+   "auth": 0,
+   "t2": 0,
+   "t1": 0,
+   "cls": "인가조항 아님",
+   "ex": []
+  },
+  {
+   "sc": "AC-7",
+   "name": "Standing",
+   "hits": 40,
+   "auth": 7,
+   "t2": 0,
+   "t1": 6,
+   "cls": "영점",
+   "ex": []
+  }
+ ]
+}

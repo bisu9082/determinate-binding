@@ -1,0 +1,405 @@
+{
+ "ruleset_version": "v15",
+ "frozen_at": "2026-10-09",
+ "refreeze_reason": "두 가지 수리와 한 가지 봉인 확장. ① 명세 F-5(인가조항은 항 노드여야 한다)의 구현이 미국 식별자에서 무효였다. 허브 판정을 \"식별자에 점이 있는가\"로 두었으나 미국 CFR 은 조 단위가 이미 107.13 이므로 항상 참이 된다. 자식 노드 보유 여부로 바꿨다. 수권 1,019→1,014, tier1/tier0 494/434→491/432, 항공 분모 246→241. 반환 91·감사 34·정밀도 0.374·면제 생존자 US89::89.110.b 전부 불변. 항공률 9.3→9.5%, 비율비 5.13→5.24, h 0.351→0.357, 항공대지상 p 2.0e-6→1.5e-6. Part 89 수권 20→17 (tier1 4→2: §89.510·§89.515 가 허브였다). ② 센싱 어휘 스윕(verify/sensing_vocab.py)의 한·일 비대칭을 고쳤다. 영어는 어간까지 확장돼 있었으나 한·일은 명사형만이어서 by_instrument 에 한·일 문서가 0건이었다. 평평한 패턴 배열을 개념 표(17개념 × EN/KR/JP)로 바꾸고 실행 시 대칭성을 assert 한다. 노드 45→51 (한국 5·일본 1 신규), 인가조항 12 불변, tier2 0 불변 — 부정주장 생존. ③ 봉인 범위를 8파일에서 45파일로 넓혔다. v14 매니페스트는 코퍼스 그래프(nodes3·edges3)와 수치를 생산하는 측정 스크립트 4종을 담지 않았다. 아울러 재생성 경로가 없던 산출물 6건에 생성자를 만들고(verify/regen_outputs.py·holdout_check.py), 라벨을 측정에서 분리해 labels/ 로 봉인했다. 신선도 게이트는 mtime 대신 세대 내용 해시 도장을 본다. 2026-10-10 (GATE8 9차): 봉인이 전수가 아니었다. stpa/scope.py(도메인 분할의 유일한 출처이자 봉인된 frozen/adjudicate.py 가 import 하는 admissible() 보유)와 audit78/adjudicated.json(34/91 의 재정 라벨 원본)이 밖이었고, 최초 동결 v1/v2 의 모듈 12종이 조용히 빠졌으며, 원고 근거 산출물을 쓰는 측정 스크립트 12종이 밖이었다. 그중 verify/robust.py 는 이 기록이 스스로 \"측정에 영향\" 으로 지목한 파일이었다. 전부 편입해 45파일이 됐고, 덮지 않는 것을 매 실행마다 세는 verify/seal_audit.py 를 신설했다. 더는 \"전수\" 라고 선언하지 않는다.",
+ "supersedes": "a208fb1c6b816db8f2c855913c02e71b1bfdc45950cc53236010c2fee232f9e8",
+ "changed_files": [
+  "audit78/adjudicated.json",
+  "graph/edges2.py",
+  "graph/edges3.json",
+  "graph/edges3.py",
+  "graph/nodes3.json",
+  "graph/paths3.py",
+  "labels/binding_object_labels.json",
+  "labels/denom2_labels.json",
+  "labels/tier0_labels.json",
+  "stpa/accountability.py",
+  "stpa/carveout.py",
+  "stpa/compare.py",
+  "stpa/coverage.py",
+  "stpa/match_mg.py",
+  "stpa/scenarios.py",
+  "stpa/scope.py",
+  "stpa/structure.py",
+  "stpa/termproc.py",
+  "stpa/uca_ma.py",
+  "stpa/uca_mg.py",
+  "verify/adj_sensitivity.py",
+  "verify/aiact_art43.py",
+  "verify/audit_tier2.py",
+  "verify/cluster_inference.py",
+  "verify/corpus_level.py",
+  "verify/denom_rates.py",
+  "verify/domain_remeasure.py",
+  "verify/hedge_asymmetry.py",
+  "verify/holdout_check.py",
+  "verify/lex_validation.py",
+  "verify/make_numbers.py",
+  "verify/negation_guard.py",
+  "verify/police_route.py",
+  "verify/recall_scoped.py",
+  "verify/regen_outputs.py",
+  "verify/remeasure.py",
+  "verify/robust.py",
+  "verify/seal_audit.py",
+  "verify/sensing_vocab.py",
+  "verify/subject_partition.py",
+  "verify/survivor_chain.py"
+ ],
+ "new_files": [
+  "verify/ruleset_hash.py",
+  "verify/regen_outputs.py",
+  "verify/stamp_outputs.py",
+  "verify/regen_all.sh",
+  "verify/cluster_inference.py",
+  "labels/denom2_labels.json",
+  "labels/tier0_labels.json",
+  "labels/binding_object_labels.json"
+ ],
+ "measured_effect": {
+  "is_para_repair": {
+   "before": {
+    "auth": 1019,
+    "t1": 494,
+    "t0": 434,
+    "aviation_auth": 246,
+    "aviation_rate": 0.093,
+    "ratio": 5.13,
+    "cohens_h": 0.351,
+    "p_aviation_vs_ground": 2e-06,
+    "part89_auth": 20,
+    "part89_t1": 4,
+    "part89_t0": 10
+   },
+   "after": {
+    "auth": 1014,
+    "t1": 491,
+    "t0": 432,
+    "aviation_auth": 241,
+    "aviation_rate": 0.0954,
+    "ratio": 5.24,
+    "cohens_h": 0.357,
+    "p_aviation_vs_ground": 1.5157e-06,
+    "part89_auth": 17,
+    "part89_t1": 2,
+    "part89_t0": 9
+   },
+   "invariant": {
+    "returned": 91,
+    "audited": 34,
+    "precision": 0.3736,
+    "carveout_survivor": "US89::89.110.b",
+    "carveout_civil_tp": 23,
+    "carveout_police_tp": 1
+   },
+   "hubs_removed": [
+    "US107::107.13",
+    "US107::107.69",
+    "US89::89.215",
+    "US89::89.510",
+    "US89::89.515"
+   ]
+  },
+  "sensing_symmetrisation": {
+   "before": {
+    "nodes_with_vocab": 45,
+    "patterns": 35,
+    "korean_japanese_nodes": 0
+   },
+   "after": {
+    "nodes_with_vocab": 51,
+    "concepts": 17,
+    "patterns": 78,
+    "korean_japanese_nodes": 6
+   },
+   "invariant": {
+    "auth_with_vocab": 12,
+    "tier2": 0
+   }
+  },
+  "lexicon_validation_repropagation": {
+   "before": {
+    "sample": 35,
+    "rate": 0.114,
+    "ci": [
+     0.045,
+     0.26
+    ],
+    "tier1_population": 480,
+    "projected_missed": 55,
+    "projected_ci": [
+     22,
+     125
+    ]
+   },
+   "after": {
+    "sample": 34,
+    "rate": 0.1176,
+    "ci": [
+     0.0467,
+     0.2662
+    ],
+    "tier1_population": 491,
+    "projected_missed": 58,
+    "projected_ci": [
+     23,
+     131
+    ]
+   },
+   "cause": "JP道交法::104_2_4.4 가 v14 대칭화로 tier2 로 이동해 모집단을 이탈"
+  },
+  "same_node_triple": {
+   "before": {
+    "total": 76,
+    "tier2": 63,
+    "tier1": 13
+   },
+   "after": {
+    "total": 88,
+    "tier2": 72,
+    "tier1": 16
+   }
+  }
+ },
+ "sealed_files": [
+  "corpus/MANIFEST.json",
+  "graph/nodes3.json",
+  "graph/edges3.json",
+  "graph/chapters.py",
+  "graph/extract2.py",
+  "graph/paths3.py",
+  "probe/lex2.py",
+  "stpa/carveout.py",
+  "verify/tpset.py",
+  "labels/denom2_labels.json",
+  "verify/make_numbers.py",
+  "verify/denom_rates.py",
+  "verify/sensing_vocab.py",
+  "verify/lex_validation.py",
+  "verify/regen_outputs.py",
+  "verify/cluster_inference.py",
+  "verify/recall_scoped.py",
+  "verify/robust.py",
+  "verify/audit_tier2.py",
+  "verify/police_route.py",
+  "verify/subject_partition.py",
+  "verify/negation_guard.py",
+  "verify/holdout_check.py",
+  "verify/domain_remeasure.py",
+  "verify/adj_sensitivity.py",
+  "verify/corpus_level.py",
+  "verify/survivor_chain.py",
+  "verify/aiact_art43.py",
+  "verify/remeasure.py",
+  "verify/hedge_asymmetry.py",
+  "verify/seal_audit.py",
+  "stpa/scope.py",
+  "frozen/adjudicate.py",
+  "audit78/adjudicated.json",
+  "labels/tier0_labels.json",
+  "labels/binding_object_labels.json",
+  "graph/edges2.py",
+  "graph/edges3.py",
+  "stpa/accountability.py",
+  "stpa/compare.py",
+  "stpa/coverage.py",
+  "stpa/scenarios.py",
+  "stpa/structure.py",
+  "stpa/termproc.py",
+  "stpa/uca_ma.py",
+  "stpa/uca_mg.py",
+  "stpa/match_mg.py"
+ ],
+ "ruleset_sha256": "2b9c8530a9fed9ce3c8b80a4df79e912dd417ec4de427f4b88b8714bec612520",
+ "files": {
+  "corpus/MANIFEST.json": {
+   "sha256": "17d6f7313fddeae25eb4a7d9774f090c724f732548705eb78c39c2b14eddcee3",
+   "bytes": 10254
+  },
+  "graph/nodes3.json": {
+   "sha256": "0d89efd156d6bc8d7c6b4d2e75d51b97b2c0bfe9c81c309824079e015cb34f8f",
+   "bytes": 2134622
+  },
+  "graph/edges3.json": {
+   "sha256": "19522d3fac8f431b9660b2a71e5cf8a6b6c67bb8670d667e14d81659a85a2f90",
+   "bytes": 505591
+  },
+  "graph/chapters.py": {
+   "sha256": "0cd52efbc29dba50254909d69f60694ae5e9c878ca70bcf00e88ac5d6f44bf43",
+   "bytes": 1399
+  },
+  "graph/extract2.py": {
+   "sha256": "4bb78a1111e2d88ce22160ef867c202c134026648b5a366b58b8752bf36f954c",
+   "bytes": 12434
+  },
+  "graph/paths3.py": {
+   "sha256": "882e12e44b3329363fc721495dda324f4b41165685abecd60572112d084a3bfe",
+   "bytes": 4591
+  },
+  "probe/lex2.py": {
+   "sha256": "46103632ca7f7eea6e27227fdac45c87628c98a5e55fc88d7c82b37f56f4710d",
+   "bytes": 7170
+  },
+  "stpa/carveout.py": {
+   "sha256": "94361cf7cc0042da29ccbb71f8f71ad0378e5b3bcb95a7ae3cbd4bc5bb5a54df",
+   "bytes": 4730
+  },
+  "verify/tpset.py": {
+   "sha256": "97448ff69ac52c1aa793fe6f965cf2e9bf007b46717d98888a49a991b1bfb6cd",
+   "bytes": 4066
+  },
+  "labels/denom2_labels.json": {
+   "sha256": "07af62090c18f872369e0370eedd6caa471b6404c70bbdd123d474e940037f8c",
+   "bytes": 4118
+  },
+  "verify/make_numbers.py": {
+   "sha256": "b07bdefb89cc9d54884ef5c00201e4c031a1c099a57dbf36d984136c562d8743",
+   "bytes": 5645
+  },
+  "verify/denom_rates.py": {
+   "sha256": "5b52946068db394c76d43e1969727cecfb78d91ced18695ca47233e04fa3e2df",
+   "bytes": 2553
+  },
+  "verify/sensing_vocab.py": {
+   "sha256": "74f3fd63776cfe9feafda40224a89ff8a15a0656a64a03bb12d26a00e42a1e44",
+   "bytes": 6330
+  },
+  "verify/lex_validation.py": {
+   "sha256": "e6ecefce684d84bb77559a4fadd8c5191902debd6cb6551c5d93db42b0935204",
+   "bytes": 11819
+  },
+  "verify/regen_outputs.py": {
+   "sha256": "c8ae8b0b97dffbb944427fad6176ea6b2d8d131b529f3d0bbe6783c1839773ac",
+   "bytes": 9396
+  },
+  "verify/cluster_inference.py": {
+   "sha256": "24ee2b75d19a85d04d1a51832c199862df066fb7537bc7fd973fa6e6dea15e6a",
+   "bytes": 13082
+  },
+  "verify/recall_scoped.py": {
+   "sha256": "4ab62d848463c2685067fc04170f66ac8fb217321db3373f2651d56046ab2994",
+   "bytes": 3161
+  },
+  "verify/robust.py": {
+   "sha256": "6e8b591aafb120c9a3a6aa1fe78bbae9d0f934196551ffac3dce536c5199520a",
+   "bytes": 3205
+  },
+  "verify/audit_tier2.py": {
+   "sha256": "b4d8eaed4b8f67c58c0a7d37e4e82e1289913e8bfd682c4ea6b0a6154dd2caf8",
+   "bytes": 4442
+  },
+  "verify/police_route.py": {
+   "sha256": "2ad43ee3358979521256eeeab52dd86641dd5674130e108d31174258f9167355",
+   "bytes": 3351
+  },
+  "verify/subject_partition.py": {
+   "sha256": "af4b853e66d6834d061a123f22d4a831331ec369046ecb98829471267ea9b4f6",
+   "bytes": 2462
+  },
+  "verify/negation_guard.py": {
+   "sha256": "14469083aa6db8a1d9088c33fb7e5e32bd3bd4961644e1ec5909ee4764ad59f7",
+   "bytes": 3740
+  },
+  "verify/holdout_check.py": {
+   "sha256": "823b681fd362181ca7b0175fb3b26b595f81c287dda0302a3abc32940ac8d407",
+   "bytes": 4072
+  },
+  "verify/domain_remeasure.py": {
+   "sha256": "ea62525a156b67787ee93ec323b5e3ad2eb077e429a0e5e65a4a110dfa118ccc",
+   "bytes": 3107
+  },
+  "verify/adj_sensitivity.py": {
+   "sha256": "890026837d12eab8f1d39cae47feebd50f20a41930f7239ceb581923fcb98c79",
+   "bytes": 4330
+  },
+  "verify/corpus_level.py": {
+   "sha256": "b51b256d311939ca40fe56b896a89aa41a38be224e2021521f2f24be2d238825",
+   "bytes": 2526
+  },
+  "verify/survivor_chain.py": {
+   "sha256": "88b6692e74f0d8e77b2b21ba4c6e787b75d84472cfdc135f66571044ac4242cd",
+   "bytes": 2896
+  },
+  "verify/aiact_art43.py": {
+   "sha256": "4e3c1665abfc955f1cffb66ccaa821d93638921a8c001d662eb7ac9010933bba",
+   "bytes": 4834
+  },
+  "verify/remeasure.py": {
+   "sha256": "0b8a1cbbb48cba47a775efab25f11b782f282cdebc2e4528325f49e0047e3f25",
+   "bytes": 2879
+  },
+  "verify/hedge_asymmetry.py": {
+   "sha256": "9c088815cb9166117a9096f6bc18cd49fada25c032b9be7771616d2ca21a82d9",
+   "bytes": 3909
+  },
+  "verify/seal_audit.py": {
+   "sha256": "750248061e5c7f8ceb8ff8e54218296ab65dd0c0e6f0dd5fc5a7588e1d5eb8b7",
+   "bytes": 3822
+  },
+  "stpa/scope.py": {
+   "sha256": "9aaf94caa9ce2b3d42c66001e37eaa4a4d48c2954cf8ccb36e58cb25b65f5803",
+   "bytes": 1581
+  },
+  "frozen/adjudicate.py": {
+   "sha256": "f8b04af5493d217511caee17e8b87fb5628322dbc99f93a7be26afced3ff0277",
+   "bytes": 3241
+  },
+  "audit78/adjudicated.json": {
+   "sha256": "6e5260d11736046dcdb0b322b73f6a18b5bbf5e04a61eb6866416c85714aac93",
+   "bytes": 8443
+  },
+  "labels/tier0_labels.json": {
+   "sha256": "c29e611a380ce3cf63565adc4431bf37e142993c0a33ffd8735b24c59435f5eb",
+   "bytes": 2902
+  },
+  "labels/binding_object_labels.json": {
+   "sha256": "d28f660848ab9dc8dc112c4bb1399617132eae1c0b63b0340e676b925c1a7c2c",
+   "bytes": 1989
+  },
+  "graph/edges2.py": {
+   "sha256": "e1f21c6489880fada2db8fd276707588459e0c1de2e9189450a526905f2290ce",
+   "bytes": 5487
+  },
+  "graph/edges3.py": {
+   "sha256": "e14f5fae1fa3309c4f53dd7254dc50c62810861c436c2f23c0e9be1fceafcfb4",
+   "bytes": 1718
+  },
+  "stpa/accountability.py": {
+   "sha256": "caf9a56f156566b16f54f073dcf72d3f5bc774f032bed019a8a2a1b4375df90c",
+   "bytes": 3590
+  },
+  "stpa/compare.py": {
+   "sha256": "806d467c73c91ddc59482592ddd19571bd4bd70f4ddbd74185c734519635dd42",
+   "bytes": 3042
+  },
+  "stpa/coverage.py": {
+   "sha256": "a4b257043607edb9c28635141d6392dd8421881a9d3764126c30642a2f3524e1",
+   "bytes": 2223
+  },
+  "stpa/scenarios.py": {
+   "sha256": "c673ca7130b1cad5f8c3a91e70e5bffc6ea32667d7aa0e18fc34978997755ff5",
+   "bytes": 5996
+  },
+  "stpa/structure.py": {
+   "sha256": "3c62f964f0d8ff305dc802354bbd1ff38df2b4f21b737404197b4c835e27fa90",
+   "bytes": 7064
+  },
+  "stpa/termproc.py": {
+   "sha256": "25b2d04f9479afa5ec42329e7cfd6fa3622d53111388d4039886e112a62076b7",
+   "bytes": 2776
+  },
+  "stpa/uca_ma.py": {
+   "sha256": "375aaaa6eabf49fc2e1c1b3b8d4e438ddf228f8b67d4c1eb52a9eff788ae75f8",
+   "bytes": 4663
+  },
+  "stpa/uca_mg.py": {
+   "sha256": "8786f8117371c79c25513154f654d0ff57fac857bcba989f6238c0ffcde46fe8",
+   "bytes": 10157
+  },
+  "stpa/match_mg.py": {
+   "sha256": "8982796783cdc57c1257caf51468aa236f07d8e2eddb9dd5ac865d6501861bcb",
+   "bytes": 3935
+  }
+ },
+ "_note_on_scope": "봉인 범위를 넓혔으므로 changed_files 에는 v14 매니페스트에 없던 파일도 들어온다. 측정에 영향을 주는 변경은 graph/paths3.py 와 stpa/carveout.py(is_para), verify/sensing_vocab.py(어휘 대칭화), verify/lex_validation.py(캐시 대신 현행 룰셋), verify/robust.py(위음성률 하드코딩 제거·감사좌표 신설), verify/denom_rates.py(감사 셀 하드코딩 제거)이고, 나머지는 신설된 재생성·봉인 기반이다."
+}

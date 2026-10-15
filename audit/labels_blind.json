@@ -1,0 +1,548 @@
+[
+ {
+  "id": "EU1139::art_11.1",
+  "label": "binding",
+  "decided_by": "iii_named_evaluation",
+  "reason": "\"The design of a product shall be subject to certification\"으로 허가가 조건 지어지며, 내가 의지한 평가어 'certification'은 이 조항이 발급하는 인가(type certificate)가 아니라 그 인가의 전제로 지명된 별도 평가 절차다. 대체 분기(approved organisation 발급)도 \"when that organisation has determined that the design of the product complies with the conditions\"로 평가를 요구하므로 8-B 미해당."
+ },
+ {
+  "id": "EU1139::art_12.1",
+  "label": "binding",
+  "decided_by": "iii_named_evaluation",
+  "reason": "\"the design of parts shall be subject to certification and shall be issued with a certificate\" — 의지한 평가어 'certification'은 발급 인가(certificate) 자체가 아닌 지명된 평가 절차다. \"Unless otherwise established by delegated acts\"는 적용범위 유보일 뿐 분기가 아니고, 대체 발급 분기도 \"has determined that the design of the part complies with the certification basis\"로 평가를 요구한다."
+ },
+ {
+  "id": "EU1139::art_13.1",
+  "label": "binding",
+  "decided_by": "iii_named_evaluation",
+  "reason": "\"the design of non-installed equipment shall be subject to certification and shall be issued with a certificate\" — 평가어 'certification'은 발급 인가가 아닌 지명 평가 절차다. 앞머리 \"Where the delegated acts referred to in Article 19 so provide\"는 적용 여부를 정하는 유보이지 평가 없는 허가 분기가 아니므로 8-B 미해당."
+ },
+ {
+  "id": "EU1139::art_14.1",
+  "label": "binding",
+  "decided_by": "iii_named_evaluation",
+  "reason": "\"Individual aircraft shall be subject to certification and shall be issued with a certificate of airworthiness\" — 의지한 평가어는 발급 인가(certificate of airworthiness)가 아니라 그에 선행하는 지명 평가 절차 'certification'이다. 덧붙여 조건이 \"in conformity with the design certified in accordance with Article 11\"로 Article 11(그 조항이 certification 을 지명)을 지명하므로 8-A 경로로도 평가에 도달한다."
+ },
+ {
+  "id": "EU1139::art_15.1",
+  "label": "binding",
+  "decided_by": "iii_named_evaluation",
+  "reason": "\"organisations responsible for the design and production ... shall be subject to certification and shall be issued with an approval\" — 발급 인가는 'approval'이고 내가 의지한 'certification'은 그와 구별되는 지명 평가 절차다. 선언 등 평가 없는 대체 분기가 없어 8-B 미해당."
+ },
+ {
+  "id": "EU1139::art_15.2",
+  "label": "not_binding",
+  "decided_by": "iii_fail_self_issued_authorisation",
+  "reason": "허가(approval)는 \"The approvals referred to in this paragraph shall be issued upon application, when the applicant has demonstrated that it complies with the implementing acts referred to in Article 17\"로만 조건 지어지고, 의지할 평가어는 이 조항 자신이 발급하는 인가(approval)뿐이다 — 점화어 'continuing airworthiness management'는 규율 대상 업무의 서술이지 지명 평가 절차가 아니다. Article 17 이 평가를 지명한다는 근거가 기록에 없어 8-A도 쓸 수 없다."
+ },
+ {
+  "id": "EU1139::art_16.1",
+  "label": "not_binding",
+  "decided_by": "iii_fail_self_issued_authorisation",
+  "reason": "\"That licence shall be issued upon application, when the applicant has demonstrated that he or she complies with the implementing acts referred to in Article 17\" — 의지할 평가어는 이 조항 자신이 발급하는 인가(licence)와 그 발급심사뿐이고 별도 지명 평가 절차가 없다. Article 17 의 평가 지명 여부는 기록에 없으므로 8-A 불가."
+ },
+ {
+  "id": "EU1139::art_21.1",
+  "label": "not_binding",
+  "decided_by": "iii_fail_self_issued_authorisation",
+  "reason": "\"Pilots shall be required to hold a pilot licence and a pilot medical certificate appropriate to the operation\" — 점화 평가어 'medical certificate'는 같은 조(제3항)가 발급하는 인가 자체이고, 그 배후의 의학적 평가 절차는 본문에 지명되지 않는다."
+ },
+ {
+  "id": "EU1139::art_21.2",
+  "label": "not_binding",
+  "decided_by": "iii_fail_self_issued_authorisation",
+  "reason": "\"The pilot licence ... shall be issued upon application, when the applicant has demonstrated that he or she complies with the implementing acts referred to in Article 23\" — 의지한 평가어는 이 조항이 발급하는 인가(pilot licence)의 발급심사이며 별도 지명 평가 절차가 아니다. Article 23 의 평가 지명 근거가 기록에 없어 8-A 불가."
+ },
+ {
+  "id": "EU1139::art_21.3",
+  "label": "not_binding",
+  "decided_by": "iii_fail_self_issued_authorisation",
+  "reason": "\"The pilot medical certificate referred to in paragraph 1 of this Article shall be issued upon application\" — 점화 평가어 'certificate'가 바로 이 조항이 발급하는 인가이므로 (iii) 제외사유에 정면으로 해당한다."
+ },
+ {
+  "id": "EU1139::art_22.3",
+  "label": "not_binding",
+  "decided_by": "iii_fail_self_issued_authorisation",
+  "reason": "\"The attestations referred to in paragraphs 1 and 2 ... shall be issued upon application, when the applicant has demonstrated that he or she complies with the implementing acts referred to in Article 23\" — 의지할 평가어는 이 조항이 발급하는 인가(attestation)의 발급심사뿐이고 지명된 평가 절차가 없다."
+ },
+ {
+  "id": "EU1139::art_24.2",
+  "label": "not_binding",
+  "decided_by": "iii_fail_section_heading",
+  "reason": "허가 요건 자체는 \"An approval shall be required in respect of pilot training organisations\"로 명확하나, 평가어가 점화된 곳은 Article 27 의 절 표제 \"Implementing acts as regards training, testing, checking and medical assessment\"다. 표제에서 나온 평가어는 (iii) 불충족이므로 8-A 로도 도달하지 못한다."
+ },
+ {
+  "id": "EU1139::art_24.3",
+  "label": "not_binding",
+  "decided_by": "iii_fail_self_issued_authorisation",
+  "reason": "\"The approvals referred to in paragraphs 1 and 2 ... shall be issued upon application, when the applicant has demonstrated that it complies with the implementing acts referred to in Article 27\" — 의지할 평가어는 이 조항이 발급하는 인가(approval)의 발급심사뿐이다. Article 27 의 평가어는 표제에만 있어 8-A 로도 셀 수 없다."
+ },
+ {
+  "id": "EU1139::art_25.1",
+  "label": "not_binding",
+  "decided_by": "iii_fail_self_issued_authorisation",
+  "reason": "\"A certificate shall be required in respect of each flight simulation training device\" — 점화 평가어 'certificate'는 이 조(제2항)가 발급하는 인가 그 자체이고, 장치에 대한 평가 절차는 지명되어 있지 않다."
+ },
+ {
+  "id": "EU1139::art_25.2",
+  "label": "not_binding",
+  "decided_by": "iii_fail_self_issued_authorisation",
+  "reason": "\"The certificate referred to in paragraph 1 ... shall be issued upon application, when the applicant has demonstrated that the applicant and the device comply with the implementing acts referred to in Article 27\" — 의지한 평가어는 발급되는 인가(certificate) 자체이며 별도 지명 평가 절차가 아니다."
+ },
+ {
+  "id": "EU1139::art_26.3",
+  "label": "not_binding",
+  "decided_by": "iii_fail_self_issued_authorisation",
+  "reason": "\"The certificates referred to in paragraphs 1 and 2 ... shall be issued upon application, when the applicant has demonstrated that he or she complies with the implementing acts referred to in Article 27\" — 점화 평가어 'certificates'가 이 조항이 발급하는 인가이므로 (iii) 제외사유에 해당한다."
+ },
+ {
+  "id": "EU1139::art_30.2",
+  "label": "not_binding",
+  "decided_by": "iii_fail_self_issued_authorisation",
+  "reason": "\"The certificate referred to in paragraph 1 ... shall be issued upon application, when the applicant has demonstrated that it complies with the implementing acts referred to in Article 31\" — 의지할 평가어는 발급 인가(certificate)뿐이고, Article 31 이 평가를 지명한다는 기록상 근거가 없어 8-A 불가."
+ },
+ {
+  "id": "EU1139::art_34.1",
+  "label": "not_binding",
+  "decided_by": "iii_fail_self_issued_authorisation",
+  "reason": "\"A certificate shall be required in respect of aerodromes. That certificate shall cover the aerodrome and its safety-related equipment\" — 점화 평가어 'certificate'는 이 조(제2항)가 발급하는 인가 자체이고, 별도로 지명된 평가 절차는 없다."
+ },
+ {
+  "id": "EU1139::art_34.2",
+  "label": "not_binding",
+  "decided_by": "iii_fail_self_issued_authorisation",
+  "reason": "\"The certificate referred to in paragraph 1 ... shall be issued upon application, when the applicant has demonstrated that the aerodrome: (a) complies with the implementing acts referred to in Article 36 and with the aerodrome certification basis set out in paragraph 5\" — 의지한 평가어는 발급 인가(certificate)이고, 'certification basis'는 절차가 아닌 기준이므로 지명 평가 절차로 셀 수 없다."
+ },
+ {
+  "id": "EU1139::art_35.2",
+  "label": "not_binding",
+  "decided_by": "iii_fail_self_issued_authorisation",
+  "reason": "\"The certificate referred to in point (b) of paragraph 1 ... shall be issued upon application, when the applicant has demonstrated that the equipment complies with the detailed specifications established in accordance with implementing acts referred to in Article 36\" — 평가어는 발급 인가(certificate) 자체이며 지명 평가 절차가 아니다."
+ },
+ {
+  "id": "EU1139::art_37.1",
+  "label": "binding",
+  "decided_by": "iii_named_evaluation",
+  "reason": "\"Organisations responsible for the operation of aerodromes shall be subject to certification and shall be issued with a certificate\" — 내가 의지한 평가어는 발급되는 인가(certificate)가 아니라 그 전제로 지명된 평가 절차 'certification'이다. 선언 등 평가 없는 대체 분기가 없어 8-B 미해당."
+ },
+ {
+  "id": "EU1139::art_41.2",
+  "label": "not_binding",
+  "decided_by": "iii_fail_self_issued_authorisation",
+  "reason": "\"The certificate referred to in paragraph 1 ... shall be issued upon application, when the applicant has demonstrated that it complies with the implementing acts referred to in Article 43\" — 점화 평가어 'certificate'가 이 조항이 발급하는 인가이므로 (iii) 불충족. Article 43 의 평가 지명 근거는 기록에 없다."
+ },
+ {
+  "id": "EU1139::art_42.2",
+  "label": "not_binding",
+  "decided_by": "iii_fail_self_issued_authorisation",
+  "reason": "\"The certificate referred to in point (b) of paragraph 1 ... shall be issued upon application, when the applicant has demonstrated that it complies with the rules established by the implementing acts referred to in Article 43\" — 의지할 평가어는 발급 인가(certificate)뿐이다."
+ },
+ {
+  "id": "EU1139::art_45.2",
+  "label": "not_binding",
+  "decided_by": "rule_8B_fail_branch_without_evaluation",
+  "reason": "제1문의 \"shall be subject to certification\"은 지명 평가 절차이지만, 같은 항이 \"By way of derogation ..., the organisation ... shall be permitted to declare that those systems and constituents comply with the detailed specifications ... and that those systems and constituents are suitable for use\"라는 도달 가능한 분기를 두어 자가선언만으로 허가를 세운다. 평가 없는 분기가 존재하므로 8-B 실패."
+ },
+ {
+  "id": "EU1139::art_49.1",
+  "label": "not_binding",
+  "decided_by": "iii_fail_self_issued_authorisation",
+  "reason": "\"Air traffic controllers shall be required to hold an air traffic controller licence and an air traffic controller medical certificate\" — 점화 평가어 'medical certificate'는 같은 조(제3항)가 발급하는 인가 자체이고, 신체검사 절차 자체는 지명되지 않았다."
+ },
+ {
+  "id": "EU1139::art_49.2",
+  "label": "not_binding",
+  "decided_by": "iii_fail_self_issued_authorisation",
+  "reason": "\"The air traffic controller licence ... shall be issued upon application, when the applicant for the licence has demonstrated that he or she complies with the implementing acts referred to in Article 50\" — 의지할 평가어는 이 조항이 발급하는 인가(licence)의 발급심사뿐이며, Article 50 의 평가 지명 근거가 없어 8-A 불가."
+ },
+ {
+  "id": "EU1139::art_49.3",
+  "label": "not_binding",
+  "decided_by": "iii_fail_self_issued_authorisation",
+  "reason": "\"The air traffic controller medical certificate referred to in paragraph 1 ... shall be issued upon application\" — 점화 평가어 'certificate'가 바로 이 조항이 발급하는 인가이므로 (iii) 제외사유에 해당한다."
+ },
+ {
+  "id": "EU1139::art_51.2",
+  "label": "not_binding",
+  "decided_by": "iii_fail_self_issued_authorisation",
+  "reason": "\"The approval referred to in paragraph 1 ... shall be issued upon application, when the applicant has demonstrated that it complies with the implementing acts referred to in Article 53\" — 의지할 평가어는 발급 인가(approval)의 발급심사뿐이고 별도 지명 평가 절차가 없다."
+ },
+ {
+  "id": "EU1139::art_52.2",
+  "label": "not_binding",
+  "decided_by": "iii_fail_self_issued_authorisation",
+  "reason": "\"The certificate referred to in paragraph 1 ... shall be issued upon application, when the applicant has demonstrated that he or she complies with the implementing acts referred to in Article 53\" — 평가어 'certificate'는 이 조항이 발급하는 인가 자체다."
+ },
+ {
+  "id": "EU1139::art_56.2",
+  "label": "not_binding",
+  "decided_by": "iii_fail_self_issued_authorisation",
+  "reason": "\"The certificate referred to in paragraph 1 ... shall be issued upon application, when the applicant has demonstrated that it complies with the delegated acts referred to in Article 58 and the implementing acts referred to in Article 57\" — 조건은 연언이어서 8-B 문제는 없으나, 의지할 평가어가 발급 인가(certificate)뿐이어서 (iii) 불충족."
+ },
+ {
+  "id": "EU1139::art_60.1",
+  "label": "binding",
+  "decided_by": "iii_named_evaluation",
+  "reason": "\"The operation of the aircraft ... for commercial air transport shall be subject to certification and shall be issued with an authorisation\" — 발급 인가는 'authorisation'이고 내가 의지한 'certification'은 그와 구별되는 지명 평가 절차다. 제2항과 달리 선언 대체 분기가 없어 8-B 미해당."
+ },
+ {
+  "id": "EU1139::art_60.2",
+  "label": "not_binding",
+  "decided_by": "rule_8B_fail_branch_without_evaluation",
+  "reason": "제1문은 \"shall be subject to certification\"으로 지명 평가를 두지만, 같은 항이 \"By way of derogation ..., the operators ... shall be permitted to declare their capability, and the availability to them of the means, to discharge the responsibilities\"라는 도달 가능한 분기로 평가 없이 허가를 세운다. 8-B 실패."
+ },
+ {
+  "id": "EU945::art_5.1",
+  "label": "not_binding",
+  "decided_by": "iii_fail_section_heading",
+  "reason": "\"shall only be made available on the market if they satisfy the requirements of this Chapter\"로 허가를 조건 짓기는 하지만, 도달한 평가어는 \"Article 12 Presumption of conformity\"라는 절 표제의 \"conformity\"뿐이다. (iii)의 \"절 표제로 나온 것\" 배제에 걸린다."
+ },
+ {
+  "id": "EU947::art_5.1",
+  "label": "binding",
+  "decided_by": "rule_8A_reaches_via_named_provision",
+  "reason": "\"shall be required to obtain an operational authorisation pursuant to Article 12\"로 허가가 지명된 조항(제12조)의 요건 충족에 조건 지어지고, 그 제12조제1항이 \"The competent authority shall evaluate the risk assessment\"로 평가를 지명함이 기록으로 확인된다. 조건은 단일 분기여서 8-B는 걸리지 않는다."
+ },
+ {
+  "id": "EU947::art_5.5",
+  "label": "not_binding",
+  "decided_by": "rule_8B_fail_branch_without_evaluation",
+  "reason": "\"submits a declaration ... the UAS operator shall not be required to obtain an operational authorisation\"는 평가 없이 허가를 세워 두는 선언 분기다. 본문이 지명한 것은 \"paragraph 5 of Article 12\"이고, 기록의 평가 점화는 그와 다른 제12조제1항에서 일어났다."
+ },
+ {
+  "id": "EU947::art_7.2",
+  "label": "not_binding",
+  "decided_by": "ii_fail_operator_elsewhere",
+  "reason": "유일한 확정연산자 \"shall obtain the following certificates\"와 평가어(airworthiness)는 별개 조항인 \"2a.\"의 의무를 규율하며, 제2항 자신의 조건은 \"the operational authorisation as referred to in Article 12 or the authorisation as referred to in Article 16, or in a standard scenario ... as declared by the UAS operator\"로 선언 분기가 평가 없이 허가를 세워 둔다."
+ },
+ {
+  "id": "EUAI::art_111.2",
+  "label": "not_binding",
+  "decided_by": "i_fail_mentions_other_regime",
+  "reason": "\"this Regulation shall apply to operators ... that have been placed on the market ... only if, as from that date, those systems are subject to significant changes\"는 규정의 시간적 적용범위(경과규정)일 뿐이고, \"placed on the market\"은 이미 행해진 시장 출시를 언급만 한다. 허가를 부여하거나 조건 짓지 않는다."
+ },
+ {
+  "id": "EUAI::art_6.1",
+  "label": "not_binding",
+  "decided_by": "i_fail_definition",
+  "reason": "\"that AI system shall be considered to be high-risk where both of the following conditions are fulfilled\"는 고위험 해당 여부를 정의·분류하는 규정이고, \"third-party conformity assessment\"는 그 분류 기준의 한 항목으로 나온다. 허가를 부여·조건 짓지 않는다."
+ },
+ {
+  "id": "MID::art_7.2",
+  "label": "not_binding",
+  "decided_by": "iii_fail_definition_list_item",
+  "reason": "\"made available on the market and/or put into use only if they satisfy the requirements of this Directive\"로 조건은 있으나, 도달한 평가어는 제4조제15호 \"'accreditation' means accreditation as defined in point 10 of Article 2\"로 정의 목록의 한 항목이다."
+ },
+ {
+  "id": "US107::107.110.b",
+  "label": "binding",
+  "decided_by": "rule_8A_reaches_via_named_provision",
+  "reason": "\"No remote pilot in command may operate ... unless the operation meets the requirements of either § 89.110 or § 89.115(a)\"로 지명된 조항 §89.110이 \"FAA-accepted declaration of compliance\" 및 \"design approval or production approval issued under part 21\"을 지명함이 기록(US89::89.110.b)으로 확인된다. §89.115(a)는 기록에 없어 평가 지명 여부를 확정할 수 없으나 평가 없는 분기임도 확정되지 않아 8-B의 실패 요건이 성립하지 않는다."
+ },
+ {
+  "id": "US107::107.115.a",
+  "label": "binding",
+  "decided_by": "iii_named_evaluation",
+  "reason": "\"must use a small unmanned aircraft that— (1) Is eligible ... pursuant to § 107.120(a); (2) Is listed on an FAA-accepted declaration of compliance ... in accordance with § 107.160\"로 자기 본문이 지명된 평가 절차를 조건의 대상으로 삼고, 요건이 \"and\"로 연결된 연언이어서 평가 없는 분기가 없다."
+ },
+ {
+  "id": "US107::107.115.b",
+  "label": "binding",
+  "decided_by": "rule_8A_reaches_via_named_provision",
+  "reason": "§107.110(b)와 동일한 본문 \"unless the operation meets the requirements of either § 89.110 or § 89.115(a)\"이며, §89.110이 \"FAA-accepted declaration of compliance\"를 지명함이 기록으로 확인된다. §89.115(a)의 평가 지명은 기록으로 확인 불가이나 평가 없는 분기로도 확정되지 않아 8-B는 발동하지 않는다."
+ },
+ {
+  "id": "US107::107.120.b",
+  "label": "not_binding",
+  "decided_by": "i_fail_document_list",
+  "reason": "조항의 작용 내용은 선언 신청인이 갖춰 내놓아야 하는 것들의 열거다 — \"Display a label\", \"must make available these instructions upon sale or transfer\", \"must maintain product support and notification procedures\". \"declaration of compliance\"는 의무 주체를 가리키는 수식어로만 나온다."
+ },
+ {
+  "id": "US107::107.125.a",
+  "label": "binding",
+  "decided_by": "iii_named_evaluation",
+  "reason": "\"Must use a small unmanned aircraft that— ... (2) Is listed on an FAA-accepted declaration of compliance as eligible for Category 3 operations in accordance with § 107.160\"로 자기 본문이 지명된 평가 절차를 조건으로 세우고, 세 요건이 \"and\"로 묶인 연언이다."
+ },
+ {
+  "id": "US107::107.130.b",
+  "label": "not_binding",
+  "decided_by": "i_fail_document_list",
+  "reason": "Category 3 판의 동일 구조로, \"Display a label\", \"must make available these instructions upon sale or transfer\", \"must maintain product support and notification procedures\"처럼 선언 신청인이 갖춰 내놓아야 할 표시·서류·절차를 열거한다."
+ },
+ {
+  "id": "US107::107.140.a",
+  "label": "binding",
+  "decided_by": "rule_8A_reaches_via_named_provision",
+  "reason": "\"Must use a small unmanned aircraft that is eligible for Category 4 operations pursuant to paragraph (b) of this section\"로 허가가 지명된 조항 (b)의 요건 충족에 조건 지어지고, (b)가 \"Have an airworthiness certificate issued under part 21\"로 평가를 지명함이 기록(US107::107.140.b)으로 확인된다. (2)의 \"either § 89.110 or § 89.115(a)\" 분기와 무관하게 이 연언 요건이 항상 남으므로 8-B는 걸리지 않는다."
+ },
+ {
+  "id": "US107::107.140.b",
+  "label": "binding",
+  "decided_by": "iii_named_evaluation",
+  "reason": "\"To be eligible to operate over human beings under this section, the small unmanned aircraft must— (1) Have an airworthiness certificate issued under part 21 of this chapter\"로 자기 본문이 지명된 평가(part 21 감항증명)를 허가의 조건으로 세우며, 세 요건은 연언이다."
+ },
+ {
+  "id": "US107::107.145.c",
+  "label": "binding",
+  "decided_by": "iii_named_evaluation",
+  "reason": "\"For a Category 4 operation, the small unmanned aircraft must— (1) Have an airworthiness certificate issued under part 21 of this chapter\"로 지명된 평가가 조건의 대상이고, 날짜 참조·정의 목록·절 표제·자기발급 인가 중 어느 배제에도 해당하지 않는다."
+ },
+ {
+  "id": "US107::107.63.b",
+  "label": "not_binding",
+  "decided_by": "i_fail_document_list",
+  "reason": "작용 내용이 \"The application must be submitted to the responsible Flight Standards office ...\"로 신청서를 어디에 내야 하는지의 열거이고, 평가어 \"certification\"은 수령자 직명 \"an airman certification representative for a pilot school\" 안에서만 나온다."
+ },
+ {
+  "id": "US107::107.7.a",
+  "label": "not_binding",
+  "decided_by": "i_fail_document_list",
+  "reason": "\"Have in that person's physical possession ... the remote pilot certificate\", \"Present his or her remote pilot certificate ... for inspection upon a request\", \"Make available, upon request ... any document, record, or report\"로 서류의 소지·제시 의무를 열거할 뿐, 증명서는 다른 조항이 발급한 것을 언급만 한다."
+ },
+ {
+  "id": "US107::107.77.a",
+  "label": "not_binding",
+  "decided_by": "i_fail_document_list",
+  "reason": "\"An application to change the name on a certificate ... must be accompanied by the applicant's: (1) Remote pilot certificate ...; (2) A copy of the marriage license, court order, or other document\"로 신청서가 갖춰야 할 서류를 열거하는 전형이다."
+ },
+ {
+  "id": "US89::89.105.a",
+  "label": "not_binding",
+  "decided_by": "rule_8B_fail_branch_without_evaluation",
+  "reason": "\"Except as otherwise authorized by the Administrator or as provided in § 89.120 ... unless the operation meets the requirements of § 89.110 or § 89.115\"에서 행정청의 별도 인가 및 §89.120 분기가 평가 없이 비행 허가를 세워 두므로, 도달 가능한 분기 중 평가 없는 것이 있어 실패다."
+ },
+ {
+  "id": "US89::89.110.b",
+  "label": "binding",
+  "decided_by": "iii_named_evaluation",
+  "reason": "\"may operate ... only if the unmanned aircraft meets all of the following requirements: (1) Its serial number is listed on an FAA-accepted declaration of compliance, or ... covered by a design approval or production approval issued under part 21\"로 (1)의 두 분기가 모두 평가를 지명하고, 요건이 \"all\"의 연언이므로 평가 없이 허가가 서는 분기가 없다."
+ },
+ {
+  "id": "US89::89.310.g",
+  "label": "not_binding",
+  "decided_by": "iii_fail_date_reference",
+  "reason": "유일한 평가어가 \"any other applicable laws in effect as of the date the declaration of compliance is submitted to the FAA for acceptance\"라는 날짜 참조 안에서만 나온다. 조항 본문은 방송 성능 기준을 정할 뿐이다."
+ },
+ {
+  "id": "US89::89.320.g",
+  "label": "not_binding",
+  "decided_by": "iii_fail_date_reference",
+  "reason": "방송 모듈 판의 동일 구조로, \"declaration of compliance\"는 \"in effect as of the date the declaration of compliance is submitted to the FAA for acceptance\"의 날짜 참조로만 등장한다."
+ },
+ {
+  "id": "US89::89.530.b",
+  "label": "not_binding",
+  "decided_by": "i_fail_document_list",
+  "reason": "\"must declare ... by submitting a declaration of compliance to the FAA ... The declaration must include at a minimum the following information: (1) The name, physical address ...\"로 신청(선언)서가 갖춰야 할 기재사항의 열거다."
+ },
+ {
+  "id": "US89::89.530.c",
+  "label": "not_binding",
+  "decided_by": "i_fail_document_list",
+  "reason": "방송 모듈 판의 동일 구조로 \"The declaration must include at a minimum the following information\" 이하 기재사항을 열거하며, 선언서를 어디에 어떤 형식으로 제출하는지만 정한다."
+ },
+ {
+  "id": "JP道交法::101_3.1",
+  "label": "not_binding",
+  "decided_by": "iii_fail_section_heading",
+  "reason": "허가(면허증 등의 갱신)를 조건 짓는 대상이 '第百八条の二第一項第十一号に掲げる講習を受けなければならない'의 講習, 즉 평가가 아닌 수강이다. 점화된 '検査'는 제101조 조문 표제 '（免許証等の更新の申請及び定期検査）'에만 나오는 절 표제이다."
+ },
+ {
+  "id": "JP道交法::101_7.1",
+  "label": "not_binding",
+  "decided_by": "ii_fail_operator_elsewhere",
+  "reason": "확정연산자 '免許を現に受けている者に限る'는 '臨時に認知機能検査を行うものとする'의 수검 대상 범위만 규율하고 면허 자체를 부여·조건 짓지 않는다. 즉 패턴 창이 허가가 아닌 검사 실시 의무 절에 걸렸다."
+ },
+ {
+  "id": "JP道交法::102_3.1",
+  "label": "not_binding",
+  "decided_by": "iii_fail_definition_list_item",
+  "reason": "확정연산자가 요구하는 대상은 '同号に掲げる講習を受けなければならない'의 講習(수강)으로 평가가 아니다. '運転免許試験'은 '…第二種免許をいい'로 끝나는 特例取得免許 정의 괄호 안의 한 항목으로만 등장한다."
+ },
+ {
+  "id": "JP道交法::104_2_2.1",
+  "label": "binding",
+  "decided_by": "iii_named_evaluation",
+  "reason": "'再試験の結果、再試験を受けた者が…必要な能力を現に有しないと認めるときは、その者の当該免許を取り消さなければならない' — 확정연산자가 면허의 존속을 지명된 평가 절차인 再試験(재시험)의 결과에 결속시킨다(講習이 아니라 시험이다)."
+ },
+ {
+  "id": "JP道交法::104_2_2.2",
+  "label": "binding",
+  "decided_by": "iii_named_evaluation",
+  "reason": "'再試験を受けないと認めるときは…その者の当該免許を取り消さなければならない' — 면허가 지명 평가 절차 再試験(재시험) 수검에 확정적으로 조건 지어져 있다."
+ },
+ {
+  "id": "JP道交法::104_2_2.4",
+  "label": "binding",
+  "decided_by": "iii_named_evaluation",
+  "reason": "'その者が…当該再試験を受けないと認めるときは、その者の当該免許を取り消さなければならない' — 지명 평가(再試験) 불응이 면허 취소의 확정 조건이고, 뒷문장의 '取り消すことができない'는 관할 중복 금지일 뿐 조건의 다른 분기가 아니다."
+ },
+ {
+  "id": "JP道交法::104_2_4.1",
+  "label": "not_binding",
+  "decided_by": "iii_fail_section_heading",
+  "reason": "취소 조건이 '第百二条の三の規定に違反して講習を受けない'의 講習(강습 수강)이어서 평가가 아니다. 점화된 '検査'는 제102조 표제 '（臨時適性検査等）'의 절 표제이다."
+ },
+ {
+  "id": "JP道交法::104_2_4.4",
+  "label": "not_binding",
+  "decided_by": "iii_fail_section_heading",
+  "reason": "조건이 '第百二条の三の規定に違反して講習を受けないと認めるとき' 또는 '第百八条の二第一項第十四号に掲げる講習を終了した'者의 재위반으로, 모두 講習(수강)이며 평가가 아니다. 점화된 '検査'는 제102조 표제 '（臨時適性検査等）'에 있다."
+ },
+ {
+  "id": "JP道交法::106.1",
+  "label": "not_binding",
+  "decided_by": "ii_fail_operator_elsewhere",
+  "reason": "확정연산자는 '内閣府令で定める事項を国家公安委員会に報告しなければならない'의 보고 의무를 규율하며, '認知機能検査を受けたとき'·'再試験を受けたとき'는 보고 사유의 열거일 뿐이다. 면허를 부여·조건 짓는 절은 이 항 밖에 있다."
+ },
+ {
+  "id": "JP道交法::106_4.1",
+  "label": "not_binding",
+  "decided_by": "ii_fail_operator_elsewhere",
+  "reason": "확정연산자 '免許情報記録の抹消を受けなければならない'는 개인번호카드 제시·기록 말소 의무를 규율할 뿐 허가를 조건 짓지 않으며, 본문에는 평가어가 없다. 점화된 '適性検査'는 2홉 떨어진 제103조제6항의 명령 권한 절에 있다."
+ },
+ {
+  "id": "JP道交法::106_5.1",
+  "label": "not_binding",
+  "decided_by": "ii_fail_operator_elsewhere",
+  "reason": "확정연산자 '免許証を返納し、かつ…免許情報記録個人番号カードを提示した場合に限り'은 서류 반납·제시만을 조건으로 삼는다. 점화된 '認知機能検査'·'再試験'은 제106조제1항의 보고 사유 절에 있어 이 교부·서환 절을 규율하지 않는다."
+ },
+ {
+  "id": "JP道交法::108_32_3.1",
+  "label": "not_binding",
+  "decided_by": "rule_8B_fail_branch_without_evaluation",
+  "reason": "'認定を受けることができる'의 제1호 요건이 '公安委員会が…行う審査に合格した者その他の…国家公安委員会規則で定める者'로 분기되어, 審査(평가) 없이도 인정이 성립하는 도달 가능한 분기가 있다. 더구나 '認定'은 이 조항 자신이 발급하는 인가이다."
+ },
+ {
+  "id": "JP道交法::89.1",
+  "label": "binding",
+  "decided_by": "iii_named_evaluation",
+  "reason": "'免許申請書…を提出し、かつ、当該公安委員会の行う運転免許試験を受けなければならない' — 신청서류 열거에 그치지 않고, 'かつ'로 묶인 지명 평가 절차 運転免許試験(운전면허시험) 수험이 면허의 확정 조건이다."
+ },
+ {
+  "id": "JP道交法::90.13",
+  "label": "binding",
+  "decided_by": "iii_named_evaluation",
+  "reason": "'仮免許の運転免許試験に合格した者が…仮免許を与えないことができる' — 가면허 부여는 지명 평가 절차(가면허 운전면허시험) 합격자에 한정되어 성립하며, 재량 거부가 평가 없는 분기를 만들지 않으므로 8-B에 걸리지 않는다."
+ },
+ {
+  "id": "JP道交法::90.4",
+  "label": "not_binding",
+  "decided_by": "ii_fail_operator_elsewhere",
+  "reason": "확정연산자 '弁明及び有利な証拠の提出の機会を与えなければならない'는 사전 통지·변명 기회 절차를 규율하고, 면허의 거부·보류라는 허가 처분은 제1항 단서와 제2항에 따로 있다."
+ },
+ {
+  "id": "JP道交法::90_2.2",
+  "label": "binding",
+  "decided_by": "iii_named_evaluation",
+  "reason": "이 항이 더하는 요건은 '同項各号に定める講習を受けていないとき'의 講習(수강, 평가 아님)이지만, 확정연산자가 묶는 허가 자체는 '運転免許試験に合格した者'에 대한 면허 부여여서 지명 평가인 운전면허시험이 모든 분기에서 빠지지 않는다."
+ },
+ {
+  "id": "JP道交法::94.1",
+  "label": "not_binding",
+  "decided_by": "ii_fail_operator_elsewhere",
+  "reason": "확정연산자 '届け出て、免許証に変更に係る事項の記載…を受けなければならない'는 변경 신고·기재 의무를 규율할 뿐 허가를 조건 짓지 않는다. 점화된 '検査'는 3홉 떨어진 제101조 표제 '（免許証等の更新の申請及び定期検査）'에 있다."
+ },
+ {
+  "id": "JP道交法::95_6.1",
+  "label": "not_binding",
+  "decided_by": "iii_fail_date_reference",
+  "reason": "'第百一条の二第三項の規定による適性検査を受けた日'·'当該免許証…に係る適性試験を受けた日'처럼 평가어가 유효기간 표의 기산일(날짜) 참조로만 나오고, 조항 본문은 면허증·면허정보기록의 유효기간을 정한다."
+ },
+ {
+  "id": "JP道交法::96.4",
+  "label": "binding",
+  "decided_by": "iii_named_evaluation",
+  "reason": "'大型免許…を現に受けている者でなければ、牽けん引免許の運転免許試験を受けることができない' — 확정연산자가 견인면허 취득 경로인 지명 평가 절차(운전면허시험)를 직접 조건 짓고, 분기가 하나뿐이라 8-B 문제도 없다."
+ },
+ {
+  "id": "JP道交法::96.5",
+  "label": "binding",
+  "decided_by": "iii_named_evaluation",
+  "reason": "'第二種免許の運転免許試験は、次の各号のいずれかに該当する者でなければ、受けることができない' — 확정연산자가 지명 평가(제2종 운전면허시험)를 조건 짓는다. 제1~3호 어느 분기로 가도 이 시험을 거쳐야 하므로 평가 없이 허가가 서는 분기는 없다."
+ },
+ {
+  "id": "KR도로교통법::43.1",
+  "label": "not_binding",
+  "decided_by": "i_fail_mentions_other_regime",
+  "reason": "'제80조에 따라 시ㆍ도경찰청장으로부터 운전면허를 받지 아니하거나…자동차등을 운전하여서는 아니 된다'는 다른 조항(제80조)이 부여하는 허가를 언급만 하는 금지 규정이다. 점화된 '적성검사'는 제80조제4항의 조건 부가 권한 절에 있다."
+ },
+ {
+  "id": "KR도로교통법::82.3",
+  "label": "not_binding",
+  "decided_by": "iii_fail_date_reference",
+  "reason": "조건의 대상이 '제73조제2항에 따른 특별교통안전 의무교육'으로 교육(수강)이지 평가가 아니다. 8-A로 도달하는 제73조도 평가를 지명하지 않으며, 제73조제1항의 '시험'은 '시험에 응시하기 전에'라는 시점 참조로만 나온다."
+ },
+ {
+  "id": "KR도로교통법::85.1",
+  "label": "binding",
+  "decided_by": "iii_named_evaluation",
+  "reason": "'운전면허를 받으려는 사람은 운전면허시험에 합격하여야 한다' — 허가(운전면허)가 확정연산자 '합격하여야 한다'로 지명 평가 절차인 운전면허시험에 결속된다."
+ },
+ {
+  "id": "KR도로교통법::85.2",
+  "label": "binding",
+  "decided_by": "iii_named_evaluation",
+  "reason": "'운전면허시험에 합격한 사람에 대하여 행정안전부령으로 정하는 운전면허증을 발급하여야 한다' — 면허증 발급이 지명 평가(운전면허시험) 합격에 확정적으로 조건 지어진다."
+ },
+ {
+  "id": "KR도로교통법::85의3.1",
+  "label": "binding",
+  "decided_by": "iii_named_evaluation",
+  "reason": "'조건부 운전면허를 받으려는 사람은 제83조에 따른 운전면허시험에 합격하여야 한다' — 조건부 운전면허가 자기 본문에 지명된 평가 절차(운전면허시험) 합격에 결속된다."
+ },
+ {
+  "id": "KR도로교통법::85의3.2",
+  "label": "binding",
+  "decided_by": "iii_named_evaluation",
+  "reason": "'제1항에 따라 운전면허시험에 합격한 사람에 대하여…조건부 운전면허증을 발급하여야 한다' — 조건부 면허증 발급이 지명 평가(운전면허시험) 합격에 확정적으로 조건 지어진다."
+ },
+ {
+  "id": "KR도로교통법::88.1",
+  "label": "binding",
+  "decided_by": "iii_named_evaluation",
+  "reason": "'제1종 운전면허 또는 제2종 운전면허를 받은 사람…이 …사유에 해당되는 경우에는 한국도로교통공단이 실시하는 수시(隨時) 적성검사를 받아야 한다' — 면허 보유의 유지가 지명 평가 절차인 수시 적성검사(검사)에 확정적으로 조건 지어진다."
+ },
+ {
+  "id": "KR도로교통법::96.3",
+  "label": "not_binding",
+  "decided_by": "i_fail_mentions_other_regime",
+  "reason": "'제82조제2항에 따른 운전면허 결격사유에 해당하는 사람…은 제1항에도 불구하고 자동차등을 운전하여서는 아니 된다'는 제1항의 국제운전면허증·상호인정외국면허증(외국이 발급한 허가)을 언급만 하는 운전 금지 규정이다. 점화된 '시험'은 4홉 떨어진 제73조제1항에 있다."
+ },
+ {
+  "id": "KR도로교통법시행규칙::103.1",
+  "label": "not_binding",
+  "decided_by": "i_fail_mentions_other_regime",
+  "reason": "'「자동차관리법 시행령」 제7조제1항에 따라…임시운행허가를 받아야 한다'로 다른 규율(자동차관리법)의 허가를 언급·전제할 뿐이다. '기능교육용 자동차의 검사'는 운행의 목적으로 나오고 그 허가의 조건이 아니다."
+ },
+ {
+  "id": "KR도로교통법시행규칙::2의4.1",
+  "label": "not_binding",
+  "decided_by": "i_fail_definition",
+  "reason": "'…같은 법 제40조의2에 따른 운행안전인증을 받은 것을 말한다'로 법 제2조제21호의3의 '행정안전부령으로 정하는 것'을 정의할 뿐이어서 허가를 부여하거나 조건 짓지 않는다."
+ },
+ {
+  "id": "KR도로교통법시행규칙::77.1",
+  "label": "binding",
+  "decided_by": "iii_named_evaluation",
+  "reason": "'법 제85조 및 제85조의3제2항에 따라 운전면허시험에 합격한 사람은…운전면허증을 발급받아야 하며, 운전면허증을 발급받지 않고 운전해서는 안 된다' — 면허증 발급과 운전 허가가 지명 평가(운전면허시험) 합격에 확정적으로 결속된다."
+ },
+ {
+  "id": "KR지능형로봇법::37.4",
+  "label": "not_binding",
+  "decided_by": "rule_8B_fail_branch_without_evaluation",
+  "reason": "'다만…준공 전 사용신고를 하거나 사용허가를 받은 경우에는 그러하지 아니하다'로, 사용 허가가 평가 없는 '신고' 분기만으로도 성립한다. 점화된 '인증'은 '준공확인증명서'의 부분 문자열일 뿐 지명된 평가 절차가 아니다."
+ },
+ {
+  "id": "KR지능형로봇법::40의2.3",
+  "label": "binding",
+  "decided_by": "iii_named_evaluation",
+  "reason": "'안전인증을 받은 자는 안전인증받은 사항을 변경하려는 경우…변경인증을 받아야 한다' — 허가(운행안전인증)의 변경이 지명 평가 절차인 인증(변경인증)에 확정적으로 조건 지어지고, 단서의 면제는 기존 안전인증을 평가 없이 세워 두지 않으므로 8-B에 걸리지 않는다."
+ },
+ {
+  "id": "KR지능형로봇법::40의2.5",
+  "label": "not_binding",
+  "decided_by": "i_fail_false_mark",
+  "reason": "'안전인증을 받은 자가 아니면 안전인증 표시 또는 이와 유사한 표시를 하거나 안전인증을 받은 것으로 홍보하여서는 아니 된다'는 허위·유사 표시 금지 규정이어서 (i) 불충족이다."
+ }
+]

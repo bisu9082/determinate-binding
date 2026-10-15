@@ -1,0 +1,360 @@
+[
+ {
+  "key": "NISTResponseRobots2026",
+  "class": "report_or_web",
+  "url": "https://www.nist.gov/programs-projects/performance-emergency-response-robots",
+  "status": 200,
+  "final": "https://www.nist.gov/programs-projects/performance-emergency-response-robots"
+ },
+ {
+  "key": "FEMANIMS2026",
+  "class": "report_or_web",
+  "url": "https://www.usfa.fema.gov/a-z/nims/command-and-coordination.html",
+  "status": 200,
+  "final": "https://www.usfa.fema.gov/a-z/nims/command-and-coordination.html"
+ },
+ {
+  "key": "NYPDPOSTAct2026",
+  "class": "legal",
+  "url": "https://www.nyc.gov/site/nypd/about/about-nypd/policy/post-act.page",
+  "status": 200,
+  "final": "https://www.nyc.gov/site/nypd/about/about-nypd/policy/post-act.page"
+ },
+ {
+  "key": "KimbleCandellSaidi2019NISTIR8243",
+  "class": "doi",
+  "url": "https://doi.org/10.6028/NIST.IR.8243",
+  "status": 200,
+  "final": "https://nvlpubs.nist.gov/nistpubs/ir/2019/NIST.IR.8243.pdf"
+ },
+ {
+  "key": "ASTME2853_22",
+  "class": "doi",
+  "url": "https://store.astm.org/e2853_e2853m-22.html",
+  "status": 200,
+  "final": "https://store.astm.org/e2853_e2853m-22.html"
+ },
+ {
+  "key": "ASTME2854_21",
+  "class": "doi",
+  "url": "https://store.astm.org/e2854_e2854m-21.html",
+  "status": 200,
+  "final": "https://store.astm.org/e2854_e2854m-21.html"
+ },
+ {
+  "key": "ASTME2855_2021",
+  "class": "standard",
+  "url": "https://store.astm.org/e2855-12.html",
+  "status": 200,
+  "final": "https://store.astm.org/e2855-12.html"
+ },
+ {
+  "key": "ASTME2566_24",
+  "class": "standard",
+  "url": "https://store.astm.org/e2566_e2566m-24.html",
+  "status": 200,
+  "final": "https://store.astm.org/e2566_e2566m-24.html"
+ },
+ {
+  "key": "ASTME3132_2025",
+  "class": "standard",
+  "url": "https://store.astm.org/e3132_e3132m-17r25.html",
+  "status": 200,
+  "final": "https://store.astm.org/e3132_e3132m-17r25.html"
+ },
+ {
+  "key": "ASTME2458_26",
+  "class": "doi",
+  "url": "https://store.astm.org/e2458-26.html",
+  "status": 200,
+  "final": "https://store.astm.org/e2458-26.html"
+ },
+ {
+  "key": "ASTME2770_25",
+  "class": "standard",
+  "url": "https://store.astm.org/e2770-25.html",
+  "status": 200,
+  "final": "https://store.astm.org/e2770-25.html"
+ },
+ {
+  "key": "ISOTR23482_1_2020",
+  "class": "standard",
+  "url": "https://www.iso.org/standard/71564.html",
+  "status": 403,
+  "final": ""
+ },
+ {
+  "key": "NIJChainCustody",
+  "class": "report_or_web",
+  "url": "https://nij.ojp.gov/nij-hosted-online-training-courses/collecting-dna-evidence-at-property-crime-scenes/evidence-collection/chain-custody",
+  "status": 200,
+  "final": "https://nij.ojp.gov/nij-hosted-online-training-courses/collecting-dna-evidence-at-property-crime-scenes/eviden"
+ },
+ {
+  "key": "NYPDTacticalRobots2026",
+  "class": "legal",
+  "url": "https://www.nyc.gov/assets/nypd/downloads/pdf/public_information/post-final/Remote-Controlled-Robots-Tactical-NYPD-Impact-and-Use-Policy-2.4.26-FINAL.pdf",
+  "status": 200,
+  "final": "https://www.nyc.gov/assets/nypd/downloads/pdf/public_information/post-final/Remote-Controlled-Robots-Tactical-"
+ },
+ {
+  "key": "NYPDFacialRecognition",
+  "class": "report_or_web",
+  "url": "https://www.nyc.gov/site/nypd/about/about-nypd/equipment-tech/facial-recognition.page",
+  "status": 200,
+  "final": "https://www.nyc.gov/site/nypd/about/about-nypd/equipment-tech/facial-recognition.page"
+ },
+ {
+  "key": "FEMAUSFANIMSResource2026",
+  "class": "report_or_web",
+  "url": "https://www.usfa.fema.gov/a-z/nims/resource-management.html",
+  "status": 200,
+  "final": "https://www.usfa.fema.gov/a-z/nims/resource-management.html"
+ },
+ {
+  "key": "Roh2026DigitalTwinPoliceRobots",
+  "class": "academic_nodoi",
+  "url": "https://zenodo.org/records/21572757",
+  "status": 200,
+  "final": "https://zenodo.org/records/21572757"
+ },
+ {
+  "key": "ISO4448_2_WD2026",
+  "class": "standard",
+  "url": "https://www.iso.org/standard/89482.html",
+  "status": 403,
+  "final": ""
+ },
+ {
+  "key": "EUAIAct2024",
+  "class": "legal",
+  "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng",
+  "status": 202,
+  "final": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng"
+ },
+ {
+  "key": "EUDigitalOmnibus2026",
+  "class": "legal",
+  "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng",
+  "status": 202,
+  "final": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng"
+ },
+ {
+  "key": "EUMachinery2023",
+  "class": "legal",
+  "url": "https://eur-lex.europa.eu/eli/reg/2023/1230/oj/eng",
+  "status": 202,
+  "final": "https://eur-lex.europa.eu/eli/reg/2023/1230/oj/eng"
+ },
+ {
+  "key": "CoEFramework2024",
+  "class": "legal",
+  "url": "https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence",
+  "status": 403,
+  "final": ""
+ },
+ {
+  "key": "CoEFacialRecognition2021",
+  "class": "report_or_web",
+  "url": "https://rm.coe.int/guidelines-facial-recognition-web-a5-2750-3427-6868-1/1680a31751",
+  "status": 403,
+  "final": ""
+ },
+ {
+  "key": "OECD2024AIRec",
+  "class": "legal",
+  "url": "https://legalinstruments.oecd.org/en/instruments/oecd-legal-0449",
+  "status": 200,
+  "final": "https://legalinstruments.oecd.org/en/instruments/oecd-legal-0449"
+ },
+ {
+  "key": "UNICRIInterpolToolkit",
+  "class": "report_or_web",
+  "url": "https://unicri.org/Publication/Toolkit-for-Responsible-AI-Innovation-in-Law-Enforcement-UNICRI-INTERPOL",
+  "status": 200,
+  "final": "https://unicri.org/Publication/Toolkit-for-Responsible-AI-Innovation-in-Law-Enforcement-UNICRI-INTERPOL"
+ },
+ {
+  "key": "ISO10218_1_2025",
+  "class": "standard",
+  "url": "https://www.iso.org/standard/73933.html",
+  "status": 403,
+  "final": ""
+ },
+ {
+  "key": "ISO10218_2_2025",
+  "class": "standard",
+  "url": "https://www.iso.org/standard/73934.html",
+  "status": 403,
+  "final": ""
+ },
+ {
+  "key": "ISOTS15066_2016",
+  "class": "standard",
+  "url": "https://www.iso.org/standard/62996.html",
+  "status": 403,
+  "final": ""
+ },
+ {
+  "key": "ISO18646_2_2024",
+  "class": "standard",
+  "url": "https://www.iso.org/standard/82643.html",
+  "status": 403,
+  "final": ""
+ },
+ {
+  "key": "ISO18646_3_2021",
+  "class": "standard",
+  "url": "https://www.iso.org/standard/73591.html",
+  "status": 403,
+  "final": ""
+ },
+ {
+  "key": "ISO18646_6_2026",
+  "class": "standard",
+  "url": "https://www.iso.org/standard/88497.html",
+  "status": 403,
+  "final": ""
+ },
+ {
+  "key": "ISO3691_4_2023",
+  "class": "standard",
+  "url": "https://www.iso.org/standard/83545.html",
+  "status": 403,
+  "final": ""
+ },
+ {
+  "key": "ISO22166_1_2021",
+  "class": "standard",
+  "url": "https://www.iso.org/standard/72715.html",
+  "status": 403,
+  "final": ""
+ },
+ {
+  "key": "ISOTR23482_2_2019",
+  "class": "standard",
+  "url": "https://www.iso.org/standard/71627.html",
+  "status": 403,
+  "final": ""
+ },
+ {
+  "key": "ISOIEC42001_2023",
+  "class": "standard",
+  "url": "https://www.iso.org/standard/42001",
+  "status": 403,
+  "final": ""
+ },
+ {
+  "key": "ISOIEC23894_2023",
+  "class": "standard",
+  "url": "https://www.iso.org/standard/77304.html",
+  "status": 403,
+  "final": ""
+ },
+ {
+  "key": "ISOIECTR5469_2024",
+  "class": "standard",
+  "url": "https://www.iso.org/standard/81283.html",
+  "status": 403,
+  "final": ""
+ },
+ {
+  "key": "IEEE7000_2021",
+  "class": "standard",
+  "url": "https://standards.ieee.org/standard/7000-2021.html",
+  "status": 200,
+  "final": "https://standards.ieee.org/ieee/7000/6781/"
+ },
+ {
+  "key": "IEEE7001_2021",
+  "class": "standard",
+  "url": "https://standards.ieee.org/standard/7001-2021.html",
+  "status": 200,
+  "final": "https://standards.ieee.org/ieee/7001/6929/"
+ },
+ {
+  "key": "IEEE7007_2021",
+  "class": "standard",
+  "url": "https://standards.ieee.org/standard/7007-2021.html",
+  "status": 200,
+  "final": "https://standards.ieee.org/ieee/7007/7070/"
+ },
+ {
+  "key": "UL3300_2024",
+  "class": "standard",
+  "url": "https://webstore.ansi.org/standards/ul/ansiul33002024",
+  "status": 403,
+  "final": ""
+ },
+ {
+  "key": "NISTAIRMF2023",
+  "class": "standard",
+  "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+  "status": 200,
+  "final": "https://www.nist.gov/itl/ai-risk-management-framework"
+ },
+ {
+  "key": "ROKIntelligentRobotsAct",
+  "class": "legal",
+  "url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=251027",
+  "status": 200,
+  "final": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=251027"
+ },
+ {
+  "key": "MOTIENotice2023211",
+  "class": "legal",
+  "url": "https://www.motir.go.kr/kor/article/ATCL0c554f816/64488/view",
+  "status": 200,
+  "final": "https://www.motir.go.kr/kor/article/ATCL0c554f816/64488/view"
+ },
+ {
+  "key": "ROKRoadTrafficAct",
+  "class": "legal",
+  "url": "https://www.law.go.kr",
+  "status": 200,
+  "final": "https://www.law.go.kr"
+ },
+ {
+  "key": "ROKPIPA2023",
+  "class": "legal",
+  "url": "https://www.law.go.kr",
+  "status": 200,
+  "final": "https://www.law.go.kr",
+  "error": "<urlopen error [Errno 104] Connection reset by peer>"
+ },
+ {
+  "key": "CoPLFR2025",
+  "class": "legal",
+  "url": "https://www.college.police.uk/app/live-facial-recognition/live-facial-recognition",
+  "status": 403,
+  "final": ""
+ },
+ {
+  "key": "CoPArmedPolicing2024",
+  "class": "legal",
+  "url": "https://www.college.police.uk/app/armed-policing",
+  "status": 403,
+  "final": ""
+ },
+ {
+  "key": "UKSurveillanceCode",
+  "class": "legal",
+  "url": "https://www.gov.uk/government/publications/surveillance-camera-code-of-practice-guidance-for-local-authorities",
+  "status": 200,
+  "final": "https://www.gov.uk/government/publications/surveillance-camera-code-of-practice-guidance-for-local-authorities"
+ },
+ {
+  "key": "IACPsUAS2019",
+  "class": "report_or_web",
+  "url": "https://www.theiacp.org/sites/default/files/2020-06/Unmanned%20Aircraft%20FULL%20-%2006222020.pdf",
+  "status": 200,
+  "final": "https://www.theiacp.org/sites/default/files/2020-06/Unmanned%20Aircraft%20FULL%20-%2006222020.pdf"
+ },
+ {
+  "key": "DHSSAVERUGV2026",
+  "class": "report_or_web",
+  "url": "https://www.dhs.gov/sites/default/files/2026-04/26_0415_st_mugvquicklook_0.pdf",
+  "status": 403,
+  "final": ""
+ }
+]

@@ -1,0 +1,70 @@
+{
+ "frozen_at": "2026-09-20T00:39:31",
+ "files": {
+  "probe/lex2.py": {
+   "sha256": "88eadb5af2825d423be9562ed730a1f32e51340bd5b3193d990683b02052c8f1",
+   "bytes": 4745
+  },
+  "graph/extract2.py": {
+   "sha256": "214e0eae70f3b21abc4e2dd05575a730d732f1da56c43c4439494d171cc02519",
+   "bytes": 9169
+  },
+  "graph/chapters.py": {
+   "sha256": "abd63e6a18f8a70726916c755ccaa3bb66f9213f1dae5d11c88d5b7a81abba00",
+   "bytes": 1340
+  },
+  "graph/edges2.py": {
+   "sha256": "f70f3dfa03fcf1199793492b1f1646fab42c6acf99d69ed121a63d5b4f4ad27d",
+   "bytes": 5369
+  },
+  "graph/edges3.py": {
+   "sha256": "1ba5addc41a23887b71080d6838a9e79ce6c022841a869d310b3d7248e1afed9",
+   "bytes": 1431
+  },
+  "graph/paths3.py": {
+   "sha256": "75caa222afe1489bb33f80ae3d2308a6c2f1f929dce4824e66cb4d12a5755593",
+   "bytes": 2670
+  },
+  "stpa/structure.py": {
+   "sha256": "3c62f964f0d8ff305dc802354bbd1ff38df2b4f21b737404197b4c835e27fa90",
+   "bytes": 7064
+  },
+  "stpa/uca_mg.py": {
+   "sha256": "8786f8117371c79c25513154f654d0ff57fac857bcba989f6238c0ffcde46fe8",
+   "bytes": 10157
+  },
+  "stpa/uca_ma.py": {
+   "sha256": "375aaaa6eabf49fc2e1c1b3b8d4e438ddf228f8b67d4c1eb52a9eff788ae75f8",
+   "bytes": 4663
+  },
+  "stpa/scenarios.py": {
+   "sha256": "c673ca7130b1cad5f8c3a91e70e5bffc6ea32667d7aa0e18fc34978997755ff5",
+   "bytes": 5996
+  },
+  "stpa/accountability.py": {
+   "sha256": "9504d35c6675f359f97d3e7fc00ff4184828e53abafeb020487df9f7919b1591",
+   "bytes": 2832
+  },
+  "stpa/scope.py": {
+   "sha256": "9e5358e2988c27aa7d96fa2603252da8fb3710f92e1bfbca248ce7a9d43cb8f9",
+   "bytes": 1441
+  },
+  "stpa/carveout.py": {
+   "sha256": "608a0e18bdaef2ec3f16bfefe9f8d2b4aba1ca5a11350f04c333044ecba65346",
+   "bytes": 3398
+  },
+  "stpa/match_mg.py": {
+   "sha256": "285c7250b85262f95effa262de8a3d32a2426aba45f50e873f5c0555ad0135b3",
+   "bytes": 3760
+  },
+  "stpa/compare.py": {
+   "sha256": "a2ab5233405103b3cef6aeae2718b2140f5c71027c368667ed1eeb17587ae5bc",
+   "bytes": 2881
+  },
+  "corpus/MANIFEST.json": {
+   "sha256": "999d0a2f7164a825c87bee000923154361855d27b08757e09866866bee38d1b2",
+   "bytes": 4247
+  }
+ },
+ "ruleset_sha256": "84dccce04a502b3fb79cb697f34fb2b20c4b6478fb13464a4d7aa531a7c4bf5c"
+}

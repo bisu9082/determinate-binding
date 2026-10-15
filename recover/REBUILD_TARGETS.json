@@ -1,0 +1,425 @@
+{
+ "_purpose": "재건 목표값. 장치를 다시 세운 뒤 이 값들과 대조한다. 못 맞추면 원고를 고친다.",
+ "_source": "v22 조판본(소실 직전 유일 증거)에서 복원한 표. 추정값 없음.",
+ "total": {
+  "nodes": "5,758",
+  "auth": "1,014",
+  "returned": "91",
+  "label": "Total: 16 instruments, 21 files, 14,276,114 bytes"
+ },
+ "per_instrument": {
+  "EU1139": {
+   "domain": "aviation",
+   "nodes": "682",
+   "auth": "109",
+   "returned": "32"
+  },
+  "EU947": {
+   "domain": "aviation",
+   "nodes": "133",
+   "auth": "40",
+   "returned": "3"
+  },
+  "EU945": {
+   "domain": "aviation",
+   "nodes": "232",
+   "auth": "37",
+   "returned": "1"
+  },
+  "US107": {
+   "domain": "aviation",
+   "nodes": "220",
+   "auth": "35",
+   "returned": "12"
+  },
+  "US89": {
+   "domain": "aviation",
+   "nodes": "136",
+   "auth": "20",
+   "returned": "6"
+  },
+  "USAC": {
+   "domain": "aviation",
+   "nodes": "67",
+   "auth": "5",
+   "returned": "0"
+  },
+  "JP-RTA": {
+   "domain": "ground",
+   "nodes": "1,366",
+   "auth": "338",
+   "returned": "20"
+  },
+  "KR-RTA": {
+   "domain": "ground",
+   "nodes": "705",
+   "auth": "110",
+   "returned": "8"
+  },
+  "KR-RTA-R": {
+   "domain": "ground",
+   "nodes": "687",
+   "auth": "126",
+   "returned": "3"
+  },
+  "KR-IRA": {
+   "domain": "ground",
+   "nodes": "155",
+   "auth": "22",
+   "returned": "3"
+  },
+  "KR-IRA-D": {
+   "domain": "ground",
+   "nodes": "120",
+   "auth": "8",
+   "returned": "0"
+  },
+  "EUAI": {
+   "domain": "crosscut",
+   "nodes": "700",
+   "auth": "105",
+   "returned": "2"
+  },
+  "MID": {
+   "domain": "crosscut",
+   "nodes": "247",
+   "auth": "34",
+   "returned": "1"
+  },
+  "LED": {
+   "domain": "crosscut",
+   "nodes": "250",
+   "auth": "14",
+   "returned": "0"
+  },
+  "SMC1418": {
+   "domain": "crosscut",
+   "nodes": "34",
+   "auth": "9",
+   "returned": "0"
+  },
+  "CAGOV": {
+   "domain": "crosscut",
+   "nodes": "24",
+   "auth": "7",
+   "returned": "0"
+  }
+ },
+ "tier_by_hop": {
+  "No edges (provision read in isolation)": {
+   "t2": "72",
+   "t1": "283",
+   "t0": "659"
+  },
+  "hop ≤ 1": {
+   "t2": "76",
+   "t1": "346",
+   "t0": "592"
+  },
+  "hop ≤ 2": {
+   "t2": "88",
+   "t1": "442",
+   "t0": "484"
+  },
+  "hop ≤ 3": {
+   "t2": "90",
+   "t1": "455",
+   "t0": "469"
+  },
+  "hop ≤ 4 (adopted)": {
+   "t2": "91",
+   "t1": "491",
+   "t0": "432"
+  },
+  "hop ≤ 5": {
+   "t2": "92",
+   "t1": "495",
+   "t0": "427"
+  },
+  "hop ≤ 4, structural edges removed": {
+   "t2": "89",
+   "t1": "489",
+   "t0": "436"
+  }
+ },
+ "audit_by_hop": [
+  {
+   "Condition": "No edges (provision read alone)",
+   "Audited bindings": "30",
+   "False positives": "42",
+   "Returned": "72",
+   "Precision": "0.417"
+  },
+  {
+   "Condition": "hop ≤ 1",
+   "Audited bindings": "30",
+   "False positives": "46",
+   "Returned": "76",
+   "Precision": "0.395"
+  },
+  {
+   "Condition": "hop ≤ 2",
+   "Audited bindings": "34",
+   "False positives": "54",
+   "Returned": "88",
+   "Precision": "0.386"
+  },
+  {
+   "Condition": "hop ≤ 3",
+   "Audited bindings": "34",
+   "False positives": "56",
+   "Returned": "90",
+   "Precision": "0.378"
+  },
+  {
+   "Condition": "hop ≤ 4 (adopted)",
+   "Audited bindings": "34",
+   "False positives": "57",
+   "Returned": "91",
+   "Precision": "0.374"
+  }
+ ],
+ "by_subject": [
+  {
+   "Subject": "Aviation certification (6)",
+   "Auth.": "241",
+   "Audited": "23",
+   "Rate": "9.5%",
+   "Wilson 95% CI": "[6.4, 13.9]",
+   "Design-effect 95% CI": "[4.0, 21.2]"
+  },
+  {
+   "Subject": "Robot certification (2)",
+   "Auth.": "30",
+   "Audited": "2",
+   "Rate": "6.7%",
+   "Wilson 95% CI": "[1.8, 21.3]",
+   "Design-effect 95% CI": "[0.6, 47.0]"
+  },
+  {
+   "Subject": "Road traffic, drivers (3)",
+   "Auth.": "574",
+   "Audited": "9",
+   "Rate": "1.6%",
+   "Wilson 95% CI": "[0.8, 3.0]",
+   "Design-effect 95% CI": "[0.4, 5.9]"
+  },
+  {
+   "Subject": "Police conduct (3)",
+   "Auth.": "30",
+   "Audited": "0",
+   "Rate": "0.0%",
+   "Wilson 95% CI": "[0.0, 11.4]",
+   "Design-effect 95% CI": "[0.0, 39.5]"
+  },
+  {
+   "Subject": "Horizontal product law (2)",
+   "Auth.": "139",
+   "Audited": "0",
+   "Rate": "0.0%",
+   "Wilson 95% CI": "[0.0, 2.7]",
+   "Design-effect 95% CI": "[0.0, 12.3]"
+  }
+ ],
+ "by_domain": [
+  {
+   "Domain": "Aviation (6 instruments)",
+   "Auth.": "241",
+   "Ret.": "54",
+   "Aud.": "23",
+   "Rate": "9.5%",
+   "Design-effect 95% CI": "[4.0, 21.2]",
+   "Precision": "0.426"
+  },
+  {
+   "Domain": "Ground (5 instruments)",
+   "Auth.": "604",
+   "Ret.": "34",
+   "Aud.": "11",
+   "Rate": "1.8%",
+   "Design-effect 95% CI": "[0.5, 6.1]",
+   "Precision": "0.324"
+  },
+  {
+   "Domain": "Cross-cutting (5 instruments)",
+   "Auth.": "169",
+   "Ret.": "3",
+   "Aud.": "0",
+   "Rate": "0.0%",
+   "Design-effect 95% CI": "[0.0, 10.4]",
+   "Precision": "0.000"
+  },
+  {
+   "Domain": "Total",
+   "Auth.": "1,014",
+   "Ret.": "91",
+   "Aud.": "34",
+   "Rate": "3.4%",
+   "Design-effect 95% CI": "0.374"
+  }
+ ],
+ "ten_changes_effect": [
+  {
+   "Quantity": "Corpus nodes",
+   "Before": "5,568",
+   "After": "5,758",
+   "Direction": "neutral"
+  },
+  {
+   "Quantity": "Graph edges",
+   "Before": "8,596",
+   "After": "8,834",
+   "Direction": "neutral"
+  },
+  {
+   "Quantity": "Authorising provisions",
+   "Before": "1,003",
+   "After": "1,014",
+   "Direction": "neutral"
+  },
+  {
+   "Quantity": "Returned provisions",
+   "Before": "77",
+   "After": "91",
+   "Direction": "against"
+  },
+  {
+   "Quantity": "Audited bindings",
+   "Before": "27",
+   "After": "34",
+   "Direction": "against"
+  },
+  {
+   "Quantity": "Precision of the predicate",
+   "Before": "0.351",
+   "After": "0.374",
+   "Direction": "favourable"
+  },
+  {
+   "Quantity": "Aviation-to-ground ratio",
+   "Before": "8.07",
+   "After": "5.24",
+   "Direction": "against"
+  },
+  {
+   "Quantity": "Lexicon false-negative rate",
+   "Before": "11.1%",
+   "After": "12.6%",
+   "Direction": "against"
+  },
+  {
+   "Quantity": "Surviving binding on police route",
+   "Before": "1",
+   "After": "1",
+   "Direction": "unchanged"
+  }
+ ],
+ "ambiguity_both_ways": [
+  {
+   "Resolution": "Excludes (adopted)",
+   "Bindings": "34",
+   "Precision": "0.374",
+   "Aviation": "23/241",
+   "Ground": "11/604",
+   "Cross-cut": "0/169",
+   "Carve-out": "23 → 1"
+  },
+  {
+   "Resolution": "Includes (alternative)",
+   "Bindings": "53",
+   "Precision": "0.582",
+   "Aviation": "41/241",
+   "Ground": "12/604",
+   "Cross-cut": "0/169",
+   "Carve-out": "41 → 1"
+  }
+ ],
+ "denominator_corrected": [
+  {
+   "Domain": "Aviation",
+   "Bindings": "23",
+   "Auth.": "241",
+   "Nominal": "9.5%",
+   "Denom. prec.": "12/24 = 0.500",
+   "Corr. auth.": "120",
+   "Corrected rate": "19.2% [13.9, 30.4]"
+  },
+  {
+   "Domain": "Ground",
+   "Bindings": "11",
+   "Auth.": "604",
+   "Nominal": "1.8%",
+   "Denom. prec.": "22/40 = 0.550",
+   "Corr. auth.": "332",
+   "Corrected rate": "3.3% [2.6, 4.6]"
+  },
+  {
+   "Domain": "Cross-cut",
+   "Bindings": "0",
+   "Auth.": "169",
+   "Nominal": "0.0%",
+   "Denom. prec.": "5/15 = 0.333",
+   "Corr. auth.": "56",
+   "Corrected rate": "0.0%"
+  },
+  {
+   "Domain": "Total",
+   "Bindings": "34",
+   "Auth.": "1,014",
+   "Nominal": "3.4%",
+   "Denom. prec.": "39/79 = 0.494",
+   "Corr. auth.": "501",
+   "Corrected rate": "6.8%"
+  }
+ ],
+ "carveout_sensitivity": [
+  {
+   "Deletion set": "Adopted",
+   "Nodes retained": "4,594",
+   "Returned": "7",
+   "Audited": "1"
+  },
+  {
+   "Deletion set": "Regulation 2019/945 retained",
+   "Nodes retained": "4,826",
+   "Returned": "8",
+   "Audited": "1"
+  },
+  {
+   "Deletion set": "and 2018/1139 also restored (Art. 2(6), partial)",
+   "Nodes retained": "5,508",
+   "Returned": "40",
+   "Audited": "14"
+  }
+ ],
+ "holdout_outcome": [
+  {
+   "Our register": "No concept reached",
+   "No concept": "3",
+   "No binding": "2",
+   "Not authorising": "2",
+   "Binding": "1"
+  },
+  {
+   "Our register": "No determinate binding",
+   "No concept": "0",
+   "No binding": "2",
+   "Not authorising": "0",
+   "Binding": "1"
+  },
+  {
+   "Our register": "Not an authorising provision",
+   "No concept": "0",
+   "No binding": "1",
+   "Not authorising": "0",
+   "Binding": "0"
+  },
+  {
+   "Our register": "Determinate binding",
+   "No concept": "0",
+   "No binding": "0",
+   "Not authorising": "0",
+   "Binding": "0"
+  }
+ ]
+}

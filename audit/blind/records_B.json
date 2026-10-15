@@ -1,0 +1,1157 @@
+[
+ {
+  "id": "EU945::art_5.1",
+  "doc": "EU945",
+  "text": "1. Products shall only be made available on the market if they satisfy the requirements of this Chapter and do not endanger the health or safety of persons, animals or property.",
+  "path": [
+   "EU945::art_5.1",
+   "EU945::cpt_II",
+   "EU945::art_12"
+  ],
+  "path_len": 2,
+  "evaluation_ignited_at": {
+   "node": "EU945::art_12",
+   "matched": "conformity",
+   "context": "Article 12 Presumption of conformity"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "made available on the market",
+     "matched": "made available on the market",
+     "context": "1. Products shall only be made available on the market if they satisfy the requirements of this Chapter and do not endanger the health or s"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "shall only be\\b[^.]{0,140}\\bif\\b",
+     "matched": "shall only be made available on the market if",
+     "context": "1. Products shall only be made available on the market if they satisfy the requirements of this Chapter and do not endanger the health or safe"
+    },
+    {
+     "lexicon": "DET",
+     "pattern": "(?:shall|may) only\\b[^.]{0,140}\\b(if|when|where|unless)\\b",
+     "matched": "shall only be made available on the market if",
+     "context": "1. Products shall only be made available on the market if they satisfy the requirements of this Chapter and do not endanger the health or safe"
+    },
+    {
+     "lexicon": "DET",
+     "pattern": "only be (placed|made available|issued|granted|used|operated)\\b[^.]{0,140}\\bif\\b",
+     "matched": "only be made available on the market if",
+     "context": "1. Products shall only be made available on the market if they satisfy the requirements of this Chapter and do not endanger the health or safe"
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": []
+  }
+ },
+ {
+  "id": "EU947::art_5.1",
+  "doc": "EU947",
+  "text": "1. Where one of the requirements laid down in Article 4 or in Part A of the Annex is not met, a UAS operator shall be required to obtain an operational authorisation pursuant to Article 12 from the competent authority in the Member State where it is registered.",
+  "path": [
+   "EU947::art_5.1",
+   "EU947::art_12",
+   "EU947::art_12.1"
+  ],
+  "path_len": 2,
+  "evaluation_ignited_at": {
+   "node": "EU947::art_12.1",
+   "matched": "assessment",
+   "context": "1. The competent authority shall evaluate the risk assessment and the robustness of the mitigating measures that the UAS operator proposes to keep"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "authoris(?:ation|ed)|authoriz(?:ation|ed)",
+     "matched": "authorisation",
+     "context": "A of the Annex is not met, a UAS operator shall be required to obtain an operational authorisation pursuant to Article 12 from the competent authority in the Member State where it is "
+    },
+    {
+     "lexicon": "AUTH",
+     "pattern": "registrat\\w*|registered",
+     "matched": "registered",
+     "context": " pursuant to Article 12 from the competent authority in the Member State where it is registered."
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "shall be required",
+     "matched": "shall be required",
+     "context": "irements laid down in Article 4 or in Part A of the Annex is not met, a UAS operator shall be required to obtain an operational authorisation pursuant to Article 12 from the competent aut"
+    },
+    {
+     "lexicon": "DET",
+     "pattern": "shall\\b[^.]{0,200}\\b(hold|obtain|be in possession of)\\b[^.]{0,80}\\b(certificat\\w*|licen[cs]\\w*|approval|authoris\\w*)",
+     "matched": "shall be required to obtain an operational authorisation",
+     "context": "irements laid down in Article 4 or in Part A of the Annex is not met, a UAS operator shall be required to obtain an operational authorisation pursuant to Article 12 from the competent authority in the Member State where it is "
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": []
+  }
+ },
+ {
+  "id": "EU947::art_5.5",
+  "doc": "EU947",
+  "text": "5. Where the UAS operator submits a declaration to the competent authority of the Member State of registration in accordance with point UAS.SPEC.020 laid down in Part B of the Annex for an operation complying with a standard scenario set out in Appendix 1 to that Annex, the UAS operator shall not be required to obtain an operational authorisation in accordance with paragraphs 1 to 4 of this Article and the procedure laid down in paragraph 5 of Article 12 shall apply. The UAS operator shall use the declaration referred to in Appendix 2 to that Annex. ▼B",
+  "path": [
+   "EU947::art_5.5",
+   "EU947::art_12",
+   "EU947::art_12.1"
+  ],
+  "path_len": 2,
+  "evaluation_ignited_at": {
+   "node": "EU947::art_12.1",
+   "matched": "assessment",
+   "context": "1. The competent authority shall evaluate the risk assessment and the robustness of the mitigating measures that the UAS operator proposes to keep"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "authoris(?:ation|ed)|authoriz(?:ation|ed)",
+     "matched": "authorisation",
+     "context": "dix 1 to that Annex, the UAS operator shall not be required to obtain an operational authorisation in accordance with paragraphs 1 to 4 of this Article and the procedure laid down in "
+    },
+    {
+     "lexicon": "AUTH",
+     "pattern": "registrat\\w*|registered",
+     "matched": "registration",
+     "context": "UAS operator submits a declaration to the competent authority of the Member State of registration in accordance with point UAS.SPEC.020 laid down in Part B of the Annex for an operat"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "shall\\b[^.]{0,200}\\b(hold|obtain|be in possession of)\\b[^.]{0,80}\\b(certificat\\w*|licen[cs]\\w*|approval|authoris\\w*)",
+     "matched": "shall not be required to obtain an operational authorisation",
+     "context": "lying with a standard scenario set out in Appendix 1 to that Annex, the UAS operator shall not be required to obtain an operational authorisation in accordance with paragraphs 1 to 4 of this Article and the procedure laid down in "
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": []
+  }
+ },
+ {
+  "id": "EU947::art_7.2",
+  "doc": "EU947",
+  "text": "2. UAS operations in the ‘specific’ category shall comply with the operational limitations set out in the operational authorisation as referred to in Article 12 or the authorisation as referred to in Article 16, or in a standard scenario defined in Appendix 1 to the Annex as declared by the UAS operator. This paragraph shall not apply where the UAS operator holds an LUC with appropriate privileges. UAS operations in the ‘specific’ category shall be subject to the applicable operational requirements laid down in Commission Implementing Regulation (EU) No 923/2012 ( 2 ). ▼M6 2a. The operator of a UAS that meets the conditions specified in point 1(d) of Article 40 of Delegated Regulation (EU) 2019/945 shall obtain the following certificates: (i) a certificate of airworthiness or a restricted certificate of airworthiness issued in accordance with Subpart H of Annex I (Part 21) to Commission Regulation (EU) No 748/2012 ( 3 ); (ii) a noise certificate issued in accordance with Subpart I of Annex I (Part 21) to Commission Regulation (EU) No 748/2012 when the UA is subject to the environmental protection requirements laid down in point 21.B.85 of Regulation (EU) No 748/2012. ▼B",
+  "path": [
+   "EU947::art_7.2"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "EU947::art_7.2",
+   "matched": "certificates",
+   "context": " 1(d) of Article 40 of Delegated Regulation (EU) 2019/945 shall obtain the following certificates: (i) a certificate of airworthiness or a restricted certificate of airworthiness iss"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "authoris(?:ation|ed)|authoriz(?:ation|ed)",
+     "matched": "authorisation",
+     "context": "c’ category shall comply with the operational limitations set out in the operational authorisation as referred to in Article 12 or the authorisation as referred to in Article 16, or i"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "shall\\b[^.]{0,200}\\b(hold|obtain|be in possession of)\\b[^.]{0,80}\\b(certificat\\w*|licen[cs]\\w*|approval|authoris\\w*)",
+     "matched": "shall obtain the following certificates: (i) a certificate of airworthiness or a restricted certificate",
+     "context": "nditions specified in point 1(d) of Article 40 of Delegated Regulation (EU) 2019/945 shall obtain the following certificates: (i) a certificate of airworthiness or a restricted certificate of airworthiness issued in accordance with Subpart H of Annex I (Part 21) to Commiss"
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "certificat\\w*",
+     "matched": "certificates",
+     "context": " 1(d) of Article 40 of Delegated Regulation (EU) 2019/945 shall obtain the following certificates: (i) a certificate of airworthiness or a restricted certificate of airworthiness iss"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "\\bcertif\\w*",
+     "matched": "certificates",
+     "context": " 1(d) of Article 40 of Delegated Regulation (EU) 2019/945 shall obtain the following certificates: (i) a certificate of airworthiness or a restricted certificate of airworthiness iss"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "airworthiness",
+     "matched": "airworthiness",
+     "context": "gulation (EU) 2019/945 shall obtain the following certificates: (i) a certificate of airworthiness or a restricted certificate of airworthiness issued in accordance with Subpart H of "
+    }
+   ]
+  }
+ },
+ {
+  "id": "EUAI::art_111.2",
+  "doc": "EUAI",
+  "text": "2. Without prejudice to the application of Article 5 as referred to in Article 113(3), point (a), this Regulation shall apply to operators of high-risk AI systems, other than the systems referred to in paragraph 1 of this Article, that have been placed on the market or put into service before 2 August 2026, only if, as from that date, those systems are subject to significant changes in their designs. In any case, the providers and deployers of high-risk AI systems intended to be used by public authorities shall take the necessary steps to comply with the requirements and obligations of this Regulation by 2 August 2030.",
+  "path": [
+   "EUAI::art_111.2",
+   "EUAI::art_5",
+   "EUAI::art_5.1"
+  ],
+  "path_len": 2,
+  "evaluation_ignited_at": {
+   "node": "EUAI::art_5.1",
+   "matched": "assessment",
+   "context": "g into service for this specific purpose, or the use of an AI system for making risk assessments of natural persons in order to assess or predict the risk of a natural person commi"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "placed? on the market",
+     "matched": "placed on the market",
+     "context": "s, other than the systems referred to in paragraph 1 of this Article, that have been placed on the market or put into service before 2 August 2026, only if, as from that date, those systems "
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "only if\\b",
+     "matched": "only if",
+     "context": "ticle, that have been placed on the market or put into service before 2 August 2026, only if, as from that date, those systems are subject to significant changes in their design"
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": []
+  }
+ },
+ {
+  "id": "EUAI::art_6.1",
+  "doc": "EUAI",
+  "text": "1. Irrespective of whether an AI system is placed on the market or put into service independently of the products referred to in points (a) and (b), that AI system shall be considered to be high-risk where both of the following conditions are fulfilled: (a) the AI system is intended to be used as a safety component of a product, or the AI system is itself a product, covered by the Union harmonisation legislation listed in Annex I; (b) the product whose safety component pursuant to point (a) is the AI system, or the AI system itself as a product, is required to undergo a third-party conformity assessment, with a view to the placing on the market or the putting into service of that product pursuant to the Union harmonisation legislation listed in Annex I.",
+  "path": [
+   "EUAI::art_6.1"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "EUAI::art_6.1",
+   "matched": "conformity assessment",
+   "context": "I system, or the AI system itself as a product, is required to undergo a third-party conformity assessment, with a view to the placing on the market or the putting into service of that produc"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "placed? on the market",
+     "matched": "placed on the market",
+     "context": "1. Irrespective of whether an AI system is placed on the market or put into service independently of the products referred to in points (a) and (b),"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "\\bis required to\\b",
+     "matched": "is required to",
+     "context": "ponent pursuant to point (a) is the AI system, or the AI system itself as a product, is required to undergo a third-party conformity assessment, with a view to the placing on the marke"
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "conformity assessment",
+     "matched": "conformity assessment",
+     "context": "I system, or the AI system itself as a product, is required to undergo a third-party conformity assessment, with a view to the placing on the market or the putting into service of that produc"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "conformity",
+     "matched": "conformity",
+     "context": "I system, or the AI system itself as a product, is required to undergo a third-party conformity assessment, with a view to the placing on the market or the putting into service of "
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "assessment",
+     "matched": "assessment",
+     "context": "r the AI system itself as a product, is required to undergo a third-party conformity assessment, with a view to the placing on the market or the putting into service of that produc"
+    }
+   ]
+  }
+ },
+ {
+  "id": "MID::art_7.2",
+  "doc": "MID",
+  "text": "2. Member States shall take all appropriate measures to ensure that measuring instruments are made available on the market and/or put into use only if they satisfy the requirements of this Directive.",
+  "path": [
+   "MID::art_7.2",
+   "MID::cpt_1",
+   "MID::art_4",
+   "MID::art_4.15"
+  ],
+  "path_len": 3,
+  "evaluation_ignited_at": {
+   "node": "MID::art_4.15",
+   "matched": "accreditation",
+   "context": "(15) ‘accreditation’ means accreditation as defined in point 10 of Article 2 of Regulation (EC) no 765/2"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "made available on the market",
+     "matched": "made available on the market",
+     "context": " States shall take all appropriate measures to ensure that measuring instruments are made available on the market and/or put into use only if they satisfy the requirements of this Directive."
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "only if\\b",
+     "matched": "only if",
+     "context": "sure that measuring instruments are made available on the market and/or put into use only if they satisfy the requirements of this Directive."
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": []
+  }
+ },
+ {
+  "id": "US107::107.110.b",
+  "doc": "US107",
+  "text": "(b) No remote pilot in command may operate a small unmanned aircraft in sustained flight over open-air assemblies of human beings unless the operation meets the requirements of either § 89.110 or § 89.115(a) of this chapter.",
+  "path": [
+   "US107::107.110.b",
+   "US89::89.110",
+   "US89::89.110.b"
+  ],
+  "path_len": 2,
+  "evaluation_ignited_at": {
+   "node": "US89::89.110.b",
+   "matched": "declaration of compliance",
+   "context": "ll of the following requirements: (1) Its serial number is listed on an FAA-accepted declaration of compliance, or the standard remote identification unmanned aircraft is covered by a design appr"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "may (?:be )?operate",
+     "matched": "may operate",
+     "context": "(b) No remote pilot in command may operate a small unmanned aircraft in sustained flight over open-air assemblies of human bein"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "\\bno\\s+\\w[\\w\\s\\-]{0,40}?\\bmay\\b[^.]{0,140}\\b(unless|without)",
+     "matched": "No remote pilot in command may operate a small unmanned aircraft in sustained flight over open-air assemblies of human beings unless",
+     "context": "(b) No remote pilot in command may operate a small unmanned aircraft in sustained flight over open-air assemblies of human beings unless the operation meets the requirements of either § 89.110 or § 89.115(a) of this chapt"
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": []
+  }
+ },
+ {
+  "id": "US107::107.115.a",
+  "doc": "US107",
+  "text": "(a) A remote pilot in command must use a small unmanned aircraft that— (1) Is eligible for Category 2 operations pursuant to § 107.120(a); (2) Is listed on an FAA-accepted declaration of compliance as eligible for Category 2 operations in accordance with § 107.160; and (3) Is labeled as eligible to conduct Category 2 operations in accordance with § 107.120(b)(1).",
+  "path": [
+   "US107::107.115.a"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "US107::107.115.a",
+   "matched": "declaration of compliance",
+   "context": "for Category 2 operations pursuant to § 107.120(a); (2) Is listed on an FAA-accepted declaration of compliance as eligible for Category 2 operations in accordance with § 107.160; and (3) Is label"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "\\beligible for\\b",
+     "matched": "eligible for",
+     "context": "(a) A remote pilot in command must use a small unmanned aircraft that— (1) Is eligible for Category 2 operations pursuant to § 107.120(a); (2) Is listed on an FAA-accepted dec"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "\\bmust\\b[^.]{0,200}\\b(eligible|declaration of compliance|certificat\\w*|licen[cs]\\w*|approval|authoris\\w*|authoriz\\w*|type[- ]approval)",
+     "matched": "must use a small unmanned aircraft that— (1) Is eligible",
+     "context": "(a) A remote pilot in command must use a small unmanned aircraft that— (1) Is eligible for Category 2 operations pursuant to § 107.120(a); (2) Is listed on an FAA-accepted"
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "declaration of compliance",
+     "matched": "declaration of compliance",
+     "context": "for Category 2 operations pursuant to § 107.120(a); (2) Is listed on an FAA-accepted declaration of compliance as eligible for Category 2 operations in accordance with § 107.160; and (3) Is label"
+    }
+   ]
+  }
+ },
+ {
+  "id": "US107::107.115.b",
+  "doc": "US107",
+  "text": "(b) No remote pilot in command may operate a small unmanned aircraft in sustained flight over open-air assemblies of human beings unless the operation meets the requirements of either § 89.110 or § 89.115(a) of this chapter.",
+  "path": [
+   "US107::107.115.b",
+   "US89::89.110",
+   "US89::89.110.b"
+  ],
+  "path_len": 2,
+  "evaluation_ignited_at": {
+   "node": "US89::89.110.b",
+   "matched": "declaration of compliance",
+   "context": "ll of the following requirements: (1) Its serial number is listed on an FAA-accepted declaration of compliance, or the standard remote identification unmanned aircraft is covered by a design appr"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "may (?:be )?operate",
+     "matched": "may operate",
+     "context": "(b) No remote pilot in command may operate a small unmanned aircraft in sustained flight over open-air assemblies of human bein"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "\\bno\\s+\\w[\\w\\s\\-]{0,40}?\\bmay\\b[^.]{0,140}\\b(unless|without)",
+     "matched": "No remote pilot in command may operate a small unmanned aircraft in sustained flight over open-air assemblies of human beings unless",
+     "context": "(b) No remote pilot in command may operate a small unmanned aircraft in sustained flight over open-air assemblies of human beings unless the operation meets the requirements of either § 89.110 or § 89.115(a) of this chapt"
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": []
+  }
+ },
+ {
+  "id": "US107::107.120.b",
+  "doc": "US107",
+  "text": "(b) The applicant for a declaration of compliance for a small unmanned aircraft that is eligible for use in Category 2 operations in accordance with paragraph (a) of this section, must meet all of the following requirements for the applicant's unmanned aircraft to be used in Category 2 operations: (1) Display a label on the small unmanned aircraft indicating eligibility to conduct Category 2 operations. The label must be in English and be legible, prominent, and permanently affixed to the small unmanned aircraft. (2) Have remote pilot operating instructions that apply to the operation of the small unmanned aircraft system. The applicant for a declaration of compliance must make available these instructions upon sale or transfer of the aircraft or use of the aircraft by someone other than the applicant who submitted a declaration of compliance pursuant to § 107.160. Such instructions must address, at a minimum— (i) A system description that includes the required small unmanned aircraft system components, any system limitations, and the declared category or categories of operation; (ii) Modifications that will not change the ability of the small unmanned aircraft system to meet the requirements for the category or categories of operation the small unmanned aircraft system is eligible to conduct; and (iii) Instructions for how to verify and change the mode or configuration of the small unmanned aircraft system, if they are variable. (3) Maintain a product support and notification process. The applicant for a declaration of compliance must maintain product support and notification procedures to notify the public and the FAA of— (i) Any defect or condition that causes the small unmanned aircraft to no longer meet the requirements of this subpart; and (ii) Any identified safety defect that causes the small unmanned aircraft to exceed a low probability of casualty.",
+  "path": [
+   "US107::107.120.b"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "US107::107.120.b",
+   "matched": "declaration of compliance",
+   "context": "(b) The applicant for a declaration of compliance for a small unmanned aircraft that is eligible for use in Category 2 operations in a"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "\\beligible for\\b",
+     "matched": "eligible for",
+     "context": " The applicant for a declaration of compliance for a small unmanned aircraft that is eligible for use in Category 2 operations in accordance with paragraph (a) of this section, must "
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "\\bmust\\b[^.]{0,200}\\b(eligible|declaration of compliance|certificat\\w*|licen[cs]\\w*|approval|authoris\\w*|authoriz\\w*|type[- ]approval)",
+     "matched": "must make available these instructions upon sale or transfer of the aircraft or use of the aircraft by someone other than the applicant who submitted a declaration of compliance",
+     "context": "of the small unmanned aircraft system. The applicant for a declaration of compliance must make available these instructions upon sale or transfer of the aircraft or use of the aircraft by someone other than the applicant who submitted a declaration of compliance pursuant to § 107.160. Such instructions must address, at a minimum— (i) A system de"
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "declaration of compliance",
+     "matched": "declaration of compliance",
+     "context": "(b) The applicant for a declaration of compliance for a small unmanned aircraft that is eligible for use in Category 2 operations in a"
+    }
+   ]
+  }
+ },
+ {
+  "id": "US107::107.125.a",
+  "doc": "US107",
+  "text": "(a) Must use a small unmanned aircraft that— (1) Is eligible for Category 3 operations pursuant to § 107.130(a); (2) Is listed on an FAA-accepted declaration of compliance as eligible for Category 3 operations in accordance with § 107.160; and (3) Is labeled as eligible for Category 3 operations in accordance with § 107.130(b)(1);",
+  "path": [
+   "US107::107.125.a"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "US107::107.125.a",
+   "matched": "declaration of compliance",
+   "context": "for Category 3 operations pursuant to § 107.130(a); (2) Is listed on an FAA-accepted declaration of compliance as eligible for Category 3 operations in accordance with § 107.160; and (3) Is label"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "\\beligible for\\b",
+     "matched": "eligible for",
+     "context": "(a) Must use a small unmanned aircraft that— (1) Is eligible for Category 3 operations pursuant to § 107.130(a); (2) Is listed on an FAA-accepted dec"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "\\bmust\\b[^.]{0,200}\\b(eligible|declaration of compliance|certificat\\w*|licen[cs]\\w*|approval|authoris\\w*|authoriz\\w*|type[- ]approval)",
+     "matched": "Must use a small unmanned aircraft that— (1) Is eligible",
+     "context": "(a) Must use a small unmanned aircraft that— (1) Is eligible for Category 3 operations pursuant to § 107.130(a); (2) Is listed on an FAA-accepted"
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "declaration of compliance",
+     "matched": "declaration of compliance",
+     "context": "for Category 3 operations pursuant to § 107.130(a); (2) Is listed on an FAA-accepted declaration of compliance as eligible for Category 3 operations in accordance with § 107.160; and (3) Is label"
+    }
+   ]
+  }
+ },
+ {
+  "id": "US107::107.130.b",
+  "doc": "US107",
+  "text": "(b) The applicant for a declaration of compliance for a small unmanned aircraft that is eligible for use in Category 3 operations in accordance with paragraph (a) of this section, must meet all of the following requirements for the applicant's small unmanned aircraft to be used in Category 3 operations: (1) Display a label on the small unmanned aircraft indicating eligibility to conduct Category 3 operations. The label must be in English and be legible, prominent, and permanently affixed to the small unmanned aircraft. (2) Have remote pilot operating instructions that apply to the operation of the small unmanned aircraft system. The applicant for a declaration of compliance must make available these instructions upon sale or transfer of the aircraft or use of the aircraft by someone other than the applicant who submitted a declaration of compliance pursuant to § 107.160. Such instructions must address, at a minimum— (i) A system description that includes the required small unmanned aircraft system components, any system limitations, and the declared category or categories of operation; (ii) Modifications that will not change the ability of the small unmanned aircraft system to meet the requirements for the category or categories of operation the small unmanned aircraft system is eligible to conduct; and (iii) Instructions for how to verify and change the mode or configuration of the small unmanned aircraft system, if they are variable. (3) Maintain a product support and notification process. The applicant for a declaration of compliance must maintain product support and notification procedures to notify the public and the FAA of— (i) Any defect or condition that causes the small unmanned aircraft to no longer meet the requirements of this subpart; and (ii) Any identified safety defect that causes the small unmanned aircraft to exceed a low probability of fatality.",
+  "path": [
+   "US107::107.130.b"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "US107::107.130.b",
+   "matched": "declaration of compliance",
+   "context": "(b) The applicant for a declaration of compliance for a small unmanned aircraft that is eligible for use in Category 3 operations in a"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "\\beligible for\\b",
+     "matched": "eligible for",
+     "context": " The applicant for a declaration of compliance for a small unmanned aircraft that is eligible for use in Category 3 operations in accordance with paragraph (a) of this section, must "
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "\\bmust\\b[^.]{0,200}\\b(eligible|declaration of compliance|certificat\\w*|licen[cs]\\w*|approval|authoris\\w*|authoriz\\w*|type[- ]approval)",
+     "matched": "must make available these instructions upon sale or transfer of the aircraft or use of the aircraft by someone other than the applicant who submitted a declaration of compliance",
+     "context": "of the small unmanned aircraft system. The applicant for a declaration of compliance must make available these instructions upon sale or transfer of the aircraft or use of the aircraft by someone other than the applicant who submitted a declaration of compliance pursuant to § 107.160. Such instructions must address, at a minimum— (i) A system de"
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "declaration of compliance",
+     "matched": "declaration of compliance",
+     "context": "(b) The applicant for a declaration of compliance for a small unmanned aircraft that is eligible for use in Category 3 operations in a"
+    }
+   ]
+  }
+ },
+ {
+  "id": "US107::107.140.a",
+  "doc": "US107",
+  "text": "(a) Remote pilot in command requirements. To conduct Category 4 operations— (1) A remote pilot in command— (i) Must use a small unmanned aircraft that is eligible for Category 4 operations pursuant to paragraph (b) of this section; and (ii) Must operate the small unmanned aircraft in accordance with all operating limitations that apply to the small unmanned aircraft, as specified by the Administrator. (2) No remote pilot in command may operate a small unmanned aircraft in sustained flight over open-air assemblies of human beings unless the operation meets the requirements of either § 89.110 or § 89.115(a) of this chapter.",
+  "path": [
+   "US107::107.140.a",
+   "US89::89.110",
+   "US89::89.110.b"
+  ],
+  "path_len": 2,
+  "evaluation_ignited_at": {
+   "node": "US89::89.110.b",
+   "matched": "declaration of compliance",
+   "context": "ll of the following requirements: (1) Its serial number is listed on an FAA-accepted declaration of compliance, or the standard remote identification unmanned aircraft is covered by a design appr"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "\\beligible for\\b",
+     "matched": "eligible for",
+     "context": "tions— (1) A remote pilot in command— (i) Must use a small unmanned aircraft that is eligible for Category 4 operations pursuant to paragraph (b) of this section; and (ii) Must opera"
+    },
+    {
+     "lexicon": "AUTH",
+     "pattern": "may (?:be )?operate",
+     "matched": "may operate",
+     "context": "unmanned aircraft, as specified by the Administrator. (2) No remote pilot in command may operate a small unmanned aircraft in sustained flight over open-air assemblies of human bein"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "\\bno\\s+\\w[\\w\\s\\-]{0,40}?\\bmay\\b[^.]{0,140}\\b(unless|without)",
+     "matched": "No remote pilot in command may operate a small unmanned aircraft in sustained flight over open-air assemblies of human beings unless",
+     "context": "ns that apply to the small unmanned aircraft, as specified by the Administrator. (2) No remote pilot in command may operate a small unmanned aircraft in sustained flight over open-air assemblies of human beings unless the operation meets the requirements of either § 89.110 or § 89.115(a) of this chapt"
+    },
+    {
+     "lexicon": "DET",
+     "pattern": "\\bmust\\b[^.]{0,200}\\b(eligible|declaration of compliance|certificat\\w*|licen[cs]\\w*|approval|authoris\\w*|authoriz\\w*|type[- ]approval)",
+     "matched": "Must use a small unmanned aircraft that is eligible",
+     "context": "d requirements. To conduct Category 4 operations— (1) A remote pilot in command— (i) Must use a small unmanned aircraft that is eligible for Category 4 operations pursuant to paragraph (b) of this section; and (ii) Must o"
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": []
+  }
+ },
+ {
+  "id": "US107::107.140.b",
+  "doc": "US107",
+  "text": "(b) Small unmanned aircraft requirements for Category 4. To be eligible to operate over human beings under this section, the small unmanned aircraft must— (1) Have an airworthiness certificate issued under part 21 of this chapter. (2) Be operated in accordance with the operating limitations specified in the approved Flight Manual or as otherwise specified by the Administrator. The operating limitations must not prohibit operations over human beings. (3) Have maintenance, preventive maintenance, alterations, or inspections performed in accordance with paragraph (c)(1) of this section.",
+  "path": [
+   "US107::107.140.b"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "US107::107.140.b",
+   "matched": "airworthiness",
+   "context": " over human beings under this section, the small unmanned aircraft must— (1) Have an airworthiness certificate issued under part 21 of this chapter. (2) Be operated in accordance with"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "approval|approved",
+     "matched": "approved",
+     "context": "apter. (2) Be operated in accordance with the operating limitations specified in the approved Flight Manual or as otherwise specified by the Administrator. The operating limitati"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "\\bmust\\b[^.]{0,200}\\b(eligible|declaration of compliance|certificat\\w*|licen[cs]\\w*|approval|authoris\\w*|authoriz\\w*|type[- ]approval)",
+     "matched": "must— (1) Have an airworthiness certificate",
+     "context": "ligible to operate over human beings under this section, the small unmanned aircraft must— (1) Have an airworthiness certificate issued under part 21 of this chapter. (2) Be operated in accordance with the operati"
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "certificat\\w*",
+     "matched": "certificate",
+     "context": "ings under this section, the small unmanned aircraft must— (1) Have an airworthiness certificate issued under part 21 of this chapter. (2) Be operated in accordance with the operati"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "\\bcertif\\w*",
+     "matched": "certificate",
+     "context": "ings under this section, the small unmanned aircraft must— (1) Have an airworthiness certificate issued under part 21 of this chapter. (2) Be operated in accordance with the operati"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "inspection",
+     "matched": "inspection",
+     "context": "ons over human beings. (3) Have maintenance, preventive maintenance, alterations, or inspections performed in accordance with paragraph (c)(1) of this section."
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "airworthiness",
+     "matched": "airworthiness",
+     "context": " over human beings under this section, the small unmanned aircraft must— (1) Have an airworthiness certificate issued under part 21 of this chapter. (2) Be operated in accordance with"
+    }
+   ]
+  }
+ },
+ {
+  "id": "US107::107.145.c",
+  "doc": "US107",
+  "text": "(c) For a Category 4 operation, the small unmanned aircraft must— (1) Have an airworthiness certificate issued under part 21 of this chapter. (2) Be operated in accordance with the operating limitations specified in the approved Flight Manual or as otherwise specified by the Administrator. The operating limitations must not prohibit operations over human beings located inside moving vehicles.",
+  "path": [
+   "US107::107.145.c"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "US107::107.145.c",
+   "matched": "airworthiness",
+   "context": "(c) For a Category 4 operation, the small unmanned aircraft must— (1) Have an airworthiness certificate issued under part 21 of this chapter. (2) Be operated in accordance with"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "approval|approved",
+     "matched": "approved",
+     "context": "apter. (2) Be operated in accordance with the operating limitations specified in the approved Flight Manual or as otherwise specified by the Administrator. The operating limitati"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "\\bmust\\b[^.]{0,200}\\b(eligible|declaration of compliance|certificat\\w*|licen[cs]\\w*|approval|authoris\\w*|authoriz\\w*|type[- ]approval)",
+     "matched": "must— (1) Have an airworthiness certificate",
+     "context": "(c) For a Category 4 operation, the small unmanned aircraft must— (1) Have an airworthiness certificate issued under part 21 of this chapter. (2) Be operated in accordance with the operati"
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "certificat\\w*",
+     "matched": "certificate",
+     "context": " a Category 4 operation, the small unmanned aircraft must— (1) Have an airworthiness certificate issued under part 21 of this chapter. (2) Be operated in accordance with the operati"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "\\bcertif\\w*",
+     "matched": "certificate",
+     "context": " a Category 4 operation, the small unmanned aircraft must— (1) Have an airworthiness certificate issued under part 21 of this chapter. (2) Be operated in accordance with the operati"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "airworthiness",
+     "matched": "airworthiness",
+     "context": "(c) For a Category 4 operation, the small unmanned aircraft must— (1) Have an airworthiness certificate issued under part 21 of this chapter. (2) Be operated in accordance with"
+    }
+   ]
+  }
+ },
+ {
+  "id": "US107::107.63.b",
+  "doc": "US107",
+  "text": "(b) If the application is being made pursuant to paragraph (a)(2) of this section: (1) The application must be submitted to the responsible Flight Standards office, a designated pilot examiner, an airman certification representative for a pilot school, a certificated flight instructor, or other person authorized by the Administrator; (2) The person accepting the application submission must verify the identity of the applicant in a manner acceptable to the Administrator; and (3) The person making the application must, by logbook endorsement or other manner acceptable to the Administrator, show the applicant meets the flight review requirements specified in § 61.56 of this chapter.",
+  "path": [
+   "US107::107.63.b"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "US107::107.63.b",
+   "matched": "certification",
+   "context": "d to the responsible Flight Standards office, a designated pilot examiner, an airman certification representative for a pilot school, a certificated flight instructor, or other person"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "authoris(?:ation|ed)|authoriz(?:ation|ed)",
+     "matched": "authorized",
+     "context": "representative for a pilot school, a certificated flight instructor, or other person authorized by the Administrator; (2) The person accepting the application submission must verif"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "\\bmust\\b[^.]{0,200}\\b(eligible|declaration of compliance|certificat\\w*|licen[cs]\\w*|approval|authoris\\w*|authoriz\\w*|type[- ]approval)",
+     "matched": "must be submitted to the responsible Flight Standards office, a designated pilot examiner, an airman certification representative for a pilot school, a certificated flight instructor, or other person authorized",
+     "context": "tion is being made pursuant to paragraph (a)(2) of this section: (1) The application must be submitted to the responsible Flight Standards office, a designated pilot examiner, an airman certification representative for a pilot school, a certificated flight instructor, or other person authorized by the Administrator; (2) The person accepting the application submission must verif"
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "certificat\\w*",
+     "matched": "certification",
+     "context": "d to the responsible Flight Standards office, a designated pilot examiner, an airman certification representative for a pilot school, a certificated flight instructor, or other person"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "\\bcertif\\w*",
+     "matched": "certification",
+     "context": "d to the responsible Flight Standards office, a designated pilot examiner, an airman certification representative for a pilot school, a certificated flight instructor, or other person"
+    }
+   ]
+  }
+ },
+ {
+  "id": "US107::107.7.a",
+  "doc": "US107",
+  "text": "(a) A remote pilot in command, owner, or person manipulating the flight controls of a small unmanned aircraft system must— (1) Have in that person's physical possession and readily accessible the remote pilot certificate with a small UAS rating and identification when exercising the privileges of that remote pilot certificate. (2) Present his or her remote pilot certificate with a small UAS rating and identification that contains the information listed at § 107.67(b)(1) through (3) for inspection upon a request from— (i) The Administrator; (ii) An authorized representative of the National Transportation Safety Board; (iii) Any Federal, State, or local law enforcement officer; or (iv) An authorized representative of the Transportation Security Administration. (3) Make available, upon request, to the Administrator any document, record, or report required to be kept under the regulations of this chapter.",
+  "path": [
+   "US107::107.7.a"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "US107::107.7.a",
+   "matched": "certificate",
+   "context": "1) Have in that person's physical possession and readily accessible the remote pilot certificate with a small UAS rating and identification when exercising the privileges of that re"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "authoris(?:ation|ed)|authoriz(?:ation|ed)",
+     "matched": "authorized",
+     "context": "b)(1) through (3) for inspection upon a request from— (i) The Administrator; (ii) An authorized representative of the National Transportation Safety Board; (iii) Any Federal, State"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "\\bmust\\b[^.]{0,200}\\b(eligible|declaration of compliance|certificat\\w*|licen[cs]\\w*|approval|authoris\\w*|authoriz\\w*|type[- ]approval)",
+     "matched": "must— (1) Have in that person's physical possession and readily accessible the remote pilot certificate with a small UAS rating and identification when exercising the privileges of that remote pilot certificate",
+     "context": "wner, or person manipulating the flight controls of a small unmanned aircraft system must— (1) Have in that person's physical possession and readily accessible the remote pilot certificate with a small UAS rating and identification when exercising the privileges of that remote pilot certificate. (2) Present his or her remote pilot certificate with a small UAS rating and identif"
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "certificat\\w*",
+     "matched": "certificate",
+     "context": "1) Have in that person's physical possession and readily accessible the remote pilot certificate with a small UAS rating and identification when exercising the privileges of that re"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "\\bcertif\\w*",
+     "matched": "certificate",
+     "context": "1) Have in that person's physical possession and readily accessible the remote pilot certificate with a small UAS rating and identification when exercising the privileges of that re"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "inspection",
+     "matched": "inspection",
+     "context": "dentification that contains the information listed at § 107.67(b)(1) through (3) for inspection upon a request from— (i) The Administrator; (ii) An authorized representative of the"
+    }
+   ]
+  }
+ },
+ {
+  "id": "US107::107.77.a",
+  "doc": "US107",
+  "text": "(a) Change of name. An application to change the name on a certificate issued under this subpart must be accompanied by the applicant's: (1) Remote pilot certificate with small UAS rating; and (2) A copy of the marriage license, court order, or other document verifying the name change.",
+  "path": [
+   "US107::107.77.a"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "US107::107.77.a",
+   "matched": "certificate",
+   "context": "(a) Change of name. An application to change the name on a certificate issued under this subpart must be accompanied by the applicant's: (1) Remote pilot c"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "licen[cs]\\w*",
+     "matched": "license",
+     "context": ": (1) Remote pilot certificate with small UAS rating; and (2) A copy of the marriage license, court order, or other document verifying the name change."
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "\\bmust\\b[^.]{0,200}\\b(eligible|declaration of compliance|certificat\\w*|licen[cs]\\w*|approval|authoris\\w*|authoriz\\w*|type[- ]approval)",
+     "matched": "must be accompanied by the applicant's: (1) Remote pilot certificate with small UAS rating; and (2) A copy of the marriage license",
+     "context": "f name. An application to change the name on a certificate issued under this subpart must be accompanied by the applicant's: (1) Remote pilot certificate with small UAS rating; and (2) A copy of the marriage license, court order, or other document verifying the name change."
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "certificat\\w*",
+     "matched": "certificate",
+     "context": "(a) Change of name. An application to change the name on a certificate issued under this subpart must be accompanied by the applicant's: (1) Remote pilot c"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "\\bcertif\\w*",
+     "matched": "certificate",
+     "context": "(a) Change of name. An application to change the name on a certificate issued under this subpart must be accompanied by the applicant's: (1) Remote pilot c"
+    }
+   ]
+  }
+ },
+ {
+  "id": "US89::89.105.a",
+  "doc": "US89",
+  "text": "Except as otherwise authorized by the Administrator or as provided in § 89.120, after September 16, 2023, no person may operate an unmanned aircraft within the airspace of the United States unless the operation meets the requirements of § 89.110 or § 89.115.",
+  "path": [
+   "US89::89.105.a",
+   "US89::89.110",
+   "US89::89.110.b"
+  ],
+  "path_len": 2,
+  "evaluation_ignited_at": {
+   "node": "US89::89.110.b",
+   "matched": "declaration of compliance",
+   "context": "ll of the following requirements: (1) Its serial number is listed on an FAA-accepted declaration of compliance, or the standard remote identification unmanned aircraft is covered by a design appr"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "authoris(?:ation|ed)|authoriz(?:ation|ed)",
+     "matched": "authorized",
+     "context": "Except as otherwise authorized by the Administrator or as provided in § 89.120, after September 16, 2023, no person"
+    },
+    {
+     "lexicon": "AUTH",
+     "pattern": "may (?:be )?operate",
+     "matched": "may operate",
+     "context": "by the Administrator or as provided in § 89.120, after September 16, 2023, no person may operate an unmanned aircraft within the airspace of the United States unless the operation m"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "\\bno\\s+\\w[\\w\\s\\-]{0,40}?\\bmay\\b[^.]{0,140}\\b(unless|without)",
+     "matched": "no person may operate an unmanned aircraft within the airspace of the United States unless",
+     "context": "uthorized by the Administrator or as provided in § 89.120, after September 16, 2023, no person may operate an unmanned aircraft within the airspace of the United States unless the operation meets the requirements of § 89.110 or § 89.115."
+    },
+    {
+     "lexicon": "DET",
+     "pattern": "no person may",
+     "matched": "no person may",
+     "context": "uthorized by the Administrator or as provided in § 89.120, after September 16, 2023, no person may operate an unmanned aircraft within the airspace of the United States unless the ope"
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": []
+  }
+ },
+ {
+  "id": "US89::89.110.b",
+  "doc": "US89",
+  "text": "(b) Standard remote identification unmanned aircraft requirements. A person may operate a standard remote identification unmanned aircraft only if the unmanned aircraft meets all of the following requirements: (1) Its serial number is listed on an FAA-accepted declaration of compliance, or the standard remote identification unmanned aircraft is covered by a design approval or production approval issued under part 21 of this chapter and meets the requirements of subpart F of this part. (2) Its remote identification equipment is functional and complies with the requirements of this part from takeoff to shutdown. (3) Its remote identification equipment and functionality have not been disabled. (4) The Certificate of Aircraft Registration of the unmanned aircraft used in the operation must include the serial number of the unmanned aircraft, as per applicable requirements of parts 47 and 48 of this chapter, or the serial number of the unmanned aircraft must be provided to the FAA in a notice of identification pursuant to § 89.130 prior to the operation.",
+  "path": [
+   "US89::89.110.b"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "US89::89.110.b",
+   "matched": "declaration of compliance",
+   "context": "ll of the following requirements: (1) Its serial number is listed on an FAA-accepted declaration of compliance, or the standard remote identification unmanned aircraft is covered by a design appr"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "registrat\\w*|registered",
+     "matched": "Registration",
+     "context": " equipment and functionality have not been disabled. (4) The Certificate of Aircraft Registration of the unmanned aircraft used in the operation must include the serial number of the"
+    },
+    {
+     "lexicon": "AUTH",
+     "pattern": "approval|approved",
+     "matched": "approval",
+     "context": "ance, or the standard remote identification unmanned aircraft is covered by a design approval or production approval issued under part 21 of this chapter and meets the requiremen"
+    },
+    {
+     "lexicon": "AUTH",
+     "pattern": "may (?:be )?operate",
+     "matched": "may operate",
+     "context": "(b) Standard remote identification unmanned aircraft requirements. A person may operate a standard remote identification unmanned aircraft only if the unmanned aircraft mee"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "only if\\b",
+     "matched": "only if",
+     "context": "equirements. A person may operate a standard remote identification unmanned aircraft only if the unmanned aircraft meets all of the following requirements: (1) Its serial number"
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "certificat\\w*",
+     "matched": "Certificate",
+     "context": "ts remote identification equipment and functionality have not been disabled. (4) The Certificate of Aircraft Registration of the unmanned aircraft used in the operation must include"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "\\bcertif\\w*",
+     "matched": "Certificate",
+     "context": "ts remote identification equipment and functionality have not been disabled. (4) The Certificate of Aircraft Registration of the unmanned aircraft used in the operation must include"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "declaration of compliance",
+     "matched": "declaration of compliance",
+     "context": "ll of the following requirements: (1) Its serial number is listed on an FAA-accepted declaration of compliance, or the standard remote identification unmanned aircraft is covered by a design appr"
+    }
+   ]
+  }
+ },
+ {
+  "id": "US89::89.310.g",
+  "doc": "US89",
+  "text": "(g) Message broadcast. (1) The unmanned aircraft must be capable of broadcasting the message elements in § 89.305 using a non-proprietary broadcast specification and using radio frequency spectrum compatible with personal wireless devices in accordance with 47 CFR part 15, where operations may occur without an FCC individual license. (2) Any broadcasting device used to meet the requirements of this section must be integrated into the unmanned aircraft without modification to its authorized radio frequency parameters and designed to maximize the range at which the broadcast can be received, while complying with 47 CFR part 15 and any other applicable laws in effect as of the date the declaration of compliance is submitted to the FAA for acceptance.",
+  "path": [
+   "US89::89.310.g"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "US89::89.310.g",
+   "matched": "declaration of compliance",
+   "context": "lying with 47 CFR part 15 and any other applicable laws in effect as of the date the declaration of compliance is submitted to the FAA for acceptance."
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "authoris(?:ation|ed)|authoriz(?:ation|ed)",
+     "matched": "authorized",
+     "context": "is section must be integrated into the unmanned aircraft without modification to its authorized radio frequency parameters and designed to maximize the range at which the broadcast"
+    },
+    {
+     "lexicon": "AUTH",
+     "pattern": "licen[cs]\\w*",
+     "matched": "license",
+     "context": "accordance with 47 CFR part 15, where operations may occur without an FCC individual license. (2) Any broadcasting device used to meet the requirements of this section must be i"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "\\bmust\\b[^.]{0,200}\\b(eligible|declaration of compliance|certificat\\w*|licen[cs]\\w*|approval|authoris\\w*|authoriz\\w*|type[- ]approval)",
+     "matched": "must be integrated into the unmanned aircraft without modification to its authorized",
+     "context": "l license. (2) Any broadcasting device used to meet the requirements of this section must be integrated into the unmanned aircraft without modification to its authorized radio frequency parameters and designed to maximize the range at which the broadcast"
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "declaration of compliance",
+     "matched": "declaration of compliance",
+     "context": "lying with 47 CFR part 15 and any other applicable laws in effect as of the date the declaration of compliance is submitted to the FAA for acceptance."
+    }
+   ]
+  }
+ },
+ {
+  "id": "US89::89.320.g",
+  "doc": "US89",
+  "text": "(g) Message broadcast. (1) The remote identification broadcast module must be capable of broadcasting the message elements in § 89.315 using a non-proprietary broadcast specification and using radio frequency spectrum compatible with personal wireless devices in accordance with 47 CFR part 15, where operations may occur without an FCC individual license. (2) The remote identification broadcast module must be designed to maximize the range at which the broadcast can be received, while complying with 47 CFR part 15 and any other applicable laws in effect as of the date the declaration of compliance is submitted to the FAA for acceptance.",
+  "path": [
+   "US89::89.320.g"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "US89::89.320.g",
+   "matched": "declaration of compliance",
+   "context": "lying with 47 CFR part 15 and any other applicable laws in effect as of the date the declaration of compliance is submitted to the FAA for acceptance."
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "licen[cs]\\w*",
+     "matched": "license",
+     "context": "accordance with 47 CFR part 15, where operations may occur without an FCC individual license. (2) The remote identification broadcast module must be designed to maximize the ran"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "\\bmust\\b[^.]{0,200}\\b(eligible|declaration of compliance|certificat\\w*|licen[cs]\\w*|approval|authoris\\w*|authoriz\\w*|type[- ]approval)",
+     "matched": "must be designed to maximize the range at which the broadcast can be received, while complying with 47 CFR part 15 and any other applicable laws in effect as of the date the declaration of compliance",
+     "context": "ur without an FCC individual license. (2) The remote identification broadcast module must be designed to maximize the range at which the broadcast can be received, while complying with 47 CFR part 15 and any other applicable laws in effect as of the date the declaration of compliance is submitted to the FAA for acceptance."
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "declaration of compliance",
+     "matched": "declaration of compliance",
+     "context": "lying with 47 CFR part 15 and any other applicable laws in effect as of the date the declaration of compliance is submitted to the FAA for acceptance."
+    }
+   ]
+  }
+ },
+ {
+  "id": "US89::89.530.b",
+  "doc": "US89",
+  "text": "(b) Required information for standard remote identification unmanned aircraft. The person responsible for the production of a standard remote identification unmanned aircraft requesting acceptance of a declaration of compliance must declare that the unmanned aircraft complies with the requirements of this subpart by submitting a declaration of compliance to the FAA in a form and manner acceptable to the Administrator. The declaration must include at a minimum the following information: (1) The name, physical address, telephone number, and email address of the person responsible for production of the unmanned aircraft. (2) The unmanned aircraft's make and model. (3) The unmanned aircraft's serial number, or the range of serial numbers for which the person responsible for production is declaring compliance. (4) The FCC Identifier of the 47 CFR part 15-compliant radio frequency equipment used and integrated into the unmanned aircraft. (5) The means of compliance used in the design and production of the unmanned aircraft. (6) Whether the declaration of compliance is an initial declaration or an amended declaration, and if the declaration of compliance is an amended declaration, the reason for the amendment. (7) A declaration that the person responsible for the production of the unmanned aircraft: (i) Can demonstrate that the unmanned aircraft was designed and produced to meet the minimum performance requirements of § 89.310 by using an FAA-accepted means of compliance. (ii) Complies with the requirements of § 89.515(b). (8) A statement that 47 CFR part 15-compliant radio frequency equipment is used and is integrated into the unmanned aircraft without modification to its authorized radio frequency parameters.",
+  "path": [
+   "US89::89.530.b"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "US89::89.530.b",
+   "matched": "declaration of compliance",
+   "context": "ion of a standard remote identification unmanned aircraft requesting acceptance of a declaration of compliance must declare that the unmanned aircraft complies with the requirements of this subpa"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "authoris(?:ation|ed)|authoriz(?:ation|ed)",
+     "matched": "authorized",
+     "context": "ent is used and is integrated into the unmanned aircraft without modification to its authorized radio frequency parameters."
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "\\bmust\\b[^.]{0,200}\\b(eligible|declaration of compliance|certificat\\w*|licen[cs]\\w*|approval|authoris\\w*|authoriz\\w*|type[- ]approval)",
+     "matched": "must declare that the unmanned aircraft complies with the requirements of this subpart by submitting a declaration of compliance",
+     "context": "dentification unmanned aircraft requesting acceptance of a declaration of compliance must declare that the unmanned aircraft complies with the requirements of this subpart by submitting a declaration of compliance to the FAA in a form and manner acceptable to the Administrator. The declaration mus"
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "declaration of compliance",
+     "matched": "declaration of compliance",
+     "context": "ion of a standard remote identification unmanned aircraft requesting acceptance of a declaration of compliance must declare that the unmanned aircraft complies with the requirements of this subpa"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "demonstrat\\w+ (?:compliance|that)",
+     "matched": "demonstrate that",
+     "context": "ion that the person responsible for the production of the unmanned aircraft: (i) Can demonstrate that the unmanned aircraft was designed and produced to meet the minimum performance requ"
+    }
+   ]
+  }
+ },
+ {
+  "id": "US89::89.530.c",
+  "doc": "US89",
+  "text": "(c) Required information for remote identification broadcast modules. The person responsible for the production of a remote identification broadcast module under § 89.520 that is requesting acceptance of a declaration of compliance must declare that the remote identification broadcast module complies with the requirements of this subpart by submitting a declaration of compliance to the FAA in a form and manner acceptable to the Administrator. The declaration must include at a minimum the following information: (1) The name, physical address, telephone number, and email address of the person responsible for production of the remote identification broadcast module. (2) The remote identification broadcast module's make and model. (3) The remote identification broadcast module's serial number, or the range of serial numbers for which the person responsible for production is declaring compliance. (4) The FCC Identifier of the 47 CFR part 15-compliant radio frequency equipment used and integrated into the remote identification broadcast module. (5) The means of compliance used in the design and production of the remote identification broadcast module. (6) Whether the declaration of compliance is an initial declaration or an amended declaration, and if the declaration of compliance is an amended declaration, the reason for the amendment. (7) A declaration that the person responsible for the production of the remote identification broadcast module: (i) Can demonstrate that the remote identification broadcast module was designed and produced to meet the minimum performance requirements of § 89.320 by using an FAA-accepted means of compliance. (ii) Complies with the requirements of § 89.520(b). (8) A statement that 47 CFR part 15-compliant radio frequency equipment is used and is integrated into the remote identification broadcast module without modification to its authorized radio frequency parameters, and a statement that instructions have been provided for installation of 47 CFR part 15-compliant remote identification broadcast module without modification to the broadcast module's authorized radio frequency parameters.",
+  "path": [
+   "US89::89.530.c"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "US89::89.530.c",
+   "matched": "declaration of compliance",
+   "context": "te identification broadcast module under § 89.520 that is requesting acceptance of a declaration of compliance must declare that the remote identification broadcast module complies with the requi"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "authoris(?:ation|ed)|authoriz(?:ation|ed)",
+     "matched": "authorized",
+     "context": "tegrated into the remote identification broadcast module without modification to its authorized radio frequency parameters, and a statement that instructions have been provided for"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "\\bmust\\b[^.]{0,200}\\b(eligible|declaration of compliance|certificat\\w*|licen[cs]\\w*|approval|authoris\\w*|authoriz\\w*|type[- ]approval)",
+     "matched": "must declare that the remote identification broadcast module complies with the requirements of this subpart by submitting a declaration of compliance",
+     "context": "t module under § 89.520 that is requesting acceptance of a declaration of compliance must declare that the remote identification broadcast module complies with the requirements of this subpart by submitting a declaration of compliance to the FAA in a form and manner acceptable to the Administrator. The declaration mus"
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "declaration of compliance",
+     "matched": "declaration of compliance",
+     "context": "te identification broadcast module under § 89.520 that is requesting acceptance of a declaration of compliance must declare that the remote identification broadcast module complies with the requi"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "demonstrat\\w+ (?:compliance|that)",
+     "matched": "demonstrate that",
+     "context": "esponsible for the production of the remote identification broadcast module: (i) Can demonstrate that the remote identification broadcast module was designed and produced to meet the min"
+    }
+   ]
+  }
+ }
+]

@@ -1,0 +1,84 @@
+{
+ "ruleset_version": "v2",
+ "refreeze_reason": "\u2460 \ucf54\ud37c\uc2a4 \ubaa9\ub85d \uc644\uacb0(LED\u00b7AC 00-1.1B\u00b7SMC 14.18\u00b7CA Gov 7070-7075 \ub4f1\uc7ac; AC \uc6d0\ubcf8 PDF \uc624\uc544\uce74\uc774\ube0c \uad50\uccb4) \u2461 \ucd94\ucd9c\uae30 \uc785\ub825\uacbd\ub85c corpus/ \ud1b5\uc77c \u2462 \ud310\uc815 \uc608\uc2dc \uc120\ud0dd\uc758 \uc9d1\ud569\uc21c\uc11c \ube44\uacb0\uc815\uc131 \uc81c\uac70 \u2463 \ucc45\ubb34\uc131 7\uc694\uc18c \ucd9c\ucc98 \uc624\uadc0\uc18d \uc815\uc815(Bovens 2007 + Metcalf et al. 2021 \ud569\uc131). \ud310\uc815 \uc218\uce58\u00b7\ubd84\ub958 \uc804\ud56d \ubd88\ubcc0(\uc7ac\ud604 \ud655\uc778).",
+ "frozen_at": "2026-09-20T01:13:47",
+ "files": {
+  "probe/lex2.py": {
+   "sha256": "88eadb5af2825d423be9562ed730a1f32e51340bd5b3193d990683b02052c8f1",
+   "bytes": 4745
+  },
+  "graph/extract2.py": {
+   "sha256": "ae75c82772ccda521f4455084f93d620bef3ca5065c16b502b8ab7464d4216a0",
+   "bytes": 9192
+  },
+  "graph/chapters.py": {
+   "sha256": "abd63e6a18f8a70726916c755ccaa3bb66f9213f1dae5d11c88d5b7a81abba00",
+   "bytes": 1340
+  },
+  "graph/edges2.py": {
+   "sha256": "f70f3dfa03fcf1199793492b1f1646fab42c6acf99d69ed121a63d5b4f4ad27d",
+   "bytes": 5369
+  },
+  "graph/edges3.py": {
+   "sha256": "1ba5addc41a23887b71080d6838a9e79ce6c022841a869d310b3d7248e1afed9",
+   "bytes": 1431
+  },
+  "graph/paths3.py": {
+   "sha256": "75caa222afe1489bb33f80ae3d2308a6c2f1f929dce4824e66cb4d12a5755593",
+   "bytes": 2670
+  },
+  "stpa/structure.py": {
+   "sha256": "3c62f964f0d8ff305dc802354bbd1ff38df2b4f21b737404197b4c835e27fa90",
+   "bytes": 7064
+  },
+  "stpa/uca_mg.py": {
+   "sha256": "8786f8117371c79c25513154f654d0ff57fac857bcba989f6238c0ffcde46fe8",
+   "bytes": 10157
+  },
+  "stpa/uca_ma.py": {
+   "sha256": "375aaaa6eabf49fc2e1c1b3b8d4e438ddf228f8b67d4c1eb52a9eff788ae75f8",
+   "bytes": 4663
+  },
+  "stpa/scenarios.py": {
+   "sha256": "c673ca7130b1cad5f8c3a91e70e5bffc6ea32667d7aa0e18fc34978997755ff5",
+   "bytes": 5996
+  },
+  "stpa/accountability.py": {
+   "sha256": "caf9a56f156566b16f54f073dcf72d3f5bc774f032bed019a8a2a1b4375df90c",
+   "bytes": 3590
+  },
+  "stpa/scope.py": {
+   "sha256": "9e5358e2988c27aa7d96fa2603252da8fb3710f92e1bfbca248ce7a9d43cb8f9",
+   "bytes": 1441
+  },
+  "stpa/carveout.py": {
+   "sha256": "608a0e18bdaef2ec3f16bfefe9f8d2b4aba1ca5a11350f04c333044ecba65346",
+   "bytes": 3398
+  },
+  "stpa/match_mg.py": {
+   "sha256": "285c7250b85262f95effa262de8a3d32a2426aba45f50e873f5c0555ad0135b3",
+   "bytes": 3760
+  },
+  "stpa/compare.py": {
+   "sha256": "a2ab5233405103b3cef6aeae2718b2140f5c71027c368667ed1eeb17587ae5bc",
+   "bytes": 2881
+  },
+  "corpus/MANIFEST.json": {
+   "sha256": "0fbd01838159735ef10ca7523f51993444324c698b51cff8582b6f78cfce4ce4",
+   "bytes": 9202
+  },
+  "frozen/adjudicate.py": {
+   "sha256": "f8b04af5493d217511caee17e8b87fb5628322dbc99f93a7be26afced3ff0277",
+   "bytes": 3241
+  },
+  "stpa/coverage.py": {
+   "sha256": "a4b257043607edb9c28635141d6392dd8421881a9d3764126c30642a2f3524e1",
+   "bytes": 2223
+  },
+  "stpa/termproc.py": {
+   "sha256": "25b2d04f9479afa5ec42329e7cfd6fa3622d53111388d4039886e112a62076b7",
+   "bytes": 2776
+  }
+ },
+ "ruleset_sha256": "d65a5fa487f76a615591691b46cb5fe0546f6fd513d58bb9c6d5591e9fd86e5c"
+}

@@ -1,0 +1,18 @@
+{
+ "_purpose": "증거 어휘 포화도. 부록 B 가 이 출력에 대고 쓰인다.",
+ "_sources": 37,
+ "_distinct_values": 2088,
+ "_note": "자기 출력은 어휘에서 제외한다.",
+ "decimals_1": {
+  "held": 10,
+  "possible": 10
+ },
+ "decimals_2": {
+  "held": 54,
+  "possible": 100
+ },
+ "decimals_3": {
+  "held": 75,
+  "possible": 1000
+ }
+}

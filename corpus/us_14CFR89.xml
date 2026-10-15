@@ -1,0 +1,799 @@
+<PART>
+                    <EAR>Pt. 89</EAR>
+                    <HD SOURCE="HED">PART 89—REMOTE IDENTIFICATION OF UNMANNED AIRCRAFT</HD>
+                    <CONTENTS>
+                        <SUBPART>
+                            <HD SOURCE="HED">Subpart A—General</HD>
+                            <SECHD>Sec.</SECHD>
+                            <SECTNO>89.1</SECTNO>
+                            <SUBJECT>Definitions.</SUBJECT>
+                            <SECTNO>89.5</SECTNO>
+                            <SUBJECT>Falsification, reproduction, alteration, or omission.</SUBJECT>
+                        </SUBPART>
+                        <SUBPART>
+                            <HD SOURCE="HED">Subpart B—Operating Requirements</HD>
+                            <SECTNO>89.101</SECTNO>
+                            <SUBJECT>Applicability.</SUBJECT>
+                            <SECTNO>89.105</SECTNO>
+                            <SUBJECT>Remote identification requirement.</SUBJECT>
+                            <SECTNO>89.110</SECTNO>
+                            <SUBJECT>Operation of standard remote identification unmanned aircraft.</SUBJECT>
+                            <SECTNO>89.115</SECTNO>
+                            <SUBJECT>Alternative remote identification.</SUBJECT>
+                            <SECTNO>89.120</SECTNO>
+                            <SUBJECT>Operations for aeronautical research or to show compliance with regulations.</SUBJECT>
+                            <SECTNO>89.125</SECTNO>
+                            <SUBJECT>Automatic Dependent Surveillance-Broadcast (ADS-B) Out prohibition.</SUBJECT>
+                            <SECTNO>89.130</SECTNO>
+                            <SUBJECT>Confirmation of identification.</SUBJECT>
+                        </SUBPART>
+                        <SUBPART>
+                            <HD SOURCE="HED">Subpart C—FAA-Recognized Identification Areas</HD>
+                            <SECTNO>89.201</SECTNO>
+                            <SUBJECT>Applicability.</SUBJECT>
+                            <SECTNO>89.205</SECTNO>
+                            <SUBJECT>Eligibility.</SUBJECT>
+                            <SECTNO>89.210</SECTNO>
+                            <SUBJECT>Requests for establishment of an FAA-recognized identification area.</SUBJECT>
+                            <SECTNO>89.215</SECTNO>
+                            <SUBJECT>Approval of FAA-recognized identification areas.</SUBJECT>
+                            <SECTNO>89.220</SECTNO>
+                            <SUBJECT>Amendment.</SUBJECT>
+                            <SECTNO>89.225</SECTNO>
+                            <SUBJECT>Duration of an FAA-recognized identification area.</SUBJECT>
+                            <SECTNO>89.230</SECTNO>
+                            <SUBJECT>Expiration and termination.</SUBJECT>
+                        </SUBPART>
+                        <SUBPART>
+                            <HD SOURCE="HED">Subpart D—Requirements for Standard Remote Identification Unmanned Aircraft and Remote Identification Broadcast Modules</HD>
+                            <SECTNO>89.301</SECTNO>
+                            <SUBJECT>Applicability.</SUBJECT>
+                            <SECTNO>89.305</SECTNO>
+                            <SUBJECT>Minimum message elements broadcast by standard remote identification unmanned aircraft.</SUBJECT>
+                            <SECTNO>89.310</SECTNO>
+                            <SUBJECT>Minimum performance requirements for standard remote identification unmanned aircraft.</SUBJECT>
+                            <SECTNO>89.315</SECTNO>
+                            <SUBJECT>Minimum message elements broadcast by remote identification broadcast modules.</SUBJECT>
+                            <SECTNO>89.320</SECTNO>
+                            <SUBJECT>Minimum performance requirements for remote identification broadcast modules.</SUBJECT>
+                        </SUBPART>
+                        <SUBPART>
+                            <HD SOURCE="HED">Subpart E—Means of Compliance</HD>
+                            <SECTNO>89.401</SECTNO>
+                            <SUBJECT>Applicability.</SUBJECT>
+                            <SECTNO>89.405</SECTNO>
+                            <SUBJECT>Submission of a means of compliance for FAA acceptance.</SUBJECT>
+                            <SECTNO>89.410</SECTNO>
+                            <SUBJECT>Acceptance of a means of compliance.</SUBJECT>
+                            <SECTNO>89.415</SECTNO>
+                            <SUBJECT>Rescission.</SUBJECT>
+                            <SECTNO>89.420</SECTNO>
+                            <SUBJECT>Record retention.</SUBJECT>
+                        </SUBPART>
+                        <SUBPART>
+                            <HD SOURCE="HED">Subpart F— Remote Identification Design and Production</HD>
+                            <SECTNO>89.501</SECTNO>
+                            <SUBJECT>Applicability.</SUBJECT>
+                            <SECTNO>89.505</SECTNO>
+                            <SUBJECT>Serial numbers.</SUBJECT>
+                            <SECTNO>89.510</SECTNO>
+                            <SUBJECT>Production requirements for unmanned aircraft produced under a design approval or production approval issued under part 21 of this chapter.</SUBJECT>
+                            <SECTNO>89.515</SECTNO>
+                            <SUBJECT>Production requirements for unmanned aircraft without design approval or production approval issued under part 21 of this chapter.</SUBJECT>
+                            <SECTNO>89.520</SECTNO>
+                            <SUBJECT>Production requirements for remote identification broadcast modules.</SUBJECT>
+                            <SECTNO>89.525</SECTNO>
+                            <SUBJECT>Labeling.</SUBJECT>
+                            <SECTNO>89.530</SECTNO>
+                            <SUBJECT>Submission of a declaration of compliance for FAA acceptance.</SUBJECT>
+                            <SECTNO>89.535</SECTNO>
+                            <SUBJECT>Acceptance of a declaration of compliance.</SUBJECT>
+                            <SECTNO>89.540</SECTNO>
+                            <SUBJECT>Rescission and reconsideration.</SUBJECT>
+                            <SECTNO>89.545</SECTNO>
+                            <SUBJECT>Record retention.</SUBJECT>
+                        </SUBPART>
+                    </CONTENTS>
+                    <AUTH>
+                        <HD SOURCE="HED">Authority:</HD>
+                        <P>49 U.S.C. 106(f), 106(g), 40101(d), 40103(b), 44701, 44805, 44809(f); Section 2202 of Pub. L. 114-190, 130 Stat. 629.</P>
+                    </AUTH>
+                    <SOURCE>
+                        <HD SOURCE="HED">Source:</HD>
+                        <P>Amdt. 89-1, 86 FR 4505, Jan. 15, 2021, unless otherwise noted.</P>
+                    </SOURCE>
+                    <SUBPART>
+                        <HD SOURCE="HED">Subpart A—General</HD>
+                        <SECTION>
+                            <SECTNO>§ 89.1</SECTNO>
+                            <SUBJECT>Definitions.</SUBJECT>
+                            <P>The following definitions apply to this part.</P>
+                            <P>
+                                <E T="03">Declaration of compliance</E>
+                                 means a record submitted to the FAA by the producer of a standard remote identification unmanned aircraft or remote identification broadcast module to attest that all the requirements of subpart F of this part have been met.
+                            </P>
+                            <P>
+                                <E T="03">Home-built unmanned aircraft</E>
+                                 means an unmanned aircraft that an individual built solely for education or recreation.
+                            </P>
+                        </SECTION>
+                        <SECTION>
+                            <SECTNO>§ 89.5</SECTNO>
+                            <SUBJECT>Falsification, reproduction, alteration, or omission.</SUBJECT>
+                            <P>(a) No person may make or cause to be made any of the following:</P>
+                            <P>
+                                (1) Any fraudulent or intentionally false statement in any document related to any acceptance, application, approval, authorization, certificate, 
+                                <PRTPAGE P="672"/>
+                                declaration, designation, qualification, record, report, request for reconsideration, or similar, submitted under this part.
+                            </P>
+                            <P>(2) Any fraudulent or intentionally false statement in any document required to be developed, provided, kept, or used to show compliance with any requirement under this part.</P>
+                            <P>(3) Any reproduction or alteration, for fraudulent purpose, of any document related to any acceptance, application, approval, authorization, certificate, declaration, designation, qualification, record, report, request for reconsideration, or similar, submitted or granted under this part.</P>
+                            <P>(b) No person may, by omission, knowingly conceal or cause to be concealed, a material fact in—</P>
+                            <P>(1) Any document related to any acceptance, application, approval, authorization, certificate, declaration, designation, qualification, record, report, request for reconsideration, or similar, submitted under this part; or</P>
+                            <P>(2) Any document required to be developed, provided, kept, or used to show compliance with any requirement under this part.</P>
+                            <P>(c) The commission by any person of an act prohibited under paragraph (a) or (b) of this section is a basis for—</P>
+                            <P>(1) Denial, suspension, rescission, or revocation of any acceptance, application, approval, authorization, certificate, declaration, declaration of compliance, designation, document, filing, qualification, means of compliance, record, report, request for reconsideration, or similar instrument issued or granted by the Administrator and held by that person; or</P>
+                            <P>(2) A civil penalty.</P>
+                        </SECTION>
+                    </SUBPART>
+                    <SUBPART>
+                        <HD SOURCE="HED">Subpart B—Operating Requirement</HD>
+                        <SECTION>
+                            <SECTNO>§ 89.101</SECTNO>
+                            <SUBJECT>Applicability.</SUBJECT>
+                            <P>(a) Except as provided in paragraph (b) of this section, this subpart applies to the following:</P>
+                            <P>(1) Persons operating unmanned aircraft registered or required to be registered under part 47 or 48 of this chapter.</P>
+                            <P>(2) Persons operating foreign civil unmanned aircraft in the United States.</P>
+                            <P>(b) This subpart does not apply to unmanned aircraft operations under part 91 of this chapter that are transmitting ADS-B Out pursuant to § 91.225.</P>
+                        </SECTION>
+                        <SECTION>
+                            <SECTNO>§ 89.105</SECTNO>
+                            <SUBJECT>Remote identification requirement.</SUBJECT>
+                            <P>Except as otherwise authorized by the Administrator or as provided in § 89.120, after September 16, 2023, no person may operate an unmanned aircraft within the airspace of the United States unless the operation meets the requirements of § 89.110 or § 89.115.</P>
+                        </SECTION>
+                        <SECTION>
+                            <SECTNO>§ 89.110</SECTNO>
+                            <SUBJECT>Operation of standard remote identification unmanned aircraft.</SUBJECT>
+                            <P>Unless otherwise authorized by the Administrator, a person may comply with the remote identification requirement of § 89.105 by operating a standard remote identification unmanned aircraft under the following conditions:</P>
+                            <P>
+                                (a) 
+                                <E T="03">Operational requirements.</E>
+                                 A person may operate a standard remote identification unmanned aircraft only if the person operating the standard remote identification unmanned aircraft ensures that all of the following conditions are met:
+                            </P>
+                            <P>(1) From takeoff to shutdown, the standard remote identification unmanned aircraft must broadcast the message elements of § 89.305.</P>
+                            <P>(2) The person manipulating the flight controls of the unmanned aircraft system must land the unmanned aircraft as soon as practicable if the standard remote identification unmanned aircraft is no longer broadcasting the message elements of § 89.305.</P>
+                            <P>
+                                (b) 
+                                <E T="03">Standard remote identification unmanned aircraft requirements.</E>
+                                 A person may operate a standard remote identification unmanned aircraft only if the unmanned aircraft meets all of the following requirements:
+                            </P>
+                            <P>(1) Its serial number is listed on an FAA-accepted declaration of compliance, or the standard remote identification unmanned aircraft is covered by a design approval or production approval issued under part 21 of this chapter and meets the requirements of subpart F of this part.</P>
+                            <P>
+                                (2) Its remote identification equipment is functional and complies with 
+                                <PRTPAGE P="673"/>
+                                the requirements of this part from takeoff to shutdown.
+                            </P>
+                            <P>(3) Its remote identification equipment and functionality have not been disabled.</P>
+                            <P>(4) The Certificate of Aircraft Registration of the unmanned aircraft used in the operation must include the serial number of the unmanned aircraft, as per applicable requirements of parts 47 and 48 of this chapter, or the serial number of the unmanned aircraft must be provided to the FAA in a notice of identification pursuant to § 89.130 prior to the operation.</P>
+                        </SECTION>
+                        <SECTION>
+                            <SECTNO>§ 89.115</SECTNO>
+                            <SUBJECT>Alternative remote identification.</SUBJECT>
+                            <P>A person operating an unmanned aircraft that is not a standard remote identification unmanned aircraft may comply with the remote identification requirement of § 89.105 by meeting all of the requirements of either paragraph (a) or (b) of this section.</P>
+                            <P>
+                                (a) 
+                                <E T="03">Remote identification broadcast modules.</E>
+                                 Unless otherwise authorized by the Administrator, a person may operate an unmanned aircraft that is not a standard remote identification unmanned aircraft if all of the following conditions are met:
+                            </P>
+                            <P>
+                                (1) 
+                                <E T="03">Equipage.</E>
+                                 (i) The unmanned aircraft used in the operation must be equipped with a remote identification broadcast module that meets the requirements of § 89.320 and the serial number of the remote identification broadcast module must be listed on an FAA-accepted declaration of compliance.
+                            </P>
+                            <P>(ii) The Certificate of Aircraft Registration of the unmanned aircraft used in the operation must include the serial number of the remote identification broadcast module, as per applicable requirements of parts 47 and 48 of this chapter, or the serial number of the unmanned aircraft must be provided to the FAA in a notice of identification pursuant to § 89.130 prior to the operation.</P>
+                            <P>
+                                (2) 
+                                <E T="03">Remote identification operating requirements.</E>
+                                 Unless otherwise authorized by the Administrator, a person may operate an unmanned aircraft under this paragraph (a) only if all of the following conditions are met:
+                            </P>
+                            <P>(i) From takeoff to shutdown, the person operating the unmanned aircraft must ensure that the remote identification broadcast module broadcasts the remote identification message elements of § 89.315 directly from the unmanned aircraft.</P>
+                            <P>(ii) The person manipulating the flight controls of the unmanned aircraft system must be able to see the unmanned aircraft at all times throughout the operation.</P>
+                            <P>
+                                (3) 
+                                <E T="03">Pre-flight requirement.</E>
+                                 Prior to takeoff, the person manipulating the flight controls of the unmanned aircraft system must ensure the remote identification broadcast module is functioning in accordance with this subpart.
+                            </P>
+                            <P>
+                                (4) 
+                                <E T="03">In-flight loss of remote identification broadcast.</E>
+                                 The person manipulating the flight controls of the unmanned aircraft system must land the unmanned aircraft as soon as practicable if the unmanned aircraft is no longer broadcasting the message elements of § 89.315.
+                            </P>
+                            <P>
+                                (b) 
+                                <E T="03">Operations at FAA-recognized identification areas.</E>
+                                 Unless otherwise authorized by the Administrator, a person may operate an unmanned aircraft without remote identification equipment only if all of the following conditions are met:
+                            </P>
+                            <P>(1) The unmanned aircraft and the person manipulating the flight controls of the unmanned aircraft system remain within the boundaries of an FAA-recognized identification area throughout the operation; and</P>
+                            <P>(2) The person manipulating the flight controls of the unmanned aircraft system must be able to see the unmanned aircraft at all times throughout the operation.</P>
+                        </SECTION>
+                        <SECTION>
+                            <SECTNO>§ 89.120</SECTNO>
+                            <SUBJECT>Operations for aeronautical research or to show compliance with regulations.</SUBJECT>
+                            <P>The Administrator may authorize operations without remote identification where the operation is solely for the purpose of aeronautical research or to show compliance with regulations.</P>
+                        </SECTION>
+                        <SECTION>
+                            <PRTPAGE P="674"/>
+                            <SECTNO>§ 89.125</SECTNO>
+                            <SUBJECT>Automatic Dependent Surveillance-Broadcast (ADS-B) Out prohibition.</SUBJECT>
+                            <P>Automatic Dependent Surveillance-Broadcast (ADS-B) Out equipment cannot be used to comply with the remote identification requirements of this part.</P>
+                        </SECTION>
+                        <SECTION>
+                            <SECTNO>§ 89.130</SECTNO>
+                            <SUBJECT>Confirmation of identification.</SUBJECT>
+                            <P>
+                                (a) 
+                                <E T="03">Notification requirement.</E>
+                                 No person may operate a foreign registered civil unmanned aircraft with remote identification in the airspace of the United States unless, prior to the operation, the person submits a notice of identification in a form and manner acceptable to the Administrator. The notice of identification must include all of the following:
+                            </P>
+                            <P>(1) The name of the person operating the foreign registered civil unmanned aircraft in the United States, and, if applicable, the person's authorized representative.</P>
+                            <P>(2) The physical address of the person operating the foreign registered civil unmanned aircraft in the United States, and, if applicable, the physical address for the person's authorized representative. If the operator or authorized representative does not receive mail at the physical address, a mailing address must also be provided.</P>
+                            <P>(3) The telephone number(s) where the person operating the foreign registered civil unmanned aircraft in the United States, and, if applicable, the person's authorized representative can be reached while in the United States.</P>
+                            <P>(4) The email address of the person operating the foreign registered civil unmanned aircraft in the United States, and, if applicable, the email address of the person's authorized representative.</P>
+                            <P>(5) The unmanned aircraft manufacturer and model name.</P>
+                            <P>(6) The serial number of the unmanned aircraft or remote identification broadcast module.</P>
+                            <P>(7) The country of registration of the unmanned aircraft.</P>
+                            <P>(8) The registration number.</P>
+                            <P>
+                                (b) 
+                                <E T="03">Issuance of a Confirmation of Identification.</E>
+                                 (1) The FAA will issue a Confirmation of Identification upon completion of the notification requirements provided in paragraph (a) of this section.
+                            </P>
+                            <P>(2) The filing of a notification under paragraph (a) of this section and the Confirmation of Identification issued under paragraph (b)(1) of this section do not have the effect of United States aircraft registration.</P>
+                            <P>
+                                (c) 
+                                <E T="03">Proof of notification.</E>
+                                 No person may operate a foreign registered civil unmanned aircraft with remote identification in the United States unless the person obtains a Confirmation of Identification under paragraph (b)(1) of this section, maintains such Confirmation of Identification at the unmanned aircraft's control station, and produces the Confirmation of Identification when requested by the FAA or a law enforcement officer.
+                            </P>
+                            <P>
+                                (d) 
+                                <E T="03">Requirement to maintain current information.</E>
+                                 The holder of a Confirmation of Identification must ensure that the information provided under paragraph (a) of this section remains accurate and must update the information prior to operating a foreign registered civil unmanned aircraft in the United States.
+                            </P>
+                        </SECTION>
+                    </SUBPART>
+                    <SUBPART>
+                        <HD SOURCE="HED">Subpart C—FAA-Recognized Identification Areas</HD>
+                        <SOURCE>
+                            <HD SOURCE="HED">Source:</HD>
+                            <P>Amdt. 89-1, 86 FR 4511, Jan. 15, 2021, unless otherwise noted.</P>
+                        </SOURCE>
+                        <SECTION>
+                            <SECTNO>§ 89.201</SECTNO>
+                            <SUBJECT>Applicability.</SUBJECT>
+                            <P>This subpart prescribes procedural requirements to establish an FAA-recognized identification area.</P>
+                        </SECTION>
+                        <SECTION>
+                            <SECTNO>§ 89.205</SECTNO>
+                            <SUBJECT>Eligibility.</SUBJECT>
+                            <P>Only the following persons are eligible to apply for the establishment of an FAA-recognized identification area under this subpart:</P>
+                            <P>(a) A community-based organization recognized by the Administrator.</P>
+                            <P>(b) An educational institution, including primary and secondary educational institutions, trade schools, colleges, and universities.</P>
+                        </SECTION>
+                        <SECTION>
+                            <SECTNO>§ 89.210</SECTNO>
+                            <SUBJECT>Requests for establishment of an FAA-recognized identification area.</SUBJECT>
+                            <P>
+                                (a) 
+                                <E T="03">Application.</E>
+                                 An eligible person requesting the establishment of an FAA-recognized identification area under this subpart may submit an application 
+                                <PRTPAGE P="675"/>
+                                in a form and manner acceptable to the Administrator.
+                            </P>
+                            <P>
+                                (b) 
+                                <E T="03">Required documentation.</E>
+                                 A request under this subpart must contain all of the following information:
+                            </P>
+                            <P>(1) The name of the eligible person under § 89.205.</P>
+                            <P>(2) The name of the individual making the request on behalf of the eligible person.</P>
+                            <P>(3) A declaration that the individual making the request has the authority to act on behalf of the community-based organization or educational institution.</P>
+                            <P>(4) The name and contact information of the primary point of contact for communications with the FAA.</P>
+                            <P>(5) The physical address of the proposed FAA-recognized identification area.</P>
+                            <P>(6) The location of the proposed FAA-recognized identification area in a form and manner prescribed by the Administrator.</P>
+                            <P>(7) If applicable, a copy of any existing letter of agreement regarding the flying site.</P>
+                            <P>(8) Description of the intended purpose of the FAA-recognized identification area and why the proposed FAA-recognized identification area is necessary for that purpose.</P>
+                            <P>(9) Any other information required by the Administrator.</P>
+                        </SECTION>
+                        <SECTION>
+                            <SECTNO>§ 89.215</SECTNO>
+                            <SUBJECT>Approval of FAA-recognized identification areas.</SUBJECT>
+                            <P>The Administrator will assess applications for FAA-recognized identification areas and may require additional information or documentation, as needed, to supplement an application. The Administrator will approve or deny an application, and may take into consideration matters such as, but not limited to:</P>
+                            <P>(a) The existence of any FAA established flight or airspace restriction limiting the operation of unmanned aircraft systems, such as special use airspace designations under part 73 of this chapter, temporary flight restrictions issued under part 91 of this chapter, or any other special flight rule, restriction or regulation in this chapter limiting the operation of unmanned aircraft systems in the interest of safety, efficiency, national security and/or homeland security, which overlaps with the proposed FAA-recognized identification area.</P>
+                            <P>(b) The safe and efficient use of airspace by other aircraft.</P>
+                            <P>(c) The safety and security of persons or property on the ground.</P>
+                            <P>(d) The need for an FAA-recognized identification area in the proposed location and proximity of other FAA-recognized identification areas.</P>
+                        </SECTION>
+                        <SECTION>
+                            <SECTNO>§ 89.220</SECTNO>
+                            <SUBJECT>Amendment.</SUBJECT>
+                            <P>(a) From the time of application until expiration or termination of an FAA-recognized identification area, any change to the information submitted in the application including but not limited to a change to the point of contact for the FAA-recognized identification area or a change to the FAA-recognized identification area's organizational affiliation must be submitted to the FAA within 10 calendar days of the change.</P>
+                            <P>(b) If the person who has been granted an FAA-recognized identification area wishes to change the geographic boundaries of the FAA-recognized identification area, the person must submit a request describing the change to the FAA for review. The geographic boundaries of the FAA-recognized identification area will not change unless the requested change is approved in accordance with § 89.215.</P>
+                            <P>(c) The establishment of an FAA-recognized identification area is subject to ongoing review in accordance with § 89.215 by the Administrator that may result in the termination of the FAA-recognized identification area pursuant to § 89.230 or modification of the FAA-recognized identification area.</P>
+                        </SECTION>
+                        <SECTION>
+                            <SECTNO>§ 89.225</SECTNO>
+                            <SUBJECT>Duration of an FAA-recognized identification area.</SUBJECT>
+                            <P>
+                                (a) 
+                                <E T="03">Duration.</E>
+                                 Except as otherwise provided in this subpart, an FAA-recognized identification area will be in effect for 48 calendar months after the date the FAA approves the request for establishment of an FAA-recognized identification area.
+                            </P>
+                            <P>
+                                (b) 
+                                <E T="03">Renewal.</E>
+                                 A person wishing to renew an FAA-recognized identification area must submit a request for renewal no later than 120 days prior to the expiration of the FAA-recognized 
+                                <PRTPAGE P="676"/>
+                                identification area in a form and manner acceptable to the Administrator. The Administrator may deny requests submitted after that deadline or requests submitted after the expiration.
+                            </P>
+                        </SECTION>
+                        <SECTION>
+                            <SECTNO>§ 89.230</SECTNO>
+                            <SUBJECT>Expiration and termination.</SUBJECT>
+                            <P>
+                                (a) 
+                                <E T="03">Expiration.</E>
+                                 Unless renewed, an FAA-recognized identification area issued under this subpart will expire automatically and will have no further force or effect as of the day that immediately follows the date of expiration.
+                            </P>
+                            <P>
+                                (b) 
+                                <E T="03">Termination prior to expiration</E>
+                                —(1) 
+                                <E T="03">Termination by request.</E>
+                                 An individual identified as the point of contact for an approved FAA-recognized identification area may submit a request to the Administrator to terminate that FAA-recognized identification area.
+                            </P>
+                            <P>
+                                (2) 
+                                <E T="03">Termination by FAA.</E>
+                                 (i) The FAA may terminate an FAA-recognized identification area upon a finding that—
+                            </P>
+                            <P>(A) The FAA-recognized identification area may pose a risk to aviation safety, public safety, homeland security, or national security;</P>
+                            <P>(B) The FAA-recognized identification area is no longer associated with a person eligible for an FAA-recognized identification area; or</P>
+                            <P>(C) The person who submitted a request for establishment of an FAA-recognized identification area provided false or misleading information during the submission, amendment, or renewal process.</P>
+                            <P>(ii) The Administrator will notify the primary point of contact of the decision to terminate the FAA-recognized identification area and the reasons for the termination. Except as provided in paragraph (c) of this section, if the FAA terminates an FAA-recognized identification area based upon a finding that the FAA-recognized identification area may pose a risk to aviation safety, public safety, homeland security, or national security, that area will no longer be eligible to be an FAA-recognized identification area for as long as those conditions remain in effect.</P>
+                            <P>
+                                (c) 
+                                <E T="03">Petition to reconsider the FAA's decision to terminate an FAA-recognized identification area.</E>
+                                 No later than 30 calendar days after the termination of an FAA-recognized identification area, a person may petition the Administrator for reconsideration of the decision. The petition must state the reasons justifying the request for reconsideration and include any supporting documentation. Upon consideration of the information submitted by the petitioner, the Administrator will notify the petitioner of the decision on the request for reconsideration.
+                            </P>
+                            <P>
+                                (d) 
+                                <E T="03">Inapplicability of part 13, subpart D, of this chapter.</E>
+                                 Part 13, subpart D, of this chapter does not apply to the procedures of paragraphs (b) and (c) of this section.
+                            </P>
+                        </SECTION>
+                    </SUBPART>
+                    <SUBPART>
+                        <HD SOURCE="HED">Subpart D—Requirements for Standard Remote Identification Unmanned Aircraft and Remote Identification Broadcast Modules</HD>
+                        <SECTION>
+                            <SECTNO>§ 89.301</SECTNO>
+                            <SUBJECT>Applicability.</SUBJECT>
+                            <P>This subpart prescribes the minimum message element set and minimum performance requirements for standard remote identification unmanned aircraft and remote identification broadcast modules.</P>
+                        </SECTION>
+                        <SECTION>
+                            <SECTNO>§ 89.305</SECTNO>
+                            <SUBJECT>Minimum message elements broadcast by standard remote identification unmanned aircraft.</SUBJECT>
+                            <P>A standard remote identification unmanned aircraft must be capable of broadcasting the following remote identification message elements:</P>
+                            <P>(a) The identity of the unmanned aircraft, consisting of:</P>
+                            <P>(1) A serial number assigned to the unmanned aircraft by the person responsible for the production of the standard remote identification unmanned aircraft; or</P>
+                            <P>(2) A session ID.</P>
+                            <P>(b) An indication of the latitude and longitude of the control station.</P>
+                            <P>(c) An indication of the geometric altitude of the control station.</P>
+                            <P>(d) An indication of the latitude and longitude of the unmanned aircraft.</P>
+                            <P>(e) An indication of the geometric altitude of the unmanned aircraft.</P>
+                            <P>(f) An indication of the velocity of the unmanned aircraft.</P>
+                            <P>
+                                (g) A time mark identifying the Coordinated Universal Time (UTC) time of applicability of a position source output.
+                                <PRTPAGE P="677"/>
+                            </P>
+                            <P>(h) An indication of the emergency status of the unmanned aircraft.</P>
+                        </SECTION>
+                        <SECTION>
+                            <SECTNO>§ 89.310</SECTNO>
+                            <SUBJECT>Minimum performance requirements for standard remote identification unmanned aircraft.</SUBJECT>
+                            <P>A standard remote identification unmanned aircraft must meet the following minimum performance requirements:</P>
+                            <P>
+                                (a) 
+                                <E T="03">Control station location.</E>
+                                 The location of the control station of the unmanned aircraft must be generated and encoded into the message elements and must correspond to the location of the person manipulating the flight controls of the unmanned aircraft system.
+                            </P>
+                            <P>
+                                (b) 
+                                <E T="03">Time mark.</E>
+                                 The time mark message element must be synchronized with all other remote identification message elements.
+                            </P>
+                            <P>
+                                (c) 
+                                <E T="03">Self-testing and monitoring.</E>
+                                 (1) Prior to takeoff, the unmanned aircraft must automatically test the remote identification functionality and notify the person manipulating the flight controls of the unmanned aircraft system of the result of the test.
+                            </P>
+                            <P>(2) The unmanned aircraft must not be able to take off if the remote identification equipment is not functional.</P>
+                            <P>(3) The unmanned aircraft must continuously monitor the remote identification functionality from takeoff to shutdown and must provide notification of malfunction or failure to the person manipulating the flight controls of the unmanned aircraft system.</P>
+                            <P>
+                                (d) 
+                                <E T="03">Tamper resistance.</E>
+                                 The unmanned aircraft must be designed and produced in a way that reduces the ability of a person to tamper with the remote identification functionality.
+                            </P>
+                            <P>
+                                (e) 
+                                <E T="03">Error correction.</E>
+                                 The remote identification equipment must incorporate error correction in the broadcast of the message elements in § 89.305.
+                            </P>
+                            <P>
+                                (f) 
+                                <E T="03">Interference considerations.</E>
+                                 The remote identification equipment must not interfere with other systems or equipment installed on the unmanned aircraft, and other systems or equipment installed on the unmanned aircraft must not interfere with the remote identification equipment.
+                            </P>
+                            <P>
+                                (g) 
+                                <E T="03">Message broadcast.</E>
+                                 (1) The unmanned aircraft must be capable of broadcasting the message elements in § 89.305 using a non-proprietary broadcast specification and using radio frequency spectrum compatible with personal wireless devices in accordance with 47 CFR part 15, where operations may occur without an FCC individual license.
+                            </P>
+                            <P>(2) Any broadcasting device used to meet the requirements of this section must be integrated into the unmanned aircraft without modification to its authorized radio frequency parameters and designed to maximize the range at which the broadcast can be received, while complying with 47 CFR part 15 and any other applicable laws in effect as of the date the declaration of compliance is submitted to the FAA for acceptance.</P>
+                            <P>
+                                (h) 
+                                <E T="03">Message elements performance requirements.</E>
+                                 (1) The reported geometric position of the unmanned aircraft and the control station must be accurate to within 100 feet of the true position, with 95 percent probability.
+                            </P>
+                            <P>(2) The reported geometric altitude of the control station must be accurate to within 15 feet of the true geometric altitude, with 95 percent probability.</P>
+                            <P>(3) The reported geometric altitude of the unmanned aircraft must be accurate to within 150 feet of the true geometric altitude, with 95 percent probability.</P>
+                            <P>(4) The unmanned aircraft must broadcast the latitude, longitude, and geometric altitude of the unmanned aircraft and its control station no later than 1.0 seconds from the time of measurement to the time of broadcast.</P>
+                            <P>(5) The unmanned aircraft must broadcast the message elements at a rate of at least 1 message per second.</P>
+                            <P>
+                                (i) 
+                                <E T="03">Take-off limitation.</E>
+                                 The unmanned aircraft must not be able to take off unless it is broadcasting the message elements in § 89.305.
+                            </P>
+                        </SECTION>
+                        <SECTION>
+                            <SECTNO>§ 89.315</SECTNO>
+                            <SUBJECT>Minimum message elements broadcast by remote identification broadcast modules.</SUBJECT>
+                            <P>Remote identification broadcast modules must be capable of broadcasting the following remote identification message elements:</P>
+                            <P>
+                                (a) The identity of the unmanned aircraft, consisting of the serial number assigned to the remote identification 
+                                <PRTPAGE P="678"/>
+                                broadcast module by the person responsible for the production of the remote identification broadcast module.
+                            </P>
+                            <P>(b) An indication of the latitude and longitude of the unmanned aircraft.</P>
+                            <P>(c) An indication of the geometric altitude of the unmanned aircraft.</P>
+                            <P>(d) An indication of the velocity of the unmanned aircraft.</P>
+                            <P>(e) An indication of the latitude and longitude of the take-off location of the unmanned aircraft.</P>
+                            <P>(f) An indication of the geometric altitude of the take-off location of the unmanned aircraft.</P>
+                            <P>(g) A time mark identifying the Coordinated Universal Time (UTC) time of applicability of a position source output.</P>
+                        </SECTION>
+                        <SECTION>
+                            <SECTNO>§ 89.320</SECTNO>
+                            <SUBJECT>Minimum performance requirements for remote identification broadcast modules.</SUBJECT>
+                            <P>Remote identification broadcast modules must meet the following minimum performance requirements:</P>
+                            <P>
+                                (a) 
+                                <E T="03">Take-off location.</E>
+                                 The remote identification broadcast module must be capable of determining the take-off location of the unmanned aircraft.
+                            </P>
+                            <P>
+                                (b) 
+                                <E T="03">Time mark.</E>
+                                 The time mark message element must be synchronized with all other remote identification message elements.
+                            </P>
+                            <P>
+                                (c) 
+                                <E T="03">Self-testing and monitoring.</E>
+                                 (1) Prior to take-off, the remote identification broadcast module must automatically test the remote identification functionality and notify the person manipulating the flight controls of the unmanned aircraft system of the result of the test.
+                            </P>
+                            <P>(2) The remote identification broadcast module must continuously monitor the remote identification functionality from takeoff to shutdown and must provide notification of malfunction or failure to the person manipulating the flight controls of the unmanned aircraft system.</P>
+                            <P>
+                                (d) 
+                                <E T="03">Tamper resistance.</E>
+                                 The remote identification broadcast module must be designed and produced in a way that reduces the ability of a person to tamper with the remote identification functionality.
+                            </P>
+                            <P>
+                                (e) 
+                                <E T="03">Error correction.</E>
+                                 The remote identification broadcast module must incorporate error correction in the broadcast of the message elements in § 89.315.
+                            </P>
+                            <P>
+                                (f) 
+                                <E T="03">Interference considerations.</E>
+                                 The remote identification broadcast module must not interfere with other systems or equipment installed on compatible unmanned aircraft, and other systems or equipment installed on compatible unmanned aircraft must not interfere with the remote identification equipment.
+                            </P>
+                            <P>
+                                (g) 
+                                <E T="03">Message broadcast.</E>
+                                 (1) The remote identification broadcast module must be capable of broadcasting the message elements in § 89.315 using a non-proprietary broadcast specification and using radio frequency spectrum compatible with personal wireless devices in accordance with 47 CFR part 15, where operations may occur without an FCC individual license.
+                            </P>
+                            <P>(2) The remote identification broadcast module must be designed to maximize the range at which the broadcast can be received, while complying with 47 CFR part 15 and any other applicable laws in effect as of the date the declaration of compliance is submitted to the FAA for acceptance.</P>
+                            <P>
+                                (h) 
+                                <E T="03">Message elements performance requirements.</E>
+                                 (1) The reported geometric position of the unmanned aircraft must be accurate to within 100 feet of the true position, with 95 percent probability.
+                            </P>
+                            <P>(2) The reported geometric altitude of the unmanned aircraft must be accurate to within 150 feet of the true geometric altitude, with 95 percent probability.</P>
+                            <P>(3) The reported geometric position of the take-off location must be accurate to within 100 feet of the true geometric position, with 95 percent probability.</P>
+                            <P>(4) The reported geometric altitude of the take-off location must be accurate to within 150 feet of the true geometric altitude, with 95 percent probability.</P>
+                            <P>
+                                (5) The remote identification broadcast module must broadcast the latitude, longitude, and geometric altitude of the unmanned aircraft no later than 1.0 seconds from the time of measurement to the time of broadcast.
+                                <PRTPAGE P="679"/>
+                            </P>
+                            <P>(6) The remote identification broadcast module must broadcast the message elements at a rate of at least 1 message per second.</P>
+                        </SECTION>
+                    </SUBPART>
+                    <SUBPART>
+                        <HD SOURCE="HED">Subpart E—Means of Compliance</HD>
+                        <SECTION>
+                            <SECTNO>§ 89.401</SECTNO>
+                            <SUBJECT>Applicability.</SUBJECT>
+                            <P>This subpart prescribes—</P>
+                            <P>(a) Requirements for means of compliance with subpart D of this part.</P>
+                            <P>(b) Procedural requirements for the submission and acceptance of means of compliance used in the design and production of standard remote identification unmanned aircraft or remote identification broadcast modules to ensure they meet the minimum performance requirements of this part.</P>
+                            <P>(c) Rules governing persons submitting means of compliance for FAA acceptance.</P>
+                        </SECTION>
+                        <SECTION>
+                            <SECTNO>§ 89.405</SECTNO>
+                            <SUBJECT>Submission of a means of compliance for FAA acceptance.</SUBJECT>
+                            <P>
+                                (a) 
+                                <E T="03">Eligibility.</E>
+                                 Any person may submit a means of compliance for acceptance by the FAA.
+                            </P>
+                            <P>
+                                (b) 
+                                <E T="03">Required information.</E>
+                                 A person requesting acceptance of a means of compliance must submit the following information to the FAA in a form and manner acceptable to the Administrator:
+                            </P>
+                            <P>(1) The name of the person or entity submitting the means of compliance, the name of the main point of contact for communications with the FAA, the physical address, email address, and other contact information.</P>
+                            <P>(2) A detailed description of the means of compliance.</P>
+                            <P>(3) An explanation of how the means of compliance addresses all of the minimum performance requirements established in subpart D of this part so that any standard remote identification unmanned aircraft or remote identification broadcast module designed and produced in accordance with such means of compliance meets the remote identification requirements of this part.</P>
+                            <P>(4) Any substantiating material the person wishes the FAA to consider as part of the request.</P>
+                            <P>
+                                (c) 
+                                <E T="03">Testing and validation.</E>
+                                 A means of compliance submitted for acceptance by the FAA must include testing and validation procedures for persons responsible for the production of standard remote identification unmanned aircraft or remote identification broadcast modules to demonstrate through analysis, ground test, or flight test, as appropriate, how the standard remote identification unmanned aircraft or the remote identification broadcast module performs its intended functions and meets the requirements in subpart D of this part, including any applicable FAA performance requirements for radio station operation.
+                            </P>
+                        </SECTION>
+                        <SECTION>
+                            <SECTNO>§ 89.410</SECTNO>
+                            <SUBJECT>Acceptance of a means of compliance.</SUBJECT>
+                            <P>(a) A person requesting acceptance of a means of compliance must demonstrate to the Administrator that the means of compliance addresses all of the requirements of subparts D and E of this part, and that any standard remote identification unmanned aircraft or remote identification broadcast module designed and produced in accordance with such means of compliance would meet the performance requirements of subpart D of this part.</P>
+                            <P>(b) The Administrator will evaluate a means of compliance that is submitted to the FAA and may request additional information or documentation, as needed, to supplement the submission.</P>
+                            <P>(c) If the Administrator determines the person has demonstrated that the means of compliance meets the requirements of subparts D and E of this part, the FAA will notify the person that the Administrator has accepted the means of compliance.</P>
+                        </SECTION>
+                        <SECTION>
+                            <SECTNO>§ 89.415</SECTNO>
+                            <SUBJECT>Rescission.</SUBJECT>
+                            <P>
+                                (a) 
+                                <E T="03">Rescission of an FAA-accepted means of compliance.</E>
+                                 (1) A means of compliance is subject to ongoing review by the Administrator. The Administrator may rescind acceptance of a means of compliance if the Administrator determines that a means of compliance does not meet any or all of the requirements of subpart D or E of this part.
+                            </P>
+                            <P>
+                                (2) The Administrator will publish a notice of rescission in the 
+                                <E T="04">Federal Register</E>
+                                .
+                            </P>
+                            <P>
+                                (b) 
+                                <E T="03">Inapplicability of part 13, subpart D, of this chapter.</E>
+                                 Part 13, subpart D, of 
+                                <PRTPAGE P="680"/>
+                                this chapter does not apply to the procedures of paragraph (a) of this section.
+                            </P>
+                        </SECTION>
+                        <SECTION>
+                            <SECTNO>§ 89.420</SECTNO>
+                            <SUBJECT>Record retention.</SUBJECT>
+                            <P>A person who submits a means of compliance that is accepted by the Administrator under this subpart must retain the following information for as long as the means of compliance is accepted plus an additional 24 calendar months, and must make available for inspection by the Administrator the following:</P>
+                            <P>(a) All documentation and substantiating data submitted to the FAA for acceptance of the means of compliance.</P>
+                            <P>(b) Records of all test procedures, methodology, and other procedures, as applicable.</P>
+                            <P>(c) Any other information necessary to justify and substantiate how the means of compliance enables compliance with the remote identification requirements of this part.</P>
+                        </SECTION>
+                    </SUBPART>
+                    <SUBPART>
+                        <HD SOURCE="HED">Subpart F— Remote Identification Design and Production</HD>
+                        <SECTION>
+                            <SECTNO>§ 89.501</SECTNO>
+                            <SUBJECT>Applicability.</SUBJECT>
+                            <P>(a) This subpart prescribes—</P>
+                            <P>(1) Requirements for the design and production of unmanned aircraft with remote identification produced for operation in the airspace of the United States.</P>
+                            <P>(2) Requirements for the design and production of remote identification broadcast modules.</P>
+                            <P>(3) Procedural requirements for the submission, acceptance, and rescission of declarations of compliance.</P>
+                            <P>(4) Rules governing persons submitting declarations of compliance for FAA acceptance under this part.</P>
+                            <P>(b) Except as provided in paragraph (c) of this section, this subpart applies to the design and production of all unmanned aircraft operated in the airspace of the United States.</P>
+                            <P>(c) Except for unmanned aircraft designed and produced to be standard remote identification unmanned aircraft, this subpart does not apply to the design or production of:</P>
+                            <P>(1) Home-built unmanned aircraft.</P>
+                            <P>(2) Unmanned aircraft of the United States Government.</P>
+                            <P>(3) Unmanned aircraft that weigh 0.55 pounds or less on takeoff, including everything that is on board or otherwise attached to the aircraft.</P>
+                            <P>(4) Unmanned aircraft designed or produced exclusively for the purpose of aeronautical research or to show compliance with regulations.</P>
+                        </SECTION>
+                        <SECTION>
+                            <SECTNO>§ 89.505</SECTNO>
+                            <SUBJECT>Serial numbers.</SUBJECT>
+                            <P>
+                                No person may produce a standard remote identification unmanned aircraft under § 89.510 or § 89.515 or a remote identification broadcast module under § 89.520, unless the producer assigns to the unmanned aircraft or remote identification broadcast module a serial number that complies with ANSI/CTA-2063-A. ANSI/CTA-2063-A, 
+                                <E T="03">Small Unmanned Aerial Systems Serial Numbers</E>
+                                 (September 2019) is incorporated by reference into this section with the approval of the Director of the Office of the Federal Register under 5 U.S.C. 552(a) and 1 CFR part 51. All approved material is available for inspection at the FAA's Office of Rulemaking (ARM-1), 800 Independence Avenue SW, Washington, DC 20590 (telephone 202-267-9677) and is available from Consumer Technology Association (CTA), 1919 South Eads Street, Arlington, VA 22202, 
+                                <E T="03">CTA@CTA.tech</E>
+                                , 703-907-7600 or at 
+                                <E T="03">https://www.cta.tech.</E>
+                                 It is also available for inspection at the National Archives and Records Administration (NARA). For information on the availability of this material at NARA, email 
+                                <E T="03">fedreg.legal@nara.gov,</E>
+                                 or go to 
+                                <E T="03">www.archives.gov/federal-register/cfr/ibr-locations.html.</E>
+                            </P>
+                        </SECTION>
+                        <SECTION>
+                            <SECTNO>§ 89.510</SECTNO>
+                            <SUBJECT>Production requirements for unmanned aircraft produced under a design approval or production approval issued under part 21 of this chapter.</SUBJECT>
+                            <P>After September 16, 2022, no person may produce an unmanned aircraft for operation in the airspace of the United States under a design approval or production approval issued under part 21 of this chapter unless:</P>
+                            <P>(a) All applicable requirements of part 21 of this chapter are met; and</P>
+                            <P>(b) The unmanned aircraft is—</P>
+                            <P>
+                                (1) Designed and produced to meet the minimum performance requirements for standard remote identification unmanned aircraft established in 
+                                <PRTPAGE P="681"/>
+                                § 89.310 in accordance with an FAA-accepted means of compliance; or
+                            </P>
+                            <P>(2) Equipped with Automatic Dependent Surveillance-Broadcast (ADS-B) Out equipment that meets the requirements of § 91.225 of this chapter.</P>
+                        </SECTION>
+                        <SECTION>
+                            <SECTNO>§ 89.515</SECTNO>
+                            <SUBJECT>Production requirements for unmanned aircraft without design approval or production approval issued under part 21 of this chapter.</SUBJECT>
+                            <P>Except as provided in § 89.510, after September 16, 2022, no person may produce an unmanned aircraft for operation in the airspace of the United States unless—</P>
+                            <P>(a) The unmanned aircraft is designed and produced to meet the minimum performance requirements for standard remote identification unmanned aircraft established in § 89.310 in accordance with an FAA-accepted means of compliance; and</P>
+                            <P>(b) All of the following conditions are met:</P>
+                            <P>
+                                (1) 
+                                <E T="03">Inspection requirements for production of standard unmanned aircraft.</E>
+                                 A person responsible for the production of standard remote identification unmanned aircraft must, upon request, allow the Administrator to inspect the person's facilities, technical data, and any standard remote identification unmanned aircraft the person produces, and to witness any tests necessary to determine compliance with this subpart.
+                            </P>
+                            <P>
+                                (2) 
+                                <E T="03">Audit requirements.</E>
+                                 A person responsible for the production of standard remote identification unmanned aircraft must cause independent audits to be performed on a recurring basis, and additionally whenever the FAA provides notice of noncompliance or potential noncompliance, to demonstrate the unmanned aircraft listed under a declaration of compliance meet the requirements of this subpart. The person responsible for the production of standard remote identification unmanned aircraft must provide the results of all such audits to the FAA upon request.
+                            </P>
+                            <P>
+                                (3) 
+                                <E T="03">Product support and notification.</E>
+                                 A person responsible for the production of standard remote identification unmanned aircraft must maintain product support and notification procedures to notify the public and the FAA of any defect or condition that causes an unmanned aircraft to no longer meet the requirements of this subpart, within 15 calendar days of the date the person becomes aware of the defect or condition.
+                            </P>
+                        </SECTION>
+                        <SECTION>
+                            <SECTNO>§ 89.520</SECTNO>
+                            <SUBJECT>Production requirements for remote identification broadcast modules.</SUBJECT>
+                            <P>After April 21, 2021, no person may produce remote identification broadcast modules unless:</P>
+                            <P>(a) The remote identification broadcast module is designed and produced to meet the minimum performance requirements for remote identification broadcast modules established in § 89.320 in accordance with an FAA-accepted means of compliance; and</P>
+                            <P>(b) All of the following conditions are met:</P>
+                            <P>
+                                (1) 
+                                <E T="03">Inspection requirements for production of remote identification broadcast modules.</E>
+                                 A person responsible for the production of remote identification broadcast modules must, upon request, allow the Administrator to inspect the person's facilities, technical data, and any remote identification broadcast modules the person produces, and to witness any tests necessary to determine compliance with this subpart.
+                            </P>
+                            <P>
+                                (2) 
+                                <E T="03">Audit requirements.</E>
+                                 A person responsible for the production of remote identification broadcast modules must cause independent audits to be performed on a recurring basis, and additionally whenever the FAA provides notice of noncompliance or potential noncompliance, to demonstrate the remote identification broadcast modules listed under a declaration of compliance meet the requirements of this subpart. The person responsible for the production of remote identification broadcast modules must provide the results of all such audits to the FAA upon request.
+                            </P>
+                            <P>
+                                (3) 
+                                <E T="03">Product support and notification.</E>
+                                 A person responsible for the production of remote identification broadcast modules must maintain product support and notification procedures to notify the public and the FAA of any defect or condition that causes the remote identification broadcast module to no longer meet the requirements of this subpart, within 15 calendar days of 
+                                <PRTPAGE P="682"/>
+                                the date the person becomes aware of the defect or condition.
+                            </P>
+                            <P>
+                                (4) 
+                                <E T="03">Instructions.</E>
+                                 A person responsible for the production of a remote identification broadcast module must make available instructions for installing and operating the remote identification broadcast module to any person operating an unmanned aircraft with the remote identification broadcast module.
+                            </P>
+                            <CITA>[Amdt. 89-1, 86 FR 4505, Jan. 15, 2021; 86 FR 13630, Mar. 10, 2021]</CITA>
+                        </SECTION>
+                        <SECTION>
+                            <SECTNO>§ 89.525</SECTNO>
+                            <SUBJECT>Labeling.</SUBJECT>
+                            <P>(a) No person may produce a standard remote identification unmanned aircraft under § 89.515 unless it displays a label indicating that the unmanned aircraft meets the requirements of this part. The label must be in English and be legible, prominent, and permanently affixed to the unmanned aircraft.</P>
+                            <P>(b) No person may produce a remote identification broadcast module under § 89.520 unless it displays a label indicating that the equipment meets the requirements of this part. The label must be in English and be legible, prominent, and permanently affixed to the broadcast module.</P>
+                        </SECTION>
+                        <SECTION>
+                            <SECTNO>§ 89.530</SECTNO>
+                            <SUBJECT>Submission of a declaration of compliance for FAA acceptance.</SUBJECT>
+                            <P>
+                                (a) 
+                                <E T="03">Eligibility.</E>
+                                 A person responsible for the production of a standard remote identification unmanned aircraft under § 89.515 or a remote identification broadcast module under § 89.520 must submit a declaration of compliance for acceptance by the FAA.
+                            </P>
+                            <P>
+                                (b) 
+                                <E T="03">Required information for standard remote identification unmanned aircraft.</E>
+                                 The person responsible for the production of a standard remote identification unmanned aircraft requesting acceptance of a declaration of compliance must declare that the unmanned aircraft complies with the requirements of this subpart by submitting a declaration of compliance to the FAA in a form and manner acceptable to the Administrator. The declaration must include at a minimum the following information:
+                            </P>
+                            <P>(1) The name, physical address, telephone number, and email address of the person responsible for production of the unmanned aircraft.</P>
+                            <P>(2) The unmanned aircraft's make and model.</P>
+                            <P>(3) The unmanned aircraft's serial number, or the range of serial numbers for which the person responsible for production is declaring compliance.</P>
+                            <P>(4) The FCC Identifier of the 47 CFR part 15-compliant radio frequency equipment used and integrated into the unmanned aircraft.</P>
+                            <P>(5) The means of compliance used in the design and production of the unmanned aircraft.</P>
+                            <P>(6) Whether the declaration of compliance is an initial declaration or an amended declaration, and if the declaration of compliance is an amended declaration, the reason for the amendment.</P>
+                            <P>(7) A declaration that the person responsible for the production of the unmanned aircraft:</P>
+                            <P>(i) Can demonstrate that the unmanned aircraft was designed and produced to meet the minimum performance requirements of § 89.310 by using an FAA-accepted means of compliance.</P>
+                            <P>(ii) Complies with the requirements of § 89.515(b).</P>
+                            <P>(8) A statement that 47 CFR part 15-compliant radio frequency equipment is used and is integrated into the unmanned aircraft without modification to its authorized radio frequency parameters.</P>
+                            <P>
+                                (c) 
+                                <E T="03">Required information for remote identification broadcast modules.</E>
+                                 The person responsible for the production of a remote identification broadcast module under § 89.520 that is requesting acceptance of a declaration of compliance must declare that the remote identification broadcast module complies with the requirements of this subpart by submitting a declaration of compliance to the FAA in a form and manner acceptable to the Administrator. The declaration must include at a minimum the following information:
+                            </P>
+                            <P>(1) The name, physical address, telephone number, and email address of the person responsible for production of the remote identification broadcast module.</P>
+                            <P>(2) The remote identification broadcast module's make and model.</P>
+                            <P>
+                                (3) The remote identification broadcast module's serial number, or the range of serial numbers for which the 
+                                <PRTPAGE P="683"/>
+                                person responsible for production is declaring compliance.
+                            </P>
+                            <P>(4) The FCC Identifier of the 47 CFR part 15-compliant radio frequency equipment used and integrated into the remote identification broadcast module.</P>
+                            <P>(5) The means of compliance used in the design and production of the remote identification broadcast module.</P>
+                            <P>(6) Whether the declaration of compliance is an initial declaration or an amended declaration, and if the declaration of compliance is an amended declaration, the reason for the amendment.</P>
+                            <P>(7) A declaration that the person responsible for the production of the remote identification broadcast module:</P>
+                            <P>(i) Can demonstrate that the remote identification broadcast module was designed and produced to meet the minimum performance requirements of § 89.320 by using an FAA-accepted means of compliance.</P>
+                            <P>(ii) Complies with the requirements of § 89.520(b).</P>
+                            <P>(8) A statement that 47 CFR part 15-compliant radio frequency equipment is used and is integrated into the remote identification broadcast module without modification to its authorized radio frequency parameters, and a statement that instructions have been provided for installation of 47 CFR part 15-compliant remote identification broadcast module without modification to the broadcast module's authorized radio frequency parameters.</P>
+                        </SECTION>
+                        <SECTION>
+                            <SECTNO>§ 89.535</SECTNO>
+                            <SUBJECT>Acceptance of a declaration of compliance.</SUBJECT>
+                            <P>(a) The Administrator will evaluate a declaration of compliance that is submitted to the FAA and may request additional information or documentation, as needed, to supplement the declaration of compliance.</P>
+                            <P>(b) If the Administrator determines that the submitter has demonstrated compliance with the requirements of this subpart, the FAA will notify the submitter that the Administrator has accepted the declaration of compliance.</P>
+                        </SECTION>
+                        <SECTION>
+                            <SECTNO>§ 89.540</SECTNO>
+                            <SUBJECT>Rescission and reconsideration.</SUBJECT>
+                            <P>
+                                (a) 
+                                <E T="03">Rescission of the FAA's acceptance of a declaration of compliance.</E>
+                                 (1) A declaration of compliance is subject to ongoing review by the Administrator. The Administrator may rescind acceptance of a declaration of compliance under circumstances including but not limited to the following:
+                            </P>
+                            <P>(i) A standard remote identification unmanned aircraft or remote identification broadcast module listed under an accepted declaration of compliance does not meet the minimum performance requirements of § 89.310 or § 89.320.</P>
+                            <P>(ii) A previously FAA-accepted declaration of compliance does not meet a requirement of this subpart; or</P>
+                            <P>(iii) The FAA rescinds acceptance of the means of compliance listed in an FAA-accepted declaration of compliance.</P>
+                            <P>(2) The Administrator will notify the person who submitted the FAA-accepted declaration of compliance of any issue of noncompliance.</P>
+                            <P>(3) If the Administrator determines that it is in the public interest, prior to rescinding acceptance of a declaration of compliance, the Administrator may provide a reasonable period of time for the person who submitted the declaration of compliance to remediate the noncompliance. A failure to remediate the noncompliance constitutes cause for rescission of the FAA's acceptance of the declaration of compliance.</P>
+                            <P>
+                                (4) The Administrator will notify the person who submitted the declaration of compliance of the decision to rescind acceptance of the declaration of compliance by publishing a notice of rescission in the 
+                                <E T="04">Federal Register</E>
+                                .
+                            </P>
+                            <P>
+                                (b) 
+                                <E T="03">Petition to reconsider the FAA's decision to rescind acceptance of a declaration of compliance.</E>
+                                 (1) The person who submitted the FAA-accepted declaration of compliance or any person adversely affected by the rescission of the Administrator's acceptance of a declaration of compliance may petition for a reconsideration of the decision by submitting a request to the FAA in a form and manner acceptable to the Administrator within 60 calendar days of the date of publication in the 
+                                <E T="04">Federal Register</E>
+                                 of notification of rescission.
+                                <PRTPAGE P="684"/>
+                            </P>
+                            <P>(2) A petition to reconsider the rescission of the Administrator's acceptance of a declaration of compliance must show that the petitioner is an interested party and has been adversely affected by the decision of the FAA. The petition must also demonstrate at least one of the following:</P>
+                            <P>(i) The petitioner adduces a significant additional fact not previously presented to the FAA.</P>
+                            <P>(ii) The Administrator made a material error of fact in the decision to rescind acceptance of the declaration of compliance.</P>
+                            <P>(iii) The Administrator did not correctly interpret a law, regulation, or precedent.</P>
+                            <P>(3) Upon consideration of the information submitted by the petitioner, the Administrator will notify the petitioner and the person who submitted the declaration of compliance (if different) of the decision on whether to reinstate the Administrator's acceptance of the declaration of compliance.</P>
+                            <P>
+                                (c) 
+                                <E T="03">Inapplicability of part 13, subpart D, of this chapter.</E>
+                                 Part 13, subpart D, of this chapter does not apply to the procedures of paragraphs (a) and (b) of this section.
+                            </P>
+                        </SECTION>
+                        <SECTION>
+                            <SECTNO>§ 89.545</SECTNO>
+                            <SUBJECT>Record retention.</SUBJECT>
+                            <P>A person who submits a declaration of compliance under this subpart that is accepted by the Administrator must retain the following information for as long as the standard remote identification unmanned aircraft or remote identification broadcast module listed on that declaration of compliance is produced plus an additional 24 calendar months, and must make available for inspection by the Administrator the following:</P>
+                            <P>(a) The means of compliance, all documentation, and substantiating data related to the means of compliance used.</P>
+                            <P>(b) Records of all test results.</P>
+                            <P>(c) Any other information necessary to demonstrate compliance with the means of compliance so that the standard remote identification unmanned aircraft or remote identification broadcast module meets the remote identification requirements and the design and production requirements of this part.</P>
+                        </SECTION>
+                    </SUBPART>
+                </PART>
+                

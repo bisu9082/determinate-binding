@@ -1,0 +1,219 @@
+[
+ {
+  "key": "Pennington2026STPACoordination",
+  "doi": "10.1016/j.ssci.2025.107011",
+  "bib_title": "Engineering safe human-autonomy teaming using STPA-coordination",
+  "bib_year": "2026",
+  "s2_title": "Engineering safe human-autonomy teaming using STPA-coordination",
+  "s2_year": 2026,
+  "s2_venue": "Safety Science",
+  "status": "S2_OK"
+ },
+ {
+  "key": "Yang2024HumanRobotTeaming",
+  "doi": "10.1016/j.ssci.2024.106543",
+  "bib_title": "Risk-based performance assessment from fully manual to human-robot teaming in pressurized tank inspection operations",
+  "bib_year": "2024",
+  "err": "HTTP Error 429: ",
+  "s2_title": "Risk-based performance assessment from fully manual to human-robot teaming in pressurized tank inspection operations",
+  "s2_year": 2024,
+  "s2_venue": "Safety Science",
+  "status": "S2_OK"
+ },
+ {
+  "key": "CasperMurphy2003WTC",
+  "doi": "10.1109/TSMCB.2003.811794",
+  "bib_title": "Human-robot interactions during the robot-assisted urban search and rescue response at the World Trade Center",
+  "bib_year": "2003",
+  "s2_title": "Human-robot interactions during the robot-assisted urban search and rescue response at the World Trade Center",
+  "s2_year": 2003,
+  "s2_venue": "IEEE Trans. Syst. Man Cybern. Part B",
+  "status": "S2_OK"
+ },
+ {
+  "key": "Murphy2004RescueHRI",
+  "doi": "10.1109/TSMCC.2004.826267",
+  "bib_title": "Human-robot interaction in rescue robotics",
+  "bib_year": "2004",
+  "s2_title": "Human-robot interaction in rescue robotics",
+  "s2_year": 2004,
+  "s2_venue": "IEEE Transactions on Systems Man and Cybernetics Part C (Applications and Reviews)",
+  "status": "S2_OK"
+ },
+ {
+  "key": "Burke2004MoonlightMiami",
+  "doi": "10.1207/s15327051hci1901\\&2_5",
+  "bib_title": "Moonlight in Miami: Field Study of Human-Robot Interaction in the Context of an Urban Search and Rescue Disaster Response Training Exercise",
+  "bib_year": "2004",
+  "err": "HTTP Error 400: Bad Request",
+  "status": "S2_FAIL"
+ },
+ {
+  "key": "Delmerico2019RescueRobotics",
+  "doi": "10.1002/rob.21887",
+  "bib_title": "The current state and future outlook of rescue robotics",
+  "bib_year": "2019",
+  "s2_title": "The current state and future outlook of rescue robotics",
+  "s2_year": 2019,
+  "s2_venue": "J. Field Robotics",
+  "status": "S2_OK"
+ },
+ {
+  "key": "Murphy2014DisasterRobotics",
+  "doi": "10.7551/mitpress/9407.001.0001",
+  "bib_title": "Disaster Robotics",
+  "bib_year": "2014",
+  "err": "HTTP Error 404: Not Found",
+  "status": "S2_FAIL"
+ },
+ {
+  "key": "Marcu2023SecurityRobots",
+  "doi": "10.1145/3610171",
+  "bib_title": "``Would I Feel More Secure With a Robot?'': Understanding Perceptions of Security Robots in Public Spaces",
+  "bib_year": "2023",
+  "s2_title": "\"Would I Feel More Secure With a Robot?\": Understanding Perceptions of Security Robots in Public Spaces",
+  "s2_year": 2023,
+  "s2_venue": "Proc. ACM Hum. Comput. Interact.",
+  "status": "S2_OK"
+ },
+ {
+  "key": "Choi2025PoliceRoboticsPrivacy",
+  "doi": "10.1080/19361610.2025.2530599",
+  "bib_title": "Balancing Public Safety and Privacy: A Media Analysis of Robotic Technology in Law Enforcement",
+  "bib_year": "2025",
+  "s2_title": "Balancing Public Safety and Privacy: A Media Analysis of Robotic Technology in Law Enforcement",
+  "s2_year": 2025,
+  "s2_venue": "Journal of Applied Security Research",
+  "status": "S2_OK"
+ },
+ {
+  "key": "Chen2026PoliceRobotAttitudes",
+  "doi": "10.1007/s11417-025-09478-w",
+  "bib_title": "Attitudes Toward AI-powered Robots in Policing: AI Literacy, Organizational Justice, and Occupational Wellbeing Among Chinese Police Officers",
+  "bib_year": "2026",
+  "s2_title": "Attitudes Toward AI-powered Robots in Policing: AI Literacy, Organizational Justice, and Occupational Wellbeing Among Chinese Police Officers",
+  "s2_year": 2025,
+  "s2_venue": "Asian journal of Criminology",
+  "status": "S2_OK"
+ },
+ {
+  "key": "SzocikSmith2026PoliceRobots",
+  "doi": "10.1007/s00146-026-03117-3",
+  "bib_title": "Why police robots will not become human-like: social interaction, machine ethics, and limits of AI",
+  "bib_year": "2026",
+  "s2_title": "Why police robots will not become human-like: social interaction, machine ethics, and limits of AI",
+  "s2_year": 2026,
+  "s2_venue": "AI &amp; SOCIETY",
+  "status": "S2_OK"
+ },
+ {
+  "key": "Perrem2026PatrolPublicSpace",
+  "doi": "10.1080/17450101.2026.2672983",
+  "bib_title": "Narrowing urban public space by patrol: how a security robot reorders underground mobilities",
+  "bib_year": "2026",
+  "s2_title": "Narrowing urban public space by patrol: how a security robot reorders underground mobilities",
+  "s2_year": 2026,
+  "s2_venue": "Mobilities",
+  "status": "S2_OK"
+ },
+ {
+  "key": "KimJung2023SecureRobotAcceptance",
+  "doi": "10.35147/knpsi.2023.37.4.35",
+  "bib_title": "Factors Influencing the Social Acceptance of Secure Robots",
+  "bib_year": "2023",
+  "err": "HTTP Error 404: Not Found",
+  "status": "S2_FAIL"
+ },
+ {
+  "key": "Lee2025PoliceFRTTrust",
+  "doi": "10.56603/jksps.2025.24.4.275",
+  "bib_title": "Structural Relationships among Trust, Legitimacy, and Privacy Concerns in Public Acceptance of Police Live Facial Recognition (LFR) Technology",
+  "bib_year": "2025",
+  "s2_title": "Structural Relationships among Trust, Legitimacy, and Privacy Concerns in Public Acceptance of Police Live Facial Recognition (LFR) Technology",
+  "s2_year": 2025,
+  "s2_venue": "The Korean Society of Private Security",
+  "status": "S2_OK"
+ },
+ {
+  "key": "Europol2025UnmannedFutures",
+  "doi": "10.2813/0022284",
+  "bib_title": "The Unmanned Future(s): The Impact of Robotics and Unmanned Systems on Law Enforcement",
+  "bib_year": "2025",
+  "err": "HTTP Error 404: Not Found",
+  "status": "S2_FAIL"
+ },
+ {
+  "key": "Cai2023ExoskeletonSafety",
+  "doi": "10.1016/j.ssci.2023.106142",
+  "bib_title": "Safety evaluation of human--robot collaboration for industrial exoskeleton",
+  "bib_year": "2023",
+  "err": "HTTP Error 404: Not Found",
+  "status": "S2_FAIL"
+ },
+ {
+  "key": "Wang2023WLLERSafety",
+  "doi": "10.1016/j.robot.2022.104308",
+  "bib_title": "Evaluation of safety-related performance of wearable lower limb exoskeleton robot (WLLER): A systematic review",
+  "bib_year": "2023",
+  "s2_title": "Evaluation of safety-related performance of wearable lower limb exoskeleton robot (WLLER): A systematic review",
+  "s2_year": 2023,
+  "s2_venue": "Robotics Auton. Syst.",
+  "status": "S2_OK"
+ },
+ {
+  "key": "Kranenborg2023ExoskeletonAdverseEffects",
+  "doi": "10.1016/j.apergo.2023.104042",
+  "bib_title": "Side-effects and adverse events of a shoulder- and back-support exoskeleton in workers: A systematic review",
+  "bib_year": "2023",
+  "s2_title": "Side-effects and adverse events of a shoulder- and back-support exoskeleton in workers: A systematic review.",
+  "s2_year": 2023,
+  "s2_venue": "Applied Ergonomics",
+  "status": "S2_OK"
+ },
+ {
+  "key": "Hamza2020ExoskeletonBalance",
+  "doi": "10.1016/j.bbe.2020.09.004",
+  "bib_title": "Balance and stability issues in lower extremity exoskeletons: A systematic review",
+  "bib_year": "2020",
+  "s2_title": "Balance and stability issues in lower extremity exoskeletons: A systematic review",
+  "s2_year": 2020,
+  "s2_venue": "",
+  "status": "S2_OK"
+ },
+ {
+  "key": "BostelmanHong2018ExoskeletonTests",
+  "doi": "10.1049/PBCE108E_ch13",
+  "bib_title": "Test Methods for Exoskeletons -- Lessons Learned from Industrial and Response Robotics",
+  "bib_year": "2018",
+  "s2_title": "Test methods for exoskeletons—lessons learned from industrial and response robotics",
+  "s2_year": 2018,
+  "s2_venue": "",
+  "status": "S2_OK"
+ },
+ {
+  "key": "KimbleCandellSaidi2019NISTIR8243",
+  "doi": "10.6028/NIST.IR.8243",
+  "bib_title": "A Test Method for Measuring Response Robot Performance Under Attenuated Radio Conditions",
+  "bib_year": "2019",
+  "err": "HTTP Error 404: Not Found",
+  "status": "S2_FAIL"
+ },
+ {
+  "key": "Halford2025TLP",
+  "doi": "10.1093/police/paaf027",
+  "bib_title": "The Transformer Led Policing model: a framework for applying generative artificial intelligence in policing",
+  "bib_year": "2025",
+  "err": "HTTP Error 404: Not Found",
+  "status": "S2_FAIL"
+ },
+ {
+  "key": "RohChoi2024RobotPolice",
+  "doi": "10.47116/apjcri.2024.03.29",
+  "bib_title": "A Study on the Technical Feasibility and Legal Issues for the Introduction of Robot Police",
+  "bib_year": "2024",
+  "s2_title": "A Study on the Technical Feasibility and Legal Issues for the Introduction of Robot Police",
+  "s2_year": 2024,
+  "s2_venue": "Asia-pacific Journal of Convergent Research Interchange",
+  "status": "S2_OK"
+ }
+]

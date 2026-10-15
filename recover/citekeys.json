@@ -1,0 +1,762 @@
+{
+ "rows": [
+  {
+   "auth": "ASTM International",
+   "year": "2021a",
+   "key": "ASTME2854_21",
+   "title": "ASTM E2854/E2854M-21: Standard test method for evaluating emergency response rob"
+  },
+  {
+   "auth": "ASTM International",
+   "year": "2021b",
+   "key": "ASTME2855_2021",
+   "title": "ASTM E2855-12(2021): Standard test method for evaluating emer- gency response ro"
+  },
+  {
+   "auth": "ASTM International",
+   "year": "2022",
+   "key": "ASTME2853_22",
+   "title": "ASTM E2853/E2853M-22: Standard test method for evaluating emergency response rob"
+  },
+  {
+   "auth": "ASTM International",
+   "year": "2024",
+   "key": "ASTME2566_24",
+   "title": "ASTM E2566/E2566M-24: Standard test method for evaluating re- sponse robot sensi"
+  },
+  {
+   "auth": "ASTM International",
+   "year": "2025",
+   "key": "ASTME3132_2025",
+   "title": "ASTM E3132/E3132M-17(2025): Standard practice for evaluating response robot logi"
+  },
+  {
+   "auth": "Bovens, M.",
+   "year": "2007",
+   "key": "Bovens2007Accountability",
+   "title": "Analysing and assessing accountability: A conceptual framework. European Law Jou"
+  },
+  {
+   "auth": "City of Seattle",
+   "year": "2026",
+   "key": "SeattleMC1418",
+   "title": "Seattle municipal code chapter 14.18: Acquisition and use of surveillance techno"
+  },
+  {
+   "auth": "Coglianese, C., Lazer, D.",
+   "year": "2003",
+   "key": "CoglianeseLazer2003",
+   "title": "Management-based regulation: Prescribing private management to achieve public go"
+  },
+  {
+   "auth": "Diver, C.S.",
+   "year": "1983",
+   "key": "Diver1983Precision",
+   "title": "The optimal precision of administrative rules. The Yale Law Journal 93, 65. doi:"
+  },
+  {
+   "auth": "European Commission",
+   "year": "2019a",
+   "key": "EUReg2019_945",
+   "title": "Commission delegated regulation (EU) 2019/945 on unmanned aircraft systems and o"
+  },
+  {
+   "auth": "European Commission",
+   "year": "2019b",
+   "key": "EUReg2019_947",
+   "title": "Commission implementing regulation (EU) 2019/947 on the rules and procedures for"
+  },
+  {
+   "auth": "European Parliament and Council",
+   "year": "2014",
+   "key": "EUMID2014",
+   "title": "Directive 2014/32/eu on the harmonisation of the laws of the member states relat"
+  },
+  {
+   "auth": "European Parliament and Council",
+   "year": "2016",
+   "key": "EULED2016",
+   "title": "Directive (EU) 2016/680 on the protection of natural persons with regard to the "
+  },
+  {
+   "auth": "European Parliament and Council",
+   "year": "2018",
+   "key": "EUReg2018_1139",
+   "title": "Regulation (EU) 2018/1139 on common rules in the field of civil aviation and est"
+  },
+  {
+   "auth": "European Parliament and Council of the European Union",
+   "year": "2023",
+   "key": "EUMachinery2023",
+   "title": "Regulation (eu) 2023/1230 on machinery and repealing directive 2006/42/ec. URL: "
+  },
+  {
+   "auth": "European Parliament and Council of the European Union",
+   "year": "2024",
+   "key": "EUAIAct2024",
+   "title": "Regulation (eu) 2024/1689 laying down harmonised rules on artificial intelligenc"
+  },
+  {
+   "auth": "European Parliament and Council of the European Union",
+   "year": "2026",
+   "key": "EUDigitalOmnibus2026",
+   "title": "Regulation (eu) 2026/1744 of 8 july 2026 amending regulations (eu) 2024/1689, (e"
+  },
+  {
+   "auth": "Federal Aviation Administration",
+   "year": "2018",
+   "key": "FAAAC0011B",
+   "title": "Advisory circular 00-1.1b: Public aircraft operations: Manned and unmanned. Issu"
+  },
+  {
+   "auth": "Federal Emergency Management Agency / U.S. Fire Administration",
+   "year": "2026a",
+   "key": "FEMANIMS2026",
+   "title": "National incident management system: Command and coordination. URL: https://www."
+  },
+  {
+   "auth": "Federal Emergency Management Agency / U.S. Fire Administration",
+   "year": "2026b",
+   "key": "FEMAUSFANIMSResource2026",
+   "title": "National incident management system: Resource management. URL: https://www.usfa."
+  },
+  {
+   "auth": "Frantz, C.K., Siddiki, S.",
+   "year": "2022",
+   "key": "FrantzSiddiki2022IG",
+   "title": "Institutional Grammar: Foundations and Applications for Insti- tutional Analysis"
+  },
+  {
+   "auth": "Government of Japan",
+   "year": "1960",
+   "key": "JPRoadTrafficAct",
+   "title": "Road traffic act (Doro Kotsu Ho), act no. 105 of 1960. E-Gov machine-readable XM"
+  },
+  {
+   "auth": "Kaplow, L.",
+   "year": "1992",
+   "key": "Kaplow1992Rules",
+   "title": "Rules versus standards: An economic analysis. Duke Law Journal 42, 557. doi:10.2"
+  },
+  {
+   "auth": "Metcalf, J., Moss, E., Watkins, E.A., Singh, R., Elish, M.C.",
+   "year": "2021",
+   "key": "Metcalf2021AIA",
+   "title": "Algorithmic impact as- sessments and accountability: The co-construction of impa"
+  },
+  {
+   "auth": "Ministry of Government Legislation, Republic of Korea",
+   "year": "2026a",
+   "key": "ROKIntelligentRobotsDecree",
+   "title": "Enforcement decree of the intelligent robots development and distribution promot"
+  },
+  {
+   "auth": "Ministry of Government Legislation, Republic of Korea",
+   "year": "2026b",
+   "key": "ROKRoadTrafficEnforcementRule",
+   "title": "Enforcement rule of the road traffic act, republic of korea. National Law Inform"
+  },
+  {
+   "auth": "Ministry of Trade, Industry and Energy (MOTIE), Republic of Korea",
+   "year": "2023",
+   "key": "MOTIENotice2023211",
+   "title": "MOTIE notice no. 2023-211, procedures and standards for outdoor mobile robot ope"
+  },
+  {
+   "auth": "Nasirov, J.",
+   "year": "2026",
+   "key": "Nasirov2026SoftToHard",
+   "title": "From soft law to hard law in AI governance: A computational linguistic analysis "
+  },
+  {
+   "auth": "National Assembly of the Republic of Korea",
+   "year": "2023a",
+   "key": "ROKIntelligentRobotsAct",
+   "title": "Intelligent robots development and distri- bution promotion act, article 40-2 (o"
+  },
+  {
+   "auth": "National Assembly of the Republic of Korea",
+   "year": "2023b",
+   "key": "ROKRoadTrafficAct",
+   "title": "Road traffic act, amendment conferring pedestrian status on certified outdoor mo"
+  },
+  {
+   "auth": "National Institute of Standards and Technology",
+   "year": "2026",
+   "key": "NISTResponseRobots2026",
+   "title": "Performance of emergency re- sponse robots. NIST Engineering Laboratory. URL: ht"
+  },
+  {
+   "auth": "New York City Department of Investigation, Office of the Inspector General for the NYPD",
+   "year": "2024",
+   "key": "NYCOIGPOST2024",
+   "title": "An assessment of nypd’s compliance with the post act. URL: https://www.nyc. gov/"
+  },
+  {
+   "auth": "New York City Police Department",
+   "year": "2026a",
+   "key": "NYPDPOSTAct2026",
+   "title": "Public oversight of surveillance technology (post) act: Impact and use policies."
+  },
+  {
+   "auth": "New York City Police Department",
+   "year": "2026b",
+   "key": "NYPDTacticalRobots2026",
+   "title": "Remote-controlled robots: “tactical” impact and use policy. URL: https://www.nyc"
+  },
+  {
+   "auth": "Selbst, A.D., Boyd, D., Friedler, S.A., Venkatasubramanian, S., Vertesi, J.",
+   "year": "2019",
+   "key": "Selbst2019Abstraction",
+   "title": "Fairness and abstraction in sociotechnical systems, in: Proceedings of the Confe"
+  },
+  {
+   "auth": "State of California",
+   "year": "2021",
+   "key": "CalGovAB481",
+   "title": "California government code sections 7070–7075 (assembly bill 481, military equip"
+  },
+  {
+   "auth": "U.S. Government Publishing Office",
+   "year": "2025",
+   "key": "USCFR89",
+   "title": "14 CFR part 89: Remote identification of unmanned aircraft. Code of Federal Regu"
+  },
+  {
+   "auth": "U.S. Government Publishing Office",
+   "year": "2026",
+   "key": "USCFR107",
+   "title": "14 CFR part 107: Small unmanned aircraft systems. Electronic Code of Federal Reg"
+  },
+  {
+   "auth": "Abbott, K.W., Keohane, R.O., Moravcsik, A., Slaughter, A.M., Snidal, D.",
+   "year": "2000",
+   "key": "Abbott2000Legalization",
+   "title": "The concept of legalization"
+  },
+  {
+   "auth": "Joh, E.E.",
+   "year": "2016",
+   "key": "Joh2016PolicingPoliceRobots",
+   "title": "Policing police robots"
+  },
+  {
+   "auth": "Leveson, N.G., Thomas, J.P.",
+   "year": "2018",
+   "key": "LevesonThomas2018STPA",
+   "title": "STPA Handbook"
+  },
+  {
+   "auth": "National Institute of Justice",
+   "year": "2023",
+   "key": "NIJChainCustody",
+   "title": "Chain of custody"
+  }
+ ],
+ "tbl": [
+  [
+   "(New York City Department of Investigation and Office of the Inspector General for the NYPD, 2024)",
+   "\\citep{NYCOIGPOST2024}"
+  ],
+  [
+   "(New York City Department of Investigation and Office of the Inspector General for the NYPD 2024)",
+   "\\citep{NYCOIGPOST2024}"
+  ],
+  [
+   "(New York City Department of Investigation, Office of the Inspector General for the NYPD, 2024)",
+   "\\citep{NYCOIGPOST2024}"
+  ],
+  [
+   "(New York City Department of Investigation, Office of the Inspector General for the NYPD 2024)",
+   "\\citep{NYCOIGPOST2024}"
+  ],
+  [
+   "(Selbst, A.D., Boyd, D., Friedler, S.A., Venkatasubramanian, S., Vertesi, J., 2019)",
+   "\\citep{Selbst2019Abstraction}"
+  ],
+  [
+   "(Selbst, A.D., Boyd, D., Friedler, S.A., Venkatasubramanian, S., Vertesi, J. 2019)",
+   "\\citep{Selbst2019Abstraction}"
+  ],
+  [
+   "(Abbott, K.W., Keohane, R.O., Moravcsik, A., Slaughter, A.M., Snidal, D., 2000)",
+   "\\citep{Abbott2000Legalization}"
+  ],
+  [
+   "(Abbott, K.W., Keohane, R.O., Moravcsik, A., Slaughter, A.M., Snidal, D. 2000)",
+   "\\citep{Abbott2000Legalization}"
+  ],
+  [
+   "(Ministry of Trade, Industry and Energy (MOTIE), Republic of Korea, 2023)",
+   "\\citep{MOTIENotice2023211}"
+  ],
+  [
+   "(Ministry of Trade, Industry and Energy (MOTIE), Republic of Korea 2023)",
+   "\\citep{MOTIENotice2023211}"
+  ],
+  [
+   "(Federal Emergency Management Agency / U.S. Fire Administration, 2026a)",
+   "\\citep{FEMANIMS2026}"
+  ],
+  [
+   "(Federal Emergency Management Agency / U.S. Fire Administration, 2026b)",
+   "\\citep{FEMAUSFANIMSResource2026}"
+  ],
+  [
+   "(Federal Emergency Management Agency / U.S. Fire Administration 2026a)",
+   "\\citep{FEMANIMS2026}"
+  ],
+  [
+   "(Federal Emergency Management Agency / U.S. Fire Administration 2026b)",
+   "\\citep{FEMAUSFANIMSResource2026}"
+  ],
+  [
+   "(Metcalf, J., Moss, E., Watkins, E.A., Singh, R., Elish, M.C., 2021)",
+   "\\citep{Metcalf2021AIA}"
+  ],
+  [
+   "(Metcalf, J., Moss, E., Watkins, E.A., Singh, R., Elish, M.C. 2021)",
+   "\\citep{Metcalf2021AIA}"
+  ],
+  [
+   "(Ministry of Government Legislation and Republic of Korea, 2026a)",
+   "\\citep{ROKIntelligentRobotsDecree}"
+  ],
+  [
+   "(Ministry of Government Legislation and Republic of Korea, 2026b)",
+   "\\citep{ROKRoadTrafficEnforcementRule}"
+  ],
+  [
+   "(Ministry of Government Legislation and Republic of Korea 2026a)",
+   "\\citep{ROKIntelligentRobotsDecree}"
+  ],
+  [
+   "(Ministry of Government Legislation and Republic of Korea 2026b)",
+   "\\citep{ROKRoadTrafficEnforcementRule}"
+  ],
+  [
+   "(Ministry of Government Legislation, Republic of Korea, 2026a)",
+   "\\citep{ROKIntelligentRobotsDecree}"
+  ],
+  [
+   "(Ministry of Government Legislation, Republic of Korea, 2026b)",
+   "\\citep{ROKRoadTrafficEnforcementRule}"
+  ],
+  [
+   "(European Parliament and Council of the European Union, 2023)",
+   "\\citep{EUMachinery2023}"
+  ],
+  [
+   "(European Parliament and Council of the European Union, 2024)",
+   "\\citep{EUAIAct2024}"
+  ],
+  [
+   "(European Parliament and Council of the European Union, 2026)",
+   "\\citep{EUDigitalOmnibus2026}"
+  ],
+  [
+   "(Ministry of Government Legislation, Republic of Korea 2026a)",
+   "\\citep{ROKIntelligentRobotsDecree}"
+  ],
+  [
+   "(Ministry of Government Legislation, Republic of Korea 2026b)",
+   "\\citep{ROKRoadTrafficEnforcementRule}"
+  ],
+  [
+   "(European Parliament and Council of the European Union 2023)",
+   "\\citep{EUMachinery2023}"
+  ],
+  [
+   "(European Parliament and Council of the European Union 2024)",
+   "\\citep{EUAIAct2024}"
+  ],
+  [
+   "(European Parliament and Council of the European Union 2026)",
+   "\\citep{EUDigitalOmnibus2026}"
+  ],
+  [
+   "(New York City Department of Investigation et al., 2024)",
+   "\\citep{NYCOIGPOST2024}"
+  ],
+  [
+   "(New York City Department of Investigation et al. 2024)",
+   "\\citep{NYCOIGPOST2024}"
+  ],
+  [
+   "(National Institute of Standards and Technology, 2026)",
+   "\\citep{NISTResponseRobots2026}"
+  ],
+  [
+   "(National Institute of Standards and Technology 2026)",
+   "\\citep{NISTResponseRobots2026}"
+  ],
+  [
+   "(National Assembly of the Republic of Korea, 2023a)",
+   "\\citep{ROKIntelligentRobotsAct}"
+  ],
+  [
+   "(National Assembly of the Republic of Korea, 2023b)",
+   "\\citep{ROKRoadTrafficAct}"
+  ],
+  [
+   "(Ministry of Government Legislation et al., 2026a)",
+   "\\citep{ROKIntelligentRobotsDecree}"
+  ],
+  [
+   "(Ministry of Government Legislation et al., 2026b)",
+   "\\citep{ROKRoadTrafficEnforcementRule}"
+  ],
+  [
+   "(National Assembly of the Republic of Korea 2023a)",
+   "\\citep{ROKIntelligentRobotsAct}"
+  ],
+  [
+   "(National Assembly of the Republic of Korea 2023b)",
+   "\\citep{ROKRoadTrafficAct}"
+  ],
+  [
+   "(Ministry of Government Legislation et al. 2026a)",
+   "\\citep{ROKIntelligentRobotsDecree}"
+  ],
+  [
+   "(Ministry of Government Legislation et al. 2026b)",
+   "\\citep{ROKRoadTrafficEnforcementRule}"
+  ],
+  [
+   "(U.S. Government Publishing Office, 2025)",
+   "\\citep{USCFR89}"
+  ],
+  [
+   "(U.S. Government Publishing Office, 2026)",
+   "\\citep{USCFR107}"
+  ],
+  [
+   "(New York City Police Department, 2026a)",
+   "\\citep{NYPDPOSTAct2026}"
+  ],
+  [
+   "(New York City Police Department, 2026b)",
+   "\\citep{NYPDTacticalRobots2026}"
+  ],
+  [
+   "(U.S. Government Publishing Office 2025)",
+   "\\citep{USCFR89}"
+  ],
+  [
+   "(U.S. Government Publishing Office 2026)",
+   "\\citep{USCFR107}"
+  ],
+  [
+   "(European Parliament and Council, 2014)",
+   "\\citep{EUMID2014}"
+  ],
+  [
+   "(European Parliament and Council, 2016)",
+   "\\citep{EULED2016}"
+  ],
+  [
+   "(European Parliament and Council, 2018)",
+   "\\citep{EUReg2018_1139}"
+  ],
+  [
+   "(Federal Aviation Administration, 2018)",
+   "\\citep{FAAAC0011B}"
+  ],
+  [
+   "(New York City Police Department 2026a)",
+   "\\citep{NYPDPOSTAct2026}"
+  ],
+  [
+   "(New York City Police Department 2026b)",
+   "\\citep{NYPDTacticalRobots2026}"
+  ],
+  [
+   "(European Parliament and Council 2014)",
+   "\\citep{EUMID2014}"
+  ],
+  [
+   "(European Parliament and Council 2016)",
+   "\\citep{EULED2016}"
+  ],
+  [
+   "(European Parliament and Council 2018)",
+   "\\citep{EUReg2018_1139}"
+  ],
+  [
+   "(Federal Aviation Administration 2018)",
+   "\\citep{FAAAC0011B}"
+  ],
+  [
+   "(National Institute of Justice, 2023)",
+   "\\citep{NIJChainCustody}"
+  ],
+  [
+   "(National Institute of Justice 2023)",
+   "\\citep{NIJChainCustody}"
+  ],
+  [
+   "(Leveson, N.G., Thomas, J.P., 2018)",
+   "\\citep{LevesonThomas2018STPA}"
+  ],
+  [
+   "(Leveson, N.G., Thomas, J.P. 2018)",
+   "\\citep{LevesonThomas2018STPA}"
+  ],
+  [
+   "(Coglianese, C., Lazer, D., 2003)",
+   "\\citep{CoglianeseLazer2003}"
+  ],
+  [
+   "(Frantz, C.K., Siddiki, S., 2022)",
+   "\\citep{FrantzSiddiki2022IG}"
+  ],
+  [
+   "(Coglianese, C., Lazer, D. 2003)",
+   "\\citep{CoglianeseLazer2003}"
+  ],
+  [
+   "(Frantz, C.K., Siddiki, S. 2022)",
+   "\\citep{FrantzSiddiki2022IG}"
+  ],
+  [
+   "(Ministry of Trade et al., 2023)",
+   "\\citep{MOTIENotice2023211}"
+  ],
+  [
+   "(Ministry of Trade et al. 2023)",
+   "\\citep{MOTIENotice2023211}"
+  ],
+  [
+   "(Coglianese and Lazer, 2003)",
+   "\\citep{CoglianeseLazer2003}"
+  ],
+  [
+   "(European Commission, 2019a)",
+   "\\citep{EUReg2019_945}"
+  ],
+  [
+   "(European Commission, 2019b)",
+   "\\citep{EUReg2019_947}"
+  ],
+  [
+   "(ASTM International, 2021a)",
+   "\\citep{ASTME2854_21}"
+  ],
+  [
+   "(ASTM International, 2021b)",
+   "\\citep{ASTME2855_2021}"
+  ],
+  [
+   "(Coglianese and Lazer 2003)",
+   "\\citep{CoglianeseLazer2003}"
+  ],
+  [
+   "(European Commission 2019a)",
+   "\\citep{EUReg2019_945}"
+  ],
+  [
+   "(European Commission 2019b)",
+   "\\citep{EUReg2019_947}"
+  ],
+  [
+   "(Government of Japan, 1960)",
+   "\\citep{JPRoadTrafficAct}"
+  ],
+  [
+   "(State of California, 2021)",
+   "\\citep{CalGovAB481}"
+  ],
+  [
+   "(ASTM International 2021a)",
+   "\\citep{ASTME2854_21}"
+  ],
+  [
+   "(ASTM International 2021b)",
+   "\\citep{ASTME2855_2021}"
+  ],
+  [
+   "(ASTM International, 2022)",
+   "\\citep{ASTME2853_22}"
+  ],
+  [
+   "(ASTM International, 2024)",
+   "\\citep{ASTME2566_24}"
+  ],
+  [
+   "(ASTM International, 2025)",
+   "\\citep{ASTME3132_2025}"
+  ],
+  [
+   "(Frantz and Siddiki, 2022)",
+   "\\citep{FrantzSiddiki2022IG}"
+  ],
+  [
+   "(Government of Japan 1960)",
+   "\\citep{JPRoadTrafficAct}"
+  ],
+  [
+   "(State of California 2021)",
+   "\\citep{CalGovAB481}"
+  ],
+  [
+   "(Leveson and Thomas, 2018)",
+   "\\citep{LevesonThomas2018STPA}"
+  ],
+  [
+   "(ASTM International 2022)",
+   "\\citep{ASTME2853_22}"
+  ],
+  [
+   "(ASTM International 2024)",
+   "\\citep{ASTME2566_24}"
+  ],
+  [
+   "(ASTM International 2025)",
+   "\\citep{ASTME3132_2025}"
+  ],
+  [
+   "(Coglianese et al., 2003)",
+   "\\citep{CoglianeseLazer2003}"
+  ],
+  [
+   "(Frantz and Siddiki 2022)",
+   "\\citep{FrantzSiddiki2022IG}"
+  ],
+  [
+   "(Leveson and Thomas 2018)",
+   "\\citep{LevesonThomas2018STPA}"
+  ],
+  [
+   "(Coglianese et al. 2003)",
+   "\\citep{CoglianeseLazer2003}"
+  ],
+  [
+   "(City of Seattle, 2026)",
+   "\\citep{SeattleMC1418}"
+  ],
+  [
+   "(City of Seattle 2026)",
+   "\\citep{SeattleMC1418}"
+  ],
+  [
+   "(Metcalf et al., 2021)",
+   "\\citep{Metcalf2021AIA}"
+  ],
+  [
+   "(Leveson et al., 2018)",
+   "\\citep{LevesonThomas2018STPA}"
+  ],
+  [
+   "(Frantz et al., 2022)",
+   "\\citep{FrantzSiddiki2022IG}"
+  ],
+  [
+   "(Metcalf et al. 2021)",
+   "\\citep{Metcalf2021AIA}"
+  ],
+  [
+   "(Selbst et al., 2019)",
+   "\\citep{Selbst2019Abstraction}"
+  ],
+  [
+   "(Abbott et al., 2000)",
+   "\\citep{Abbott2000Legalization}"
+  ],
+  [
+   "(Leveson et al. 2018)",
+   "\\citep{LevesonThomas2018STPA}"
+  ],
+  [
+   "(Frantz et al. 2022)",
+   "\\citep{FrantzSiddiki2022IG}"
+  ],
+  [
+   "(Selbst et al. 2019)",
+   "\\citep{Selbst2019Abstraction}"
+  ],
+  [
+   "(Abbott et al. 2000)",
+   "\\citep{Abbott2000Legalization}"
+  ],
+  [
+   "(Diver, C.S., 1983)",
+   "\\citep{Diver1983Precision}"
+  ],
+  [
+   "(Nasirov, J., 2026)",
+   "\\citep{Nasirov2026SoftToHard}"
+  ],
+  [
+   "(Bovens, M., 2007)",
+   "\\citep{Bovens2007Accountability}"
+  ],
+  [
+   "(Diver, C.S. 1983)",
+   "\\citep{Diver1983Precision}"
+  ],
+  [
+   "(Kaplow, L., 1992)",
+   "\\citep{Kaplow1992Rules}"
+  ],
+  [
+   "(Nasirov, J. 2026)",
+   "\\citep{Nasirov2026SoftToHard}"
+  ],
+  [
+   "(Bovens, M. 2007)",
+   "\\citep{Bovens2007Accountability}"
+  ],
+  [
+   "(Kaplow, L. 1992)",
+   "\\citep{Kaplow1992Rules}"
+  ],
+  [
+   "(Joh, E.E., 2016)",
+   "\\citep{Joh2016PolicingPoliceRobots}"
+  ],
+  [
+   "(Joh, E.E. 2016)",
+   "\\citep{Joh2016PolicingPoliceRobots}"
+  ],
+  [
+   "(Nasirov, 2026)",
+   "\\citep{Nasirov2026SoftToHard}"
+  ],
+  [
+   "(Bovens, 2007)",
+   "\\citep{Bovens2007Accountability}"
+  ],
+  [
+   "(Kaplow, 1992)",
+   "\\citep{Kaplow1992Rules}"
+  ],
+  [
+   "(Nasirov 2026)",
+   "\\citep{Nasirov2026SoftToHard}"
+  ],
+  [
+   "(Bovens 2007)",
+   "\\citep{Bovens2007Accountability}"
+  ],
+  [
+   "(Diver, 1983)",
+   "\\citep{Diver1983Precision}"
+  ],
+  [
+   "(Kaplow 1992)",
+   "\\citep{Kaplow1992Rules}"
+  ],
+  [
+   "(Diver 1983)",
+   "\\citep{Diver1983Precision}"
+  ],
+  [
+   "(Joh, 2016)",
+   "\\citep{Joh2016PolicingPoliceRobots}"
+  ],
+  [
+   "(Joh 2016)",
+   "\\citep{Joh2016PolicingPoliceRobots}"
+  ]
+ ]
+}

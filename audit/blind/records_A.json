@@ -1,0 +1,1764 @@
+[
+ {
+  "id": "EU1139::art_11.1",
+  "doc": "EU1139",
+  "text": "Article 11 Design of products The design of a product shall be subject to certification and shall be issued with a type certificate. Changes to that design shall also be subject to certification and shall result in the issuance of a certificate of changes, including of supplemental type certificates. Repair designs shall be subject to certification and shall be issued with an approval. An approval shall be issued in respect of the operational suitability data associated with a type design. That approval shall be included in the type certificate or the restricted type certificate referred to in point (b) of Article 18(1), as applicable. That type certificate, that certificate of changes, that approval of repair designs and that approval of the operational suitability data shall be issued upon application when the applicant has demonstrated that the design of the product complies with the certification basis established in accordance with the delegated acts referred to in point (b)(i) and (ii) of Article 19(1), as applicable, and that the design of the product has no feature or characteristic making it environmentally incompatible or unsafe for operation. That type certificate, that certificate of changes, that approval of repair design and that approval of the operational suitability data may also be issued without such application, by an organisation approved in accordance with Article 15 which has been granted the privilege to issue those certificates or approvals in accordance with the delegated act referred to in point (k) of Article 19(1), when that organisation has determined that the design of the product complies with the conditions established in the third subparagraph of this paragraph. No separate type certificate shall be required for the design of engines and propellers that have been certified as part of the design of an aircraft in accordance with this Article.",
+  "path": [
+   "EU1139::art_11.1"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "EU1139::art_11.1",
+   "matched": "certification",
+   "context": "Article 11 Design of products The design of a product shall be subject to certification and shall be issued with a type certificate. Changes to that design shall also be su"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "approval|approved",
+     "matched": "approval",
+     "context": "icates. Repair designs shall be subject to certification and shall be issued with an approval. An approval shall be issued in respect of the operational suitability data associat"
+    },
+    {
+     "lexicon": "AUTH",
+     "pattern": "shall be issued",
+     "matched": "shall be issued",
+     "context": " 11 Design of products The design of a product shall be subject to certification and shall be issued with a type certificate. Changes to that design shall also be subject to certificati"
+    },
+    {
+     "lexicon": "AUTH",
+     "pattern": "certificate (?:is|shall be) required",
+     "matched": "certificate shall be required",
+     "context": "conditions established in the third subparagraph of this paragraph. No separate type certificate shall be required for the design of engines and propellers that have been certified as part of the des"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "shall be required",
+     "matched": "shall be required",
+     "context": "stablished in the third subparagraph of this paragraph. No separate type certificate shall be required for the design of engines and propellers that have been certified as part of the des"
+    },
+    {
+     "lexicon": "DET",
+     "pattern": "shall be subject to\\b[^.]{0,80}\\b(certificat|conformity|test|approval)",
+     "matched": "shall be subject to certification and shall be issued with a type certificat",
+     "context": "Article 11 Design of products The design of a product shall be subject to certification and shall be issued with a type certificate. Changes to that design shall also be subject to certification and shall result in "
+    },
+    {
+     "lexicon": "DET",
+     "pattern": "shall be issued\\b[^.]{0,120}\\bwhen\\b",
+     "matched": "shall be issued upon application when",
+     "context": "hat approval of repair designs and that approval of the operational suitability data shall be issued upon application when the applicant has demonstrated that the design of the product complies with the cert"
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "certificat\\w*",
+     "matched": "certification",
+     "context": "Article 11 Design of products The design of a product shall be subject to certification and shall be issued with a type certificate. Changes to that design shall also be su"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "\\bcertif\\w*",
+     "matched": "certification",
+     "context": "Article 11 Design of products The design of a product shall be subject to certification and shall be issued with a type certificate. Changes to that design shall also be su"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "demonstrat\\w+ (?:compliance|that)",
+     "matched": "demonstrated that",
+     "context": "operational suitability data shall be issued upon application when the applicant has demonstrated that the design of the product complies with the certification basis established in accor"
+    }
+   ]
+  }
+ },
+ {
+  "id": "EU1139::art_12.1",
+  "doc": "EU1139",
+  "text": "Article 12 Design of parts Unless otherwise established by delegated acts referred to in Article 19, the design of parts shall be subject to certification and shall be issued with a certificate. That certificate shall be issued upon application, when the applicant has demonstrated that the design of the part complies with the certification basis established in accordance with the delegated acts referred to in point (b)(iii) of Article 19(1). That certificate may also be issued without such application, by an organisation approved in accordance with Article 15 which has been granted a privilege to issue those certificates in accordance with the delegated act referred to in point (k) of Article 19(1), when that organisation has determined that the design of the part complies with the certification basis established in accordance with the delegated acts referred to in point (b)(iii) of Article 19(1). No separate certificate shall be required for the design of parts that have been certified as part of the design of a product in accordance with Article 11.",
+  "path": [
+   "EU1139::art_12.1"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "EU1139::art_12.1",
+   "matched": "certification",
+   "context": "by delegated acts referred to in Article 19, the design of parts shall be subject to certification and shall be issued with a certificate. That certificate shall be issued upon applic"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "approval|approved",
+     "matched": "approved",
+     "context": "1). That certificate may also be issued without such application, by an organisation approved in accordance with Article 15 which has been granted a privilege to issue those cert"
+    },
+    {
+     "lexicon": "AUTH",
+     "pattern": "shall be issued",
+     "matched": "shall be issued",
+     "context": "referred to in Article 19, the design of parts shall be subject to certification and shall be issued with a certificate. That certificate shall be issued upon application, when the appl"
+    },
+    {
+     "lexicon": "AUTH",
+     "pattern": "certificate (?:is|shall be) required",
+     "matched": "certificate shall be required",
+     "context": " with the delegated acts referred to in point (b)(iii) of Article 19(1). No separate certificate shall be required for the design of parts that have been certified as part of the design of a product "
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "shall be required",
+     "matched": "shall be required",
+     "context": "legated acts referred to in point (b)(iii) of Article 19(1). No separate certificate shall be required for the design of parts that have been certified as part of the design of a product "
+    },
+    {
+     "lexicon": "DET",
+     "pattern": "shall be subject to\\b[^.]{0,80}\\b(certificat|conformity|test|approval)",
+     "matched": "shall be subject to certification and shall be issued with a certificat",
+     "context": "herwise established by delegated acts referred to in Article 19, the design of parts shall be subject to certification and shall be issued with a certificate. That certificate shall be issued upon application, when the applicant has demonstr"
+    },
+    {
+     "lexicon": "DET",
+     "pattern": "shall be issued\\b[^.]{0,120}\\bwhen\\b",
+     "matched": "shall be issued upon application, when",
+     "context": "be subject to certification and shall be issued with a certificate. That certificate shall be issued upon application, when the applicant has demonstrated that the design of the part complies with the certifi"
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "certificat\\w*",
+     "matched": "certification",
+     "context": "by delegated acts referred to in Article 19, the design of parts shall be subject to certification and shall be issued with a certificate. That certificate shall be issued upon applic"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "\\bcertif\\w*",
+     "matched": "certification",
+     "context": "by delegated acts referred to in Article 19, the design of parts shall be subject to certification and shall be issued with a certificate. That certificate shall be issued upon applic"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "demonstrat\\w+ (?:compliance|that)",
+     "matched": "demonstrated that",
+     "context": "rtificate. That certificate shall be issued upon application, when the applicant has demonstrated that the design of the part complies with the certification basis established in accordan"
+    }
+   ]
+  }
+ },
+ {
+  "id": "EU1139::art_13.1",
+  "doc": "EU1139",
+  "text": "Article 13 Design of non-installed equipment Where the delegated acts referred to in Article 19 so provide, the design of non-installed equipment shall be subject to certification and shall be issued with a certificate. That certificate shall be issued upon application, when the applicant has demonstrated that the design of non-installed equipment complies with the certification basis established in accordance with the delegated acts referred to in point (b)(iii) of Article 19(1). That certificate may also be issued without such application, by an organisation approved in accordance with Article 15 which has been granted a privilege to issue those certificates in accordance with the delegated act referred to in point (k) of Article 19(1), when that organisation has determined that the design of the non-installed equipment complies with the certification basis established in accordance with the delegated acts referred to in point (b)(iii) of Article 19(1).",
+  "path": [
+   "EU1139::art_13.1"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "EU1139::art_13.1",
+   "matched": "certification",
+   "context": " in Article 19 so provide, the design of non-installed equipment shall be subject to certification and shall be issued with a certificate. That certificate shall be issued upon applic"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "approval|approved",
+     "matched": "approved",
+     "context": "1). That certificate may also be issued without such application, by an organisation approved in accordance with Article 15 which has been granted a privilege to issue those cert"
+    },
+    {
+     "lexicon": "AUTH",
+     "pattern": "shall be issued",
+     "matched": "shall be issued",
+     "context": "provide, the design of non-installed equipment shall be subject to certification and shall be issued with a certificate. That certificate shall be issued upon application, when the appl"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "shall be subject to\\b[^.]{0,80}\\b(certificat|conformity|test|approval)",
+     "matched": "shall be subject to certification and shall be issued with a certificat",
+     "context": "ted acts referred to in Article 19 so provide, the design of non-installed equipment shall be subject to certification and shall be issued with a certificate. That certificate shall be issued upon application, when the applicant has demonstr"
+    },
+    {
+     "lexicon": "DET",
+     "pattern": "shall be issued\\b[^.]{0,120}\\bwhen\\b",
+     "matched": "shall be issued upon application, when",
+     "context": "be subject to certification and shall be issued with a certificate. That certificate shall be issued upon application, when the applicant has demonstrated that the design of non-installed equipment complies w"
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "certificat\\w*",
+     "matched": "certification",
+     "context": " in Article 19 so provide, the design of non-installed equipment shall be subject to certification and shall be issued with a certificate. That certificate shall be issued upon applic"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "\\bcertif\\w*",
+     "matched": "certification",
+     "context": " in Article 19 so provide, the design of non-installed equipment shall be subject to certification and shall be issued with a certificate. That certificate shall be issued upon applic"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "demonstrat\\w+ (?:compliance|that)",
+     "matched": "demonstrated that",
+     "context": "rtificate. That certificate shall be issued upon application, when the applicant has demonstrated that the design of non-installed equipment complies with the certification basis establis"
+    }
+   ]
+  }
+ },
+ {
+  "id": "EU1139::art_14.1",
+  "doc": "EU1139",
+  "text": "1. Individual aircraft shall be subject to certification and shall be issued with a certificate of airworthiness and, where the delegated acts referred to Article 19 so provide, a noise certificate. Those certificates shall be issued upon application, when the applicant has demonstrated that the aircraft is in conformity with the design certified in accordance with Article 11, and that the aircraft is in condition for safe and environmentally compatible operation.",
+  "path": [
+   "EU1139::art_14.1"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "EU1139::art_14.1",
+   "matched": "certification",
+   "context": "1. Individual aircraft shall be subject to certification and shall be issued with a certificate of airworthiness and, where the delegated act"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "shall be issued",
+     "matched": "shall be issued",
+     "context": "1. Individual aircraft shall be subject to certification and shall be issued with a certificate of airworthiness and, where the delegated acts referred to Articl"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "shall be subject to\\b[^.]{0,80}\\b(certificat|conformity|test|approval)",
+     "matched": "shall be subject to certification and shall be issued with a certificat",
+     "context": "1. Individual aircraft shall be subject to certification and shall be issued with a certificate of airworthiness and, where the delegated acts referred to Article 19 so provide, a"
+    },
+    {
+     "lexicon": "DET",
+     "pattern": "shall be issued\\b[^.]{0,120}\\bwhen\\b",
+     "matched": "shall be issued upon application, when",
+     "context": "ated acts referred to Article 19 so provide, a noise certificate. Those certificates shall be issued upon application, when the applicant has demonstrated that the aircraft is in conformity with the design ce"
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "certificat\\w*",
+     "matched": "certification",
+     "context": "1. Individual aircraft shall be subject to certification and shall be issued with a certificate of airworthiness and, where the delegated act"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "\\bcertif\\w*",
+     "matched": "certification",
+     "context": "1. Individual aircraft shall be subject to certification and shall be issued with a certificate of airworthiness and, where the delegated act"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "conformity",
+     "matched": "conformity",
+     "context": "issued upon application, when the applicant has demonstrated that the aircraft is in conformity with the design certified in accordance with Article 11, and that the aircraft is in"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "airworthiness",
+     "matched": "airworthiness",
+     "context": "aircraft shall be subject to certification and shall be issued with a certificate of airworthiness and, where the delegated acts referred to Article 19 so provide, a noise certificate"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "demonstrat\\w+ (?:compliance|that)",
+     "matched": "demonstrated that",
+     "context": "ificate. Those certificates shall be issued upon application, when the applicant has demonstrated that the aircraft is in conformity with the design certified in accordance with Article 1"
+    }
+   ]
+  }
+ },
+ {
+  "id": "EU1139::art_15.1",
+  "doc": "EU1139",
+  "text": "1. Unless otherwise established by the delegated acts referred to in Article 19, organisations responsible for the design and production of products, parts and non-installed equipment shall be subject to certification and shall be issued with an approval. That approval shall be issued upon application, when the applicant has demonstrated that it complies with the rules established by the delegated acts referred to in Article 19 for ensuring compliance with the essential requirements referred to in Article 9. That approval shall specify the privileges granted to the organisation and the scope of the approval.",
+  "path": [
+   "EU1139::art_15.1"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "EU1139::art_15.1",
+   "matched": "certification",
+   "context": "gn and production of products, parts and non-installed equipment shall be subject to certification and shall be issued with an approval. That approval shall be issued upon application"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "approval|approved",
+     "matched": "approval",
+     "context": "on-installed equipment shall be subject to certification and shall be issued with an approval. That approval shall be issued upon application, when the applicant has demonstrated"
+    },
+    {
+     "lexicon": "AUTH",
+     "pattern": "shall be issued",
+     "matched": "shall be issued",
+     "context": "of products, parts and non-installed equipment shall be subject to certification and shall be issued with an approval. That approval shall be issued upon application, when the applicant"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "shall be subject to\\b[^.]{0,80}\\b(certificat|conformity|test|approval)",
+     "matched": "shall be subject to certification and shall be issued with an approval",
+     "context": "onsible for the design and production of products, parts and non-installed equipment shall be subject to certification and shall be issued with an approval. That approval shall be issued upon application, when the applicant has demonstrated"
+    },
+    {
+     "lexicon": "DET",
+     "pattern": "shall be issued\\b[^.]{0,120}\\bwhen\\b",
+     "matched": "shall be issued upon application, when",
+     "context": "hall be subject to certification and shall be issued with an approval. That approval shall be issued upon application, when the applicant has demonstrated that it complies with the rules established by the de"
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "certificat\\w*",
+     "matched": "certification",
+     "context": "gn and production of products, parts and non-installed equipment shall be subject to certification and shall be issued with an approval. That approval shall be issued upon application"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "\\bcertif\\w*",
+     "matched": "certification",
+     "context": "gn and production of products, parts and non-installed equipment shall be subject to certification and shall be issued with an approval. That approval shall be issued upon application"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "demonstrat\\w+ (?:compliance|that)",
+     "matched": "demonstrated that",
+     "context": " an approval. That approval shall be issued upon application, when the applicant has demonstrated that it complies with the rules established by the delegated acts referred to in Article "
+    }
+   ]
+  }
+ },
+ {
+  "id": "EU1139::art_15.2",
+  "doc": "EU1139",
+  "text": "2. An approval shall also be required in respect of: (a) organisations responsible for the maintenance and continuing airworthiness management of products, parts and non-installed equipment, and (b) organisations involved in the training of the personnel responsible for the release of a product, a part or non-installed equipment after maintenance. However, the first subparagraph shall not apply to situations in which, as a result of the adoption of the implementing acts referred to in point (b) of Article 17(1), taking into account the objectives and principles set out in Articles 1 and 4, and in particular the nature and risk of the activity concerned, such approvals are not required. The approvals referred to in this paragraph shall be issued upon application, when the applicant has demonstrated that it complies with the implementing acts referred to in Article 17 adopted to ensure compliance with the essential requirements referred to in Article 9.",
+  "path": [
+   "EU1139::art_15.2"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "EU1139::art_15.2",
+   "matched": "airworthiness",
+   "context": "ired in respect of: (a) organisations responsible for the maintenance and continuing airworthiness management of products, parts and non-installed equipment, and (b) organisations inv"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "approval|approved",
+     "matched": "approval",
+     "context": "2. An approval shall also be required in respect of: (a) organisations responsible for the maintena"
+    },
+    {
+     "lexicon": "AUTH",
+     "pattern": "shall be issued",
+     "matched": "shall be issued",
+     "context": "cerned, such approvals are not required. The approvals referred to in this paragraph shall be issued upon application, when the applicant has demonstrated that it complies with the impl"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "shall be issued\\b[^.]{0,120}\\bwhen\\b",
+     "matched": "shall be issued upon application, when",
+     "context": "cerned, such approvals are not required. The approvals referred to in this paragraph shall be issued upon application, when the applicant has demonstrated that it complies with the implementing acts referred "
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "airworthiness",
+     "matched": "airworthiness",
+     "context": "ired in respect of: (a) organisations responsible for the maintenance and continuing airworthiness management of products, parts and non-installed equipment, and (b) organisations inv"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "demonstrat\\w+ (?:compliance|that)",
+     "matched": "demonstrated that",
+     "context": "ferred to in this paragraph shall be issued upon application, when the applicant has demonstrated that it complies with the implementing acts referred to in Article 17 adopted to ensure c"
+    }
+   ]
+  }
+ },
+ {
+  "id": "EU1139::art_16.1",
+  "doc": "EU1139",
+  "text": "1. Personnel responsible for the release of a product, a part or non-installed equipment after maintenance shall be required to hold a licence, except for situations in which, as a result of the adoption of implementing acts referred to in point (d) of Article 17(1), taking into account the objectives and principles set out in Articles 1 and 4, and in particular the nature and risk of the activity concerned, such licences are not required. That licence shall be issued upon application, when the applicant has demonstrated that he or she complies with the implementing acts referred to in Article 17 adopted to ensure compliance with the essential requirements referred to in Article 9.",
+  "path": [
+   "EU1139::art_16.1"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "EU1139::art_16.1",
+   "matched": "demonstrated that",
+   "context": " not required. That licence shall be issued upon application, when the applicant has demonstrated that he or she complies with the implementing acts referred to in Article 17 adopted to e"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "licen[cs]\\w*",
+     "matched": "licence",
+     "context": "uct, a part or non-installed equipment after maintenance shall be required to hold a licence, except for situations in which, as a result of the adoption of implementing acts re"
+    },
+    {
+     "lexicon": "AUTH",
+     "pattern": "shall be issued",
+     "matched": "shall be issued",
+     "context": "ure and risk of the activity concerned, such licences are not required. That licence shall be issued upon application, when the applicant has demonstrated that he or she complies with t"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "shall be required",
+     "matched": "shall be required",
+     "context": "le for the release of a product, a part or non-installed equipment after maintenance shall be required to hold a licence, except for situations in which, as a result of the adoption of im"
+    },
+    {
+     "lexicon": "DET",
+     "pattern": "shall be issued\\b[^.]{0,120}\\bwhen\\b",
+     "matched": "shall be issued upon application, when",
+     "context": "ure and risk of the activity concerned, such licences are not required. That licence shall be issued upon application, when the applicant has demonstrated that he or she complies with the implementing acts re"
+    },
+    {
+     "lexicon": "DET",
+     "pattern": "shall\\b[^.]{0,200}\\b(hold|obtain|be in possession of)\\b[^.]{0,80}\\b(certificat\\w*|licen[cs]\\w*|approval|authoris\\w*)",
+     "matched": "shall be required to hold a licence",
+     "context": "le for the release of a product, a part or non-installed equipment after maintenance shall be required to hold a licence, except for situations in which, as a result of the adoption of implementing acts re"
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "demonstrat\\w+ (?:compliance|that)",
+     "matched": "demonstrated that",
+     "context": " not required. That licence shall be issued upon application, when the applicant has demonstrated that he or she complies with the implementing acts referred to in Article 17 adopted to e"
+    }
+   ]
+  }
+ },
+ {
+  "id": "EU1139::art_21.1",
+  "doc": "EU1139",
+  "text": "1. Pilots shall be required to hold a pilot licence and a pilot medical certificate appropriate to the operation to be performed, except for situations in which, as a result of the adoption of implementing acts referred to in point (c)(i) of Article 23(1), taking into account the objectives and principles set out in Articles 1 and 4, and in particular the nature and risk of the activity concerned, such licences or medical certificates are not required.",
+  "path": [
+   "EU1139::art_21.1"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "EU1139::art_21.1",
+   "matched": "certificate",
+   "context": "1. Pilots shall be required to hold a pilot licence and a pilot medical certificate appropriate to the operation to be performed, except for situations in which, as a r"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "licen[cs]\\w*",
+     "matched": "licence",
+     "context": "1. Pilots shall be required to hold a pilot licence and a pilot medical certificate appropriate to the operation to be performed, except"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "shall be required",
+     "matched": "shall be required",
+     "context": "1. Pilots shall be required to hold a pilot licence and a pilot medical certificate appropriate to the operation"
+    },
+    {
+     "lexicon": "DET",
+     "pattern": "shall\\b[^.]{0,200}\\b(hold|obtain|be in possession of)\\b[^.]{0,80}\\b(certificat\\w*|licen[cs]\\w*|approval|authoris\\w*)",
+     "matched": "shall be required to hold a pilot licence and a pilot medical certificate",
+     "context": "1. Pilots shall be required to hold a pilot licence and a pilot medical certificate appropriate to the operation to be performed, except for situations in which, as a r"
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "certificat\\w*",
+     "matched": "certificate",
+     "context": "1. Pilots shall be required to hold a pilot licence and a pilot medical certificate appropriate to the operation to be performed, except for situations in which, as a r"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "\\bcertif\\w*",
+     "matched": "certificate",
+     "context": "1. Pilots shall be required to hold a pilot licence and a pilot medical certificate appropriate to the operation to be performed, except for situations in which, as a r"
+    }
+   ]
+  }
+ },
+ {
+  "id": "EU1139::art_21.2",
+  "doc": "EU1139",
+  "text": "2. The pilot licence referred to in paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that he or she complies with the implementing acts referred to in Article 23 adopted to ensure compliance with the essential requirements referred to in Article 20.",
+  "path": [
+   "EU1139::art_21.2"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "EU1139::art_21.2",
+   "matched": "demonstrated that",
+   "context": "paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that he or she complies with the implementing acts referred to in Article 23 adopted to e"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "licen[cs]\\w*",
+     "matched": "licence",
+     "context": "2. The pilot licence referred to in paragraph 1 of this Article shall be issued upon application, when th"
+    },
+    {
+     "lexicon": "AUTH",
+     "pattern": "shall be issued",
+     "matched": "shall be issued",
+     "context": "2. The pilot licence referred to in paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that he or she complies with t"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "shall be issued\\b[^.]{0,120}\\bwhen\\b",
+     "matched": "shall be issued upon application, when",
+     "context": "2. The pilot licence referred to in paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that he or she complies with the implementing acts re"
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "demonstrat\\w+ (?:compliance|that)",
+     "matched": "demonstrated that",
+     "context": "paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that he or she complies with the implementing acts referred to in Article 23 adopted to e"
+    }
+   ]
+  }
+ },
+ {
+  "id": "EU1139::art_21.3",
+  "doc": "EU1139",
+  "text": "3. The pilot medical certificate referred to in paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that he or she complies with the implementing acts referred to in Article 23 adopted to ensure compliance with the essential requirements referred to in Article 20.",
+  "path": [
+   "EU1139::art_21.3"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "EU1139::art_21.3",
+   "matched": "certificate",
+   "context": "3. The pilot medical certificate referred to in paragraph 1 of this Article shall be issued upon application, when th"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "shall be issued",
+     "matched": "shall be issued",
+     "context": "3. The pilot medical certificate referred to in paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that he or she complies with t"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "shall be issued\\b[^.]{0,120}\\bwhen\\b",
+     "matched": "shall be issued upon application, when",
+     "context": "3. The pilot medical certificate referred to in paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that he or she complies with the implementing acts re"
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "certificat\\w*",
+     "matched": "certificate",
+     "context": "3. The pilot medical certificate referred to in paragraph 1 of this Article shall be issued upon application, when th"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "\\bcertif\\w*",
+     "matched": "certificate",
+     "context": "3. The pilot medical certificate referred to in paragraph 1 of this Article shall be issued upon application, when th"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "demonstrat\\w+ (?:compliance|that)",
+     "matched": "demonstrated that",
+     "context": "paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that he or she complies with the implementing acts referred to in Article 23 adopted to e"
+    }
+   ]
+  }
+ },
+ {
+  "id": "EU1139::art_22.3",
+  "doc": "EU1139",
+  "text": "3. The attestations referred to in paragraphs 1 and 2 of this Article shall be issued upon application, when the applicant has demonstrated that he or she complies with the implementing acts referred to in Article 23 adopted to ensure compliance with the essential requirements referred to in Article 20.",
+  "path": [
+   "EU1139::art_22.3"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "EU1139::art_22.3",
+   "matched": "demonstrated that",
+   "context": "phs 1 and 2 of this Article shall be issued upon application, when the applicant has demonstrated that he or she complies with the implementing acts referred to in Article 23 adopted to e"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "shall be issued",
+     "matched": "shall be issued",
+     "context": "3. The attestations referred to in paragraphs 1 and 2 of this Article shall be issued upon application, when the applicant has demonstrated that he or she complies with t"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "shall be issued\\b[^.]{0,120}\\bwhen\\b",
+     "matched": "shall be issued upon application, when",
+     "context": "3. The attestations referred to in paragraphs 1 and 2 of this Article shall be issued upon application, when the applicant has demonstrated that he or she complies with the implementing acts re"
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "demonstrat\\w+ (?:compliance|that)",
+     "matched": "demonstrated that",
+     "context": "phs 1 and 2 of this Article shall be issued upon application, when the applicant has demonstrated that he or she complies with the implementing acts referred to in Article 23 adopted to e"
+    }
+   ]
+  }
+ },
+ {
+  "id": "EU1139::art_24.2",
+  "doc": "EU1139",
+  "text": "2. An approval shall be required in respect of pilot training organisations and cabin crew training organisations, except for situations in which, as a result of the adoption of implementing acts referred to in point (a) of Article 27(1), taking into account the objectives and principles set out in Articles 1 and 4, and in particular the nature and risk of the activity concerned, such approvals are not required.",
+  "path": [
+   "EU1139::art_24.2",
+   "EU1139::art_27"
+  ],
+  "path_len": 1,
+  "evaluation_ignited_at": {
+   "node": "EU1139::art_27",
+   "matched": "testing",
+   "context": "Article 27 Implementing acts as regards training, testing, checking and medical assessment"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "approval|approved",
+     "matched": "approval",
+     "context": "2. An approval shall be required in respect of pilot training organisations and cabin crew training"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "shall be required",
+     "matched": "shall be required",
+     "context": "2. An approval shall be required in respect of pilot training organisations and cabin crew training organisations, ex"
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": []
+  }
+ },
+ {
+  "id": "EU1139::art_24.3",
+  "doc": "EU1139",
+  "text": "3. The approvals referred to in paragraphs 1 and 2 of this Article shall be issued upon application, when the applicant has demonstrated that it complies with the implementing acts referred to in Article 27 adopted to ensure compliance with the essential requirements referred to in Article 20.",
+  "path": [
+   "EU1139::art_24.3"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "EU1139::art_24.3",
+   "matched": "demonstrated that",
+   "context": "phs 1 and 2 of this Article shall be issued upon application, when the applicant has demonstrated that it complies with the implementing acts referred to in Article 27 adopted to ensure c"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "approval|approved",
+     "matched": "approval",
+     "context": "3. The approvals referred to in paragraphs 1 and 2 of this Article shall be issued upon application,"
+    },
+    {
+     "lexicon": "AUTH",
+     "pattern": "shall be issued",
+     "matched": "shall be issued",
+     "context": "3. The approvals referred to in paragraphs 1 and 2 of this Article shall be issued upon application, when the applicant has demonstrated that it complies with the impl"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "shall be issued\\b[^.]{0,120}\\bwhen\\b",
+     "matched": "shall be issued upon application, when",
+     "context": "3. The approvals referred to in paragraphs 1 and 2 of this Article shall be issued upon application, when the applicant has demonstrated that it complies with the implementing acts referred "
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "demonstrat\\w+ (?:compliance|that)",
+     "matched": "demonstrated that",
+     "context": "phs 1 and 2 of this Article shall be issued upon application, when the applicant has demonstrated that it complies with the implementing acts referred to in Article 27 adopted to ensure c"
+    }
+   ]
+  }
+ },
+ {
+  "id": "EU1139::art_25.1",
+  "doc": "EU1139",
+  "text": "1. A certificate shall be required in respect of each flight simulation training device used for the training of pilots, except for situations in which, as a result of the adoption of implementing acts referred to in point (a) of Article 27(1), taking into account the objectives and principles set out in Articles 1 and 4, and in particular the nature and risk of the activity concerned, such certificates are not required.",
+  "path": [
+   "EU1139::art_25.1"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "EU1139::art_25.1",
+   "matched": "certificate",
+   "context": "1. A certificate shall be required in respect of each flight simulation training device used for the "
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "certificate (?:is|shall be) required",
+     "matched": "certificate shall be required",
+     "context": "1. A certificate shall be required in respect of each flight simulation training device used for the training of pilots"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "shall be required",
+     "matched": "shall be required",
+     "context": "1. A certificate shall be required in respect of each flight simulation training device used for the training of pilots"
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "certificat\\w*",
+     "matched": "certificate",
+     "context": "1. A certificate shall be required in respect of each flight simulation training device used for the "
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "\\bcertif\\w*",
+     "matched": "certificate",
+     "context": "1. A certificate shall be required in respect of each flight simulation training device used for the "
+    }
+   ]
+  }
+ },
+ {
+  "id": "EU1139::art_25.2",
+  "doc": "EU1139",
+  "text": "2. The certificate referred to in paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that the applicant and the device comply with the implementing acts referred to in Article 27 adopted to ensure compliance with the essential requirements referred to in Article 20.",
+  "path": [
+   "EU1139::art_25.2"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "EU1139::art_25.2",
+   "matched": "certificate",
+   "context": "2. The certificate referred to in paragraph 1 of this Article shall be issued upon application, when th"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "shall be issued",
+     "matched": "shall be issued",
+     "context": "2. The certificate referred to in paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that the applicant and the dev"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "shall be issued\\b[^.]{0,120}\\bwhen\\b",
+     "matched": "shall be issued upon application, when",
+     "context": "2. The certificate referred to in paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that the applicant and the device comply with the imp"
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "certificat\\w*",
+     "matched": "certificate",
+     "context": "2. The certificate referred to in paragraph 1 of this Article shall be issued upon application, when th"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "\\bcertif\\w*",
+     "matched": "certificate",
+     "context": "2. The certificate referred to in paragraph 1 of this Article shall be issued upon application, when th"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "demonstrat\\w+ (?:compliance|that)",
+     "matched": "demonstrated that",
+     "context": "paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that the applicant and the device comply with the implementing acts referred to in Articl"
+    }
+   ]
+  }
+ },
+ {
+  "id": "EU1139::art_26.3",
+  "doc": "EU1139",
+  "text": "3. The certificates referred to in paragraphs 1 and 2 of this Article shall be issued upon application, when the applicant has demonstrated that he or she complies with the implementing acts referred to in Article 27 adopted to ensure compliance with the essential requirements referred to in Article 20.",
+  "path": [
+   "EU1139::art_26.3"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "EU1139::art_26.3",
+   "matched": "certificates",
+   "context": "3. The certificates referred to in paragraphs 1 and 2 of this Article shall be issued upon application, "
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "shall be issued",
+     "matched": "shall be issued",
+     "context": "3. The certificates referred to in paragraphs 1 and 2 of this Article shall be issued upon application, when the applicant has demonstrated that he or she complies with t"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "shall be issued\\b[^.]{0,120}\\bwhen\\b",
+     "matched": "shall be issued upon application, when",
+     "context": "3. The certificates referred to in paragraphs 1 and 2 of this Article shall be issued upon application, when the applicant has demonstrated that he or she complies with the implementing acts re"
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "certificat\\w*",
+     "matched": "certificates",
+     "context": "3. The certificates referred to in paragraphs 1 and 2 of this Article shall be issued upon application, "
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "\\bcertif\\w*",
+     "matched": "certificates",
+     "context": "3. The certificates referred to in paragraphs 1 and 2 of this Article shall be issued upon application, "
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "demonstrat\\w+ (?:compliance|that)",
+     "matched": "demonstrated that",
+     "context": "phs 1 and 2 of this Article shall be issued upon application, when the applicant has demonstrated that he or she complies with the implementing acts referred to in Article 27 adopted to e"
+    }
+   ]
+  }
+ },
+ {
+  "id": "EU1139::art_30.2",
+  "doc": "EU1139",
+  "text": "2. The certificate referred to in paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that it complies with the implementing acts referred to in Article 31 adopted to ensure compliance with the essential requirements referred to in Article 29.",
+  "path": [
+   "EU1139::art_30.2"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "EU1139::art_30.2",
+   "matched": "certificate",
+   "context": "2. The certificate referred to in paragraph 1 of this Article shall be issued upon application, when th"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "shall be issued",
+     "matched": "shall be issued",
+     "context": "2. The certificate referred to in paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that it complies with the impl"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "shall be issued\\b[^.]{0,120}\\bwhen\\b",
+     "matched": "shall be issued upon application, when",
+     "context": "2. The certificate referred to in paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that it complies with the implementing acts referred "
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "certificat\\w*",
+     "matched": "certificate",
+     "context": "2. The certificate referred to in paragraph 1 of this Article shall be issued upon application, when th"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "\\bcertif\\w*",
+     "matched": "certificate",
+     "context": "2. The certificate referred to in paragraph 1 of this Article shall be issued upon application, when th"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "demonstrat\\w+ (?:compliance|that)",
+     "matched": "demonstrated that",
+     "context": "paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that it complies with the implementing acts referred to in Article 31 adopted to ensure c"
+    }
+   ]
+  }
+ },
+ {
+  "id": "EU1139::art_34.1",
+  "doc": "EU1139",
+  "text": "1. A certificate shall be required in respect of aerodromes. That certificate shall cover the aerodrome and its safety-related equipment, unless that safety-related equipment is covered by a declaration or certificate referred to in points (a) and (b) respectively of Article 35(1).",
+  "path": [
+   "EU1139::art_34.1"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "EU1139::art_34.1",
+   "matched": "certificate",
+   "context": "1. A certificate shall be required in respect of aerodromes. That certificate shall cover the aerodro"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "certificate (?:is|shall be) required",
+     "matched": "certificate shall be required",
+     "context": "1. A certificate shall be required in respect of aerodromes. That certificate shall cover the aerodrome and its safety-"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "shall be required",
+     "matched": "shall be required",
+     "context": "1. A certificate shall be required in respect of aerodromes. That certificate shall cover the aerodrome and its safety-"
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "certificat\\w*",
+     "matched": "certificate",
+     "context": "1. A certificate shall be required in respect of aerodromes. That certificate shall cover the aerodro"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "\\bcertif\\w*",
+     "matched": "certificate",
+     "context": "1. A certificate shall be required in respect of aerodromes. That certificate shall cover the aerodro"
+    }
+   ]
+  }
+ },
+ {
+  "id": "EU1139::art_34.2",
+  "doc": "EU1139",
+  "text": "2. The certificate referred to in paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that the aerodrome: (a) complies with the implementing acts referred to in Article 36 and with the aerodrome certification basis set out in paragraph 5 of this Article; and (b) has no feature or characteristic making it unsafe for operation.",
+  "path": [
+   "EU1139::art_34.2"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "EU1139::art_34.2",
+   "matched": "certificate",
+   "context": "2. The certificate referred to in paragraph 1 of this Article shall be issued upon application, when th"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "shall be issued",
+     "matched": "shall be issued",
+     "context": "2. The certificate referred to in paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that the aerodrome: (a) compli"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "shall be issued\\b[^.]{0,120}\\bwhen\\b",
+     "matched": "shall be issued upon application, when",
+     "context": "2. The certificate referred to in paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that the aerodrome: (a) complies with the implementin"
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "certificat\\w*",
+     "matched": "certificate",
+     "context": "2. The certificate referred to in paragraph 1 of this Article shall be issued upon application, when th"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "\\bcertif\\w*",
+     "matched": "certificate",
+     "context": "2. The certificate referred to in paragraph 1 of this Article shall be issued upon application, when th"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "demonstrat\\w+ (?:compliance|that)",
+     "matched": "demonstrated that",
+     "context": "paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that the aerodrome: (a) complies with the implementing acts referred to in Article 36 and"
+    }
+   ]
+  }
+ },
+ {
+  "id": "EU1139::art_35.2",
+  "doc": "EU1139",
+  "text": "2. The certificate referred to in point (b) of paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that the equipment complies with the detailed specifications established in accordance with implementing acts referred to in Article 36 adopted to ensure compliance with the essential requirements referred to in Article 33.",
+  "path": [
+   "EU1139::art_35.2"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "EU1139::art_35.2",
+   "matched": "certificate",
+   "context": "2. The certificate referred to in point (b) of paragraph 1 of this Article shall be issued upon applica"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "shall be issued",
+     "matched": "shall be issued",
+     "context": "2. The certificate referred to in point (b) of paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that the equipment complies wi"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "shall be issued\\b[^.]{0,120}\\bwhen\\b",
+     "matched": "shall be issued upon application, when",
+     "context": "2. The certificate referred to in point (b) of paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that the equipment complies with the detailed specifi"
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "certificat\\w*",
+     "matched": "certificate",
+     "context": "2. The certificate referred to in point (b) of paragraph 1 of this Article shall be issued upon applica"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "\\bcertif\\w*",
+     "matched": "certificate",
+     "context": "2. The certificate referred to in point (b) of paragraph 1 of this Article shall be issued upon applica"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "demonstrat\\w+ (?:compliance|that)",
+     "matched": "demonstrated that",
+     "context": "paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that the equipment complies with the detailed specifications established in accordance wi"
+    }
+   ]
+  }
+ },
+ {
+  "id": "EU1139::art_37.1",
+  "doc": "EU1139",
+  "text": "1. Organisations responsible for the operation of aerodromes shall be subject to certification and shall be issued with a certificate. That certificate shall be issued upon application, when the applicant has demonstrated that it complies with the delegated acts referred to in Article 39 adopted to ensure compliance with the essential requirements referred to in Article 33. The certificate shall specify the privileges granted to the certified organisation and the scope of the certificate.",
+  "path": [
+   "EU1139::art_37.1"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "EU1139::art_37.1",
+   "matched": "certification",
+   "context": "1. Organisations responsible for the operation of aerodromes shall be subject to certification and shall be issued with a certificate. That certificate shall be issued upon applic"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "shall be issued",
+     "matched": "shall be issued",
+     "context": "ns responsible for the operation of aerodromes shall be subject to certification and shall be issued with a certificate. That certificate shall be issued upon application, when the appl"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "shall be subject to\\b[^.]{0,80}\\b(certificat|conformity|test|approval)",
+     "matched": "shall be subject to certification and shall be issued with a certificat",
+     "context": "1. Organisations responsible for the operation of aerodromes shall be subject to certification and shall be issued with a certificate. That certificate shall be issued upon application, when the applicant has demonstr"
+    },
+    {
+     "lexicon": "DET",
+     "pattern": "shall be issued\\b[^.]{0,120}\\bwhen\\b",
+     "matched": "shall be issued upon application, when",
+     "context": "be subject to certification and shall be issued with a certificate. That certificate shall be issued upon application, when the applicant has demonstrated that it complies with the delegated acts referred to "
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "certificat\\w*",
+     "matched": "certification",
+     "context": "1. Organisations responsible for the operation of aerodromes shall be subject to certification and shall be issued with a certificate. That certificate shall be issued upon applic"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "\\bcertif\\w*",
+     "matched": "certification",
+     "context": "1. Organisations responsible for the operation of aerodromes shall be subject to certification and shall be issued with a certificate. That certificate shall be issued upon applic"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "demonstrat\\w+ (?:compliance|that)",
+     "matched": "demonstrated that",
+     "context": "rtificate. That certificate shall be issued upon application, when the applicant has demonstrated that it complies with the delegated acts referred to in Article 39 adopted to ensure comp"
+    }
+   ]
+  }
+ },
+ {
+  "id": "EU1139::art_41.2",
+  "doc": "EU1139",
+  "text": "2. The certificate referred to in paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that it complies with the implementing acts referred to in Article 43 adopted to ensure compliance with the essential requirements referred to in Article 40.",
+  "path": [
+   "EU1139::art_41.2"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "EU1139::art_41.2",
+   "matched": "certificate",
+   "context": "2. The certificate referred to in paragraph 1 of this Article shall be issued upon application, when th"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "shall be issued",
+     "matched": "shall be issued",
+     "context": "2. The certificate referred to in paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that it complies with the impl"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "shall be issued\\b[^.]{0,120}\\bwhen\\b",
+     "matched": "shall be issued upon application, when",
+     "context": "2. The certificate referred to in paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that it complies with the implementing acts referred "
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "certificat\\w*",
+     "matched": "certificate",
+     "context": "2. The certificate referred to in paragraph 1 of this Article shall be issued upon application, when th"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "\\bcertif\\w*",
+     "matched": "certificate",
+     "context": "2. The certificate referred to in paragraph 1 of this Article shall be issued upon application, when th"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "demonstrat\\w+ (?:compliance|that)",
+     "matched": "demonstrated that",
+     "context": "paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that it complies with the implementing acts referred to in Article 43 adopted to ensure c"
+    }
+   ]
+  }
+ },
+ {
+  "id": "EU1139::art_42.2",
+  "doc": "EU1139",
+  "text": "2. The certificate referred to in point (b) of paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that it complies with the rules established by the implementing acts referred to in Article 43 adopted to ensure compliance with the essential requirements referred to in Article 40.",
+  "path": [
+   "EU1139::art_42.2"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "EU1139::art_42.2",
+   "matched": "certificate",
+   "context": "2. The certificate referred to in point (b) of paragraph 1 of this Article shall be issued upon applica"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "shall be issued",
+     "matched": "shall be issued",
+     "context": "2. The certificate referred to in point (b) of paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that it complies with the rule"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "shall be issued\\b[^.]{0,120}\\bwhen\\b",
+     "matched": "shall be issued upon application, when",
+     "context": "2. The certificate referred to in point (b) of paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that it complies with the rules established by the im"
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "certificat\\w*",
+     "matched": "certificate",
+     "context": "2. The certificate referred to in point (b) of paragraph 1 of this Article shall be issued upon applica"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "\\bcertif\\w*",
+     "matched": "certificate",
+     "context": "2. The certificate referred to in point (b) of paragraph 1 of this Article shall be issued upon applica"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "demonstrat\\w+ (?:compliance|that)",
+     "matched": "demonstrated that",
+     "context": "paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that it complies with the rules established by the implementing acts referred to in Artic"
+    }
+   ]
+  }
+ },
+ {
+  "id": "EU1139::art_45.2",
+  "doc": "EU1139",
+  "text": "2. Where the delegated acts referred to in Article 47 so provide, ATM/ANS systems and ATM/ANS constituents shall be subject to certification and shall be issued with a certificate. That certificate shall be issued upon application, when the applicant has demonstrated that those systems and constituents comply with the detailed specifications established in accordance with the delegated acts referred to in Article 47 adopted to ensure compliance with the essential requirements referred to in Article 40. By way of derogation from the first subparagraph, where the delegated acts referred to in Article 47 so provide, the organisation involved in the design, production or maintenance of ATM/ANS systems and ATM/ANS constituents shall be permitted to declare that those systems and constituents comply with the detailed specifications established in accordance with the delegated acts referred to in Article 47 adopted to ensure compliance with the essential requirements referred to in Article 40 and that those systems and constituents are suitable for use.",
+  "path": [
+   "EU1139::art_45.2"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "EU1139::art_45.2",
+   "matched": "certification",
+   "context": " Article 47 so provide, ATM/ANS systems and ATM/ANS constituents shall be subject to certification and shall be issued with a certificate. That certificate shall be issued upon applic"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "\\bpermit(?:ted)?\\b",
+     "matched": "permitted",
+     "context": "sign, production or maintenance of ATM/ANS systems and ATM/ANS constituents shall be permitted to declare that those systems and constituents comply with the detailed specificatio"
+    },
+    {
+     "lexicon": "AUTH",
+     "pattern": "shall be issued",
+     "matched": "shall be issued",
+     "context": "vide, ATM/ANS systems and ATM/ANS constituents shall be subject to certification and shall be issued with a certificate. That certificate shall be issued upon application, when the appl"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "shall be subject to\\b[^.]{0,80}\\b(certificat|conformity|test|approval)",
+     "matched": "shall be subject to certification and shall be issued with a certificat",
+     "context": " acts referred to in Article 47 so provide, ATM/ANS systems and ATM/ANS constituents shall be subject to certification and shall be issued with a certificate. That certificate shall be issued upon application, when the applicant has demonstr"
+    },
+    {
+     "lexicon": "DET",
+     "pattern": "shall be issued\\b[^.]{0,120}\\bwhen\\b",
+     "matched": "shall be issued upon application, when",
+     "context": "be subject to certification and shall be issued with a certificate. That certificate shall be issued upon application, when the applicant has demonstrated that those systems and constituents comply with the d"
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "certificat\\w*",
+     "matched": "certification",
+     "context": " Article 47 so provide, ATM/ANS systems and ATM/ANS constituents shall be subject to certification and shall be issued with a certificate. That certificate shall be issued upon applic"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "\\bcertif\\w*",
+     "matched": "certification",
+     "context": " Article 47 so provide, ATM/ANS systems and ATM/ANS constituents shall be subject to certification and shall be issued with a certificate. That certificate shall be issued upon applic"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "demonstrat\\w+ (?:compliance|that)",
+     "matched": "demonstrated that",
+     "context": "rtificate. That certificate shall be issued upon application, when the applicant has demonstrated that those systems and constituents comply with the detailed specifications established i"
+    }
+   ]
+  }
+ },
+ {
+  "id": "EU1139::art_49.1",
+  "doc": "EU1139",
+  "text": "1. Air traffic controllers shall be required to hold an air traffic controller licence and an air traffic controller medical certificate appropriate for the service to be provided.",
+  "path": [
+   "EU1139::art_49.1"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "EU1139::art_49.1",
+   "matched": "certificate",
+   "context": "ired to hold an air traffic controller licence and an air traffic controller medical certificate appropriate for the service to be provided."
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "licen[cs]\\w*",
+     "matched": "licence",
+     "context": "1. Air traffic controllers shall be required to hold an air traffic controller licence and an air traffic controller medical certificate appropriate for the service to be "
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "shall be required",
+     "matched": "shall be required",
+     "context": "1. Air traffic controllers shall be required to hold an air traffic controller licence and an air traffic controller medical cert"
+    },
+    {
+     "lexicon": "DET",
+     "pattern": "shall\\b[^.]{0,200}\\b(hold|obtain|be in possession of)\\b[^.]{0,80}\\b(certificat\\w*|licen[cs]\\w*|approval|authoris\\w*)",
+     "matched": "shall be required to hold an air traffic controller licence and an air traffic controller medical certificate",
+     "context": "1. Air traffic controllers shall be required to hold an air traffic controller licence and an air traffic controller medical certificate appropriate for the service to be provided."
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "certificat\\w*",
+     "matched": "certificate",
+     "context": "ired to hold an air traffic controller licence and an air traffic controller medical certificate appropriate for the service to be provided."
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "\\bcertif\\w*",
+     "matched": "certificate",
+     "context": "ired to hold an air traffic controller licence and an air traffic controller medical certificate appropriate for the service to be provided."
+    }
+   ]
+  }
+ },
+ {
+  "id": "EU1139::art_49.2",
+  "doc": "EU1139",
+  "text": "2. The air traffic controller licence referred to in paragraph 1 of this Article shall be issued upon application, when the applicant for the licence has demonstrated that he or she complies with the implementing acts referred to in Article 50 adopted to ensure compliance with the essential requirements referred to in Article 48.",
+  "path": [
+   "EU1139::art_49.2"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "EU1139::art_49.2",
+   "matched": "demonstrated that",
+   "context": "his Article shall be issued upon application, when the applicant for the licence has demonstrated that he or she complies with the implementing acts referred to in Article 50 adopted to e"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "licen[cs]\\w*",
+     "matched": "licence",
+     "context": "2. The air traffic controller licence referred to in paragraph 1 of this Article shall be issued upon application, when th"
+    },
+    {
+     "lexicon": "AUTH",
+     "pattern": "shall be issued",
+     "matched": "shall be issued",
+     "context": "2. The air traffic controller licence referred to in paragraph 1 of this Article shall be issued upon application, when the applicant for the licence has demonstrated that he or she"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "shall be issued\\b[^.]{0,120}\\bwhen\\b",
+     "matched": "shall be issued upon application, when",
+     "context": "2. The air traffic controller licence referred to in paragraph 1 of this Article shall be issued upon application, when the applicant for the licence has demonstrated that he or she complies with the impl"
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "demonstrat\\w+ (?:compliance|that)",
+     "matched": "demonstrated that",
+     "context": "his Article shall be issued upon application, when the applicant for the licence has demonstrated that he or she complies with the implementing acts referred to in Article 50 adopted to e"
+    }
+   ]
+  }
+ },
+ {
+  "id": "EU1139::art_49.3",
+  "doc": "EU1139",
+  "text": "3. The air traffic controller medical certificate referred to in paragraph 1 of this Article shall be issued upon application, when the air traffic controller has demonstrated that he or she complies with the implementing acts referred to in Article 50 adopted to ensure compliance with the essential requirements referred to in Article 48.",
+  "path": [
+   "EU1139::art_49.3"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "EU1139::art_49.3",
+   "matched": "certificate",
+   "context": "3. The air traffic controller medical certificate referred to in paragraph 1 of this Article shall be issued upon application, when th"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "shall be issued",
+     "matched": "shall be issued",
+     "context": "ir traffic controller medical certificate referred to in paragraph 1 of this Article shall be issued upon application, when the air traffic controller has demonstrated that he or she co"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "shall be issued\\b[^.]{0,120}\\bwhen\\b",
+     "matched": "shall be issued upon application, when",
+     "context": "ir traffic controller medical certificate referred to in paragraph 1 of this Article shall be issued upon application, when the air traffic controller has demonstrated that he or she complies with the impleme"
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "certificat\\w*",
+     "matched": "certificate",
+     "context": "3. The air traffic controller medical certificate referred to in paragraph 1 of this Article shall be issued upon application, when th"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "\\bcertif\\w*",
+     "matched": "certificate",
+     "context": "3. The air traffic controller medical certificate referred to in paragraph 1 of this Article shall be issued upon application, when th"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "demonstrat\\w+ (?:compliance|that)",
+     "matched": "demonstrated that",
+     "context": "f this Article shall be issued upon application, when the air traffic controller has demonstrated that he or she complies with the implementing acts referred to in Article 50 adopted to e"
+    }
+   ]
+  }
+ },
+ {
+  "id": "EU1139::art_51.2",
+  "doc": "EU1139",
+  "text": "2. The approval referred to in paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that it complies with the implementing acts referred to in Article 53 adopted to ensure compliance with the essential requirements referred to in Article 48.",
+  "path": [
+   "EU1139::art_51.2"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "EU1139::art_51.2",
+   "matched": "demonstrated that",
+   "context": "paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that it complies with the implementing acts referred to in Article 53 adopted to ensure c"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "approval|approved",
+     "matched": "approval",
+     "context": "2. The approval referred to in paragraph 1 of this Article shall be issued upon application, when th"
+    },
+    {
+     "lexicon": "AUTH",
+     "pattern": "shall be issued",
+     "matched": "shall be issued",
+     "context": "2. The approval referred to in paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that it complies with the impl"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "shall be issued\\b[^.]{0,120}\\bwhen\\b",
+     "matched": "shall be issued upon application, when",
+     "context": "2. The approval referred to in paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that it complies with the implementing acts referred "
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "demonstrat\\w+ (?:compliance|that)",
+     "matched": "demonstrated that",
+     "context": "paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that it complies with the implementing acts referred to in Article 53 adopted to ensure c"
+    }
+   ]
+  }
+ },
+ {
+  "id": "EU1139::art_52.2",
+  "doc": "EU1139",
+  "text": "2. The certificate referred to in paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that he or she complies with the implementing acts referred to in Article 53 adopted to ensure compliance with the essential requirements referred to in Article 48.",
+  "path": [
+   "EU1139::art_52.2"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "EU1139::art_52.2",
+   "matched": "certificate",
+   "context": "2. The certificate referred to in paragraph 1 of this Article shall be issued upon application, when th"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "shall be issued",
+     "matched": "shall be issued",
+     "context": "2. The certificate referred to in paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that he or she complies with t"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "shall be issued\\b[^.]{0,120}\\bwhen\\b",
+     "matched": "shall be issued upon application, when",
+     "context": "2. The certificate referred to in paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that he or she complies with the implementing acts re"
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "certificat\\w*",
+     "matched": "certificate",
+     "context": "2. The certificate referred to in paragraph 1 of this Article shall be issued upon application, when th"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "\\bcertif\\w*",
+     "matched": "certificate",
+     "context": "2. The certificate referred to in paragraph 1 of this Article shall be issued upon application, when th"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "demonstrat\\w+ (?:compliance|that)",
+     "matched": "demonstrated that",
+     "context": "paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that he or she complies with the implementing acts referred to in Article 53 adopted to e"
+    }
+   ]
+  }
+ },
+ {
+  "id": "EU1139::art_56.2",
+  "doc": "EU1139",
+  "text": "2. The certificate referred to in paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that it complies with the delegated acts referred to in Article 58 and the implementing acts referred to in Article 57.",
+  "path": [
+   "EU1139::art_56.2"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "EU1139::art_56.2",
+   "matched": "certificate",
+   "context": "2. The certificate referred to in paragraph 1 of this Article shall be issued upon application, when th"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "shall be issued",
+     "matched": "shall be issued",
+     "context": "2. The certificate referred to in paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that it complies with the dele"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "shall be issued\\b[^.]{0,120}\\bwhen\\b",
+     "matched": "shall be issued upon application, when",
+     "context": "2. The certificate referred to in paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that it complies with the delegated acts referred to "
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "certificat\\w*",
+     "matched": "certificate",
+     "context": "2. The certificate referred to in paragraph 1 of this Article shall be issued upon application, when th"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "\\bcertif\\w*",
+     "matched": "certificate",
+     "context": "2. The certificate referred to in paragraph 1 of this Article shall be issued upon application, when th"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "demonstrat\\w+ (?:compliance|that)",
+     "matched": "demonstrated that",
+     "context": "paragraph 1 of this Article shall be issued upon application, when the applicant has demonstrated that it complies with the delegated acts referred to in Article 58 and the implementing a"
+    }
+   ]
+  }
+ },
+ {
+  "id": "EU1139::art_60.1",
+  "doc": "EU1139",
+  "text": "1. The operation of the aircraft referred to in point (c) of Article 2(1) for commercial air transport shall be subject to certification and shall be issued with an authorisation. That authorisation shall be issued upon application, when the applicant has demonstrated its capability, and the availability to it of the means, to discharge the responsibilities associated with the operation of that aircraft in compliance with the requirements specified in Article 59. The authorisation shall specify the privileges granted to the operator and the scope of the operations.",
+  "path": [
+   "EU1139::art_60.1"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "EU1139::art_60.1",
+   "matched": "certification",
+   "context": "red to in point (c) of Article 2(1) for commercial air transport shall be subject to certification and shall be issued with an authorisation. That authorisation shall be issued upon a"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "authoris(?:ation|ed)|authoriz(?:ation|ed)",
+     "matched": "authorisation",
+     "context": "mmercial air transport shall be subject to certification and shall be issued with an authorisation. That authorisation shall be issued upon application, when the applicant has demonst"
+    },
+    {
+     "lexicon": "AUTH",
+     "pattern": "shall be issued",
+     "matched": "shall be issued",
+     "context": ") of Article 2(1) for commercial air transport shall be subject to certification and shall be issued with an authorisation. That authorisation shall be issued upon application, when the"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "shall be subject to\\b[^.]{0,80}\\b(certificat|conformity|test|approval)",
+     "matched": "shall be subject to certificat",
+     "context": "f the aircraft referred to in point (c) of Article 2(1) for commercial air transport shall be subject to certification and shall be issued with an authorisation. That authorisation shall be issued upo"
+    },
+    {
+     "lexicon": "DET",
+     "pattern": "shall be issued\\b[^.]{0,120}\\bwhen\\b",
+     "matched": "shall be issued upon application, when",
+     "context": "bject to certification and shall be issued with an authorisation. That authorisation shall be issued upon application, when the applicant has demonstrated its capability, and the availability to it of the mea"
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "certificat\\w*",
+     "matched": "certification",
+     "context": "red to in point (c) of Article 2(1) for commercial air transport shall be subject to certification and shall be issued with an authorisation. That authorisation shall be issued upon a"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "\\bcertif\\w*",
+     "matched": "certification",
+     "context": "red to in point (c) of Article 2(1) for commercial air transport shall be subject to certification and shall be issued with an authorisation. That authorisation shall be issued upon a"
+    }
+   ]
+  }
+ },
+ {
+  "id": "EU1139::art_60.2",
+  "doc": "EU1139",
+  "text": "2. Where the delegated acts referred to in Article 61 so provide, the operation of aircraft referred to in point (c) of Article 2(1) other than for commercial air transport shall be subject to certification and shall be issued with an authorisation. That authorisation shall be issued upon application, when the applicant has demonstrated its capability, and the availability to it of the means, to discharge the responsibilities associated with the operation of that aircraft in compliance with the requirements specified in Article 59. The authorisation shall specify the privileges granted to the operator and the scope of the operations. By way of derogation from the first subparagraph of this paragraph, where the delegated acts referred to in Article 61 so provide, the operators of the aircraft referred to in point (c) of Article 2(1) engaged in operations other than commercial air transport shall be permitted to declare their capability, and the availability to them of the means, to discharge the responsibilities associated with the operation of that aircraft in compliance with the requirements specified in Article 59.",
+  "path": [
+   "EU1139::art_60.2"
+  ],
+  "path_len": 0,
+  "evaluation_ignited_at": {
+   "node": "EU1139::art_60.2",
+   "matched": "certification",
+   "context": "oint (c) of Article 2(1) other than for commercial air transport shall be subject to certification and shall be issued with an authorisation. That authorisation shall be issued upon a"
+  },
+  "patterns": {
+   "AUTH": [
+    {
+     "lexicon": "AUTH",
+     "pattern": "authoris(?:ation|ed)|authoriz(?:ation|ed)",
+     "matched": "authorisation",
+     "context": "mmercial air transport shall be subject to certification and shall be issued with an authorisation. That authorisation shall be issued upon application, when the applicant has demonst"
+    },
+    {
+     "lexicon": "AUTH",
+     "pattern": "\\bpermit(?:ted)?\\b",
+     "matched": "permitted",
+     "context": ") of Article 2(1) engaged in operations other than commercial air transport shall be permitted to declare their capability, and the availability to them of the means, to discharge"
+    },
+    {
+     "lexicon": "AUTH",
+     "pattern": "shall be issued",
+     "matched": "shall be issued",
+     "context": "e 2(1) other than for commercial air transport shall be subject to certification and shall be issued with an authorisation. That authorisation shall be issued upon application, when the"
+    }
+   ],
+   "DET": [
+    {
+     "lexicon": "DET",
+     "pattern": "shall be subject to\\b[^.]{0,80}\\b(certificat|conformity|test|approval)",
+     "matched": "shall be subject to certificat",
+     "context": "aft referred to in point (c) of Article 2(1) other than for commercial air transport shall be subject to certification and shall be issued with an authorisation. That authorisation shall be issued upo"
+    },
+    {
+     "lexicon": "DET",
+     "pattern": "shall be issued\\b[^.]{0,120}\\bwhen\\b",
+     "matched": "shall be issued upon application, when",
+     "context": "bject to certification and shall be issued with an authorisation. That authorisation shall be issued upon application, when the applicant has demonstrated its capability, and the availability to it of the mea"
+    }
+   ],
+   "NONDET": [],
+   "EVAL_own_text": [
+    {
+     "lexicon": "EVAL",
+     "pattern": "certificat\\w*",
+     "matched": "certification",
+     "context": "oint (c) of Article 2(1) other than for commercial air transport shall be subject to certification and shall be issued with an authorisation. That authorisation shall be issued upon a"
+    },
+    {
+     "lexicon": "EVAL",
+     "pattern": "\\bcertif\\w*",
+     "matched": "certification",
+     "context": "oint (c) of Article 2(1) other than for commercial air transport shall be subject to certification and shall be issued with an authorisation. That authorisation shall be issued upon a"
+    }
+   ]
+  }
+ }
+]

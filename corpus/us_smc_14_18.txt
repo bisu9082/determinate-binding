@@ -1,0 +1,425 @@
+
+@@@ Chapter 14.18 - ACQUISITION AND USE OF SURVEILLANCE TECHNOLOGIES
+
+
+@@@ 14.18.010 - Definitions
+The following definitions apply to this Chapter 14.18 :
+ "Acquire" means to obtain, purchase, lease, rent, borrow, create, develop, or accept
+ a grant, state or federal funds, or in-kind or other donations in connection with
+ such purposes, whether pursuant to a services or subscription arrangement or otherwise,
+ or without exchange of consideration, monies, or fees.
+ "City" means The City of Seattle.
+ "CTO" means Chief Technology Officer as defined in Section 3.23.020 .
+ "Inspector General for Public Safety" means the Office of Professional Accountability
+ Auditor or its successor.
+ "SPD" means the Seattle Police Department.
+ "Surveillance" or "surveil" means to observe or analyze the movements, behavior, or
+ actions of identifiable individuals in a manner that is reasonably likely to raise
+ concerns about civil liberties, freedom of speech or association, racial equity or
+ social justice. Identifiable individuals also include individuals whose identity can
+ be revealed by license plate data when combined with any other record. It is not surveillance
+ if an individual knowingly and voluntarily consented to provide the information, or
+ had a clear and conspicuous opportunity to opt out of providing the information.
+ "Surveillance capability" means the ability to collect, capture, transmit, or record
+ data that could be used to surveil, regardless of whether the data is obscured, de-identified,
+ or anonymized before or after collection and regardless of whether technology might
+ be used to obscure or prevent the capturing of certain views or types of information.
+ "Surveillance data" means any electronic data collected, captured, recorded, retained,
+ processed, intercepted, or analyzed by surveillance technology acquired by the City
+ or operated at the direction of the City.
+ "Surveillance Impact Report" or "SIR" means the report with content enumerated in
+ subsection 14.18.040.B.
+ "Surveillance technology" means any electronic device, software program, or hosted
+ software solution that is designed or primarily intended to be used for the purpose
+ of surveillance.
+ "Working Group" means the Community Surveillance Working Group established pursuant
+ to Section 14.18.080 , which is responsible for advising the Executive and City Council on matters concerning
+ surveillance technology pursuant to this Chapter 14.18 .
+ (Ord.
+ 125679
+ , § 1, 2018; Ord.
+ 125376
+ , § 2, 2017.)
+
+@@@ 14.18.020 - Council approval for acquisition of surveillance technologies
+A.
+ Unless exempted or excepted from the requirements of this Chapter 14.18 pursuant to Section 14.18.030 , any City department intending to acquire surveillance technology shall, prior to
+ acquisition, obtain Council ordinance approval of the acquisition and a surveillance
+ impact report for the technology. A City department that directs a non-City entity
+ to acquire or operate surveillance technology on the City's behalf is bound by the
+ requirements of this Chapter 14.18 to the same extent as if the department were acquiring the surveillance technology.
+ B.
+ 1.
+ The Executive shall establish a process for determining whether technology is surveillance
+ technology as defined in this Chapter 14.18 . The process shall take into consideration the following factors, including but not
+ limited to (1) potential impacts and uses that may adversely affect disadvantaged
+ groups or communities and (2) the likelihood that individually identifiable information
+ will be shared with non-City entities.
+ 2.
+ Each determination that is made pursuant to the process in subsection 14.18.020.B.1
+ shall be documented in writing. If the process determines that technology is not surveillance
+ technology subject to the requirements of this Chapter 14.18 , a department may rely on that determination unless the Council designates that the
+ technology is surveillance technology. Any such Council designation shall be filed
+ with the City Clerk.
+ 3.
+ The CTO shall, by no later than 30 days following the last day of each quarter, submit
+ to Council, by filing with the City Clerk and providing an electronic copy to the
+ chair of the committee responsible for technology matters, the co-chairs of the Working
+ Group, the City Auditor, the Inspector General for Public Safety, and the Director
+ of Central Staff, a surveillance technology determination list that includes all technology
+ from that quarter that was reviewed under the process established in subsection 14.18.020.B.1,
+ along with supporting information to explain the justification for the disposition
+ of items on the list. The CTO shall also post the list to the City's website.
+ 4.
+ The Council may at any time designate that a technology is or is not surveillance
+ technology subject to the requirements of this Chapter 14.18 .
+ 5.
+ If the Council changes the designation of a technology on a list required by subsection
+ 14.18.020.B.3, the Council action shall be filed with the City Clerk and the Council
+ shall direct the CTO to file an updated list with the City Clerk.
+ C.
+ Prior to requesting Council approval pursuant to subsection 14.18.020.A, the department
+ must complete one or more community meetings with opportunity for public comment and
+ written response. The Council may direct the department to conduct additional community
+ engagement before approval, or after approval as a condition of approval. The community
+ meeting or meetings should be accessible, be noticed in multiple languages, be held
+ in communities impacted by the proposed acquisition, and collect information about
+ potential disparate impacts on disadvantaged groups.
+ D.
+ If the CTO, in reviewing information technology resources under the process for mitigating
+ privacy risk under subsection 3.23.030.P, determines that technology for which a department
+ is requesting authorization for acquisition requires Council approval under this Chapter 14.18 , the CTO shall inform the City department in writing of its obligation to comply
+ with the provisions of this Chapter 14.18 and may provide technical assistance to the department for such compliance purposes.
+ E.
+ The CTO shall post the latest version of all proposed and all approved SIRs to the
+ City's website with an indication of its current approval status and, if available,
+ the planned Council date for action.
+ F.
+ Following Council approval of the acquisition and the terms of the SIR, the department
+ may acquire and use the approved surveillance technology only in accordance with the
+ procedures and protocols set forth in the SIR. Any material update to an SIR, such
+ as to change the purpose or manner in which a surveillance technology may be used,
+ shall be by ordinance; non-material updates may be made to the SIR by a department
+ without Council action so long as the change is clearly marked as such in the SIR.
+ For surveillance technology previously approved in accordance with this Chapter 14.18 , any material change in surveillance capabilities, such as through technology upgrades,
+ requires an updated SIR. Routine patches, firmware or software updates, and hardware
+ lifecycle replacements that do not materially upgrade surveillance capabilities do
+ not require an updated SIR.
+ G.
+ Prior to submittal of a SIR to Council, the CTO may provide a written statement that
+ addresses privacy rights, civil liberty or other concerns that are raised in the impact
+ assessment created by the Working Group pursuant to Section 14.18.080 .
+ (Ord.
+ 125679
+ , § 2, 2018; Ord.
+ 125376
+ , § 2, 2017.)
+
+@@@ 14.18.030 - Exemptions and exceptions
+A.
+ The following do not constitute surveillance data or surveillance technology, and
+ the requirements of this Chapter 14.18 do not apply to them:
+ 1.
+ Information acquired where the individual knowingly and voluntarily consented to provide
+ the information, such as submitting personal information for the receipt of City services;
+ or
+ 2.
+ Information acquired where the individual was presented with a clear and conspicuous
+ opportunity to opt out of providing the information.
+ B.
+ The following constitute surveillance technology but the requirements of this Chapter 14.18 do not apply to them:
+ 1.
+ Body-worn cameras;
+ 2.
+ Cameras installed in or on a police vehicle;
+ 3.
+ Cameras installed pursuant to state law authorization in or on any vehicle or along
+ a public right-of-way solely to record traffic violations;
+ 4.
+ Cameras installed on City property solely for security purposes;
+ 5.
+ Cameras installed solely to protect the physical integrity of City infrastructure,
+ such as Seattle Public Utilities reservoirs; and
+ 6.
+ Technology that monitors only City employees in the performance of their City functions.
+ C.
+ The following situations are exceptions to the requirements of this Chapter 14.18 :
+ 1.
+ In the event of an emergency situation that poses an imminent and serious risk of
+ death or substantial bodily harm, a City department may acquire surveillance technology
+ without prior Council approval, for the sole purpose of preventing or mitigating such
+ risk, if the department reasonably believes the acquisition of such surveillance technology
+ will result in reduction of the risk. The department's use of the surveillance technology
+ must end when such risk no longer exists or the use of the surveillance technology
+ can no longer reasonably reduce the risk. The use must be documented in the department's
+ annual surveillance usage report, and any future acquisition or use of such surveillance
+ technology must be approved by the City Council as set forth in this Chapter 14.18 .
+ 2.
+ A City department may apply a technical patch or upgrade that is necessary to mitigate
+ threats to the City's environment, even if the patch or upgrade materially alters
+ the surveillance capabilities of the technology. The department shall not use the
+ new surveillance capabilities of the technology until the requirements of Section 14.18.020 are met, unless the CTO determines that the use is unavoidable; in that case, the
+ department shall request Council approval as soon as possible. The request shall include
+ a report to Council of how the altered surveillance capabilities were used since the
+ time of the upgrade.
+ D.
+ The provisions of this Chapter 14.18 do not apply to the Seattle Municipal Court or Seattle Public Library.
+ E.
+ To the extent that a provision of this Chapter 14.18 , or SIR requirement approved pursuant to this Chapter 14.18, conflicts with a superseding
+ state law or other superseding legal authority, that provision or requirement shall
+ not apply.
+ (Ord.
+ 125376
+ , § 2, 2017.)
+
+@@@ 14.18.040 - Surveillance impact report requirements
+A.
+ Any City department requesting Council approval for surveillance technology acquisition
+ under Section 14.18.020.A must include an SIR with the request.
+ B.
+ Each SIR will include clear and understandable statements of the following:
+ 1.
+ A description of the surveillance technology to be acquired and a description of the
+ general capabilities, the type of data that the technology is reasonably likely to
+ generate, and functionality, including reasonably foreseeable surveillance capabilities
+ outside the scope of the City department's proposed use.
+ 2.
+ A description of the purpose and proposed use of the surveillance technology, including,
+ if available, the intended benefits of the applicable surveillance technology and
+ any data or research demonstrating those benefits.
+ 3.
+ A clear use and data management policy, including protocols for the following:
+ a.
+ How and when the surveillance technology will be deployed or used and by whom, including
+ but not limited to: the factors that will be used to determine where, when, and how
+ the technology is deployed; and other relevant information, such as whether the technology
+ will be operated continuously or used only under specific circumstances, whether the
+ technology will be installed permanently or temporarily, and if the technology is
+ a physical object visible to the public, a description of markings that will be used
+ and how they will be placed in order to clearly and visibly identify the responsible
+ department and contact information, or else an explanation of why such markings would
+ render the surveillance ineffective. If the surveillance technology will be operated
+ or used by another entity on the City's behalf, the SIR must explicitly include a
+ description of the other entity's access and any applicable protocols.
+ b.
+ Any additional rules that will govern use of the surveillance technology and what
+ processes will be required prior to each use of the surveillance technology, including
+ but not limited to what legal standard, if any, must be met before the technology
+ is used, such as for the purposes of a criminal investigation supported by reasonable
+ suspicion.
+ c.
+ How surveillance data will be securely stored. Such methods must allow for the department
+ personnel and any entity performing an auditing function that has lawful access to
+ search and locate specific data to determine that data were properly deleted, consistent
+ with applicable law.
+ d.
+ How surveillance data will be retained and deleted, including the retention period;
+ process for regular deletion after the retention period elapses; what auditing procedures
+ will be implemented to ensure data are not improperly retained beyond the retention
+ period; what measures will be taken to minimize the inadvertent or otherwise improper
+ collection of data; and how any surveillance data, if identified as improperly collected,
+ will be expeditiously destroyed. The SIR shall identify a specific departmental unit
+ that is responsible for ensuring compliance with data retention requirements. Retention
+ procedures and policies must be developed in compliance with the requirements of Section 3.122.040 .
+ e.
+ How surveillance data will be accessed, including who will be responsible for authorizing
+ access, who will be allowed to request access, and acceptable reasons for requesting
+ access; and what safeguards will be used to protect surveillance data from unauthorized
+ access and to provide an audit trail, such as viewer logging or encryption and access
+ control mechanisms, to the extent such mechanisms exist within the contemplated surveillance
+ technology.
+ f.
+ Whether a department intends to share access to the surveillance technology or the
+ surveillance data from that surveillance technology with any other entity, including
+ any other City department or non-City entity, and if so, with which entity and how
+ such sharing is necessary for the purpose or purposes for which Council approval is
+ requested; and what restrictions, if any, the department will place upon the receiving
+ non-City entity's use of such surveillance technologies. If applicable, the SIR shall
+ include a copy of the department's procedures for ensuring the entity's compliance
+ with this provision.
+ g.
+ How the department will ensure that all personnel who operate surveillance technology
+ or access its surveillance data are knowledgeable about and able to ensure compliance
+ with the use and data management policy prior to use of the surveillance technology
+ or surveillance data from that surveillance technology.
+ 4.
+ A description of any community engagement held and any future community engagement
+ plans, including statistics and demographics on attendees, a compilation of all comments
+ received and departmental responses given, and departmental conclusions about potential
+ neighborhood and disparate impacts that may result from the acquisition.
+ 5.
+ A description of how the potential impact of the surveillance on civil rights and
+ liberties and potential disparate impacts on communities of color and other marginalized
+ communities have been taken into account; and a mitigation plan.
+ 6.
+ A description of the fiscal impact of the surveillance technology, including initial
+ acquisition costs; ongoing operating costs such as maintenance, licensing, personnel,
+ legal compliance, use auditing, data retention, and security costs; any cost savings
+ that would be achieved through the use of the technology; and any current or potential
+ sources of funding, including any subsidies or free products being offered by vendors
+ or governmental entities.
+ C.
+ A City department may share surveillance technology or surveillance data to the extent
+ required by court order, subpoena, or as otherwise required by law, notwithstanding
+ the contents of any approved SIR.
+ D.
+ When providing access to the City's surveillance technology by contract with a non-City
+ entity, the City shall require that such entity be bound by any restrictions specified
+ in the Surveillance Impact Report pursuant to subsection 14.18.040.B.3.f with regard
+ to such surveillance technology. The City department providing such access shall have
+ written procedures in place for determining how the department will ensure the receiving
+ non-City entity's compliance with any restrictions identified in the SIR.
+ (Ord.
+ 125376
+ , § 2, 2017.)
+
+@@@ 14.18.050 - Equity impact assessment
+A.
+ Every year, beginning by no later than September 15, 2019, and continuing by no later
+ than September 15 each year thereafter, the Chief Technology Officer shall produce
+ and submit to the City Council a Surveillance Technology Community Equity Impact Assessment
+ and Policy Guidance Report ("equity impact assessment"), to be filed with the City
+ Clerk with an electronic copy to the Council, the Chair of the committee responsible
+ for technology matters, the co-chairs of the Working Group, the City Auditor, the
+ Inspector General for Public Safety, and the Director of Central Staff, and posted
+ to the City's website. The equity impact assessment shall address, at a minimum, the
+ following:
+ 1.
+ Whether this Chapter 14.18 is effectively meeting the goals of the Race and Social Justice Initiative, including
+ whether any communities and groups in the City are disproportionately impacted by
+ the use of surveillance technologies;
+ 2.
+ What adjustments to laws and policies should be made to remedy any disproportionate
+ impacts so as to achieve a more equitable outcome in the future; and
+ 3.
+ Any new approaches and considerations the City Council should bring to future reviews
+ of requests for Council approval submitted pursuant to Section 14.18.030 .
+ B.
+ The CTO shall consult with the co-chairs of the Working Group in the writing of the
+ equity impact assessment, and shall include all Working Group feedback and recommendations
+ in the equity impact assessment; if the CTO disagrees with a recommendation, the CTO
+ shall provide an explanation of the disagreement in the report.
+ C.
+ The Inspector General for Public Safety may prepare an equity impact assessment for
+ a specific technology proposed to be acquired by SPD. The Council may direct the CTO
+ to prepare an equity impact assessment for a specific surveillance technology proposed
+ to be acquired by any other City department.
+ D.
+ When reviewing technologies that do not have SIRs, the department shall look to existing
+ documents and policies to address the requirements of Section 14.18.050 and, whenever possible, provide the information requested for each retroactive technology.
+ (Ord.
+ 125679
+ , § 3, 2018; Ord.
+ 125376
+ , § 2, 2017.)
+
+@@@ 14.18.060 - Annual surveillance usage review
+The Inspector General for Public Safety in regard to SPD and the City Auditor in regard
+ to all other departments should conduct an annual review of the City's use of surveillance
+ technology and the extent to which departments are in compliance with the requirements
+ of this Chapter 14.18 and with the terms of approved SIRs, file the review with the City Clerk, and post
+ the review to the City's website. The review should include, but not be limited to,
+ the following:
+ A.
+ How surveillance technology has been used, how frequently, and whether usage patterns
+ are changing over time;
+ B.
+ How often surveillance technology or its data are being shared with other entities,
+ including other governments in particular;
+ C.
+ How well data management protocols are safeguarding individual information;
+ D.
+ How deployment of surveillance technologies impacted or could impact civil liberties
+ or have disproportionate effects on disadvantaged populations, and how those impacts
+ are being mitigated, including, for SPD, an examination of whether deployments are
+ pursuant to warrants or not and how SPD's surveillance technology is used to analyze
+ patterns to predict suspect, individual, or group-affiliation behavior;
+ E.
+ A summary of any complaints or concerns received by or known by departments about
+ their surveillance technology and results of any internal audits or other assessments
+ of code compliance; and
+ F.
+ Total annual costs for use of surveillance technology, including personnel and other
+ ongoing costs.
+ (Ord.
+ 125376
+ , § 2, 2017.)
+
+@@@ 14.18.070 - Enforcement
+A.
+ The CTO shall direct any department not in compliance with the requirements of this Chapter 14.18 to cease acquisition or use of the surveillance technology or its data.
+ B.
+ Any person who is surveilled and injured by a material violation of this Chapter 14.18 that is a proximate cause of the injury may institute proceedings against the City
+ in a court of competent jurisdiction for injunctive relief, declaratory relief, or
+ a writ of mandate to enforce this Chapter 14.18 ; if the person has given the City written notice via the City Attorney's Office specifying
+ the alleged violation of a specific section or sections of this Chapter 14.18 stating that legal relief may be sought and giving the City at least 90 days after
+ receipt of the written notice to respond and address the concern, and the City has
+ not addressed the concern in the 90 days.
+ (Ord.
+ 125376
+ , § 2, 2017.)
+
+@@@ 14.18.080 - Community Surveillance Working Group
+A.
+ There is established the Community Surveillance Working Group ("Working Group") to
+ advise the Council and Executive on matters of surveillance technology from a community
+ perspective.
+ 1.
+ The Working Group shall consist of seven members appointed by the Mayor and Council,
+ including four members by the Mayor and three members by the Council, and shall be
+ finalized by December 1, 2018. This group shall be reevaluated 18 months after its
+ first meeting to review its effectiveness in composition and process.
+ 2.
+ The Working Group shall elect co-chairs at its initial meeting. The Working Group
+ shall meet at least once per quarter. All meetings of the Working Group shall be open
+ to the public and all final documents and reports to the Council shall be posted by
+ the CTO to the City's website.
+ 3.
+ At least five members of the Working Group shall represent equity-focused organizations
+ serving or protecting the rights of communities and groups historically subject to
+ disproportionate surveillance, including Seattle's diverse communities of color, immigrant
+ communities, religious minorities, and groups concerned with privacy and protest.
+ 4.
+ The seven positions on the Working Group shall be numbered one through seven. The
+ initial terms of odd-numbered positions shall be two years and the initial terms of
+ even-numbered positions shall be three years. All subsequent terms shall be for three
+ years. Working Group members may serve up to two consecutive terms. Any vacancy in
+ an unexpired term shall be filled in the same manner as the original appointment.
+ A member whose term is ending may continue on an interim basis as a member with voting
+ rights until such time as a successor for that position has been appointed.
+ 5.
+ The Working Group shall organize itself and adopt such rules and administrative procedures
+ for its own governance, consistent with City Charter and ordinances, as are necessary
+ for its functions and responsibilities.
+ B.
+ The Working Group shall perform the following duties:
+ 1.
+ Provide to the Executive and the City Council a privacy and civil liberties impact
+ assessment for each SIR that must be included with any departmental request for surveillance
+ technology acquisition or in-use approval. The impact assessment shall include a description
+ of the potential impact of the surveillance technology on civil rights and liberties
+ and potential disparate impacts on communities of color and other marginalized communities.
+ The CTO shall share with the Working Group a copy of the SIR that shall also be posted
+ during the period of public engagement. At the conclusion of the public engagement
+ period, the CTO shall share the final proposed SIR with the Working Group at least
+ six weeks prior to submittal of the SIR to Council for approval. The Working Group
+ shall provide its impact assessment in writing to the Executive and the City Council
+ for inclusion in the SIR within six weeks of receiving the final proposed SIR. If
+ the Working Group does not provide the impact assessment before such time, the Working
+ Group must ask for a two-week extension of time to City Council in writing. If the
+ Working Group fails to submit an impact assessment within eight weeks of receiving
+ the SIR, the department and City Council may proceed with ordinance consideration
+ without the impact assessment.
+ 2.
+ The Working Group shall provide recommendations to the CTO for inclusion in the CTO's
+ annual equity impact assessment in accordance with subsection 14.18.050.B.
+ 3.
+ The Working Group shall provide assistance as resources permit to the Executive and
+ Council in ensuring members of vulnerable communities have the opportunity to provide
+ input and feedback on Surveillance Technologies through the SIR approval process.
+ C.
+ The Working Group shall be staffed by the Executive Department with Central Staff
+ input.
+ (Ord.
+ 125679
+ , § 4, 2018.)

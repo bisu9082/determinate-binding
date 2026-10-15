@@ -1,0 +1,72 @@
+[
+ {
+  "sc": "SCA-03-1",
+  "AC": 2,
+  "AP": null
+ },
+ {
+  "sc": "SCA-03-2",
+  "AC": 0,
+  "AP": null
+ },
+ {
+  "sc": "SCA-01-1",
+  "AC": 1,
+  "AP": 0
+ },
+ {
+  "sc": "SCA-01-2",
+  "AC": null,
+  "AP": null
+ },
+ {
+  "sc": "SCA-02-1",
+  "AC": 1,
+  "AP": null
+ },
+ {
+  "sc": "SCA-02-2",
+  "AC": 1,
+  "AP": 1
+ },
+ {
+  "sc": "SCA-04-1",
+  "AC": 1,
+  "AP": 1
+ },
+ {
+  "sc": "SCA-04-2",
+  "AC": null,
+  "AP": null
+ },
+ {
+  "sc": "SCA-05-1",
+  "AC": 0,
+  "AP": 0
+ },
+ {
+  "sc": "SCA-05-2",
+  "AC": 1,
+  "AP": null
+ },
+ {
+  "sc": "SCA-06-1",
+  "AC": 1,
+  "AP": null
+ },
+ {
+  "sc": "SCA-06-2",
+  "AC": 1,
+  "AP": null
+ },
+ {
+  "sc": "SCA-07-1",
+  "AC": 1,
+  "AP": 1
+ },
+ {
+  "sc": "SCA-07-2",
+  "AC": null,
+  "AP": null
+ }
+]

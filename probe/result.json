@@ -1,0 +1,301 @@
+{
+ "rows": [
+  [
+   "US",
+   "CORE",
+   "14 CFR Part 107",
+   267,
+   16,
+   2,
+   5
+  ],
+  [
+   "EU",
+   "CORE",
+   "2019/947 통합본",
+   607,
+   22,
+   4,
+   1
+  ],
+  [
+   "EU",
+   "CORE",
+   "2019/945 통합본",
+   590,
+   43,
+   0,
+   5
+  ],
+  [
+   "EU",
+   "CORE",
+   "2018/1139 통합본",
+   1833,
+   64,
+   7,
+   14
+  ],
+  [
+   "KR",
+   "CORE",
+   "도로교통법",
+   673,
+   3,
+   1,
+   1
+  ],
+  [
+   "KR",
+   "CORE",
+   "도로교통법 시행규칙",
+   614,
+   14,
+   4,
+   2
+  ],
+  [
+   "KR",
+   "CORE",
+   "지능형로봇법",
+   151,
+   9,
+   3,
+   2
+  ],
+  [
+   "KR",
+   "CORE",
+   "지능형로봇법 시행령",
+   109,
+   1,
+   0,
+   0
+  ],
+  [
+   "JP",
+   "CORE",
+   "道路交通法",
+   1392,
+   7,
+   0,
+   2
+  ],
+  [
+   "US",
+   "EXT",
+   "AC 00-1.1B (PAO)",
+   214,
+   3,
+   0,
+   1
+  ],
+  [
+   "US",
+   "EXT",
+   "Cal. Gov. §7070 (AB481)",
+   36,
+   0,
+   0,
+   0
+  ],
+  [
+   "US",
+   "EXT",
+   "Cal. Gov. §7071",
+   27,
+   0,
+   0,
+   0
+  ],
+  [
+   "US",
+   "EXT",
+   "Cal. Gov. §7072",
+   13,
+   0,
+   0,
+   0
+  ],
+  [
+   "US",
+   "EXT",
+   "Cal. Gov. §7073",
+   14,
+   0,
+   0,
+   0
+  ],
+  [
+   "US",
+   "EXT",
+   "Seattle SMC 14.18",
+   115,
+   5,
+   0,
+   1
+  ],
+  [
+   "EU",
+   "EXT",
+   "LED 2016/680",
+   734,
+   5,
+   0,
+   2
+  ],
+  [
+   "UK",
+   "EXT",
+   "Bridges [2020] EWCA",
+   945,
+   1,
+   0,
+   0
+  ]
+ ],
+ "detail": {
+  "14 CFR Part 107": {
+   "t2": [
+    "(a) Except as provided in paragraph (d) of this section, no person may operate a small unmanned aircraft system at night unless— (1) The remote pilot in command of the small unmanned aircraft has completed an initial knowledge test or training, as applicable, under § 107.65 after April 6, 2021; and (2) The small unmanned aircraft has lighted anti-collision lighting visible for at least 3 statute miles that has a flash rate sufficient to avoid a collision.",
+    "(d) After May 17, 2021, no person may operate a small unmanned aircraft system at night in accordance with a certificate of waiver issued prior to April 21, 2021 under § 107.200."
+   ],
+   "t1": [
+    "(c) The Administrator may, consistent with international standards, authorize an airman to operate a civil foreign-registered small unmanned aircraft without an FAA-issued remote pilot certificate with a small UAS rating.",
+    "The certificates of waiver issued prior to March 16, 2021 under § 107.200 that authorize deviation from § 107.29 terminate on May 17, 2021. [Docket FAA-2015-0150, Amdt.",
+    "If the applicant is unable to meet one of these requirements due to medical reasons, the FAA may place such operating limitations on that applicant's certificate as are necessary for the safe operation of the small unmanned aircraft;",
+    "(a) The Administrator may issue a certificate of waiver authorizing a deviation from any regulation specified in § 107.205 if the Administrator finds that a proposed small UAS operation can safely be conducted under the terms of that certificate of waiver.",
+    "A certificate of waiver issued pursuant to § 107.200 may authorize a deviation from the following regulations of this part: (a) Section 107.25—Operation from a moving vehicle or aircraft."
+   ]
+  },
+  "2019/947 통합본": {
+   "t2": [
+    "Member States shall establish and maintain accurate registration systems for UAS whose design is subject to certification and for UAS operators whose operation may present a risk to safety, security, privacy, and protection of personal data or environment.",
+    "The registration systems for unmanned aircraft whose design is subject to certification shall provide the fields for introducing and exchanging the following information: (a) manufacturer's name;",
+    "(m) establishing and maintaining registration systems for UAS whose design is subject to certification and for UAS operators whose operation may present a risk to safety, security, privacy, and protection of personal data or the environment.",
+    "UAS.LUC.090 Access For the purpose of demonstrating compliance with this Regulation, the LUC holder shall grant any person, that is duly authorised by the competent authority, an access to any facility, UAS, document, records, data, procedures or to any other material relevant to its activity, which is subject to certification, operational authorisation or operational declaration, regardless of whether or not its activity is contracted or subcontracted to another organisation."
+   ],
+   "t1": [
+    "(c) the following information: i. the registration number of the UAS operator and the technical features of the UAS; ii. a reference to the operational risk assessment developed by the UAS operator; iii. the operational limitations and conditions of the operation; iv. the mitigation measures that the UAS operator has to apply; v. the location(s) where the operation is authorised to take place and any other locations in a Member States in accordance with Article 13; vi. all documents and records relevant for the type of operation and the type of events that should be reported in addition to those defined in Regulation (EU) No 376/2014 of the European Parliament and of the Council ( 6 ); ▼M6 vii. the certificate of airworthiness or restricted certificate of airworthiness and noise certificate, where such certificates have been issued; viii. the flight conditions approved in accordance with Regulation (EU) No 748/2012 where the UAS meets the conditions set out in Article 40, point 1(d) of Delegated Regulation (EU) 2019/945 and the UA does not meet, or has not been shown to meet, the applicable airworthiness requirements. ▼B 5."
+   ]
+  },
+  "2019/945 통합본": {
+   "t2": [],
+   "t1": [
+    "Where the technical documentation does not comply with paragraphs 1, 2 or 3 of this Article, the market surveillance authority may ask the manufacturer or the importer to have a test performed by a body acceptable to the market surveillance authority at the expense of the manufacturer or the importer within a specified period in order to verify compliance of the product with the requirements set out in Parts 1 to 6, 16 and 17 of the Annex which applies to it. ▼B SECTION 4 Notification of conformity assessment bodies Article 18 Notification Member States shall notify the Commission and the other Member States of bodies authorised to carry out third-party conformity assessment tasks under this Chapter.",
+    "Where corrective measures are not taken or do not have the required effect, the notified body shall restrict, suspend or withdraw any EU-type examination certificates or quality system approvals, as appropriate.",
+    "Where, having carried out an evaluation under paragraph 1 of Article 36, a Member State finds that, although the product is in compliance with this Chapter, it presents a risk to the health or safety of persons or to other aspects of public interest protection covered by this Chapter, it shall require the relevant economic operator to take all appropriate measures to ensure that the product concerned, when placed on the market, no longer presents that risk, to withdraw the product from the market or to recall it within a reasonable period, commensurate with the nature of the risk, as it may prescribe.",
+    "The notified body shall keep itself apprised of any changes in the generally acknowledged state of the art which indicates that the approved type may no longer comply with the applicable requirements of this Regulation, and shall determine whether such changes require further investigation.",
+    "The manufacturer shall inform the notified body that holds the technical documentation relating to the EU-type examination certificate of all modifications to the approved type that may affect the product’s conformity with the essential requirements of this Regulation or the conditions for the certificate’s validity."
+   ]
+  },
+  "2018/1139 통합본": {
+   "t2": [
+    "Repair designs shall be subject to certification and shall be issued with an approval.",
+    "Unless otherwise established by the delegated acts referred to in Article 19, organisations responsible for the design and production of products, parts and non-installed equipment shall be subject to certification and shall be issued with an approval.",
+    "Pilots shall be required to hold a pilot licence and a pilot medical certificate appropriate to the operation to be performed, except for situations in which, as a result of the adoption of implementing acts referred to in point (c)(i) of Article 23(1), taking into account the objectives and principles set out in Articles 1 and 4, and in particular the nature and risk of the activity concerned, such licences or medical certificates are not required.",
+    "Organisations responsible for the operation of aerodromes shall be subject to certification and shall be issued with a certificate.",
+    "Air traffic controllers shall be required to hold an air traffic controller licence and an air traffic controller medical certificate appropriate for the service to be provided.",
+    "The operation of the aircraft referred to in point (c) of Article 2(1) for commercial air transport shall be subject to certification and shall be issued with an authorisation.",
+    "Where the delegated acts referred to in Article 61 so provide, the operation of aircraft referred to in point (c) of Article 2(1) other than for commercial air transport shall be subject to certification and shall be issued with an authorisation."
+   ],
+   "t1": [
+    "(b) in accordance with the delegated acts referred to Article 19, a permit to fly may be issued to allow the operation of an aircraft which does not have a valid certificate of airworthiness or valid restricted certificate of airworthiness.",
+    "(ii) the certification basis applicable to a product for the purposes of the approval of operational suitability data referred to in Article 11 including: — the minimum syllabus of maintenance certifying staff type rating training; — the minimum syllabus of pilot type rating and the reference data for the objective qualification of associated simulators; — the master minimum equipment list, as appropriate; — aircraft type data relevant to cabin crew; — additional specifications to ensure compliance with Section III;",
+    "The pilot licence and pilot medical certificate may be amended to add or remove privileges, in accordance with the implementing acts referred to in point (c) of Article 23(1).",
+    "The pilot licence or the pilot medical certificate referred to in paragraph 1 of this Article may be limited, suspended or revoked when the holder no longer complies with the rules and procedures for issuing and maintaining a licence or a medical certificate in accordance with the implementing acts referred to in point (c) of Article 23(1).",
+    "As regards pilots and cabin crew involved in the operation of aircraft referred to in point (b) of Article 2(1), other than unmanned aircraft, as well as flight simulation training devices, persons and organisations involved in the training, testing, checking or medical assessment of those pilots and cabin crew, the Commission is empowered to adopt delegated acts, in accordance with Article 128, to amend Annex IV, where necessary for reasons of technical, operational or scientific developments or safety evidence related to aircrew, in order and to the extent required to achieve the objectives set out in Article 1.",
+    "In order to ensure compliance with the essential requirements referred to in Article 29, and taking into account the objectives and principles set out in Articles 1 and 4, and in particular the nature and risk of the activity concerned, aircraft operators established, residing or with a principal place of business in the territory to which the Treaties apply may be required, in accordance with the implementing acts referred to in points (b) and (c) of the first subparagraph of Article 31(1), to: (a) declare their capability, and the availability to them of the means, to discharge the responsibilities associated with the operation of aircraft in compliance with those implementing acts; or (b) hold a certificate.",
+    "By way of derogation from paragraph 1, Member States may grant exemptions to providers of ATM/ANS from the requirement to hold a certificate, where all of the following conditions have been met: (a) the provider has its principal place of business located outside the territories for which Member States are responsible under the Chicago Convention;",
+    "That air traffic controller licence and air traffic controller medical certificate may be amended to add or remove privileges, in accordance with the implementing acts referred to in point (c) of the first subparagraph of Article 50(1).",
+    "The air traffic controller licence and the air traffic controller medical certificate referred to in paragraph 1 of this Article may be limited, suspended or revoked when the holder no longer complies with the rules and procedures for issuing and maintaining a licence or a medical certificate, in accordance with the implementing acts referred to in point (c) of the first subparagraph of Article 50(1).",
+    "Taking into account the objectives and the principles set out in Articles 1 and 4, and in particular the nature and risk of the activity concerned, the operational characteristics of the unmanned aircraft concerned and the characteristics of area of operation, a certificate may be required for the design, production, maintenance and operation of unmanned aircraft and their engines, propellers, parts, non-installed equipment and equipment to control them remotely, as well as for the personnel, including remote pilots, and organisations involved in those activities, in accordance with the delegated acts referred to in Article 58 and the implementing acts referred to in Article 57.",
+    "(b) the rules and procedures for issuing, maintaining, amending, limiting, suspending, or revoking the certificates, or for making declarations, for the operation of unmanned aircraft as well as for personnel, including remote pilots, and organisations involved in those activities, and for the situations in which such certificates or declarations are to be required; the rules and procedures for issuing those certificates and for making those declarations may be based on, or consist of, the detailed requirements referred to in Sections I, II and III;",
+    "The Agency may grant exemptions to any legal or natural person to whom it has issued a certificate in the situations and subject to the conditions set out in Article 71(1).",
+    "An aircraft must be operated in accordance with its airworthiness documentation and all related operating procedures and limitations as expressed in its approved flight manual or equivalent documentation, as the case may be.",
+    "The qualified entity, its Director and the staff responsible for carrying out the certification and oversight tasks, may not be involved, either directly or as authorised representatives, in the design, production, marketing or maintenance of the products, parts, non-installed equipment, constituents or systems or in their operations, service provision or use."
+   ]
+  },
+  "도로교통법": {
+   "t2": [
+    "⑥ 제1항 및 제2항에 따라 음주운전 방지장치의 설치 사항을 시ㆍ도경찰청장에게 등록한 자는 연 2회 이상 음주운전 방지장치 부착 자동차등의 운행기록을 시ㆍ도경찰청장에게 제출하여야 하며, 음주운전 방지장치의 정상 작동여부 등을 점검하는 검사를 받아야 한다."
+   ],
+   "t1": [
+    "④ 시ㆍ도경찰청장은 제1항 또는 제2항에 따라 운전면허의 취소처분 또는 정지처분을 하려고 하거나 제3항에 따라 연습운전면허 취소처분을 하려면 그 처분을 하기 전에 미리 행정안전부령으로 정하는 바에 따라 처분의 당사자에게 처분 내용과 의견제출 기한 등을 통지하여야 하며, 그 처분을 하는 때에는 행정안전부령으로 정하는 바에 따라 처분의 이유와 행정심판을 제기할 수 있는 기간 등을 통지하여야 한다. 다만, 제87조제2항 또는 제88조제1항에 따른 적성검사를 받지 아니하였다는 이유로 운전면허를 취소하려면 행정안전부령으로 정하는 바에 따라 처분의 당사자에게 적성검사를 할 수 있는 날의 만료일 전까지 적성검사를 받지 아니하면 운전면허가 취소된다는 사실의 조건부 통지를 함으로써 처분의 사전 및 사후 통지를 갈음할 수 있다. <개정 2013.3.23, 2014.11.19, 2017.7.26, 2020.12.22>"
+   ]
+  },
+  "도로교통법 시행규칙": {
+   "t2": [
+    "제2조의4(실외이동로봇의 기준) 법 제2조제21호의3에서 \"행정안전부령으로 정하는 것\"이란 「지능형 로봇 개발 및 보급 촉진법」 제2조제4호의2에 따른 실외이동로봇 중 같은 법 제40조의2에 따른 운행안전인증을 받은 것을 말한다.",
+    "① 음주운전 방지장치 등록자는 법 제50조의3제6항에 따라 다음 각 호의 어느 하나에 해당하는 날부터 6개월마다 정기적으로 음주운전 방지장치의 정상 작동여부 등을 점검하는 검사(이하 \"정상 작동여부 검사\"라 한다)를 받아야 한다.",
+    "① 정상 작동여부 검사 결과 부적합 판정을 받은 음주운전 방지장치 등록자는 음주운전 방지장치 검사결과 통지서를 받은 날부터 10일 이내에 재검사를 받아야 한다. 이 경우 재검사 신청에 관한 사항은 제33조의10을 준용한다.",
+    "①학원 또는 전문학원을 설립ㆍ운영하는 자가 영 별표 5 제9호 나목(3)에 따른 기능교육용 자동차의 검사를 받기 위하여 자동차를 검사장소까지 운행하려는 때에는 「자동차관리법 시행령」 제7조제1항에 따라 특별시장ㆍ광역시장ㆍ제주특별자치도지사 또는 도지사로부터 임시운행허가를 받아야 한다. <개정 2010.12.31>"
+   ],
+   "t1": [
+    "③ 한국도로교통공단은 제1항에 따른 검사 결과 운전자의 음주운전을 방지하는 기능에 이상이 없는 범위에서 음주 측정 결과값이 정확하지 않는 등의 경미한 시정이 필요한 경우에는 음주운전 방지장치 등록자에게 그 시정을 권고할 수 있다. 이 경우 별지 제17호의12서식의 음주운전 방지장치 검사결과 통지서와 별지 제17호의13서식의 음주운전 방지장치 시정 권고 통지서를 함께 발급해야 한다.",
+    "③경찰서장 또는 한국도로교통공단은 조향장치나 그 밖의 장치를 뜻대로 조작할 수 없는 등 정상적인 운전을 할 수 없다고 인정되는 신체장애인에 대하여는 차의 구조 및 성능이 제1항에 따른 기준에 적합하고, 자동변속기, 수동가속페달, 수동브레이크, 좌측보조엑셀러레이터, 우측방향지시기 또는 핸들선회장치 등이 장착된 자동차등이나 응시자의 신체장애 정도에 적합하게 제작ㆍ승인된 자동차등으로 기능시험 또는 도로주행시험에 응시하게 할 수 있다. <개정 2010.12.31, 2013.12.30, 2024.7.31>"
+   ]
+  },
+  "지능형로봇법": {
+   "t2": [
+    "④ 사업시행자는 제2항에 따른 준공확인증명서를 교부받기 전에는 조성사업으로 조성 또는 설치된 토지 및 시설을 사용하여서는 아니 된다. 다만, 대통령령으로 정하는 바에 따라 산업통상부장관에게 준공 전 사용신고를 하거나 사용허가를 받은 경우에는 그러하지 아니하다. <개정 2013.3.23, 2018.12.11, 2025.10.1>",
+    "③ 안전인증을 받은 자는 안전인증받은 사항을 변경하려는 경우 산업통상부령으로 정하는 바에 따라 변경인증을 받아야 한다. 다만, 실외이동로봇의 운행안전과 관련이 없는 것으로서 산업통상부령으로 정하는 사항을 변경하는 경우에는 그러하지 아니하다. <개정 2025.10.1>",
+    "제40조의4(보험 등 가입 의무) 안전인증을 받은 실외이동로봇을 운영하는 자는 「도로교통법」 제2조제10호에 따른 보도 등에서의 운행으로 인하여 발생할 수 있는 인적ㆍ물적 손해를 배상하기 위하여 대통령령으로 정하는 보험 또는 공제(이하 \"책임보험등\"이라 한다)에 가입하여야 한다."
+   ],
+   "t1": [
+    "② 손해보장사업을 하는 자는 사업 운영상 필요하다고 인정하는 때에는 제40조의2에 따라 운행안전인증을 실시하는 기관(이하 \"인증기관\"이라 한다)에 대하여 운행안전인증 관련 자료의 제공을 요구할 수 있다. 이 경우 인증기관은 정당한 사유가 없으면 이에 따라야 한다.",
+    "① 산업통상부장관은 실외이동로봇의 「도로교통법」 제2조제10호에 따른 보도 등에서의 운행을 위하여 실외이동로봇의 운행안전인증(이하 \"안전인증\"이라 한다)을 실시할 수 있다. <개정 2025.10.1>"
+   ]
+  },
+  "지능형로봇법 시행령": {
+   "t2": [],
+   "t1": []
+  },
+  "道路交通法": {
+   "t2": [],
+   "t1": [
+    "児童又は幼児が小学校、幼稚園、幼保連携型認定こども園その他の教育又は保育のための施設に通うため道路を通行している場合において、誘導、合図その他適当な措置をとることが必要と認められる場所については、警察官等その他その場所に居合わせた者は、これらの措置をとることにより、児童又は幼児が安全に道路を通行することができるように努めなければならない。",
+    "道路交通に関する条約（以下「条約」という。）第二十四条第一項の運転免許証（第百七条の七第一項の国外運転免許証を除く。）で条約附属書九若しくは条約附属書十に定める様式に合致したもの（以下この条において「国際運転免許証」という。）又は自動車等の運転に関する本邦の域外にある国若しくは地域（国際運転免許証を発給していない国又は地域であつて、道路における危険を防止し、その他交通の安全と円滑を図る上で我が国と同等の水準にあると認められる運転免許の制度を有している国又は地域として政令で定めるものに限る。）の行政庁若しくは権限のある機関の免許に係る運転免許証（日本語による翻訳文で政令で定める者が作成したものが添付されているものに限る。以下この条において「外国運転免許証」という。）を所持する者（第八十八条第一項第二号から第四号までのいずれかに該当する者を除く。）は、第六十四条第一項の規定にかかわらず、本邦に上陸（住民基本台帳法（昭和四十二年法律第八十一号）に基づき住民基本台帳に記録されている者が出入国管理及び難民認定法（昭和二十六年政令第三百十九号）第六十条第一項の規定による出国の確認、同法第二十六条第一項の規定による再入国の許可（同法第二十六条の二第一項（日本国との平和条約に基づき日本の国籍を離脱した者等の出入国管理に関する特例法（平成三年法律第七十一号）第二十三条第二項において準用する場合を含む。）の規定により出入国管理及び難民認定法第二十六条第一項の規定による再入国の許可を受けたものとみなされる場合を含む。）又は出入国管理及び難民認定法第六十一条の二の十五第一項の規定による難民旅行証明書の交付を受けて出国し、当該出国の日から三月に満たない期間内に再び本邦に上陸した場合における当該上陸を除く。第百十七条の二の二第一項第一号において同じ。）をした日から起算して一年間、当該国際運転免許証又は外国運転免許証（以下「国際運転免許証等」という。）で運転することができることとされている自動車等を運転することができる。 ただし、旅客自動車運送事業に係る旅客を運送する目的で、旅客自動車を運転し若しくは牽けん引自動車によつて旅客用車両を牽けん引して当該牽けん引自動車を運転する場合、又は代行運転普通自動車を運転する場合は、この限りでない。"
+   ]
+  },
+  "AC 00-1.1B (PAO)": {
+   "t2": [],
+   "t1": [
+    "Unmanned Aircraft Systems (UAS) may qualify for a PAO Certificate of Waiver or Authorization (CoW/A) under the terms of the statute and other requirements for PAO UAS operating in the NAS."
+   ]
+  },
+  "Cal. Gov. §7070 (AB481)": {
+   "t2": [],
+   "t1": []
+  },
+  "Cal. Gov. §7071": {
+   "t2": [],
+   "t1": []
+  },
+  "Cal. Gov. §7072": {
+   "t2": [],
+   "t1": []
+  },
+  "Cal. Gov. §7073": {
+   "t2": [],
+   "t1": []
+  },
+  "Seattle SMC 14.18": {
+   "t2": [],
+   "t1": [
+    "125376 , § 2, 2017.) @@@ 14.18.060 - Annual surveillance usage review The Inspector General for Public Safety in regard to SPD and the City Auditor in regard to all other departments should conduct an annual review of the City's use of surveillance technology and the extent to which departments are in compliance with the requirements of this Chapter 14.18 and with the terms of approved SIRs, file the review with the City Clerk, and post the review to the City's website."
+   ]
+  },
+  "LED 2016/680": {
+   "t2": [],
+   "t1": [
+    "(51) The risk to the rights and freedoms of natural persons, of varying likelihood and severity, may result from data processing which could lead to physical, material or non-material damage, in particular: where the processing may give rise to discrimination, identity theft or fraud, financial loss, damage to the reputation, loss of confidentiality of data protected by professional secrecy, unauthorised reversal of pseudonymisation or any other significant economic or social disadvantage; where data subjects might be deprived of their rights and freedoms or from exercising control over their personal data; where personal data are processed which reveal racial or ethnic origin, political opinions, religion or philosophical beliefs or trade union membership; where genetic data or biometric data are processed in order to uniquely identify a person or where data concerning health or data concerning sex life and sexual orientation or criminal convictions and offences or related security measures are processed; where personal aspects are evaluated, in particular analysing and predicting aspects concerning performance at work, economic situation, health, personal preferences or interests, reliability or behaviour, location or movements, in order to create or use personal profiles; where personal data of vulnerable natural persons, in particular children, are processed; or where processing involves a large amount of personal data and affects a large number of data subjects.",
+    "By way of derogation from paragraphs 1 and 2 of this Article, a Member State may, in exceptional circumstances, bring an automated processing system as referred to in paragraph 2 of this Article into conformity with Article 25(1) within a specified period after the period referred to in paragraph 2 of this Article, if it would otherwise cause serious difficulties for the operation of that particular automated processing system."
+   ]
+  },
+  "Bridges [2020] EWCA": {
+   "t2": [],
+   "t1": []
+  }
+ }
+}
